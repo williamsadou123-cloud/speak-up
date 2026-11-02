@@ -10,7 +10,7 @@ function formulaView(formula) {
   }
   return h('div', { class: 'formula' }, [...rows.keys()].sort((a, b) => a - b).map((r) =>
     h('div', { class: 'frow' }, rows.get(r).flatMap((f, i) => [
-      i > 0 ? h('span', { class: 'muted', style: 'align-self:center', 'aria-hidden': 'true' }, '+') : null,
+      i > 0 ? h('span', { class: 'muted', style: 'align-self:center', 'aria-hidden': 'true' }, f.label === 'Exemple' ? '→' : '+') : null,
       h('div', { class: `fchip ${f.color}` }, h('small', null, f.label), h('b', null, f.text))]))));
 }
 

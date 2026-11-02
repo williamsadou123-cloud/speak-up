@@ -98,3 +98,8 @@ export function speakBtn(ctx, key, text, lang = 'en-US', label = 'Écouter', sho
 export function paragraphs(text) {
   return text.split('\n').map((p) => h('p', null, p));
 }
+
+// Défilement doux, sauf si l'utilisateur a demandé moins d'animations.
+export function scrollBehavior() {
+  return typeof matchMedia === 'function' && matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+}

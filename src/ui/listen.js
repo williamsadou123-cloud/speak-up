@@ -1,4 +1,4 @@
-import { h, sleep, shuffled, topbar, segmented, progressBar, LEVELS } from './dom.js';
+import { h, sleep, shuffled, topbar, segmented, progressBar, scrollBehavior, LEVELS } from './dom.js';
 import { buildSteps } from '../listen-steps.js';
 import { wordSheet } from './sheet.js';
 
@@ -49,7 +49,7 @@ export function renderListen(root, ctx) {
         select('topic', 'Thème', [['all', 'Tous les thèmes'], ...topics.map((t) => [t, t])], opts.topic, (v) => { opts.topic = v; showSetup(); }),
         select('lvl', 'Niveau', [['all', 'Tous les niveaux'], ...LEVELS.map((l) => [l, l])], opts.level, (v) => { opts.level = v; showSetup(); }),
         select('count', 'Nombre de mots', [['10', '10'], ['20', '20'], ['50', '50'], ['9999', 'Tous']], opts.count, (v) => { opts.count = Number(v); remember(); showSetup(); }),
-        select('rate', 'Vitesse de lecture', [['0.7', 'Lente (0,7×)'], ['1', 'Normale (1×)'], ['1.2', 'Rapide (1,2×)']], opts.rate, (v) => { opts.rate = Number(v); }),
+        select('rate', 'Vitesse de lecture', [['0.7', 'Lente (0,7×)'], ['1', 'Normale (1×)'], ['1.2', 'Rapide (1,2×)']], opts.rate, (v) => { opts.rate = Number(v); ctx.update((st) => ({ ...st, rate: opts.rate })); }),
         h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: opts.shuffle, onchange: (e) => { opts.shuffle = e.target.checked; remember(); } }), 'Ordre aléatoire'),
         h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: opts.loop, onchange: (e) => { opts.loop = e.target.checked; remember(); } }), 'Recommencer en boucle')),
       available === 0
@@ -113,7 +113,7 @@ export function renderListen(root, ctx) {
     ui.bar.replaceChildren(progressBar(((s.i) / s.items.length) * 100, 'Séance'));
     ui.lines.replaceChildren();
     ui.fiche.open = false;
-    ui.fiche.replaceChildren(h('summary', null, '📄 Fiche complète'));
+    ui.fiche.replaceChildren(h('summary', null, '📄 Fiche complète'), wordSheet(ctx, item));
     ui.pauseBtn.textContent = '⏸';
     ui.pauseBtn.setAttribute('aria-label', 'Pause');
     let prev = null;
@@ -123,7 +123,7 @@ export function renderListen(root, ctx) {
       if (prev) { prev.classList.remove('active'); prev.classList.add('seen'); }
       el.classList.add('active');
       ui.lines.append(el);
-      el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      el.scrollIntoView({ block: 'nearest', behavior: scrollBehavior() });
       if (step.kind === 'pause') {
         for (let t = Math.ceil(step.ms / 1000); t > 0; t--) {
           count.textContent = t;
@@ -146,7 +146,6 @@ export function renderListen(root, ctx) {
     }
     if (gen !== s.gen) return;
     if (prev) { prev.classList.remove('active'); prev.classList.add('seen'); }
-    ui.fiche.append(wordSheet(ctx, item));
     ui.fiche.open = true;
     await sleep(1800 / opts.rate);
     if (gen !== s.gen) return;

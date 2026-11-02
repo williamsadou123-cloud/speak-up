@@ -22,7 +22,8 @@ export function wordSheet(ctx, entry) {
     h('div', { class: 'head' },
       h('div', null,
         h('div', { class: 'word' }, e.en),
-        e.type === 'irregular' ? h('div', { class: 'forms' }, `${e.past} · ${e.pastParticiple}`) : null,
+        e.type === 'irregular' ? h('div', { class: 'forms' }, `${e.past} · ${e.pastParticiple}`)
+          : e.type === 'regular' ? h('div', { class: 'forms' }, `${e.past} · ${e.ing}`) : null,
         h('div', { class: 'fr-word' }, e.fr)),
       h('div', { class: 'row', style: 'flex-wrap:nowrap' },
         h('span', { class: 'tag' }, e.level),

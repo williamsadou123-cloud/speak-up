@@ -5,7 +5,7 @@ export const defaultState = () => defaults();
 const defaults = () => ({
   level: null, cards: {}, xp: 0, streak: 0, lastDay: null,
   dailyGoal: 50, todayXp: 0, todayDay: null,
-  voice: { accent: 'US', enName: null, frName: null }, rate: 1,
+  voice: { accent: 'US', enName: null, frName: null }, rate: 1, avatar: '🦊',
 });
 
 export function createStore(storage) {

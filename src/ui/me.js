@@ -1,5 +1,8 @@
 import { h, allEntries, today, yesterday, LEVELS } from './dom.js';
 import { defaultState } from '../store.js';
+import { computeBadges } from '../badges.js';
+
+const AVATARS = ['🦊', '🐼', '🦁', '🐸', '🐙', '🦄'];
 
 export function renderMe(root, ctx) {
   const s = ctx.state;
@@ -8,14 +11,24 @@ export function renderMe(root, ctx) {
   const learned = cards.filter((c) => c.reps >= 3).length;
   const weak = cards.filter((c) => c.ease < 2.3 || (c.reps === 0 && c.due <= Date.now())).sort((a, b) => a.ease - b.ease).slice(0, 8);
   const todayXp = s.todayDay === today() ? s.todayXp : 0;
+  const badges = computeBadges(s, today());
   const stat = (v, l) => h('div', { class: 'stat' }, h('b', null, v), h('span', null, l));
 
   root.append(
-    h('header', { class: 'topbar' }, h('h1', null, 'Moi')),
+    h('header', { class: 'topbar' }, h('h1', null, 'Mon profil')),
+    h('section', { class: 'profile' },
+      h('div', { class: 'avatar', 'aria-hidden': 'true' }, s.avatar || '🦊'),
+      h('span', { class: 'pill level' }, `Niveau ${s.level}`),
+      h('div', { class: 'avatars', role: 'group', 'aria-label': 'Choisir mon avatar' }, AVATARS.map((a) =>
+        h('button', { type: 'button', 'aria-pressed': (s.avatar || '🦊') === a, 'aria-label': `Avatar ${a}`, onclick: () => { ctx.update((st) => ({ ...st, avatar: a })); ctx.go('#/me'); } }, a)))),
+    h('div', { class: 'section-title' }, 'Mes badges', h('small', { class: 'muted' }, `${badges.filter((b) => b.earned).length} / ${badges.length}`)),
+    h('div', { class: 'badges', style: 'margin-bottom:18px' }, badges.map((b) =>
+      h('div', { class: `badge-item${b.earned ? '' : ' locked'}`, title: b.hint },
+        h('span', { class: 'ico', 'aria-hidden': 'true' }, b.icon), h('b', null, b.label), h('small', null, b.earned ? 'Débloqué' : b.hint)))),
     h('div', { class: 'stats' },
       stat(s.lastDay === today() || s.lastDay === yesterday() ? s.streak : 0, 'jours d\'affilée'), stat(s.xp, 'points'), stat(todayXp, 'aujourd\'hui')),
     h('div', { class: 'stats' }, stat(cards.length, 'cartes commencées'), stat(learned, 'mots appris'), stat(s.level, 'niveau')),
-    h('a', { class: 'hub-row m-listen', href: '#/voice' },
+    h('a', { class: 'hub-row screen-listen', href: '#/voice' },
       h('span', { class: 'ico', 'aria-hidden': 'true' }, '🔊'),
       h('div', null, h('b', null, 'Voix et vitesse'), h('span', { class: 'sub' }, 'Accent, voix, vitesse de lecture')),
       h('span', { class: 'chev', 'aria-hidden': 'true' }, '›')),

@@ -66,3 +66,7 @@ test('a partial saved voice object keeps the other defaults', () => {
   st.setItem('english-app-v1', JSON.stringify({ voice: { accent: 'GB' } }));
   assert.deepEqual(createStore(st).load().voice, { accent: 'GB', enName: null, frName: null });
 });
+
+test('defaults include an avatar', () => {
+  assert.equal(createStore(mem()).load().avatar, '🦊');
+});

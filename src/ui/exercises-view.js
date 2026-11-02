@@ -1,4 +1,4 @@
-import { h, allEntries, levelBand, speakBtn, today, progressBar } from './dom.js';
+import { h, allEntries, levelBand, speakBtn, today, progressBar, scrollBehavior } from './dom.js';
 import { buildSession, isCorrect } from '../exercises.js';
 import { addXp, touchStreak } from '../store.js';
 
@@ -100,7 +100,7 @@ export function renderExercises(root, ctx) {
         ok ? '✓ Bravo ! +10 points' : `✗ La bonne réponse : ${ex.answer}`,
         h('div', { class: 'explain' }, ex.explain)),
       h('button', { class: 'btn lg block', onclick: () => { i++; show(); } }, i + 1 >= session.length ? 'Voir mon score' : 'Continuer'));
-    fb.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    fb.scrollIntoView({ block: 'nearest', behavior: scrollBehavior() });
   }
 
   function end() {
