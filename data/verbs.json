@@ -1,0 +1,3964 @@
+[
+ {
+  "id": "vb-be",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "be",
+  "past": "was/were",
+  "pastParticiple": "been",
+  "ing": "being",
+  "fr": "être",
+  "definition_fr": "Exister ou avoir une qualité.",
+  "definition_en": "To exist or to have a quality.",
+  "examples": [
+   {
+    "en": "She was tired yesterday.",
+    "fr": "Elle était fatiguée hier."
+   },
+   {
+    "en": "I am a teacher.",
+    "fr": "Je suis professeur."
+   }
+  ],
+  "construction": {
+   "pattern": "subject + be + adjective/noun",
+   "tip_fr": "Be (être) change selon le sujet : I am, you are, he/she/it is, we/they are. She was tired yesterday."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-have",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "have",
+  "past": "had",
+  "pastParticiple": "had",
+  "ing": "having",
+  "fr": "avoir",
+  "definition_fr": "Posséder ou détenir.",
+  "definition_en": "To own or hold something.",
+  "examples": [
+   {
+    "en": "We had a great time.",
+    "fr": "Nous avons passé un super moment."
+   },
+   {
+    "en": "Do you have a pen?",
+    "fr": "As-tu un stylo ?"
+   }
+  ],
+  "construction": {
+   "pattern": "subject + have/has + noun",
+   "tip_fr": "Have (avoir) devient has avec he, she, it. Au passé : had. We had a great time."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-do",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "do",
+  "past": "did",
+  "pastParticiple": "done",
+  "ing": "doing",
+  "fr": "faire",
+  "definition_fr": "Accomplir une action.",
+  "definition_en": "To perform an action.",
+  "examples": [
+   {
+    "en": "I did my homework.",
+    "fr": "J'ai fait mes devoirs."
+   },
+   {
+    "en": "She does yoga every day.",
+    "fr": "Elle fait du yoga tous les jours."
+   }
+  ],
+  "construction": {
+   "pattern": "subject + do/does + noun",
+   "tip_fr": "Do sert à faire une action et aide à la négation : I don't know. I did my homework."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-go",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "go",
+  "past": "went",
+  "pastParticiple": "gone",
+  "ing": "going",
+  "fr": "aller",
+  "definition_fr": "Se déplacer vers un lieu.",
+  "definition_en": "To move to a place.",
+  "examples": [
+   {
+    "en": "They went to the beach.",
+    "fr": "Ils sont allés à la plage."
+   },
+   {
+    "en": "I go to work by train.",
+    "fr": "Je vais au travail en train."
+   }
+  ],
+  "construction": {
+   "pattern": "go + to + place",
+   "tip_fr": "Go se construit avec « to » + lieu : go to the beach. Sans to avec home : go home."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-come",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "come",
+  "past": "came",
+  "pastParticiple": "come",
+  "ing": "coming",
+  "fr": "venir",
+  "definition_fr": "Se déplacer vers la personne qui parle.",
+  "definition_en": "To move towards the speaker.",
+  "examples": [
+   {
+    "en": "He came home late.",
+    "fr": "Il est rentré tard."
+   },
+   {
+    "en": "Can you come to my party?",
+    "fr": "Peux-tu venir à ma fête ?"
+   }
+  ],
+  "construction": {
+   "pattern": "come + from/to + place",
+   "tip_fr": "Come (venir) s'utilise avec from ou to : He came home late. Sans to avec home."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-see",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "see",
+  "past": "saw",
+  "pastParticiple": "seen",
+  "ing": "seeing",
+  "fr": "voir",
+  "definition_fr": "Percevoir avec les yeux.",
+  "definition_en": "To notice with your eyes.",
+  "examples": [
+   {
+    "en": "I saw a bird in the tree.",
+    "fr": "J'ai vu un oiseau dans l'arbre."
+   },
+   {
+    "en": "Can you see the mountains?",
+    "fr": "Vois-tu les montagnes ?"
+   }
+  ],
+  "construction": {
+   "pattern": "see + object",
+   "tip_fr": "See = percevoir sans effort. Pour regarder volontairement, on dit look at ou watch. I saw a bird."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-eat",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "eat",
+  "past": "ate",
+  "pastParticiple": "eaten",
+  "ing": "eating",
+  "fr": "manger",
+  "definition_fr": "Mettre de la nourriture dans la bouche.",
+  "definition_en": "To put food in your mouth and swallow.",
+  "examples": [
+   {
+    "en": "We ate pizza last night.",
+    "fr": "Nous avons mangé de la pizza hier soir."
+   },
+   {
+    "en": "I eat an apple every day.",
+    "fr": "Je mange une pomme chaque jour."
+   }
+  ],
+  "construction": {
+   "pattern": "eat + food",
+   "tip_fr": "Eat se construit directement avec l'aliment : We ate pizza. Pas de préposition."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-drink",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "drink",
+  "past": "drank",
+  "pastParticiple": "drunk",
+  "ing": "drinking",
+  "fr": "boire",
+  "definition_fr": "Avaler un liquide.",
+  "definition_en": "To swallow liquid.",
+  "examples": [
+   {
+    "en": "She drank a glass of water.",
+    "fr": "Elle a bu un verre d'eau."
+   },
+   {
+    "en": "He drinks tea in the morning.",
+    "fr": "Il boit du thé le matin."
+   }
+  ],
+  "construction": {
+   "pattern": "drink + liquid",
+   "tip_fr": "Drink + liquide : She drank a glass of water. Participe passé : drunk."
+  }
+ },
+ {
+  "id": "vb-take",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "take",
+  "past": "took",
+  "pastParticiple": "taken",
+  "ing": "taking",
+  "fr": "prendre",
+  "definition_fr": "Saisir ou emporter.",
+  "definition_en": "To get hold of something or carry it.",
+  "examples": [
+   {
+    "en": "He took the bus to work.",
+    "fr": "Il a pris le bus pour aller au travail."
+   },
+   {
+    "en": "Take an umbrella, it's raining.",
+    "fr": "Prends un parapluie, il pleut."
+   }
+  ],
+  "construction": {
+   "pattern": "take + object",
+   "tip_fr": "Take a plusieurs sens : prendre (the bus), durer (it takes an hour). He took the bus."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-give",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "give",
+  "past": "gave",
+  "pastParticiple": "given",
+  "ing": "giving",
+  "fr": "donner",
+  "definition_fr": "Remettre quelque chose à quelqu'un.",
+  "definition_en": "To hand something to someone.",
+  "examples": [
+   {
+    "en": "She gave me a present.",
+    "fr": "Elle m'a donné un cadeau."
+   },
+   {
+    "en": "Please give me your phone number.",
+    "fr": "Donne-moi ton numéro de téléphone, s'il te plaît."
+   }
+  ],
+  "construction": {
+   "pattern": "give + person + thing",
+   "tip_fr": "Give peut s'écrire give someone something : She gave me a present."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-make",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "make",
+  "past": "made",
+  "pastParticiple": "made",
+  "ing": "making",
+  "fr": "fabriquer, faire",
+  "definition_fr": "Créer ou produire.",
+  "definition_en": "To create or produce something.",
+  "examples": [
+   {
+    "en": "They made dinner together.",
+    "fr": "Ils ont préparé le dîner ensemble."
+   },
+   {
+    "en": "She makes great cakes.",
+    "fr": "Elle fait de super gâteaux."
+   }
+  ],
+  "construction": {
+   "pattern": "make + object",
+   "tip_fr": "Make = fabriquer, créer : make dinner, make a decision. Pour une activité : do."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-get",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "get",
+  "past": "got",
+  "pastParticiple": "got/gotten",
+  "ing": "getting",
+  "fr": "obtenir, devenir",
+  "definition_fr": "Recevoir ou arriver à.",
+  "definition_en": "To receive, obtain or become.",
+  "examples": [
+   {
+    "en": "I got a letter today.",
+    "fr": "J'ai reçu une lettre aujourd'hui."
+   },
+   {
+    "en": "I get up at seven.",
+    "fr": "Je me lève à sept heures."
+   }
+  ],
+  "construction": {
+   "pattern": "get + object / adjective",
+   "tip_fr": "Get = recevoir ou devenir : get a letter, get tired. Participe passé : got (UK), gotten (US)."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-know",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "know",
+  "past": "knew",
+  "pastParticiple": "known",
+  "ing": "knowing",
+  "fr": "savoir, connaître",
+  "definition_fr": "Avoir une information en tête.",
+  "definition_en": "To have information in your mind.",
+  "examples": [
+   {
+    "en": "I knew the answer.",
+    "fr": "Je connaissais la réponse."
+   },
+   {
+    "en": "Do you know her?",
+    "fr": "La connais-tu ?"
+   }
+  ],
+  "construction": {
+   "pattern": "know + person/fact",
+   "tip_fr": "Know = connaître ou savoir. Pas de forme -ing en général : I know the answer."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-think",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "think",
+  "past": "thought",
+  "pastParticiple": "thought",
+  "ing": "thinking",
+  "fr": "penser",
+  "definition_fr": "Avoir une idée ou une opinion.",
+  "definition_en": "To have an idea or opinion.",
+  "examples": [
+   {
+    "en": "I thought it was easy.",
+    "fr": "Je pensais que c'était facile."
+   },
+   {
+    "en": "I think you are right.",
+    "fr": "Je pense que tu as raison."
+   }
+  ],
+  "construction": {
+   "pattern": "think + (that) + clause",
+   "tip_fr": "Think + that + proposition. On peut omettre « that » : I thought it was easy."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-say",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "say",
+  "past": "said",
+  "pastParticiple": "said",
+  "ing": "saying",
+  "fr": "dire",
+  "definition_fr": "Exprimer avec des mots.",
+  "definition_en": "To speak words.",
+  "examples": [
+   {
+    "en": "He said hello to everyone.",
+    "fr": "Il a dit bonjour à tout le monde."
+   },
+   {
+    "en": "What did you say?",
+    "fr": "Qu'as-tu dit ?"
+   }
+  ],
+  "construction": {
+   "pattern": "say + (to person) + words",
+   "tip_fr": "Say + les mots : He said hello. Say to someone, tell someone."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-tell",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "tell",
+  "past": "told",
+  "pastParticiple": "told",
+  "ing": "telling",
+  "fr": "raconter, dire à",
+  "definition_fr": "Donner une information à quelqu'un.",
+  "definition_en": "To give information to someone.",
+  "examples": [
+   {
+    "en": "She told me a secret.",
+    "fr": "Elle m'a confié un secret."
+   },
+   {
+    "en": "Tell me the truth.",
+    "fr": "Dis-moi la vérité."
+   }
+  ],
+  "construction": {
+   "pattern": "tell + person + information",
+   "tip_fr": "Tell + personne : She told me a secret (pas de « to » avant la personne). Exceptions : tell the truth, tell a story, tell a lie."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-write",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "write",
+  "past": "wrote",
+  "pastParticiple": "written",
+  "ing": "writing",
+  "fr": "écrire",
+  "definition_fr": "Former des mots sur du papier.",
+  "definition_en": "To put words on paper or a screen.",
+  "examples": [
+   {
+    "en": "He wrote me a long letter.",
+    "fr": "Il m'a écrit une longue lettre."
+   },
+   {
+    "en": "I write in my diary every night.",
+    "fr": "J'écris dans mon journal chaque soir."
+   }
+  ],
+  "construction": {
+   "pattern": "write + noun / to person",
+   "tip_fr": "Write + chose, ou write to + personne : He wrote me a letter."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-read",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "read",
+  "past": "read",
+  "pastParticiple": "read",
+  "ing": "reading",
+  "fr": "lire",
+  "definition_fr": "Comprendre des mots écrits.",
+  "definition_en": "To look at and understand written words.",
+  "examples": [
+   {
+    "en": "I read that book last year.",
+    "fr": "J'ai lu ce livre l'an dernier."
+   },
+   {
+    "en": "She reads the news every morning.",
+    "fr": "Elle lit les nouvelles chaque matin."
+   }
+  ],
+  "construction": {
+   "pattern": "read + text",
+   "tip_fr": "Read s'écrit pareil au présent et au passé, mais se prononce différemment : « reed » au présent, « red » au passé."
+  }
+ },
+ {
+  "id": "vb-buy",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "buy",
+  "past": "bought",
+  "pastParticiple": "bought",
+  "ing": "buying",
+  "fr": "acheter",
+  "definition_fr": "Obtenir en payant.",
+  "definition_en": "To get something by paying.",
+  "examples": [
+   {
+    "en": "We bought a new sofa.",
+    "fr": "Nous avons acheté un nouveau canapé."
+   },
+   {
+    "en": "I will buy some bread.",
+    "fr": "Je vais acheter du pain."
+   }
+  ],
+  "construction": {
+   "pattern": "buy + object (+ for person)",
+   "tip_fr": "Buy = acheter. buy something for someone. We bought a new sofa."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-sit",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "sit",
+  "past": "sat",
+  "pastParticiple": "sat",
+  "ing": "sitting",
+  "fr": "s'asseoir",
+  "definition_fr": "Poser son corps sur une chaise.",
+  "definition_en": "To rest your body on a seat.",
+  "examples": [
+   {
+    "en": "They sat by the window.",
+    "fr": "Ils se sont assis près de la fenêtre."
+   },
+   {
+    "en": "Please sit down.",
+    "fr": "Asseyez-vous, s'il vous plaît."
+   }
+  ],
+  "construction": {
+   "pattern": "sit + (down) + place",
+   "tip_fr": "Sit down = s'asseoir. They sat by the window."
+  }
+ },
+ {
+  "id": "vb-stand",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "stand",
+  "past": "stood",
+  "pastParticiple": "stood",
+  "ing": "standing",
+  "fr": "se tenir debout",
+  "definition_fr": "Être sur ses pieds.",
+  "definition_en": "To be on your feet.",
+  "examples": [
+   {
+    "en": "She stood in the queue.",
+    "fr": "Elle faisait la queue debout."
+   },
+   {
+    "en": "Please stand up.",
+    "fr": "Levez-vous, s'il vous plaît."
+   }
+  ],
+  "construction": {
+   "pattern": "stand + (up) + place",
+   "tip_fr": "Stand up = se lever. She stood in the queue."
+  }
+ },
+ {
+  "id": "vb-run",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "run",
+  "past": "ran",
+  "pastParticiple": "run",
+  "ing": "running",
+  "fr": "courir",
+  "definition_fr": "Se déplacer vite à pied.",
+  "definition_en": "To move quickly on foot.",
+  "examples": [
+   {
+    "en": "He ran to the station.",
+    "fr": "Il a couru jusqu'à la gare."
+   },
+   {
+    "en": "He runs five kilometres every day.",
+    "fr": "Il court cinq kilomètres par jour."
+   }
+  ],
+  "construction": {
+   "pattern": "run + to + place",
+   "tip_fr": "Run se construit avec to + lieu : He ran to the station. Run a business = diriger."
+  }
+ },
+ {
+  "id": "vb-sleep",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "sleep",
+  "past": "slept",
+  "pastParticiple": "slept",
+  "ing": "sleeping",
+  "fr": "dormir",
+  "definition_fr": "Se reposer les yeux fermés.",
+  "definition_en": "To rest with your eyes closed.",
+  "examples": [
+   {
+    "en": "The baby slept all night.",
+    "fr": "Le bébé a dormi toute la nuit."
+   },
+   {
+    "en": "I sleep eight hours a night.",
+    "fr": "Je dors huit heures par nuit."
+   }
+  ],
+  "construction": {
+   "pattern": "sleep + duration",
+   "tip_fr": "Sleep est intransitif : The baby slept all night. Pas d'objet direct."
+  }
+ },
+ {
+  "id": "vb-speak",
+  "level": "A1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "speak",
+  "past": "spoke",
+  "pastParticiple": "spoken",
+  "ing": "speaking",
+  "fr": "parler",
+  "definition_fr": "Dire des mots à voix haute.",
+  "definition_en": "To say words aloud.",
+  "examples": [
+   {
+    "en": "She spoke to the manager.",
+    "fr": "Elle a parlé au directeur."
+   },
+   {
+    "en": "Do you speak English?",
+    "fr": "Parlez-vous anglais ?"
+   }
+  ],
+  "construction": {
+   "pattern": "speak + to + person",
+   "tip_fr": "Speak to someone, speak a language. She spoke to the manager."
+  }
+ },
+ {
+  "id": "vb-begin",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "begin",
+  "past": "began",
+  "pastParticiple": "begun",
+  "ing": "beginning",
+  "fr": "commencer",
+  "definition_fr": "Démarrer quelque chose.",
+  "definition_en": "To start something.",
+  "examples": [
+   {
+    "en": "The film began at eight.",
+    "fr": "Le film a commencé à huit heures."
+   },
+   {
+    "en": "The lesson begins at nine.",
+    "fr": "Le cours commence à neuf heures."
+   }
+  ],
+  "construction": {
+   "pattern": "begin + noun / to + verb",
+   "tip_fr": "Begin ou start. The film began at eight. Begin to + verbe."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-bring",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "bring",
+  "past": "brought",
+  "pastParticiple": "brought",
+  "ing": "bringing",
+  "fr": "apporter",
+  "definition_fr": "Porter quelque chose avec soi.",
+  "definition_en": "To carry something to a place.",
+  "examples": [
+   {
+    "en": "He brought his umbrella.",
+    "fr": "Il a apporté son parapluie."
+   },
+   {
+    "en": "Bring your passport tomorrow.",
+    "fr": "Apporte ton passeport demain."
+   }
+  ],
+  "construction": {
+   "pattern": "bring + object + (to place)",
+   "tip_fr": "Bring = apporter vers ici. He brought his umbrella."
+  }
+ },
+ {
+  "id": "vb-find",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "find",
+  "past": "found",
+  "pastParticiple": "found",
+  "ing": "finding",
+  "fr": "trouver",
+  "definition_fr": "Découvrir par hasard ou en cherchant.",
+  "definition_en": "To discover something.",
+  "examples": [
+   {
+    "en": "I found my keys under the bed.",
+    "fr": "J'ai trouvé mes clés sous le lit."
+   },
+   {
+    "en": "I can't find my glasses.",
+    "fr": "Je ne trouve pas mes lunettes."
+   }
+  ],
+  "construction": {
+   "pattern": "find + object",
+   "tip_fr": "Find = trouver. I found my keys under the bed. Find out = découvrir."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-feel",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "feel",
+  "past": "felt",
+  "pastParticiple": "felt",
+  "ing": "feeling",
+  "fr": "ressentir",
+  "definition_fr": "Éprouver une sensation.",
+  "definition_en": "To experience an emotion or sensation.",
+  "examples": [
+   {
+    "en": "I felt happy all day.",
+    "fr": "Je me suis senti heureux toute la journée."
+   },
+   {
+    "en": "I feel much better today.",
+    "fr": "Je me sens beaucoup mieux aujourd'hui."
+   }
+  ],
+  "construction": {
+   "pattern": "feel + adjective",
+   "tip_fr": "Feel + adjectif : I felt happy. Feel like + nom ou -ing."
+  }
+ },
+ {
+  "id": "vb-keep",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "keep",
+  "past": "kept",
+  "pastParticiple": "kept",
+  "ing": "keeping",
+  "fr": "garder",
+  "definition_fr": "Conserver ou continuer à avoir.",
+  "definition_en": "To continue to have something.",
+  "examples": [
+   {
+    "en": "She kept the receipt.",
+    "fr": "Elle a gardé le ticket de caisse."
+   },
+   {
+    "en": "Keep the change.",
+    "fr": "Gardez la monnaie."
+   }
+  ],
+  "construction": {
+   "pattern": "keep + object / -ing",
+   "tip_fr": "Keep + objet = garder. Keep + -ing = continuer. She kept the receipt."
+  }
+ },
+ {
+  "id": "vb-leave",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "leave",
+  "past": "left",
+  "pastParticiple": "left",
+  "ing": "leaving",
+  "fr": "partir, quitter",
+  "definition_fr": "Quitter un endroit.",
+  "definition_en": "To go away from a place.",
+  "examples": [
+   {
+    "en": "We left early.",
+    "fr": "Nous sommes partis tôt."
+   },
+   {
+    "en": "The train leaves at noon.",
+    "fr": "Le train part à midi."
+   }
+  ],
+  "construction": {
+   "pattern": "leave + place",
+   "tip_fr": "Leave + lieu = quitter : We left early. Leave for = partir pour."
+  },
+  "essential": true
+ },
+ {
+  "id": "vb-lose",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "lose",
+  "past": "lost",
+  "pastParticiple": "lost",
+  "ing": "losing",
+  "fr": "perdre",
+  "definition_fr": "Ne plus avoir quelque chose.",
+  "definition_en": "To no longer have something.",
+  "examples": [
+   {
+    "en": "He lost his wallet.",
+    "fr": "Il a perdu son portefeuille."
+   },
+   {
+    "en": "Don't lose your ticket.",
+    "fr": "Ne perds pas ton billet."
+   }
+  ],
+  "construction": {
+   "pattern": "lose + object",
+   "tip_fr": "Lose = perdre. He lost his wallet. Ne pas confondre avec loose (lâche)."
+  }
+ },
+ {
+  "id": "vb-meet",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "meet",
+  "past": "met",
+  "pastParticiple": "met",
+  "ing": "meeting",
+  "fr": "rencontrer",
+  "definition_fr": "Voir quelqu'un pour la première fois ou se retrouver.",
+  "definition_en": "To come together with someone.",
+  "examples": [
+   {
+    "en": "I met her at a party.",
+    "fr": "Je l'ai rencontrée à une fête."
+   },
+   {
+    "en": "We meet every Friday.",
+    "fr": "Nous nous retrouvons chaque vendredi."
+   }
+  ],
+  "construction": {
+   "pattern": "meet + person",
+   "tip_fr": "Meet se construit sans préposition : I met her at a party."
+  }
+ },
+ {
+  "id": "vb-pay",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "pay",
+  "past": "paid",
+  "pastParticiple": "paid",
+  "ing": "paying",
+  "fr": "payer",
+  "definition_fr": "Donner de l'argent pour un achat.",
+  "definition_en": "To give money for something.",
+  "examples": [
+   {
+    "en": "He paid by card.",
+    "fr": "Il a payé par carte."
+   },
+   {
+    "en": "Can I pay by card?",
+    "fr": "Puis-je payer par carte ?"
+   }
+  ],
+  "construction": {
+   "pattern": "pay + (for) + noun",
+   "tip_fr": "Pay for something, pay someone. He paid by card."
+  }
+ },
+ {
+  "id": "vb-send",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "send",
+  "past": "sent",
+  "pastParticiple": "sent",
+  "ing": "sending",
+  "fr": "envoyer",
+  "definition_fr": "Faire parvenir à quelqu'un.",
+  "definition_en": "To make something go to someone.",
+  "examples": [
+   {
+    "en": "She sent me a message.",
+    "fr": "Elle m'a envoyé un message."
+   },
+   {
+    "en": "I will send you the file.",
+    "fr": "Je t'enverrai le fichier."
+   }
+  ],
+  "construction": {
+   "pattern": "send + person + thing",
+   "tip_fr": "Send someone something ou send something to someone. She sent me a message."
+  }
+ },
+ {
+  "id": "vb-spend",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "spend",
+  "past": "spent",
+  "pastParticiple": "spent",
+  "ing": "spending",
+  "fr": "dépenser, passer (temps)",
+  "definition_fr": "Utiliser de l'argent ou du temps.",
+  "definition_en": "To use money or time.",
+  "examples": [
+   {
+    "en": "We spent a week in Spain.",
+    "fr": "Nous avons passé une semaine en Espagne."
+   },
+   {
+    "en": "They spend too much money.",
+    "fr": "Ils dépensent trop d'argent."
+   }
+  ],
+  "construction": {
+   "pattern": "spend + time/money + (on / -ing)",
+   "tip_fr": "Spend s'utilise pour le temps et l'argent : We spent a week in Spain."
+  }
+ },
+ {
+  "id": "vb-teach",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "teach",
+  "past": "taught",
+  "pastParticiple": "taught",
+  "ing": "teaching",
+  "fr": "enseigner",
+  "definition_fr": "Donner des cours à quelqu'un.",
+  "definition_en": "To help someone learn.",
+  "examples": [
+   {
+    "en": "She taught English for ten years.",
+    "fr": "Elle a enseigné l'anglais pendant dix ans."
+   },
+   {
+    "en": "He teaches maths at school.",
+    "fr": "Il enseigne les maths à l'école."
+   }
+  ],
+  "construction": {
+   "pattern": "teach + person + subject",
+   "tip_fr": "Teach someone something. She taught English for ten years."
+  }
+ },
+ {
+  "id": "vb-wear",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "wear",
+  "past": "wore",
+  "pastParticiple": "worn",
+  "ing": "wearing",
+  "fr": "porter (vêtement)",
+  "definition_fr": "Avoir des vêtements sur soi.",
+  "definition_en": "To have clothes on your body.",
+  "examples": [
+   {
+    "en": "He wore a blue suit.",
+    "fr": "Il portait un costume bleu."
+   },
+   {
+    "en": "She wears glasses.",
+    "fr": "Elle porte des lunettes."
+   }
+  ],
+  "construction": {
+   "pattern": "wear + clothing",
+   "tip_fr": "Wear = porter un vêtement. He wore a blue suit. Pour carry, on porte un objet."
+  }
+ },
+ {
+  "id": "vb-win",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "win",
+  "past": "won",
+  "pastParticiple": "won",
+  "ing": "winning",
+  "fr": "gagner",
+  "definition_fr": "Être le premier dans une compétition.",
+  "definition_en": "To be first in a competition.",
+  "examples": [
+   {
+    "en": "Our team won the match.",
+    "fr": "Notre équipe a gagné le match."
+   },
+   {
+    "en": "I hope we win tomorrow.",
+    "fr": "J'espère que nous gagnerons demain."
+   }
+  ],
+  "construction": {
+   "pattern": "win + noun",
+   "tip_fr": "Win se construit avec l'objet gagné : win a match, win a prize. Our team won the match."
+  }
+ },
+ {
+  "id": "vb-fall",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "fall",
+  "past": "fell",
+  "pastParticiple": "fallen",
+  "ing": "falling",
+  "fr": "tomber",
+  "definition_fr": "Descendre vers le sol sans le vouloir.",
+  "definition_en": "To drop down to the ground.",
+  "examples": [
+   {
+    "en": "He fell off his bike.",
+    "fr": "Il est tombé de son vélo."
+   },
+   {
+    "en": "Leaves fall in autumn.",
+    "fr": "Les feuilles tombent en automne."
+   }
+  ],
+  "construction": {
+   "pattern": "fall + off/down + noun",
+   "tip_fr": "Fall off = tomber de. He fell off his bike."
+  }
+ },
+ {
+  "id": "vb-fly",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "fly",
+  "past": "flew",
+  "pastParticiple": "flown",
+  "ing": "flying",
+  "fr": "voler (en avion)",
+  "definition_fr": "Se déplacer dans les airs.",
+  "definition_en": "To travel through the air.",
+  "examples": [
+   {
+    "en": "We flew to Rome.",
+    "fr": "Nous avons pris l'avion pour Rome."
+   },
+   {
+    "en": "Birds fly south in winter.",
+    "fr": "Les oiseaux volent vers le sud en hiver."
+   }
+  ],
+  "construction": {
+   "pattern": "fly + to + place",
+   "tip_fr": "Fly = voler, aller en avion : We flew to Rome."
+  }
+ },
+ {
+  "id": "vb-drive",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "drive",
+  "past": "drove",
+  "pastParticiple": "driven",
+  "ing": "driving",
+  "fr": "conduire",
+  "definition_fr": "Diriger un véhicule.",
+  "definition_en": "To control a vehicle.",
+  "examples": [
+   {
+    "en": "She drove us to the airport.",
+    "fr": "Elle nous a conduits à l'aéroport."
+   },
+   {
+    "en": "He drives to work every day.",
+    "fr": "Il va au travail en voiture tous les jours."
+   }
+  ],
+  "construction": {
+   "pattern": "drive + vehicle / person",
+   "tip_fr": "Drive a car. Drive someone to a place : She drove us to the airport."
+  }
+ },
+ {
+  "id": "vb-ride",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "ride",
+  "past": "rode",
+  "pastParticiple": "ridden",
+  "ing": "riding",
+  "fr": "monter (à cheval, vélo)",
+  "definition_fr": "Se déplacer sur un vélo ou un cheval.",
+  "definition_en": "To travel on a bike or horse.",
+  "examples": [
+   {
+    "en": "He rode his bike to school.",
+    "fr": "Il est allé à l'école à vélo."
+   },
+   {
+    "en": "I like riding my bike.",
+    "fr": "J'aime faire du vélo."
+   }
+  ],
+  "construction": {
+   "pattern": "ride + bike/horse",
+   "tip_fr": "Ride se dit pour le vélo, le cheval : He rode his bike to school."
+  }
+ },
+ {
+  "id": "vb-swim",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "swim",
+  "past": "swam",
+  "pastParticiple": "swum",
+  "ing": "swimming",
+  "fr": "nager",
+  "definition_fr": "Se déplacer dans l'eau.",
+  "definition_en": "To move through water.",
+  "examples": [
+   {
+    "en": "We swam in the lake.",
+    "fr": "Nous avons nagé dans le lac."
+   },
+   {
+    "en": "She swims every morning.",
+    "fr": "Elle nage chaque matin."
+   }
+  ],
+  "construction": {
+   "pattern": "swim + place",
+   "tip_fr": "Swim in the lake, swim across the river. We swam in the lake."
+  }
+ },
+ {
+  "id": "vb-sing",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "sing",
+  "past": "sang",
+  "pastParticiple": "sung",
+  "ing": "singing",
+  "fr": "chanter",
+  "definition_fr": "Produire de la musique avec la voix.",
+  "definition_en": "To make music with your voice.",
+  "examples": [
+   {
+    "en": "She sang a beautiful song.",
+    "fr": "Elle a chanté une belle chanson."
+   },
+   {
+    "en": "They sing in the choir.",
+    "fr": "Ils chantent dans la chorale."
+   }
+  ],
+  "construction": {
+   "pattern": "sing + song",
+   "tip_fr": "Sing a song. She sang a beautiful song."
+  }
+ },
+ {
+  "id": "vb-cut",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "cut",
+  "past": "cut",
+  "pastParticiple": "cut",
+  "ing": "cutting",
+  "fr": "couper",
+  "definition_fr": "Séparer avec un couteau.",
+  "definition_en": "To divide something with a knife.",
+  "examples": [
+   {
+    "en": "I cut my finger.",
+    "fr": "Je me suis coupé le doigt."
+   },
+   {
+    "en": "Cut the bread, please.",
+    "fr": "Coupe le pain, s'il te plaît."
+   }
+  ],
+  "construction": {
+   "pattern": "cut + object",
+   "tip_fr": "Cut est identique à tous les temps : cut, cut, cut. I cut my finger."
+  }
+ },
+ {
+  "id": "vb-put",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "put",
+  "past": "put",
+  "pastParticiple": "put",
+  "ing": "putting",
+  "fr": "mettre",
+  "definition_fr": "Placer quelque chose quelque part.",
+  "definition_en": "To place something somewhere.",
+  "examples": [
+   {
+    "en": "She put the keys on the table.",
+    "fr": "Elle a mis les clés sur la table."
+   },
+   {
+    "en": "Put your bag on the chair.",
+    "fr": "Pose ton sac sur la chaise."
+   }
+  ],
+  "construction": {
+   "pattern": "put + object + place",
+   "tip_fr": "Put + objet + lieu : She put the keys on the table. Identique à tous les temps."
+  }
+ },
+ {
+  "id": "vb-let",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "let",
+  "past": "let",
+  "pastParticiple": "let",
+  "ing": "letting",
+  "fr": "laisser, permettre",
+  "definition_fr": "Permettre à quelqu'un de faire.",
+  "definition_en": "To allow someone to do something.",
+  "examples": [
+   {
+    "en": "Her parents let her go out.",
+    "fr": "Ses parents l'ont laissée sortir."
+   },
+   {
+    "en": "Let me help you.",
+    "fr": "Laisse-moi t'aider."
+   }
+  ],
+  "construction": {
+   "pattern": "let + person + verb (no to)",
+   "tip_fr": "Let + objet + verbe nu : Her parents let her go out."
+  }
+ },
+ {
+  "id": "vb-set",
+  "level": "A2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "set",
+  "past": "set",
+  "pastParticiple": "set",
+  "ing": "setting",
+  "fr": "placer, régler",
+  "definition_fr": "Mettre dans une position ou un état.",
+  "definition_en": "To put something in a position or state.",
+  "examples": [
+   {
+    "en": "He set the table for dinner.",
+    "fr": "Il a mis la table pour le dîner."
+   },
+   {
+    "en": "Set the alarm for six.",
+    "fr": "Mets le réveil à six heures."
+   }
+  ],
+  "construction": {
+   "pattern": "set + object",
+   "tip_fr": "Set the table, set an alarm. Identique à tous les temps."
+  }
+ },
+ {
+  "id": "vb-break",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "break",
+  "past": "broke",
+  "pastParticiple": "broken",
+  "ing": "breaking",
+  "fr": "casser",
+  "definition_fr": "Séparer en morceaux.",
+  "definition_en": "To separate into pieces.",
+  "examples": [
+   {
+    "en": "The child broke a window.",
+    "fr": "L'enfant a cassé une fenêtre."
+   },
+   {
+    "en": "Don't break the glass.",
+    "fr": "Ne casse pas le verre."
+   }
+  ],
+  "construction": {
+   "pattern": "break + object",
+   "tip_fr": "Break = casser. The child broke a window. Participe passé : broken."
+  }
+ },
+ {
+  "id": "vb-build",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "build",
+  "past": "built",
+  "pastParticiple": "built",
+  "ing": "building",
+  "fr": "construire",
+  "definition_fr": "Fabriquer une maison ou une structure.",
+  "definition_en": "To make a house or structure.",
+  "examples": [
+   {
+    "en": "They built a bridge.",
+    "fr": "Ils ont construit un pont."
+   },
+   {
+    "en": "They are building a new school.",
+    "fr": "Ils construisent une nouvelle école."
+   }
+  ],
+  "construction": {
+   "pattern": "build + object",
+   "tip_fr": "Build = construire. They built a bridge."
+  }
+ },
+ {
+  "id": "vb-catch",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "catch",
+  "past": "caught",
+  "pastParticiple": "caught",
+  "ing": "catching",
+  "fr": "attraper",
+  "definition_fr": "Saisir quelque chose en mouvement.",
+  "definition_en": "To take hold of something moving.",
+  "examples": [
+   {
+    "en": "He caught the ball.",
+    "fr": "Il a attrapé la balle."
+   },
+   {
+    "en": "Catch the bus at the corner.",
+    "fr": "Prends le bus au coin de la rue."
+   }
+  ],
+  "construction": {
+   "pattern": "catch + object",
+   "tip_fr": "Catch = attraper. He caught the ball. Catch a bus = prendre le bus."
+  }
+ },
+ {
+  "id": "vb-choose",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "choose",
+  "past": "chose",
+  "pastParticiple": "chosen",
+  "ing": "choosing",
+  "fr": "choisir",
+  "definition_fr": "Sélectionner parmi plusieurs possibilités.",
+  "definition_en": "To pick from several options.",
+  "examples": [
+   {
+    "en": "She chose the red dress.",
+    "fr": "Elle a choisi la robe rouge."
+   },
+   {
+    "en": "You can choose any colour.",
+    "fr": "Tu peux choisir n'importe quelle couleur."
+   }
+  ],
+  "construction": {
+   "pattern": "choose + object",
+   "tip_fr": "Choose = choisir. She chose the red dress."
+  }
+ },
+ {
+  "id": "vb-draw",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "draw",
+  "past": "drew",
+  "pastParticiple": "drawn",
+  "ing": "drawing",
+  "fr": "dessiner",
+  "definition_fr": "Faire une image avec un crayon.",
+  "definition_en": "To make a picture with a pencil.",
+  "examples": [
+   {
+    "en": "He drew a house.",
+    "fr": "Il a dessiné une maison."
+   },
+   {
+    "en": "She draws very well.",
+    "fr": "Elle dessine très bien."
+   }
+  ],
+  "construction": {
+   "pattern": "draw + object",
+   "tip_fr": "Draw = dessiner. He drew a house."
+  }
+ },
+ {
+  "id": "vb-forget",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "forget",
+  "past": "forgot",
+  "pastParticiple": "forgotten",
+  "ing": "forgetting",
+  "fr": "oublier",
+  "definition_fr": "Ne plus se souvenir.",
+  "definition_en": "To fail to remember.",
+  "examples": [
+   {
+    "en": "I forgot her number.",
+    "fr": "J'ai oublié son numéro."
+   },
+   {
+    "en": "Don't forget your keys.",
+    "fr": "N'oublie pas tes clés."
+   }
+  ],
+  "construction": {
+   "pattern": "forget + object / to + verb",
+   "tip_fr": "Forget + objet, ou forget to + verbe. I forgot her number."
+  }
+ },
+ {
+  "id": "vb-grow",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "grow",
+  "past": "grew",
+  "pastParticiple": "grown",
+  "ing": "growing",
+  "fr": "grandir, cultiver",
+  "definition_fr": "Devenir plus grand.",
+  "definition_en": "To become bigger.",
+  "examples": [
+   {
+    "en": "The kids grew quickly.",
+    "fr": "Les enfants ont grandi vite."
+   },
+   {
+    "en": "Tomatoes grow well here.",
+    "fr": "Les tomates poussent bien ici."
+   }
+  ],
+  "construction": {
+   "pattern": "grow + noun / adjective",
+   "tip_fr": "Grow = grandir. Grow up = devenir adulte. The kids grew quickly."
+  }
+ },
+ {
+  "id": "vb-hear",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "hear",
+  "past": "heard",
+  "pastParticiple": "heard",
+  "ing": "hearing",
+  "fr": "entendre",
+  "definition_fr": "Percevoir avec les oreilles.",
+  "definition_en": "To notice sounds with your ears.",
+  "examples": [
+   {
+    "en": "I heard a strange noise.",
+    "fr": "J'ai entendu un bruit étrange."
+   },
+   {
+    "en": "Can you hear me?",
+    "fr": "Tu m'entends ?"
+   }
+  ],
+  "construction": {
+   "pattern": "hear + object",
+   "tip_fr": "Hear = entendre sans effort. Pour écouter volontairement : listen to. I heard a strange noise."
+  }
+ },
+ {
+  "id": "vb-hide",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "hide",
+  "past": "hid",
+  "pastParticiple": "hidden",
+  "ing": "hiding",
+  "fr": "cacher",
+  "definition_fr": "Mettre hors de vue.",
+  "definition_en": "To put out of sight.",
+  "examples": [
+   {
+    "en": "She hid the gift.",
+    "fr": "Elle a caché le cadeau."
+   },
+   {
+    "en": "The cat is hiding under the bed.",
+    "fr": "Le chat se cache sous le lit."
+   }
+  ],
+  "construction": {
+   "pattern": "hide + object",
+   "tip_fr": "Hide = cacher. She hid the gift."
+  }
+ },
+ {
+  "id": "vb-hold",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "hold",
+  "past": "held",
+  "pastParticiple": "held",
+  "ing": "holding",
+  "fr": "tenir",
+  "definition_fr": "Avoir dans les mains.",
+  "definition_en": "To have something in your hands.",
+  "examples": [
+   {
+    "en": "He held her hand.",
+    "fr": "Il lui a tenu la main."
+   },
+   {
+    "en": "Hold the rail on the stairs.",
+    "fr": "Tiens la rampe dans l'escalier."
+   }
+  ],
+  "construction": {
+   "pattern": "hold + object",
+   "tip_fr": "Hold = tenir. He held her hand."
+  }
+ },
+ {
+  "id": "vb-lend",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "lend",
+  "past": "lent",
+  "pastParticiple": "lent",
+  "ing": "lending",
+  "fr": "prêter",
+  "definition_fr": "Donner pour un temps.",
+  "definition_en": "To give for a short time.",
+  "examples": [
+   {
+    "en": "I lent him my book.",
+    "fr": "Je lui ai prêté mon livre."
+   },
+   {
+    "en": "Can you lend me your car?",
+    "fr": "Peux-tu me prêter ta voiture ?"
+   }
+  ],
+  "construction": {
+   "pattern": "lend + person + object",
+   "tip_fr": "Lend = prêter (je donne). Borrow = emprunter. I lent him my book."
+  }
+ },
+ {
+  "id": "vb-mean",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "mean",
+  "past": "meant",
+  "pastParticiple": "meant",
+  "ing": "meaning",
+  "fr": "signifier, vouloir dire",
+  "definition_fr": "Avoir un sens.",
+  "definition_en": "To have a certain sense.",
+  "examples": [
+   {
+    "en": "What did she mean?",
+    "fr": "Que voulait-elle dire ?"
+   },
+   {
+    "en": "What does this word mean?",
+    "fr": "Que veut dire ce mot ?"
+   }
+  ],
+  "construction": {
+   "pattern": "mean + object / clause",
+   "tip_fr": "What do you mean? Mean = vouloir dire. What did she mean?"
+  }
+ },
+ {
+  "id": "vb-ring",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "ring",
+  "past": "rang",
+  "pastParticiple": "rung",
+  "ing": "ringing",
+  "fr": "sonner",
+  "definition_fr": "Faire un son de cloche.",
+  "definition_en": "To make the sound of a bell.",
+  "examples": [
+   {
+    "en": "The phone rang twice.",
+    "fr": "Le téléphone a sonné deux fois."
+   },
+   {
+    "en": "The bells ring every hour.",
+    "fr": "Les cloches sonnent toutes les heures."
+   }
+  ],
+  "construction": {
+   "pattern": "ring + object",
+   "tip_fr": "Ring the bell. Le téléphone aussi : The phone rang twice."
+  }
+ },
+ {
+  "id": "vb-rise",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "rise",
+  "past": "rose",
+  "pastParticiple": "risen",
+  "ing": "rising",
+  "fr": "monter, se lever",
+  "definition_fr": "Aller vers le haut.",
+  "definition_en": "To go up.",
+  "examples": [
+   {
+    "en": "The sun rose at six.",
+    "fr": "Le soleil s'est levé à six heures."
+   },
+   {
+    "en": "The sun rises in the east.",
+    "fr": "Le soleil se lève à l'est."
+   }
+  ],
+  "construction": {
+   "pattern": "rise + place",
+   "tip_fr": "Rise est intransitif : The sun rose at six. Différent de raise (lever quelque chose)."
+  }
+ },
+ {
+  "id": "vb-sell",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "sell",
+  "past": "sold",
+  "pastParticiple": "sold",
+  "ing": "selling",
+  "fr": "vendre",
+  "definition_fr": "Donner contre de l'argent.",
+  "definition_en": "To give something for money.",
+  "examples": [
+   {
+    "en": "They sold their old car.",
+    "fr": "Ils ont vendu leur vieille voiture."
+   },
+   {
+    "en": "They sell fresh fish here.",
+    "fr": "Ils vendent du poisson frais ici."
+   }
+  ],
+  "construction": {
+   "pattern": "sell + object (+ to person)",
+   "tip_fr": "Sell = vendre. They sold their old car."
+  }
+ },
+ {
+  "id": "vb-shake",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "shake",
+  "past": "shook",
+  "pastParticiple": "shaken",
+  "ing": "shaking",
+  "fr": "secouer, trembler",
+  "definition_fr": "Bouger rapidement d'un côté à l'autre.",
+  "definition_en": "To move quickly from side to side.",
+  "examples": [
+   {
+    "en": "He shook my hand.",
+    "fr": "Il m'a serré la main."
+   },
+   {
+    "en": "Shake the bottle before use.",
+    "fr": "Agitez la bouteille avant utilisation."
+   }
+  ],
+  "construction": {
+   "pattern": "shake + object",
+   "tip_fr": "Shake = secouer. He shook my hand."
+  }
+ },
+ {
+  "id": "vb-show",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "show",
+  "past": "showed",
+  "pastParticiple": "shown",
+  "ing": "showing",
+  "fr": "montrer",
+  "definition_fr": "Faire voir.",
+  "definition_en": "To let someone see something.",
+  "examples": [
+   {
+    "en": "She showed me the photos.",
+    "fr": "Elle m'a montré les photos."
+   },
+   {
+    "en": "Show me your ticket, please.",
+    "fr": "Montrez-moi votre billet, s'il vous plaît."
+   }
+  ],
+  "construction": {
+   "pattern": "show + person + object",
+   "tip_fr": "Show someone something. She showed me the photos."
+  }
+ },
+ {
+  "id": "vb-steal",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "steal",
+  "past": "stole",
+  "pastParticiple": "stolen",
+  "ing": "stealing",
+  "fr": "voler (dérober)",
+  "definition_fr": "Prendre sans permission.",
+  "definition_en": "To take something without permission.",
+  "examples": [
+   {
+    "en": "Someone stole my bike.",
+    "fr": "Quelqu'un a volé mon vélo."
+   },
+   {
+    "en": "Thieves steal bikes in this area.",
+    "fr": "Des voleurs volent des vélos dans ce quartier."
+   }
+  ],
+  "construction": {
+   "pattern": "steal + object",
+   "tip_fr": "Steal = voler. Someone stole my bike. Rob s'emploie pour un lieu ou une personne."
+  }
+ },
+ {
+  "id": "vb-throw",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "throw",
+  "past": "threw",
+  "pastParticiple": "thrown",
+  "ing": "throwing",
+  "fr": "lancer",
+  "definition_fr": "Envoyer dans les airs.",
+  "definition_en": "To send through the air.",
+  "examples": [
+   {
+    "en": "He threw the ball far.",
+    "fr": "Il a lancé la balle loin."
+   },
+   {
+    "en": "Don't throw rubbish on the ground.",
+    "fr": "Ne jette pas de déchets par terre."
+   }
+  ],
+  "construction": {
+   "pattern": "throw + object (+ adverb)",
+   "tip_fr": "Throw = lancer. He threw the ball far."
+  }
+ },
+ {
+  "id": "vb-understand",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "understand",
+  "past": "understood",
+  "pastParticiple": "understood",
+  "ing": "understanding",
+  "fr": "comprendre",
+  "definition_fr": "Saisir le sens.",
+  "definition_en": "To know the meaning of something.",
+  "examples": [
+   {
+    "en": "I understood the lesson.",
+    "fr": "J'ai compris la leçon."
+   },
+   {
+    "en": "I don't understand this word.",
+    "fr": "Je ne comprends pas ce mot."
+   }
+  ],
+  "construction": {
+   "pattern": "understand + object",
+   "tip_fr": "Understand = comprendre. I understood the lesson."
+  }
+ },
+ {
+  "id": "vb-wake",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "wake",
+  "past": "woke",
+  "pastParticiple": "woken",
+  "ing": "waking",
+  "fr": "se réveiller",
+  "definition_fr": "Arrêter de dormir.",
+  "definition_en": "To stop sleeping.",
+  "examples": [
+   {
+    "en": "She woke early today.",
+    "fr": "Elle s'est réveillée tôt aujourd'hui."
+   },
+   {
+    "en": "Wake me up at six.",
+    "fr": "Réveille-moi à six heures."
+   }
+  ],
+  "construction": {
+   "pattern": "wake + (up)",
+   "tip_fr": "Wake up = se réveiller. She woke early today. Wake someone up = réveiller."
+  }
+ },
+ {
+  "id": "vb-cost",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "cost",
+  "past": "cost",
+  "pastParticiple": "cost",
+  "ing": "costing",
+  "fr": "coûter",
+  "definition_fr": "Avoir un prix.",
+  "definition_en": "To have a price.",
+  "examples": [
+   {
+    "en": "The ticket cost ten euros.",
+    "fr": "Le billet a coûté dix euros."
+   },
+   {
+    "en": "How much does this cost?",
+    "fr": "Combien ça coûte ?"
+   }
+  ],
+  "construction": {
+   "pattern": "cost + amount",
+   "tip_fr": "Cost = coûter. The ticket cost ten euros. Identique à tous les temps."
+  }
+ },
+ {
+  "id": "vb-learn",
+  "level": "B1",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "learn",
+  "past": "learnt/learned",
+  "pastParticiple": "learnt/learned",
+  "ing": "learning",
+  "fr": "apprendre",
+  "definition_fr": "Acquérir des connaissances.",
+  "definition_en": "To gain knowledge or skill.",
+  "examples": [
+   {
+    "en": "I learned a lot last year.",
+    "fr": "J'ai beaucoup appris l'an dernier."
+   },
+   {
+    "en": "I'm learning to cook.",
+    "fr": "J'apprends à cuisiner."
+   }
+  ],
+  "construction": {
+   "pattern": "learn + object / to + verb",
+   "tip_fr": "Learn + objet, ou learn to + verbe. I learned a lot."
+  }
+ },
+ {
+  "id": "vb-overcome",
+  "level": "B2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "overcome",
+  "past": "overcame",
+  "pastParticiple": "overcome",
+  "ing": "overcoming",
+  "fr": "surmonter",
+  "definition_fr": "Réussir à vaincre une difficulté.",
+  "definition_en": "To succeed in dealing with a problem.",
+  "examples": [
+   {
+    "en": "She overcame her fear of flying.",
+    "fr": "Elle a surmonté sa peur de l'avion."
+   },
+   {
+    "en": "You can overcome this problem.",
+    "fr": "Tu peux surmonter ce problème."
+   }
+  ],
+  "construction": {
+   "pattern": "overcome + difficulty",
+   "tip_fr": "Overcome = surmonter. She overcame her fear. Participe passé : overcome."
+  }
+ },
+ {
+  "id": "vb-undertake",
+  "level": "B2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "undertake",
+  "past": "undertook",
+  "pastParticiple": "undertaken",
+  "ing": "undertaking",
+  "fr": "entreprendre",
+  "definition_fr": "S'engager dans une tâche.",
+  "definition_en": "To start and take responsibility for a task.",
+  "examples": [
+   {
+    "en": "They undertook a big project.",
+    "fr": "Ils ont entrepris un grand projet."
+   },
+   {
+    "en": "The company will undertake the repairs.",
+    "fr": "L'entreprise entreprendra les réparations."
+   }
+  ],
+  "construction": {
+   "pattern": "undertake + task",
+   "tip_fr": "Undertake = entreprendre. They undertook a big project."
+  }
+ },
+ {
+  "id": "vb-withdraw",
+  "level": "B2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "withdraw",
+  "past": "withdrew",
+  "pastParticiple": "withdrawn",
+  "ing": "withdrawing",
+  "fr": "retirer",
+  "definition_fr": "Prendre de l'argent de son compte.",
+  "definition_en": "To take money out of an account.",
+  "examples": [
+   {
+    "en": "I withdrew some cash.",
+    "fr": "J'ai retiré un peu d'argent."
+   },
+   {
+    "en": "You can withdraw money at the machine.",
+    "fr": "Vous pouvez retirer de l'argent au distributeur."
+   }
+  ],
+  "construction": {
+   "pattern": "withdraw + money",
+   "tip_fr": "Withdraw = retirer (de l'argent). I withdrew some cash."
+  }
+ },
+ {
+  "id": "vb-forgive",
+  "level": "B2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "forgive",
+  "past": "forgave",
+  "pastParticiple": "forgiven",
+  "ing": "forgiving",
+  "fr": "pardonner",
+  "definition_fr": "Ne plus en vouloir à quelqu'un.",
+  "definition_en": "To stop being angry with someone.",
+  "examples": [
+   {
+    "en": "She forgave him at once.",
+    "fr": "Elle lui a pardonné tout de suite."
+   },
+   {
+    "en": "Please forgive me.",
+    "fr": "Pardonne-moi, s'il te plaît."
+   }
+  ],
+  "construction": {
+   "pattern": "forgive + person",
+   "tip_fr": "Forgive someone. She forgave him at once."
+  }
+ },
+ {
+  "id": "vb-bite",
+  "level": "B2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "bite",
+  "past": "bit",
+  "pastParticiple": "bitten",
+  "ing": "biting",
+  "fr": "mordre",
+  "definition_fr": "Couper avec les dents.",
+  "definition_en": "To cut something with your teeth.",
+  "examples": [
+   {
+    "en": "The dog bit his sleeve.",
+    "fr": "Le chien lui a mordu la manche."
+   },
+   {
+    "en": "My dog never bites.",
+    "fr": "Mon chien ne mord jamais."
+   }
+  ],
+  "construction": {
+   "pattern": "bite + object",
+   "tip_fr": "Bite = mordre. The dog bit his sleeve."
+  }
+ },
+ {
+  "id": "vb-lead",
+  "level": "B2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "lead",
+  "past": "led",
+  "pastParticiple": "led",
+  "ing": "leading",
+  "fr": "mener, diriger",
+  "definition_fr": "Guider un groupe ou aller devant.",
+  "definition_en": "To guide or be in front.",
+  "examples": [
+   {
+    "en": "She led the team to victory.",
+    "fr": "Elle a mené l'équipe à la victoire."
+   },
+   {
+    "en": "This road leads to the beach.",
+    "fr": "Cette route mène à la plage."
+   }
+  ],
+  "construction": {
+   "pattern": "lead + group / to + place",
+   "tip_fr": "Lead the team, lead to a place. She led the team to victory."
+  }
+ },
+ {
+  "id": "vb-bend",
+  "level": "B2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "bend",
+  "past": "bent",
+  "pastParticiple": "bent",
+  "ing": "bending",
+  "fr": "plier",
+  "definition_fr": "Courber quelque chose.",
+  "definition_en": "To curve or fold.",
+  "examples": [
+   {
+    "en": "He bent down to tie his shoe.",
+    "fr": "Il s'est penché pour lacer sa chaussure."
+   },
+   {
+    "en": "Bend your knees.",
+    "fr": "Plie les genoux."
+   }
+  ],
+  "construction": {
+   "pattern": "bend + object / down",
+   "tip_fr": "Bend = plier. He bent down to tie his shoe."
+  }
+ },
+ {
+  "id": "vb-burst",
+  "level": "B2",
+  "topic": "irregular",
+  "type": "irregular",
+  "en": "burst",
+  "past": "burst",
+  "pastParticiple": "burst",
+  "ing": "bursting",
+  "fr": "éclater",
+  "definition_fr": "Exploser soudainement.",
+  "definition_en": "To break open suddenly.",
+  "examples": [
+   {
+    "en": "The balloon burst.",
+    "fr": "Le ballon a éclaté."
+   },
+   {
+    "en": "Be careful, the balloon will burst.",
+    "fr": "Attention, le ballon va éclater."
+   }
+  ],
+  "construction": {
+   "pattern": "burst",
+   "tip_fr": "Burst est identique à tous les temps. The balloon burst. Burst into tears = fondre en larmes."
+  }
+ },
+ {
+  "id": "vb-walk",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "walk",
+  "past": "walked",
+  "pastParticiple": "walked",
+  "ing": "walking",
+  "fr": "marcher",
+  "definition_fr": "Avancer à pied.",
+  "definition_en": "To move on foot.",
+  "examples": [
+   {
+    "en": "They walked along the river.",
+    "fr": "Ils ont marché le long de la rivière."
+   },
+   {
+    "en": "I walk to school every day.",
+    "fr": "Je vais à l'école à pied chaque jour."
+   }
+  ],
+  "construction": {
+   "pattern": "walk + along/to + place",
+   "tip_fr": "Walk + préposition de lieu : They walked along the river."
+  }
+ },
+ {
+  "id": "vb-jump",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "jump",
+  "past": "jumped",
+  "pastParticiple": "jumped",
+  "ing": "jumping",
+  "fr": "sauter",
+  "definition_fr": "S'élever dans les airs.",
+  "definition_en": "To push yourself off the ground.",
+  "examples": [
+   {
+    "en": "The cat jumped on the sofa.",
+    "fr": "Le chat a sauté sur le canapé."
+   },
+   {
+    "en": "The children are jumping on the bed.",
+    "fr": "Les enfants sautent sur le lit."
+   }
+  ],
+  "construction": {
+   "pattern": "jump + on/over + noun",
+   "tip_fr": "Jump on, jump over. The cat jumped on the sofa."
+  }
+ },
+ {
+  "id": "vb-open",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "open",
+  "past": "opened",
+  "pastParticiple": "opened",
+  "ing": "opening",
+  "fr": "ouvrir",
+  "definition_fr": "Rendre accessible.",
+  "definition_en": "To make something not closed.",
+  "examples": [
+   {
+    "en": "She opened the window.",
+    "fr": "Elle a ouvert la fenêtre."
+   },
+   {
+    "en": "The shop opens at nine.",
+    "fr": "Le magasin ouvre à neuf heures."
+   }
+  ],
+  "construction": {
+   "pattern": "open + object",
+   "tip_fr": "Open = ouvrir. She opened the window."
+  }
+ },
+ {
+  "id": "vb-close",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "close",
+  "past": "closed",
+  "pastParticiple": "closed",
+  "ing": "closing",
+  "fr": "fermer",
+  "definition_fr": "Rendre inaccessible.",
+  "definition_en": "To shut something.",
+  "examples": [
+   {
+    "en": "Please close the door.",
+    "fr": "Ferme la porte, s'il te plaît."
+   },
+   {
+    "en": "The bank closes at five.",
+    "fr": "La banque ferme à dix-sept heures."
+   }
+  ],
+  "construction": {
+   "pattern": "close + object",
+   "tip_fr": "Close = fermer. Please close the door."
+  }
+ },
+ {
+  "id": "vb-play",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "play",
+  "past": "played",
+  "pastParticiple": "played",
+  "ing": "playing",
+  "fr": "jouer",
+  "definition_fr": "S'amuser ou faire du sport.",
+  "definition_en": "To take part in a game or fun activity.",
+  "examples": [
+   {
+    "en": "The children played outside.",
+    "fr": "Les enfants ont joué dehors."
+   },
+   {
+    "en": "He plays tennis on Sundays.",
+    "fr": "Il joue au tennis le dimanche."
+   }
+  ],
+  "construction": {
+   "pattern": "play + sport / game",
+   "tip_fr": "Play + sport ou jeu, sans « the ». Pour un instrument : play the piano."
+  }
+ },
+ {
+  "id": "vb-work",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "work",
+  "past": "worked",
+  "pastParticiple": "worked",
+  "ing": "working",
+  "fr": "travailler",
+  "definition_fr": "Faire une activité professionnelle.",
+  "definition_en": "To do a job or an activity.",
+  "examples": [
+   {
+    "en": "He worked all weekend.",
+    "fr": "Il a travaillé tout le week-end."
+   },
+   {
+    "en": "She works in a hospital.",
+    "fr": "Elle travaille dans un hôpital."
+   }
+  ],
+  "construction": {
+   "pattern": "work + in/at + place",
+   "tip_fr": "Work in a bank, work at home. He worked all weekend."
+  }
+ },
+ {
+  "id": "vb-watch",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "watch",
+  "past": "watched",
+  "pastParticiple": "watched",
+  "ing": "watching",
+  "fr": "regarder",
+  "definition_fr": "Observer avec attention.",
+  "definition_en": "To look at something carefully.",
+  "examples": [
+   {
+    "en": "We watched a film last night.",
+    "fr": "Nous avons regardé un film hier soir."
+   },
+   {
+    "en": "I'm watching a series.",
+    "fr": "Je regarde une série."
+   }
+  ],
+  "construction": {
+   "pattern": "watch + object",
+   "tip_fr": "Watch = regarder quelque chose qui bouge. We watched a film."
+  }
+ },
+ {
+  "id": "vb-listen",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "listen",
+  "past": "listened",
+  "pastParticiple": "listened",
+  "ing": "listening",
+  "fr": "écouter",
+  "definition_fr": "Faire attention aux sons.",
+  "definition_en": "To pay attention to sounds.",
+  "examples": [
+   {
+    "en": "She listened to the radio.",
+    "fr": "Elle a écouté la radio."
+   },
+   {
+    "en": "Listen to this song.",
+    "fr": "Écoute cette chanson."
+   }
+  ],
+  "construction": {
+   "pattern": "listen + to + noun",
+   "tip_fr": "Devant un objet, listen se construit avec « to » : She listened to the radio."
+  }
+ },
+ {
+  "id": "vb-cook",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "cook",
+  "past": "cooked",
+  "pastParticiple": "cooked",
+  "ing": "cooking",
+  "fr": "cuisiner",
+  "definition_fr": "Préparer à manger.",
+  "definition_en": "To prepare food with heat.",
+  "examples": [
+   {
+    "en": "He cooked pasta for us.",
+    "fr": "Il a cuisiné des pâtes pour nous."
+   },
+   {
+    "en": "My dad cooks on Sundays.",
+    "fr": "Mon père cuisine le dimanche."
+   }
+  ],
+  "construction": {
+   "pattern": "cook + food",
+   "tip_fr": "Cook = cuisiner. He cooked pasta for us."
+  }
+ },
+ {
+  "id": "vb-clean",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "clean",
+  "past": "cleaned",
+  "pastParticiple": "cleaned",
+  "ing": "cleaning",
+  "fr": "nettoyer",
+  "definition_fr": "Rendre propre.",
+  "definition_en": "To make something free from dirt.",
+  "examples": [
+   {
+    "en": "I cleaned the kitchen.",
+    "fr": "J'ai nettoyé la cuisine."
+   },
+   {
+    "en": "I clean my room every week.",
+    "fr": "Je nettoie ma chambre chaque semaine."
+   }
+  ],
+  "construction": {
+   "pattern": "clean + object",
+   "tip_fr": "Clean = nettoyer. I cleaned the kitchen."
+  }
+ },
+ {
+  "id": "vb-wash",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "wash",
+  "past": "washed",
+  "pastParticiple": "washed",
+  "ing": "washing",
+  "fr": "laver",
+  "definition_fr": "Nettoyer avec de l'eau.",
+  "definition_en": "To clean with water.",
+  "examples": [
+   {
+    "en": "She washed the dishes.",
+    "fr": "Elle a lavé la vaisselle."
+   },
+   {
+    "en": "Wash your hands before eating.",
+    "fr": "Lave-toi les mains avant de manger."
+   }
+  ],
+  "construction": {
+   "pattern": "wash + object",
+   "tip_fr": "Wash = laver. She washed the dishes."
+  }
+ },
+ {
+  "id": "vb-call",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "call",
+  "past": "called",
+  "pastParticiple": "called",
+  "ing": "calling",
+  "fr": "appeler",
+  "definition_fr": "Téléphoner à quelqu'un.",
+  "definition_en": "To phone someone.",
+  "examples": [
+   {
+    "en": "He called his mother.",
+    "fr": "Il a appelé sa mère."
+   },
+   {
+    "en": "I'll call you tonight.",
+    "fr": "Je t'appellerai ce soir."
+   }
+  ],
+  "construction": {
+   "pattern": "call + person",
+   "tip_fr": "Call someone (sans préposition). He called his mother."
+  }
+ },
+ {
+  "id": "vb-ask",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "ask",
+  "past": "asked",
+  "pastParticiple": "asked",
+  "ing": "asking",
+  "fr": "demander",
+  "definition_fr": "Poser une question.",
+  "definition_en": "To put a question to someone.",
+  "examples": [
+   {
+    "en": "I asked for the bill.",
+    "fr": "J'ai demandé l'addition."
+   },
+   {
+    "en": "Ask the teacher for help.",
+    "fr": "Demande de l'aide au professeur."
+   }
+  ],
+  "construction": {
+   "pattern": "ask + person + question / ask for",
+   "tip_fr": "Ask for something = demander quelque chose. I asked for the bill."
+  }
+ },
+ {
+  "id": "vb-answer",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "answer",
+  "past": "answered",
+  "pastParticiple": "answered",
+  "ing": "answering",
+  "fr": "répondre",
+  "definition_fr": "Donner une réponse.",
+  "definition_en": "To reply to a question.",
+  "examples": [
+   {
+    "en": "She answered the phone.",
+    "fr": "Elle a répondu au téléphone."
+   },
+   {
+    "en": "Please answer the question.",
+    "fr": "Réponds à la question, s'il te plaît."
+   }
+  ],
+  "construction": {
+   "pattern": "answer + object",
+   "tip_fr": "Answer + objet, sans « to » : She answered the phone."
+  }
+ },
+ {
+  "id": "vb-help",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "help",
+  "past": "helped",
+  "pastParticiple": "helped",
+  "ing": "helping",
+  "fr": "aider",
+  "definition_fr": "Rendre service.",
+  "definition_en": "To make something easier for someone.",
+  "examples": [
+   {
+    "en": "He helped me with my bags.",
+    "fr": "Il m'a aidé avec mes sacs."
+   },
+   {
+    "en": "Can you help me?",
+    "fr": "Peux-tu m'aider ?"
+   }
+  ],
+  "construction": {
+   "pattern": "help + person (+ with noun)",
+   "tip_fr": "Help someone with something. He helped me with my bags."
+  }
+ },
+ {
+  "id": "vb-dance",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "dance",
+  "past": "danced",
+  "pastParticiple": "danced",
+  "ing": "dancing",
+  "fr": "danser",
+  "definition_fr": "Bouger au rythme de la musique.",
+  "definition_en": "To move to music.",
+  "examples": [
+   {
+    "en": "They danced all night.",
+    "fr": "Ils ont dansé toute la nuit."
+   },
+   {
+    "en": "They love dancing.",
+    "fr": "Ils adorent danser."
+   }
+  ],
+  "construction": {
+   "pattern": "dance + (with person)",
+   "tip_fr": "Dance est intransitif. They danced all night."
+  }
+ },
+ {
+  "id": "vb-want",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "want",
+  "past": "wanted",
+  "pastParticiple": "wanted",
+  "ing": "wanting",
+  "fr": "vouloir",
+  "definition_fr": "Désirer.",
+  "definition_en": "To wish to have or do something.",
+  "examples": [
+   {
+    "en": "I wanted a coffee.",
+    "fr": "Je voulais un café."
+   },
+   {
+    "en": "I want to learn English.",
+    "fr": "Je veux apprendre l'anglais."
+   }
+  ],
+  "construction": {
+   "pattern": "want + noun / to + verb",
+   "tip_fr": "Want + nom, ou want to + verbe. I wanted a coffee."
+  }
+ },
+ {
+  "id": "vb-like",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "like",
+  "past": "liked",
+  "pastParticiple": "liked",
+  "ing": "liking",
+  "fr": "aimer bien",
+  "definition_fr": "Trouver agréable.",
+  "definition_en": "To find something pleasant.",
+  "examples": [
+   {
+    "en": "She liked the film.",
+    "fr": "Elle a aimé le film."
+   },
+   {
+    "en": "I like your jacket.",
+    "fr": "J'aime bien ta veste."
+   }
+  ],
+  "construction": {
+   "pattern": "like + noun / -ing",
+   "tip_fr": "Like + nom ou -ing. She liked the film."
+  }
+ },
+ {
+  "id": "vb-live",
+  "level": "A1",
+  "topic": "action",
+  "type": "regular",
+  "en": "live",
+  "past": "lived",
+  "pastParticiple": "lived",
+  "ing": "living",
+  "fr": "habiter, vivre",
+  "definition_fr": "Avoir sa maison quelque part.",
+  "definition_en": "To have your home in a place.",
+  "examples": [
+   {
+    "en": "We lived in London.",
+    "fr": "Nous avons habité à Londres."
+   },
+   {
+    "en": "I live in Paris.",
+    "fr": "J'habite à Paris."
+   }
+  ],
+  "construction": {
+   "pattern": "live + in + place",
+   "tip_fr": "Live in + ville ou pays. We lived in London."
+  }
+ },
+ {
+  "id": "vb-climb",
+  "level": "A2",
+  "topic": "action",
+  "type": "regular",
+  "en": "climb",
+  "past": "climbed",
+  "pastParticiple": "climbed",
+  "ing": "climbing",
+  "fr": "grimper",
+  "definition_fr": "Monter en s'aidant des mains et des pieds.",
+  "definition_en": "To go up using hands and feet.",
+  "examples": [
+   {
+    "en": "They climbed the mountain.",
+    "fr": "Ils ont escaladé la montagne."
+   },
+   {
+    "en": "We are climbing the hill.",
+    "fr": "Nous gravissons la colline."
+   }
+  ],
+  "construction": {
+   "pattern": "climb + object",
+   "tip_fr": "Climb = grimper. They climbed the mountain."
+  }
+ },
+ {
+  "id": "vb-push",
+  "level": "A2",
+  "topic": "action",
+  "type": "regular",
+  "en": "push",
+  "past": "pushed",
+  "pastParticiple": "pushed",
+  "ing": "pushing",
+  "fr": "pousser",
+  "definition_fr": "Appuyer pour faire bouger.",
+  "definition_en": "To press something to move it away.",
+  "examples": [
+   {
+    "en": "He pushed the door open.",
+    "fr": "Il a poussé la porte pour l'ouvrir."
+   },
+   {
+    "en": "Push the button once.",
+    "fr": "Appuie une fois sur le bouton."
+   }
+  ],
+  "construction": {
+   "pattern": "push + object",
+   "tip_fr": "Push = pousser. He pushed the door open."
+  }
+ },
+ {
+  "id": "vb-pull",
+  "level": "A2",
+  "topic": "action",
+  "type": "regular",
+  "en": "pull",
+  "past": "pulled",
+  "pastParticiple": "pulled",
+  "ing": "pulling",
+  "fr": "tirer",
+  "definition_fr": "Amener vers soi.",
+  "definition_en": "To move something towards you.",
+  "examples": [
+   {
+    "en": "She pulled the handle.",
+    "fr": "Elle a tiré la poignée."
+   },
+   {
+    "en": "Pull the door, don't push it.",
+    "fr": "Tire la porte, ne la pousse pas."
+   }
+  ],
+  "construction": {
+   "pattern": "pull + object",
+   "tip_fr": "Pull = tirer. She pulled the handle."
+  }
+ },
+ {
+  "id": "vb-carry",
+  "level": "A2",
+  "topic": "action",
+  "type": "regular",
+  "en": "carry",
+  "past": "carried",
+  "pastParticiple": "carried",
+  "ing": "carrying",
+  "fr": "porter (un objet)",
+  "definition_fr": "Tenir et transporter.",
+  "definition_en": "To hold and move something.",
+  "examples": [
+   {
+    "en": "He carried the boxes upstairs.",
+    "fr": "Il a porté les cartons à l'étage."
+   },
+   {
+    "en": "Can you carry this bag?",
+    "fr": "Peux-tu porter ce sac ?"
+   }
+  ],
+  "construction": {
+   "pattern": "carry + object",
+   "tip_fr": "Carry = porter dans les bras. He carried the boxes upstairs."
+  }
+ },
+ {
+  "id": "vb-visit",
+  "level": "A2",
+  "topic": "action",
+  "type": "regular",
+  "en": "visit",
+  "past": "visited",
+  "pastParticiple": "visited",
+  "ing": "visiting",
+  "fr": "rendre visite, visiter",
+  "definition_fr": "Aller voir une personne ou un lieu.",
+  "definition_en": "To go to see a person or place.",
+  "examples": [
+   {
+    "en": "We visited our grandparents.",
+    "fr": "Nous avons rendu visite à nos grands-parents."
+   },
+   {
+    "en": "I want to visit Japan.",
+    "fr": "Je veux visiter le Japon."
+   }
+  ],
+  "construction": {
+   "pattern": "visit + place/person",
+   "tip_fr": "Visit + lieu ou personne. We visited our grandparents."
+  }
+ },
+ {
+  "id": "vb-arrive",
+  "level": "A2",
+  "topic": "action",
+  "type": "regular",
+  "en": "arrive",
+  "past": "arrived",
+  "pastParticiple": "arrived",
+  "ing": "arriving",
+  "fr": "arriver",
+  "definition_fr": "Atteindre sa destination.",
+  "definition_en": "To reach a place.",
+  "examples": [
+   {
+    "en": "The train arrived on time.",
+    "fr": "Le train est arrivé à l'heure."
+   },
+   {
+    "en": "We arrive at noon.",
+    "fr": "Nous arrivons à midi."
+   }
+  ],
+  "construction": {
+   "pattern": "arrive + at/in + place",
+   "tip_fr": "Arrive at (lieu précis), arrive in (ville, pays). The train arrived on time."
+  }
+ },
+ {
+  "id": "vb-travel",
+  "level": "A2",
+  "topic": "action",
+  "type": "regular",
+  "en": "travel",
+  "past": "travelled",
+  "pastParticiple": "travelled",
+  "ing": "travelling",
+  "fr": "voyager",
+  "definition_fr": "Aller d'un lieu à un autre.",
+  "definition_en": "To go from one place to another.",
+  "examples": [
+   {
+    "en": "She travelled across Asia.",
+    "fr": "Elle a voyagé à travers l'Asie."
+   },
+   {
+    "en": "I love travelling by train.",
+    "fr": "J'adore voyager en train."
+   }
+  ],
+  "construction": {
+   "pattern": "travel + place",
+   "tip_fr": "Travel est surtout intransitif. She travelled across Asia."
+  }
+ },
+ {
+  "id": "vb-decide",
+  "level": "A2",
+  "topic": "action",
+  "type": "regular",
+  "en": "decide",
+  "past": "decided",
+  "pastParticiple": "decided",
+  "ing": "deciding",
+  "fr": "décider",
+  "definition_fr": "Faire un choix.",
+  "definition_en": "To make a choice.",
+  "examples": [
+   {
+    "en": "We decided to stay home.",
+    "fr": "Nous avons décidé de rester à la maison."
+   },
+   {
+    "en": "I can't decide what to wear.",
+    "fr": "Je n'arrive pas à décider quoi porter."
+   }
+  ],
+  "construction": {
+   "pattern": "decide + to + verb",
+   "tip_fr": "Decide + to + verbe : We decided to stay home."
+  }
+ },
+ {
+  "id": "vb-wait",
+  "level": "A2",
+  "topic": "action",
+  "type": "regular",
+  "en": "wait",
+  "past": "waited",
+  "pastParticiple": "waited",
+  "ing": "waiting",
+  "fr": "attendre",
+  "definition_fr": "Rester jusqu'à ce que quelque chose arrive.",
+  "definition_en": "To stay until something happens.",
+  "examples": [
+   {
+    "en": "I waited for an hour.",
+    "fr": "J'ai attendu pendant une heure."
+   },
+   {
+    "en": "Wait here, please.",
+    "fr": "Attends ici, s'il te plaît."
+   }
+  ],
+  "construction": {
+   "pattern": "wait + for + noun",
+   "tip_fr": "Wait se construit avec « for ». I waited for an hour."
+  }
+ },
+ {
+  "id": "vb-stop",
+  "level": "A2",
+  "topic": "action",
+  "type": "regular",
+  "en": "stop",
+  "past": "stopped",
+  "pastParticiple": "stopped",
+  "ing": "stopping",
+  "fr": "arrêter",
+  "definition_fr": "Cesser de bouger ou de faire.",
+  "definition_en": "To end a movement or action.",
+  "examples": [
+   {
+    "en": "The bus stopped suddenly.",
+    "fr": "Le bus s'est arrêté brusquement."
+   },
+   {
+    "en": "Stop talking, please.",
+    "fr": "Arrête de parler, s'il te plaît."
+   }
+  ],
+  "construction": {
+   "pattern": "stop + object / -ing",
+   "tip_fr": "Stop + -ing = arrêter de. Stop to + verbe = s'arrêter pour. The bus stopped."
+  }
+ },
+ {
+  "id": "vb-try",
+  "level": "A2",
+  "topic": "action",
+  "type": "regular",
+  "en": "try",
+  "past": "tried",
+  "pastParticiple": "tried",
+  "ing": "trying",
+  "fr": "essayer",
+  "definition_fr": "Faire un effort pour réussir.",
+  "definition_en": "To make an effort to do something.",
+  "examples": [
+   {
+    "en": "She tried the soup.",
+    "fr": "Elle a goûté la soupe."
+   },
+   {
+    "en": "Try this cake.",
+    "fr": "Goûte ce gâteau."
+   }
+  ],
+  "construction": {
+   "pattern": "try + object / to + verb",
+   "tip_fr": "Try = essayer, goûter. She tried the soup."
+  }
+ },
+ {
+  "id": "vb-use",
+  "level": "A2",
+  "topic": "action",
+  "type": "regular",
+  "en": "use",
+  "past": "used",
+  "pastParticiple": "used",
+  "ing": "using",
+  "fr": "utiliser",
+  "definition_fr": "Se servir de quelque chose.",
+  "definition_en": "To employ something for a purpose.",
+  "examples": [
+   {
+    "en": "He used a map.",
+    "fr": "Il s'est servi d'une carte."
+   },
+   {
+    "en": "You can use my phone.",
+    "fr": "Tu peux utiliser mon téléphone."
+   }
+  ],
+  "construction": {
+   "pattern": "use + object",
+   "tip_fr": "Use = utiliser. He used a map."
+  }
+ },
+ {
+  "id": "vb-love",
+  "level": "A2",
+  "topic": "action",
+  "type": "regular",
+  "en": "love",
+  "past": "loved",
+  "pastParticiple": "loved",
+  "ing": "loving",
+  "fr": "adorer",
+  "definition_fr": "Aimer profondément.",
+  "definition_en": "To like something very much.",
+  "examples": [
+   {
+    "en": "They loved the beach.",
+    "fr": "Ils ont adoré la plage."
+   },
+   {
+    "en": "I love this song.",
+    "fr": "J'adore cette chanson."
+   }
+  ],
+  "construction": {
+   "pattern": "love + noun / -ing",
+   "tip_fr": "Love est plus fort que like. They loved the beach."
+  }
+ },
+ {
+  "id": "vb-need",
+  "level": "A2",
+  "topic": "action",
+  "type": "regular",
+  "en": "need",
+  "past": "needed",
+  "pastParticiple": "needed",
+  "ing": "needing",
+  "fr": "avoir besoin de",
+  "definition_fr": "Devoir avoir quelque chose.",
+  "definition_en": "To require something.",
+  "examples": [
+   {
+    "en": "I needed a rest.",
+    "fr": "J'avais besoin de repos."
+   },
+   {
+    "en": "I need a new phone.",
+    "fr": "J'ai besoin d'un nouveau téléphone."
+   }
+  ],
+  "construction": {
+   "pattern": "need + noun / to + verb",
+   "tip_fr": "Need + nom, ou need to + verbe. I needed a rest."
+  }
+ },
+ {
+  "id": "vb-start",
+  "level": "A2",
+  "topic": "action",
+  "type": "regular",
+  "en": "start",
+  "past": "started",
+  "pastParticiple": "started",
+  "ing": "starting",
+  "fr": "démarrer, commencer",
+  "definition_fr": "Mettre en marche.",
+  "definition_en": "To begin or switch on.",
+  "examples": [
+   {
+    "en": "The engine started at once.",
+    "fr": "Le moteur a démarré tout de suite."
+   },
+   {
+    "en": "The film starts at eight.",
+    "fr": "Le film commence à vingt heures."
+   }
+  ],
+  "construction": {
+   "pattern": "start + noun / -ing",
+   "tip_fr": "Start = commencer, démarrer. The engine started at once."
+  }
+ },
+ {
+  "id": "vb-finish",
+  "level": "A2",
+  "topic": "action",
+  "type": "regular",
+  "en": "finish",
+  "past": "finished",
+  "pastParticiple": "finished",
+  "ing": "finishing",
+  "fr": "finir",
+  "definition_fr": "Terminer.",
+  "definition_en": "To complete something.",
+  "examples": [
+   {
+    "en": "I finished my work at six.",
+    "fr": "J'ai fini mon travail à six heures."
+   },
+   {
+    "en": "Finish your homework first.",
+    "fr": "Finis d'abord tes devoirs."
+   }
+  ],
+  "construction": {
+   "pattern": "finish + noun / -ing",
+   "tip_fr": "Finish + -ing, pas finish to. I finished my work at six."
+  }
+ },
+ {
+  "id": "vb-improve",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "improve",
+  "past": "improved",
+  "pastParticiple": "improved",
+  "ing": "improving",
+  "fr": "améliorer",
+  "definition_fr": "Rendre meilleur.",
+  "definition_en": "To make or become better.",
+  "examples": [
+   {
+    "en": "His English improved quickly.",
+    "fr": "Son anglais s'est vite amélioré."
+   },
+   {
+    "en": "I want to improve my English.",
+    "fr": "Je veux améliorer mon anglais."
+   }
+  ],
+  "construction": {
+   "pattern": "improve + noun",
+   "tip_fr": "Improve = améliorer, aussi intransitif. His English improved quickly."
+  }
+ },
+ {
+  "id": "vb-create",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "create",
+  "past": "created",
+  "pastParticiple": "created",
+  "ing": "creating",
+  "fr": "créer",
+  "definition_fr": "Faire exister quelque chose de nouveau.",
+  "definition_en": "To make something new.",
+  "examples": [
+   {
+    "en": "She created a beautiful garden.",
+    "fr": "Elle a créé un magnifique jardin."
+   },
+   {
+    "en": "Artists create beautiful things.",
+    "fr": "Les artistes créent de belles choses."
+   }
+  ],
+  "construction": {
+   "pattern": "create + object",
+   "tip_fr": "Create = créer. She created a beautiful garden."
+  }
+ },
+ {
+  "id": "vb-repair",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "repair",
+  "past": "repaired",
+  "pastParticiple": "repaired",
+  "ing": "repairing",
+  "fr": "réparer",
+  "definition_fr": "Remettre en état.",
+  "definition_en": "To fix something broken.",
+  "examples": [
+   {
+    "en": "He repaired the bike.",
+    "fr": "Il a réparé le vélo."
+   },
+   {
+    "en": "Can you repair this watch?",
+    "fr": "Peux-tu réparer cette montre ?"
+   }
+  ],
+  "construction": {
+   "pattern": "repair + object",
+   "tip_fr": "Repair = réparer. He repaired the bike."
+  }
+ },
+ {
+  "id": "vb-practise",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "practise",
+  "past": "practised",
+  "pastParticiple": "practised",
+  "ing": "practising",
+  "fr": "s'entraîner",
+  "definition_fr": "Répéter pour s'améliorer.",
+  "definition_en": "To repeat something to get better.",
+  "examples": [
+   {
+    "en": "I practised the piano daily.",
+    "fr": "Je me suis entraîné au piano chaque jour."
+   },
+   {
+    "en": "You must practise every day.",
+    "fr": "Tu dois t'entraîner tous les jours."
+   }
+  ],
+  "construction": {
+   "pattern": "practise + noun / -ing",
+   "tip_fr": "Practise (UK) = s'entraîner. En américain : practice. I practised the piano."
+  }
+ },
+ {
+  "id": "vb-borrow",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "borrow",
+  "past": "borrowed",
+  "pastParticiple": "borrowed",
+  "ing": "borrowing",
+  "fr": "emprunter",
+  "definition_fr": "Prendre pour rendre plus tard.",
+  "definition_en": "To take and give back later.",
+  "examples": [
+   {
+    "en": "She borrowed my umbrella.",
+    "fr": "Elle a emprunté mon parapluie."
+   },
+   {
+    "en": "Can I borrow your book?",
+    "fr": "Puis-je emprunter ton livre ?"
+   }
+  ],
+  "construction": {
+   "pattern": "borrow + object (+ from person)",
+   "tip_fr": "Borrow from someone. She borrowed my umbrella."
+  }
+ },
+ {
+  "id": "vb-explain",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "explain",
+  "past": "explained",
+  "pastParticiple": "explained",
+  "ing": "explaining",
+  "fr": "expliquer",
+  "definition_fr": "Rendre clair.",
+  "definition_en": "To make something clear.",
+  "examples": [
+   {
+    "en": "The teacher explained the rule.",
+    "fr": "Le professeur a expliqué la règle."
+   },
+   {
+    "en": "Can you explain this to me?",
+    "fr": "Peux-tu m'expliquer ça ?"
+   }
+  ],
+  "construction": {
+   "pattern": "explain + noun (+ to person)",
+   "tip_fr": "Explain something to someone, jamais « explain me ». The teacher explained the rule."
+  }
+ },
+ {
+  "id": "vb-prepare",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "prepare",
+  "past": "prepared",
+  "pastParticiple": "prepared",
+  "ing": "preparing",
+  "fr": "préparer",
+  "definition_fr": "Mettre en état de servir.",
+  "definition_en": "To get ready.",
+  "examples": [
+   {
+    "en": "We prepared a surprise party.",
+    "fr": "Nous avons préparé une fête surprise."
+   },
+   {
+    "en": "I'm preparing dinner.",
+    "fr": "Je prépare le dîner."
+   }
+  ],
+  "construction": {
+   "pattern": "prepare + object",
+   "tip_fr": "Prepare = préparer. We prepared a surprise party."
+  }
+ },
+ {
+  "id": "vb-invite",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "invite",
+  "past": "invited",
+  "pastParticiple": "invited",
+  "ing": "inviting",
+  "fr": "inviter",
+  "definition_fr": "Demander de venir.",
+  "definition_en": "To ask someone to come.",
+  "examples": [
+   {
+    "en": "They invited us to dinner.",
+    "fr": "Ils nous ont invités à dîner."
+   },
+   {
+    "en": "I will invite all my friends.",
+    "fr": "J'inviterai tous mes amis."
+   }
+  ],
+  "construction": {
+   "pattern": "invite + person (+ to + noun)",
+   "tip_fr": "Invite someone to something. They invited us to dinner."
+  }
+ },
+ {
+  "id": "vb-share",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "share",
+  "past": "shared",
+  "pastParticiple": "shared",
+  "ing": "sharing",
+  "fr": "partager",
+  "definition_fr": "Donner une partie.",
+  "definition_en": "To let others have part of something.",
+  "examples": [
+   {
+    "en": "We shared a pizza.",
+    "fr": "Nous avons partagé une pizza."
+   },
+   {
+    "en": "Let's share the cost.",
+    "fr": "Partageons les frais."
+   }
+  ],
+  "construction": {
+   "pattern": "share + object",
+   "tip_fr": "Share = partager. We shared a pizza."
+  }
+ },
+ {
+  "id": "vb-follow",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "follow",
+  "past": "followed",
+  "pastParticiple": "followed",
+  "ing": "following",
+  "fr": "suivre",
+  "definition_fr": "Aller derrière.",
+  "definition_en": "To go behind or after.",
+  "examples": [
+   {
+    "en": "The dog followed me home.",
+    "fr": "Le chien m'a suivi jusqu'à la maison."
+   },
+   {
+    "en": "Follow me, please.",
+    "fr": "Suivez-moi, s'il vous plaît."
+   }
+  ],
+  "construction": {
+   "pattern": "follow + object",
+   "tip_fr": "Follow = suivre. The dog followed me home."
+  }
+ },
+ {
+  "id": "vb-remember",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "remember",
+  "past": "remembered",
+  "pastParticiple": "remembered",
+  "ing": "remembering",
+  "fr": "se rappeler",
+  "definition_fr": "Garder en mémoire.",
+  "definition_en": "To keep something in your mind.",
+  "examples": [
+   {
+    "en": "I remembered his birthday.",
+    "fr": "Je me suis rappelé son anniversaire."
+   },
+   {
+    "en": "Do you remember my name?",
+    "fr": "Te souviens-tu de mon nom ?"
+   }
+  ],
+  "construction": {
+   "pattern": "remember + object / -ing",
+   "tip_fr": "Remember = se rappeler. I remembered his birthday."
+  }
+ },
+ {
+  "id": "vb-protect",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "protect",
+  "past": "protected",
+  "pastParticiple": "protected",
+  "ing": "protecting",
+  "fr": "protéger",
+  "definition_fr": "Garder en sécurité.",
+  "definition_en": "To keep safe from harm.",
+  "examples": [
+   {
+    "en": "The coat protected him from the rain.",
+    "fr": "Le manteau l'a protégé de la pluie."
+   },
+   {
+    "en": "Trees protect the soil.",
+    "fr": "Les arbres protègent le sol."
+   }
+  ],
+  "construction": {
+   "pattern": "protect + object + from + noun",
+   "tip_fr": "Protect something from something. The coat protected him."
+  }
+ },
+ {
+  "id": "vb-compare",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "compare",
+  "past": "compared",
+  "pastParticiple": "compared",
+  "ing": "comparing",
+  "fr": "comparer",
+  "definition_fr": "Chercher les différences.",
+  "definition_en": "To look at how things are alike or different.",
+  "examples": [
+   {
+    "en": "We compared the two phones.",
+    "fr": "Nous avons comparé les deux téléphones."
+   },
+   {
+    "en": "Compare the prices before you buy.",
+    "fr": "Compare les prix avant d'acheter."
+   }
+  ],
+  "construction": {
+   "pattern": "compare + object + with/to + object",
+   "tip_fr": "Compare A with B. We compared the two phones."
+  }
+ },
+ {
+  "id": "vb-achieve",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "achieve",
+  "past": "achieved",
+  "pastParticiple": "achieved",
+  "ing": "achieving",
+  "fr": "réussir, atteindre",
+  "definition_fr": "Arriver à un but.",
+  "definition_en": "To succeed in reaching a goal.",
+  "examples": [
+   {
+    "en": "She achieved her dream.",
+    "fr": "Elle a réalisé son rêve."
+   },
+   {
+    "en": "You can achieve your goals.",
+    "fr": "Tu peux atteindre tes objectifs."
+   }
+  ],
+  "construction": {
+   "pattern": "achieve + goal",
+   "tip_fr": "Achieve = réaliser, atteindre. She achieved her dream."
+  }
+ },
+ {
+  "id": "vb-manage",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "manage",
+  "past": "managed",
+  "pastParticiple": "managed",
+  "ing": "managing",
+  "fr": "réussir à, gérer",
+  "definition_fr": "Arriver à faire malgré la difficulté.",
+  "definition_en": "To succeed in doing something difficult.",
+  "examples": [
+   {
+    "en": "He managed to fix it.",
+    "fr": "Il a réussi à le réparer."
+   },
+   {
+    "en": "Can you manage on your own?",
+    "fr": "Tu t'en sors tout seul ?"
+   }
+  ],
+  "construction": {
+   "pattern": "manage + to + verb",
+   "tip_fr": "Manage to = réussir à. He managed to fix it."
+  }
+ },
+ {
+  "id": "vb-suggest",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "suggest",
+  "past": "suggested",
+  "pastParticiple": "suggested",
+  "ing": "suggesting",
+  "fr": "suggérer",
+  "definition_fr": "Proposer une idée.",
+  "definition_en": "To offer an idea.",
+  "examples": [
+   {
+    "en": "I suggested a walk.",
+    "fr": "J'ai suggéré une promenade."
+   },
+   {
+    "en": "What do you suggest?",
+    "fr": "Que suggères-tu ?"
+   }
+  ],
+  "construction": {
+   "pattern": "suggest + noun / -ing",
+   "tip_fr": "Suggest + nom ou -ing, pas « suggest to ». I suggested a walk."
+  }
+ },
+ {
+  "id": "vb-join",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "join",
+  "past": "joined",
+  "pastParticiple": "joined",
+  "ing": "joining",
+  "fr": "rejoindre",
+  "definition_fr": "Se mettre avec d'autres.",
+  "definition_en": "To become part of a group.",
+  "examples": [
+   {
+    "en": "She joined a book club.",
+    "fr": "Elle a rejoint un club de lecture."
+   },
+   {
+    "en": "Join us for lunch.",
+    "fr": "Joins-toi à nous pour le déjeuner."
+   }
+  ],
+  "construction": {
+   "pattern": "join + group",
+   "tip_fr": "Join se construit sans préposition. She joined a book club."
+  }
+ },
+ {
+  "id": "vb-enjoy",
+  "level": "B1",
+  "topic": "action",
+  "type": "regular",
+  "en": "enjoy",
+  "past": "enjoyed",
+  "pastParticiple": "enjoyed",
+  "ing": "enjoying",
+  "fr": "apprécier",
+  "definition_fr": "Prendre plaisir.",
+  "definition_en": "To get pleasure from something.",
+  "examples": [
+   {
+    "en": "We enjoyed the concert.",
+    "fr": "Nous avons apprécié le concert."
+   },
+   {
+    "en": "Enjoy your meal!",
+    "fr": "Bon appétit !"
+   }
+  ],
+  "construction": {
+   "pattern": "enjoy + noun / -ing",
+   "tip_fr": "Enjoy + nom ou -ing. We enjoyed the concert. Jamais enjoy to."
+  }
+ },
+ {
+  "id": "vb-struggle",
+  "level": "B2",
+  "topic": "action",
+  "type": "regular",
+  "en": "struggle",
+  "past": "struggled",
+  "pastParticiple": "struggled",
+  "ing": "struggling",
+  "fr": "peiner, lutter",
+  "definition_fr": "Avoir beaucoup de mal.",
+  "definition_en": "To try hard against difficulty.",
+  "examples": [
+   {
+    "en": "He struggled with the heavy bag.",
+    "fr": "Il a peiné avec le sac lourd."
+   },
+   {
+    "en": "Many students struggle with grammar.",
+    "fr": "Beaucoup d'étudiants peinent avec la grammaire."
+   }
+  ],
+  "construction": {
+   "pattern": "struggle + with + noun",
+   "tip_fr": "Struggle with something = peiner. He struggled with the heavy bag."
+  }
+ },
+ {
+  "id": "vb-postpone",
+  "level": "B2",
+  "topic": "action",
+  "type": "regular",
+  "en": "postpone",
+  "past": "postponed",
+  "pastParticiple": "postponed",
+  "ing": "postponing",
+  "fr": "reporter",
+  "definition_fr": "Remettre à plus tard.",
+  "definition_en": "To move to a later time.",
+  "examples": [
+   {
+    "en": "They postponed the meeting.",
+    "fr": "Ils ont reporté la réunion."
+   },
+   {
+    "en": "We have to postpone the trip.",
+    "fr": "Nous devons reporter le voyage."
+   }
+  ],
+  "construction": {
+   "pattern": "postpone + noun / -ing",
+   "tip_fr": "Postpone = reporter. They postponed the meeting."
+  }
+ },
+ {
+  "id": "vb-encourage",
+  "level": "B2",
+  "topic": "action",
+  "type": "regular",
+  "en": "encourage",
+  "past": "encouraged",
+  "pastParticiple": "encouraged",
+  "ing": "encouraging",
+  "fr": "encourager",
+  "definition_fr": "Donner du courage.",
+  "definition_en": "To give someone confidence.",
+  "examples": [
+   {
+    "en": "Her teacher encouraged her.",
+    "fr": "Sa professeure l'a encouragée."
+   },
+   {
+    "en": "Good teachers encourage their students.",
+    "fr": "Les bons professeurs encouragent leurs élèves."
+   }
+  ],
+  "construction": {
+   "pattern": "encourage + person (+ to + verb)",
+   "tip_fr": "Encourage someone to do something. Her teacher encouraged her."
+  }
+ },
+ {
+  "id": "vb-ignore",
+  "level": "B2",
+  "topic": "action",
+  "type": "regular",
+  "en": "ignore",
+  "past": "ignored",
+  "pastParticiple": "ignored",
+  "ing": "ignoring",
+  "fr": "ignorer",
+  "definition_fr": "Ne pas faire attention.",
+  "definition_en": "To pay no attention to.",
+  "examples": [
+   {
+    "en": "He ignored the warning.",
+    "fr": "Il a ignoré l'avertissement."
+   },
+   {
+    "en": "Don't ignore the problem.",
+    "fr": "N'ignore pas le problème."
+   }
+  ],
+  "construction": {
+   "pattern": "ignore + object",
+   "tip_fr": "Ignore = ne pas tenir compte. He ignored the warning."
+  }
+ },
+ {
+  "id": "vb-arrange",
+  "level": "B2",
+  "topic": "action",
+  "type": "regular",
+  "en": "arrange",
+  "past": "arranged",
+  "pastParticiple": "arranged",
+  "ing": "arranging",
+  "fr": "organiser",
+  "definition_fr": "Mettre en ordre ou planifier.",
+  "definition_en": "To plan or put in order.",
+  "examples": [
+   {
+    "en": "I arranged a meeting.",
+    "fr": "J'ai organisé une réunion."
+   },
+   {
+    "en": "I'll arrange a taxi for you.",
+    "fr": "Je vous réserverai un taxi."
+   }
+  ],
+  "construction": {
+   "pattern": "arrange + object",
+   "tip_fr": "Arrange = organiser. I arranged a meeting."
+  }
+ },
+ {
+  "id": "vb-apologise",
+  "level": "B2",
+  "topic": "action",
+  "type": "regular",
+  "en": "apologise",
+  "past": "apologised",
+  "pastParticiple": "apologised",
+  "ing": "apologising",
+  "fr": "s'excuser",
+  "definition_fr": "Dire qu'on regrette.",
+  "definition_en": "To say you are sorry.",
+  "examples": [
+   {
+    "en": "She apologised for being late.",
+    "fr": "Elle s'est excusée d'être en retard."
+   },
+   {
+    "en": "I apologise for the delay.",
+    "fr": "Je m'excuse pour le retard."
+   }
+  ],
+  "construction": {
+   "pattern": "apologise + for + noun / -ing",
+   "tip_fr": "Apologise for. She apologised for being late."
+  }
+ },
+ {
+  "id": "vb-consider",
+  "level": "B2",
+  "topic": "action",
+  "type": "regular",
+  "en": "consider",
+  "past": "considered",
+  "pastParticiple": "considered",
+  "ing": "considering",
+  "fr": "envisager",
+  "definition_fr": "Y réfléchir sérieusement.",
+  "definition_en": "To think about carefully.",
+  "examples": [
+   {
+    "en": "They considered moving abroad.",
+    "fr": "Ils ont envisagé de partir à l'étranger."
+   },
+   {
+    "en": "Please consider my offer.",
+    "fr": "Réfléchissez à mon offre, s'il vous plaît."
+   }
+  ],
+  "construction": {
+   "pattern": "consider + -ing",
+   "tip_fr": "Consider + -ing = envisager. They considered moving abroad."
+  }
+ },
+ {
+  "id": "vb-admit",
+  "level": "B2",
+  "topic": "action",
+  "type": "regular",
+  "en": "admit",
+  "past": "admitted",
+  "pastParticiple": "admitted",
+  "ing": "admitting",
+  "fr": "admettre",
+  "definition_fr": "Reconnaître la vérité.",
+  "definition_en": "To agree that something is true.",
+  "examples": [
+   {
+    "en": "He admitted his mistake.",
+    "fr": "Il a admis son erreur."
+   },
+   {
+    "en": "I admit I was wrong.",
+    "fr": "J'admets que j'avais tort."
+   }
+  ],
+  "construction": {
+   "pattern": "admit + noun / -ing",
+   "tip_fr": "Admit = admettre. He admitted his mistake."
+  }
+ },
+ {
+  "id": "vb-refuse",
+  "level": "B2",
+  "topic": "action",
+  "type": "regular",
+  "en": "refuse",
+  "past": "refused",
+  "pastParticiple": "refused",
+  "ing": "refusing",
+  "fr": "refuser",
+  "definition_fr": "Dire non.",
+  "definition_en": "To say you will not do something.",
+  "examples": [
+   {
+    "en": "She refused the offer.",
+    "fr": "Elle a refusé l'offre."
+   },
+   {
+    "en": "They refuse to help.",
+    "fr": "Ils refusent d'aider."
+   }
+  ],
+  "construction": {
+   "pattern": "refuse + noun / to + verb",
+   "tip_fr": "Refuse + nom ou to + verbe. She refused the offer."
+  }
+ },
+ {
+  "id": "vb-attempt",
+  "level": "B2",
+  "topic": "action",
+  "type": "regular",
+  "en": "attempt",
+  "past": "attempted",
+  "pastParticiple": "attempted",
+  "ing": "attempting",
+  "fr": "tenter",
+  "definition_fr": "Essayer de faire.",
+  "definition_en": "To try to do something.",
+  "examples": [
+   {
+    "en": "They attempted to cross the river.",
+    "fr": "Ils ont tenté de traverser la rivière."
+   },
+   {
+    "en": "Don't attempt to repair it yourself.",
+    "fr": "N'essaie pas de le réparer toi-même."
+   }
+  ],
+  "construction": {
+   "pattern": "attempt + to + verb",
+   "tip_fr": "Attempt to = tenter de. They attempted to cross the river."
+  }
+ },
+ {
+  "id": "vb-tackle",
+  "level": "B2",
+  "topic": "action",
+  "type": "regular",
+  "en": "tackle",
+  "past": "tackled",
+  "pastParticiple": "tackled",
+  "ing": "tackling",
+  "fr": "s'attaquer à",
+  "definition_fr": "Affronter un problème.",
+  "definition_en": "To deal with a difficult problem.",
+  "examples": [
+   {
+    "en": "We tackled the issue head-on.",
+    "fr": "Nous nous sommes attaqués au problème de front."
+   },
+   {
+    "en": "We must tackle climate change.",
+    "fr": "Nous devons nous attaquer au changement climatique."
+   }
+  ],
+  "construction": {
+   "pattern": "tackle + problem",
+   "tip_fr": "Tackle = s'attaquer à un problème. We tackled the issue head-on."
+  }
+ },
+ {
+  "id": "vb-exaggerate",
+  "level": "B2",
+  "topic": "action",
+  "type": "regular",
+  "en": "exaggerate",
+  "past": "exaggerated",
+  "pastParticiple": "exaggerated",
+  "ing": "exaggerating",
+  "fr": "exagérer",
+  "definition_fr": "Dire que c'est plus grand que la réalité.",
+  "definition_en": "To say something is bigger or worse than it is.",
+  "examples": [
+   {
+    "en": "He exaggerated the story.",
+    "fr": "Il a exagéré l'histoire."
+   },
+   {
+    "en": "Don't exaggerate, it wasn't that bad.",
+    "fr": "N'exagère pas, ce n'était pas si grave."
+   }
+  ],
+  "construction": {
+   "pattern": "exaggerate + noun",
+   "tip_fr": "Exaggerate = exagérer. He exaggerated the story."
+  }
+ },
+ {
+  "id": "vb-alleviate",
+  "level": "C1",
+  "topic": "action",
+  "type": "regular",
+  "en": "alleviate",
+  "past": "alleviated",
+  "pastParticiple": "alleviated",
+  "ing": "alleviating",
+  "fr": "atténuer",
+  "definition_fr": "Rendre moins grave.",
+  "definition_en": "To make less severe.",
+  "examples": [
+   {
+    "en": "The medicine alleviated the pain.",
+    "fr": "Le médicament a atténué la douleur."
+   },
+   {
+    "en": "This cream will alleviate the itching.",
+    "fr": "Cette crème atténuera les démangeaisons."
+   }
+  ],
+  "construction": {
+   "pattern": "alleviate + pain/problem",
+   "tip_fr": "Alleviate = atténuer. The medicine alleviated the pain."
+  }
+ },
+ {
+  "id": "vb-reinforce",
+  "level": "C1",
+  "topic": "action",
+  "type": "regular",
+  "en": "reinforce",
+  "past": "reinforced",
+  "pastParticiple": "reinforced",
+  "ing": "reinforcing",
+  "fr": "renforcer",
+  "definition_fr": "Rendre plus fort.",
+  "definition_en": "To make stronger.",
+  "examples": [
+   {
+    "en": "They reinforced the old bridge.",
+    "fr": "Ils ont renforcé le vieux pont."
+   },
+   {
+    "en": "We need to reinforce the door.",
+    "fr": "Nous devons renforcer la porte."
+   }
+  ],
+  "construction": {
+   "pattern": "reinforce + object",
+   "tip_fr": "Reinforce = renforcer. They reinforced the old bridge."
+  }
+ }
+]

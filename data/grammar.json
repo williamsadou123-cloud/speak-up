@@ -1,0 +1,773 @@
+[
+ {
+  "id": "g-present-simple",
+  "level": "A1",
+  "title_fr": "Le présent simple",
+  "rule_fr": [
+   "Il sert pour les habitudes, les vérités générales et les faits.",
+   "Forme : sujet + verbe à l'infinitif sans « to ».",
+   "À he, she, it, on ajoute -s : she works.",
+   "Négation : do not (don't) ou does not (doesn't) + infinitif : he doesn't work.",
+   "Question : Do ou Does + sujet + infinitif : Does she work here ?",
+   "Mots-clés : always, usually, often, sometimes, never, every day."
+  ],
+  "formula": [
+   {
+    "label": "Sujet",
+    "text": "I / you / we / they",
+    "color": "subject",
+    "row": 0
+   },
+   {
+    "label": "Verbe",
+    "text": "base",
+    "color": "verb",
+    "row": 0
+   },
+   {
+    "label": "Sujet",
+    "text": "he / she / it",
+    "color": "subject",
+    "row": 1
+   },
+   {
+    "label": "Verbe",
+    "text": "base + s",
+    "color": "verb",
+    "row": 1
+   },
+   {
+    "label": "Sujet",
+    "text": "sujet",
+    "color": "subject",
+    "row": 2
+   },
+   {
+    "label": "Auxiliaire",
+    "text": "don't / doesn't",
+    "color": "aux",
+    "row": 2
+   },
+   {
+    "label": "Verbe",
+    "text": "base",
+    "color": "verb",
+    "row": 2
+   }
+  ],
+  "examples": [
+   {
+    "en": "I drink coffee every morning.",
+    "fr": "Je bois du café chaque matin."
+   },
+   {
+    "en": "She works in a bank.",
+    "fr": "Elle travaille dans une banque."
+   },
+   {
+    "en": "Does he speak French?",
+    "fr": "Parle-t-il français ?"
+   }
+  ],
+  "exercises": [
+   {
+    "prompt": "She ____ to school by bus.",
+    "answer": "goes",
+    "choices": [
+     "go",
+     "goes",
+     "going",
+     "gone"
+    ]
+   },
+   {
+    "prompt": "They ____ TV in the evening.",
+    "answer": "watch",
+    "choices": [
+     "watches",
+     "watch",
+     "watching",
+     "watched"
+    ]
+   },
+   {
+    "prompt": "____ he like pizza?",
+    "answer": "Does",
+    "choices": [
+     "Do",
+     "Does",
+     "Is",
+     "Has"
+    ]
+   },
+   {
+    "prompt": "I ____ not eat meat.",
+    "answer": "do",
+    "choices": [
+     "do",
+     "does",
+     "am",
+     "is"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "g-present-continuous",
+  "level": "A1",
+  "title_fr": "Le présent continu",
+  "rule_fr": [
+   "Il sert pour ce qui se passe en ce moment ou pour un projet proche.",
+   "Forme : am, is ou are + verbe en -ing : I am reading.",
+   "Négation : I am not reading. Question : Are you reading ?",
+   "Mots-clés : now, at the moment, today, right now.",
+   "Attention : les verbes d'état (know, like, want, understand) ne se mettent pas en -ing."
+  ],
+  "formula": [
+   {
+    "label": "Sujet",
+    "text": "I / he / you…",
+    "color": "subject",
+    "row": 0
+   },
+   {
+    "label": "Auxiliaire",
+    "text": "am / is / are",
+    "color": "aux",
+    "row": 0
+   },
+   {
+    "label": "Verbe",
+    "text": "verbe + -ing",
+    "color": "verb",
+    "row": 0
+   },
+   {
+    "label": "Repère",
+    "text": "now",
+    "color": "time",
+    "row": 0
+   }
+  ],
+  "examples": [
+   {
+    "en": "I am studying English now.",
+    "fr": "J'étudie l'anglais en ce moment."
+   },
+   {
+    "en": "They are playing in the garden.",
+    "fr": "Ils jouent dans le jardin."
+   },
+   {
+    "en": "Is it raining?",
+    "fr": "Est-ce qu'il pleut ?"
+   }
+  ],
+  "exercises": [
+   {
+    "prompt": "Look! The baby ____ .",
+    "answer": "is smiling",
+    "choices": [
+     "smiles",
+     "is smiling",
+     "smile",
+     "are smiling"
+    ]
+   },
+   {
+    "prompt": "We ____ dinner at the moment.",
+    "answer": "are having",
+    "choices": [
+     "have",
+     "are having",
+     "is having",
+     "having"
+    ]
+   },
+   {
+    "prompt": "I ____ not working today.",
+    "answer": "am",
+    "choices": [
+     "am",
+     "is",
+     "are",
+     "do"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "g-past-simple",
+  "level": "A2",
+  "title_fr": "Le prétérit (past simple)",
+  "rule_fr": [
+   "Il sert pour une action terminée dans le passé, avec un moment précis.",
+   "Verbes réguliers : infinitif + -ed (work → worked). Finit par -e : on ajoute -d (live → lived).",
+   "Consonne + y : y devient ied (study → studied).",
+   "Verbes irréguliers : une forme à apprendre (go → went, see → saw).",
+   "Négation : did not (didn't) + infinitif : I didn't go.",
+   "Question : Did + sujet + infinitif : Did you see him ?",
+   "Mots-clés : yesterday, last week, two years ago, in 2020."
+  ],
+  "formula": [
+   {
+    "label": "Sujet",
+    "text": "sujet",
+    "color": "subject",
+    "row": 0
+   },
+   {
+    "label": "Verbe",
+    "text": "verbe + -ed ou forme irrégulière",
+    "color": "verb",
+    "row": 0
+   },
+   {
+    "label": "Repère",
+    "text": "yesterday",
+    "color": "time",
+    "row": 0
+   },
+   {
+    "label": "Sujet",
+    "text": "sujet",
+    "color": "subject",
+    "row": 1
+   },
+   {
+    "label": "Auxiliaire",
+    "text": "didn't",
+    "color": "aux",
+    "row": 1
+   },
+   {
+    "label": "Verbe",
+    "text": "base",
+    "color": "verb",
+    "row": 1
+   }
+  ],
+  "examples": [
+   {
+    "en": "I visited Paris last summer.",
+    "fr": "J'ai visité Paris l'été dernier."
+   },
+   {
+    "en": "She didn't call me yesterday.",
+    "fr": "Elle ne m'a pas appelé hier."
+   },
+   {
+    "en": "Did you see the match?",
+    "fr": "As-tu vu le match ?"
+   }
+  ],
+  "exercises": [
+   {
+    "prompt": "Yesterday I ____ a good film.",
+    "answer": "saw",
+    "choices": [
+     "see",
+     "seen",
+     "saw",
+     "seeing"
+    ]
+   },
+   {
+    "prompt": "They ____ to the cinema last night.",
+    "answer": "went",
+    "choices": [
+     "go",
+     "gone",
+     "went",
+     "goed"
+    ]
+   },
+   {
+    "prompt": "She didn't ____ the answer.",
+    "answer": "know",
+    "choices": [
+     "knew",
+     "known",
+     "know",
+     "knows"
+    ]
+   },
+   {
+    "prompt": "We ____ in Madrid in 2019.",
+    "answer": "lived",
+    "choices": [
+     "live",
+     "lived",
+     "living",
+     "have lived"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "g-present-perfect",
+  "level": "B1",
+  "title_fr": "Le present perfect",
+  "rule_fr": [
+   "Il relie le passé au présent : une expérience de vie, un résultat visible maintenant, ou une action qui continue.",
+   "Forme : have ou has + participe passé : I have seen it. She has finished.",
+   "Négation : haven't ou hasn't + participe passé.",
+   "Question : Have you ever been to London ?",
+   "Mots-clés : ever, never, already, yet, just ; since (point de départ), for (durée).",
+   "Jamais avec une date précise : « I went there in 2019 », pas « I have gone there in 2019 »."
+  ],
+  "formula": [
+   {
+    "label": "Sujet",
+    "text": "sujet",
+    "color": "subject",
+    "row": 0
+   },
+   {
+    "label": "Auxiliaire",
+    "text": "have / has",
+    "color": "aux",
+    "row": 0
+   },
+   {
+    "label": "Verbe",
+    "text": "participe passé",
+    "color": "verb",
+    "row": 0
+   },
+   {
+    "label": "Repère",
+    "text": "ever / already / for / since",
+    "color": "time",
+    "row": 0
+   }
+  ],
+  "examples": [
+   {
+    "en": "I have never eaten sushi.",
+    "fr": "Je n'ai jamais mangé de sushi."
+   },
+   {
+    "en": "She has lived here since 2018.",
+    "fr": "Elle habite ici depuis 2018."
+   },
+   {
+    "en": "Have you finished yet?",
+    "fr": "As-tu déjà fini ?"
+   }
+  ],
+  "exercises": [
+   {
+    "prompt": "I ____ never ____ to Japan.",
+    "answer": "have / been",
+    "choices": [
+     "have / been",
+     "has / been",
+     "did / go",
+     "am / being"
+    ]
+   },
+   {
+    "prompt": "He has worked here ____ five years.",
+    "answer": "for",
+    "choices": [
+     "since",
+     "for",
+     "ago",
+     "from"
+    ]
+   },
+   {
+    "prompt": "They have lived here ____ 2015.",
+    "answer": "since",
+    "choices": [
+     "since",
+     "for",
+     "ago",
+     "in"
+    ]
+   },
+   {
+    "prompt": "She ____ just ____ the room.",
+    "answer": "has / left",
+    "choices": [
+     "has / left",
+     "have / left",
+     "is / leaving",
+     "did / left"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "g-future",
+  "level": "A2",
+  "title_fr": "Le futur : will et going to",
+  "rule_fr": [
+   "going to : un projet décidé avant de parler, ou une prévision d'après ce qu'on voit.",
+   "Forme : am, is ou are + going to + infinitif.",
+   "will : une décision prise sur le moment, une promesse, une prédiction.",
+   "Forme : will + infinitif (I'll = I will).",
+   "Négation : won't (will not) ou isn't going to.",
+   "Mots-clés : tomorrow, next week, soon, in two days."
+  ],
+  "formula": [
+   {
+    "label": "Sujet",
+    "text": "sujet",
+    "color": "subject",
+    "row": 0
+   },
+   {
+    "label": "Auxiliaire",
+    "text": "will",
+    "color": "aux",
+    "row": 0
+   },
+   {
+    "label": "Verbe",
+    "text": "base",
+    "color": "verb",
+    "row": 0
+   },
+   {
+    "label": "Sujet",
+    "text": "sujet",
+    "color": "subject",
+    "row": 1
+   },
+   {
+    "label": "Auxiliaire",
+    "text": "am / is / are going to",
+    "color": "aux",
+    "row": 1
+   },
+   {
+    "label": "Verbe",
+    "text": "base",
+    "color": "verb",
+    "row": 1
+   }
+  ],
+  "examples": [
+   {
+    "en": "I'm going to study medicine.",
+    "fr": "Je vais étudier la médecine."
+   },
+   {
+    "en": "I'll help you with the bags.",
+    "fr": "Je vais t'aider avec les sacs."
+   },
+   {
+    "en": "Look at those clouds! It's going to rain.",
+    "fr": "Regarde ces nuages ! Il va pleuvoir."
+   }
+  ],
+  "exercises": [
+   {
+    "prompt": "The phone is ringing. I ____ answer it!",
+    "answer": "will",
+    "choices": [
+     "will",
+     "am going",
+     "would",
+     "did"
+    ]
+   },
+   {
+    "prompt": "We ____ visit Spain next summer; we've booked the tickets.",
+    "answer": "are going to",
+    "choices": [
+     "will",
+     "are going to",
+     "go to",
+     "would"
+    ]
+   },
+   {
+    "prompt": "I promise I ____ tell anyone.",
+    "answer": "won't",
+    "choices": [
+     "don't",
+     "won't",
+     "am not",
+     "didn't"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "g-modals",
+  "level": "B1",
+  "title_fr": "Les verbes modaux (can, must, should, may)",
+  "rule_fr": [
+   "Les modaux sont suivis de l'infinitif sans « to » et ne prennent jamais de -s à he, she, it.",
+   "can / could : capacité, permission. I can swim.",
+   "must : obligation forte ou forte probabilité. You must wear a seatbelt. He must be tired.",
+   "should : conseil. You should rest.",
+   "may / might : possibilité. It may rain.",
+   "Négation : cannot (can't), mustn't (interdit), shouldn't.",
+   "Attention : mustn't = interdit ; don't have to = pas obligé."
+  ],
+  "formula": [
+   {
+    "label": "Sujet",
+    "text": "sujet",
+    "color": "subject",
+    "row": 0
+   },
+   {
+    "label": "Auxiliaire",
+    "text": "can / must / should / may",
+    "color": "aux",
+    "row": 0
+   },
+   {
+    "label": "Verbe",
+    "text": "base (sans to)",
+    "color": "verb",
+    "row": 0
+   }
+  ],
+  "examples": [
+   {
+    "en": "You should see a doctor.",
+    "fr": "Tu devrais voir un médecin."
+   },
+   {
+    "en": "You mustn't park here.",
+    "fr": "Il est interdit de se garer ici."
+   },
+   {
+    "en": "It might snow tomorrow.",
+    "fr": "Il pourrait neiger demain."
+   }
+  ],
+  "exercises": [
+   {
+    "prompt": "She ____ speak three languages.",
+    "answer": "can",
+    "choices": [
+     "can",
+     "cans",
+     "can to",
+     "is can"
+    ]
+   },
+   {
+    "prompt": "You ____ smoke in the hospital. It's forbidden.",
+    "answer": "mustn't",
+    "choices": [
+     "don't have to",
+     "mustn't",
+     "shouldn't to",
+     "can"
+    ]
+   },
+   {
+    "prompt": "You look tired. You ____ go to bed early.",
+    "answer": "should",
+    "choices": [
+     "should",
+     "must to",
+     "may to",
+     "would to"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "g-comparatives",
+  "level": "A2",
+  "title_fr": "Comparatif et superlatif",
+  "rule_fr": [
+   "Adjectif court (1 syllabe) : comparatif en -er + than (taller than), superlatif the + -est (the tallest).",
+   "Adjectif long (2 syllabes ou plus) : more + adjectif + than ; the most + adjectif.",
+   "Irréguliers : good → better → the best ; bad → worse → the worst ; far → further → the furthest.",
+   "Égalité : as + adjectif + as : as tall as."
+  ],
+  "formula": [
+   {
+    "label": "Court",
+    "text": "adjectif court + -er",
+    "color": "verb",
+    "row": 0
+   },
+   {
+    "label": "Compare",
+    "text": "than",
+    "color": "aux",
+    "row": 0
+   },
+   {
+    "label": "Long",
+    "text": "more + adjectif long",
+    "color": "verb",
+    "row": 1
+   },
+   {
+    "label": "Compare",
+    "text": "than",
+    "color": "aux",
+    "row": 1
+   },
+   {
+    "label": "Égalité",
+    "text": "as + adjectif + as",
+    "color": "object",
+    "row": 2
+   }
+  ],
+  "examples": [
+   {
+    "en": "My brother is taller than me.",
+    "fr": "Mon frère est plus grand que moi."
+   },
+   {
+    "en": "This is the most interesting book.",
+    "fr": "C'est le livre le plus intéressant."
+   },
+   {
+    "en": "She is as tired as I am.",
+    "fr": "Elle est aussi fatiguée que moi."
+   }
+  ],
+  "exercises": [
+   {
+    "prompt": "Today is ____ than yesterday.",
+    "answer": "colder",
+    "choices": [
+     "cold",
+     "colder",
+     "more cold",
+     "coldest"
+    ]
+   },
+   {
+    "prompt": "This is ____ film I have ever seen.",
+    "answer": "the best",
+    "choices": [
+     "the best",
+     "the better",
+     "best",
+     "more good"
+    ]
+   },
+   {
+    "prompt": "A plane is ____ than a train.",
+    "answer": "more expensive",
+    "choices": [
+     "expensiver",
+     "more expensive",
+     "most expensive",
+     "the expensive"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "g-articles",
+  "level": "A1",
+  "title_fr": "Les articles : a, an, the",
+  "rule_fr": [
+   "a / an : une chose parmi d'autres, ou citée pour la première fois.",
+   "a devant un son consonne (a book) ; an devant un son voyelle (an apple, an hour).",
+   "the : une chose précise, connue de tous ou déjà mentionnée : I saw a dog. The dog was big.",
+   "Pas d'article : généralités au pluriel ou indénombrables (I like music) et la plupart des villes et pays (I live in France)."
+  ],
+  "formula": [
+   {
+    "label": "a",
+    "text": "a + consonne",
+    "color": "subject",
+    "row": 0
+   },
+   {
+    "label": "Exemple",
+    "text": "a book",
+    "color": "object",
+    "row": 0
+   },
+   {
+    "label": "an",
+    "text": "an + voyelle",
+    "color": "subject",
+    "row": 1
+   },
+   {
+    "label": "Exemple",
+    "text": "an apple",
+    "color": "object",
+    "row": 1
+   },
+   {
+    "label": "the",
+    "text": "the + chose précise",
+    "color": "verb",
+    "row": 2
+   },
+   {
+    "label": "Exemple",
+    "text": "the dog",
+    "color": "object",
+    "row": 2
+   }
+  ],
+  "examples": [
+   {
+    "en": "I have a cat and an umbrella.",
+    "fr": "J'ai un chat et un parapluie."
+   },
+   {
+    "en": "The sun is very hot today.",
+    "fr": "Le soleil est très chaud aujourd'hui."
+   },
+   {
+    "en": "She loves music.",
+    "fr": "Elle adore la musique."
+   }
+  ],
+  "exercises": [
+   {
+    "prompt": "I need ____ umbrella.",
+    "answer": "an",
+    "choices": [
+     "a",
+     "an",
+     "the",
+     "—"
+    ]
+   },
+   {
+    "prompt": "____ moon is bright tonight.",
+    "answer": "The",
+    "choices": [
+     "A",
+     "An",
+     "The",
+     "—"
+    ]
+   },
+   {
+    "prompt": "She works as ____ engineer.",
+    "answer": "an",
+    "choices": [
+     "a",
+     "an",
+     "the",
+     "—"
+    ]
+   },
+   {
+    "prompt": "I love ____ chocolate.",
+    "answer": "—",
+    "choices": [
+     "a",
+     "an",
+     "the",
+     "—"
+    ]
+   }
+  ]
+ }
+]

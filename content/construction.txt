@@ -1,0 +1,424 @@
+# vocab
+luggage|my + luggage + be + adjective|Luggage est indénombrable : pas de « s ». On dit « some luggage » ou « a piece of luggage ». My luggage is very heavy.
+departure|the + departure + time|Departure est un nom : « the departure time » = l'heure de départ. The departure time is nine o'clock.
+delay|there is + a + duration + delay|« There is a delay » annonce un retard. On place la durée avant delay : a two-hour delay.
+journey|it was + a + adjective + journey|Journey est le trajet en lui-même. On le décrit avec un adjectif : a long journey.
+accommodation|book + accommodation|Accommodation est indénombrable en anglais britannique : we booked our accommodation, en anglais britannique, pas de « s ».
+itinerary|our + itinerary + include + noun|Itinerary est l'itinéraire prévu. Le verbe include introduit ce qu'il contient : Our itinerary includes three cities.
+passport|don't forget + your + passport|À l'impératif négatif : Don't + verbe. Passport prend « your » : Don't forget your passport.
+customs|go through + customs|Customs (la douane) est toujours pluriel et prend « go through » : We went through customs quickly.
+souvenir|buy + a souvenir + for + person|Pour offrir : buy something for someone. I bought a souvenir for my mother.
+destination|a popular + destination|Destination se combine avec popular, final ou tourist : Paris is a popular destination.
+ticket|buy + a + type of + ticket|On précise le type devant ticket : a train ticket, a bus ticket. I need to buy a train ticket.
+platform|from + platform + number|On dit « from platform 4 » (le quai d'où part le train). The train leaves from platform 4.
+fare|the + transport + fare|Fare est le prix du trajet : the bus fare, the train fare. The bus fare is two euros.
+sightseeing|go + sightseeing|« Go sightseeing » = faire du tourisme, sans article. We went sightseeing all day.
+reservation|make + a reservation + for + number|On fait une réservation : make a reservation for two. Avec « make », pas « do ».
+crossing|the crossing + take + duration|Crossing = traversée. Le verbe take indique la durée : The crossing takes one hour.
+map|read + a + map|On lit une carte : read a map. Can you read this map?
+abroad|verb + abroad|Abroad veut dire « à l'étranger » sans préposition : study abroad, live abroad. Pas « in abroad ».
+commute|my + commute + take + duration|Commute est le trajet domicile-travail, aussi verbe : My commute takes forty minutes.
+layover|a + duration + layover + in + place|Layover = escale longue. La durée précède le mot : a six-hour layover in Dubai.
+colleague|my + colleague + verb|Colleague désigne un collègue de travail. My colleague helped me with the report.
+deadline|the deadline + be + day|On dit « the deadline is Friday » sans préposition. Pour dépasser : miss the deadline.
+salary|ask for + a higher + salary|On demande une augmentation : ask for a higher salary. Salary est le salaire mensuel ou annuel.
+meeting|the meeting + start + at + time|À + heure : at ten. On dit « the meeting starts », « attend a meeting ».
+workload|my + workload + be + adjective|Workload est indénombrable : my workload is too heavy. Pas de « s ».
+manager|my + manager + be + adjective|Manager = responsable. On le décrit après « my » : My manager is very kind.
+interview|have + a job interview|On dit « have an interview » (pas « make »). I have a job interview tomorrow.
+resume|update + your + resume|Resume (américain) = CV. En anglais britannique : CV. Update your resume.
+promotion|get + a promotion|On obtient une promotion : get a promotion. She got a promotion last month.
+experience|have + duration + of experience|Experience (expérience pro) est indénombrable : five years of experience.
+achievement|a big + achievement|Achievement = réussite. Souvent avec big ou great : a big achievement.
+negotiate|negotiate + a + noun|Negotiate se construit directement avec l'objet : negotiate a better price.
+schedule|my + schedule + be + adjective|Schedule = emploi du temps. My schedule is full this week.
+self-employed|be + self-employed|Self-employed est un adjectif : he is self-employed. Pas d'article.
+stakeholder|inform + stakeholders|Stakeholder = partie prenante. We must inform all stakeholders.
+resign|resign + from + job|Resign = démissionner. On peut dire « resign from a job » ou simplement « resign ». He resigned last week.
+apply|apply + for + a job|Apply se construit avec « for » : apply for a job. Pas « apply a job ».
+budget|have + a small/large + budget|Budget se combine avec small, tight, large. We have a small budget.
+feedback|thank you for + your feedback|Feedback est indénombrable : pas de « s ». Thank you for your feedback.
+headache|have + a + adjective + headache|Headache = mal de tête, avec « have a ». I have a terrible headache.
+fever|have + a fever|Avec fever on dit « have a fever ». The child has a fever.
+prescription|need + a prescription + for + noun|On a besoin d'une ordonnance pour un médicament : a prescription for this.
+symptom|a + common + symptom|Symptom = symptôme. A cough is a common symptom.
+recover|recover + from + illness|Recover from se traduit par « se remettre de ». He is recovering from the flu.
+injury|have + a + body part + injury|On place la partie du corps devant injury : a knee injury.
+allergy|have + an allergy + to + noun|Allergy s'utilise avec « to » : an allergy to peanuts.
+appointment|have + an appointment + at + time|On prend rendez-vous : make an appointment. I have a doctor's appointment at four.
+exhausted|be + exhausted + after + noun|Exhausted = épuisé. Après un effort : after the trip.
+stress|stress + can + verb|Stress est indénombrable : stress can affect your sleep.
+healthy|healthy + noun|Healthy = sain, en bonne santé : a healthy snack, a healthy diet. Fruit is a healthy snack.
+exercise|do + exercise|Avec exercise (activité physique), on dit « do exercise » ou « take exercise ». I do exercise every morning.
+diet|a balanced + diet|Diet = régime alimentaire. A balanced diet is important.
+dizzy|feel + dizzy|Feel + adjectif : I feel dizzy. On peut aussi dire I'm dizzy.
+pain|have + a pain + in + body part|Pain = douleur. On dit « a pain in my back » avec « in ».
+treatment|the treatment + last + duration|Treatment = traitement. The treatment lasts six weeks.
+sore|have + a sore + body part|Sore = douloureux. I have a sore throat.
+bandage|put on + a bandage|Put on = mettre. The nurse put on a bandage.
+well-being|noun + be + vital for + well-being|Well-being = bien-être, indénombrable. Sleep is vital for your well-being.
+checkup|go for + a checkup|Go for a checkup = aller faire un bilan de santé. I go for a checkup every year.
+breakfast|have + breakfast + at + time|Pas d'article avec breakfast : have breakfast. I have breakfast at seven.
+recipe|this + recipe + be + adjective|Recipe = recette. This recipe is very easy.
+ingredient|the main + ingredient|Ingredient = ingrédient. Flour is the main ingredient.
+delicious|noun + be + delicious|Delicious = délicieux (plus fort que good). The soup was delicious.
+leftovers|eat + the leftovers|Leftovers (restes) est toujours pluriel. We ate the leftovers for lunch.
+bland|be + a bit + bland|Bland = fade. On adoucit avec « a bit » : a bit bland.
+spicy|love + spicy + food|Spicy = épicé, fort. I love spicy food. Attention : hot peut aussi vouloir dire chaud.
+bill|can we have + the bill|Au restaurant (britannique) : the bill. En américain : the check.
+waiter|the waiter + be + adjective|Waiter (serveur), waitress (serveuse). The waiter was very polite.
+vegetarian|be + vegetarian|Vegetarian peut être un adjectif (she is vegetarian) ou un nom (she is a vegetarian).
+fresh|fresh + noun|Fresh = frais : fresh bread, fresh fruit. I buy fresh bread every day.
+crave|be craving + noun|Crave = avoir très envie. On le met souvent en -ing : I'm craving chocolate.
+portion|the portions + be + adjective|Portion = part servie. The portions are huge here.
+bake|bake + noun + on + day|Bake = cuire au four. I bake bread on Sundays.
+chop|chop + noun + adverb|Chop = couper en morceaux. Chop the onions finely.
+simmer|let + noun + simmer|Let + objet + verbe sans to : let the sauce simmer.
+menu|can I see + the menu|Pour demander poliment : Can I see the menu?
+snack|eat + noun + as a snack|As a snack = en guise de collation.
+appetite|lose + your appetite|Lose your appetite = perdre l'appétit. I've lost my appetite.
+cuisine|love + nationality + cuisine|Cuisine = cuisine d'un pays : Italian cuisine, French cuisine.
+neighbour|my + neighbour + be + adjective|Neighbour (britannique), neighbor (américain). My neighbour is very friendly.
+furniture|buy + new + furniture|Furniture est indénombrable : pas de « s ». We bought new furniture.
+rent|the rent + be + adjective|Rent = loyer, aussi verbe (louer). The rent is too expensive.
+landlord|the landlord + verb|Landlord = propriétaire qui loue. The landlord fixed the heater.
+chore|noun-ing + be + my + chore|Chore = corvée. Washing dishes is my least favourite chore.
+tidy|keep + noun + tidy|Keep + objet + adjectif : keep your room tidy.
+cosy|the + room + be + cosy|Cosy = douillet. The living room is very cosy.
+garden|have + a + adjective + garden|Garden = jardin (américain : yard). They have a big garden.
+appliance|a new + kitchen appliance|Appliance = appareil ménager.
+drawer|in + the drawer|Drawer = tiroir, avec « in ». The keys are in the drawer.
+ceiling|the ceiling + be + adjective|Ceiling = plafond. The ceiling is very high.
+leak|there is + a leak + under/in + place|Leak = fuite. There is a leak under the sink.
+move house|be moving house + in + month|Move house = déménager (britannique). We are moving house in June.
+household|every + household|Household = foyer, ménage. Every household received a letter.
+laundry|do + the laundry|Laundry = linge, indénombrable. I do the laundry on Saturdays.
+doorbell|ring + the doorbell|Doorbell = sonnette. Someone rang the doorbell.
+shelf|on + the shelf|Shelf = étagère, pluriel shelves. Put the books on the shelf.
+spacious|be + bright and spacious|Spacious = spacieux. The flat is bright and spacious.
+renovate|be renovating + noun|Renovate = rénover. They are renovating the whole house.
+utensil|noun + be + utensils|Utensil = ustensile. Knives and spoons are utensils.
+worried|be + worried + about + noun|Worried se construit avec « about » : I'm worried about the exam.
+embarrassed|feel + embarrassed + when + clause|Embarrassed = gêné. I felt embarrassed when I forgot his name.
+excited|be + excited + about + noun|Excited se construit avec « about » : We are excited about the trip. Attention : pas « excité » au sens français négatif.
+disappointed|be + disappointed + with + noun|Disappointed with something. I was disappointed with the result.
+relieved|be + so relieved + clause|Relieved = soulagé. I'm so relieved it's over.
+jealous|be + jealous + of + person|Jealous se construit avec « of » : jealous of her friend's success.
+grateful|be + grateful + for + noun|Grateful for something. I'm grateful for your help.
+lonely|feel + lonely + in + place|Lonely = seul (sentiment). He felt lonely in the new city.
+annoyed|be + annoyed + with + person|Annoyed with someone, annoyed at something. I'm annoyed with him.
+overwhelmed|feel + overwhelmed + by + noun|Overwhelmed by something = submergé. I feel overwhelmed by work.
+proud|be + proud + of + person|Proud of someone. I'm proud of you.
+nervous|be + nervous + before + noun|Nervous = nerveux, stressé. On précise avec before ou about : nervous before presentations.
+thrilled|be + thrilled + to + verb|Thrilled = ravi. Suivi de « to + verbe » : We were thrilled to win.
+miserable|feel + miserable + in + place|Miserable = très malheureux. He felt miserable in the rain.
+confident|feel + confident + about + noun|Confident about something. She feels confident about the test.
+reluctant|be + reluctant + to + verb|Reluctant = réticent, toujours suivi de « to + verbe » : reluctant to leave.
+bewildered|look + bewildered + by + noun|Bewildered = perplexe. Avec look : She looked bewildered by the rules.
+upset|be + upset + about + noun|Upset = contrarié. Upset about the news.
+content|seem + content + with + noun|Content (adjectif) = satisfait, accent sur la 2e syllabe. Content with her life.
+curious|be + naturally + curious|Curious = curieux. Children are naturally curious.
+wake up|wake up + at + time|Wake up est un verbe à particule : I wake up at six. Jamais « wake up me » : wake me up.
+neighbourhood|a quiet + neighbourhood|Neighbourhood = quartier (américain : neighborhood).
+errand|run + errands|Run errands = faire des courses, des démarches. I have a few errands to run.
+grocery|do + the grocery shopping|On dit « do the grocery shopping » ou « go grocery shopping ».
+queue|a long + queue + at + place|Queue (britannique) = file d'attente. En américain : line.
+habit|a bad/good + habit|Habit = habitude. Biting nails is a bad habit.
+routine|my + morning + routine|Routine = habitudes quotidiennes. My morning routine is simple.
+procrastinate|procrastinate + before + noun|Procrastinate = remettre à plus tard. I procrastinate before exams.
+alarm|my + alarm + ring + at + time|Alarm = réveil. My alarm rings at six.
+rush hour|avoid + the rush hour|Rush hour = heures de pointe. Avoid the rush hour if you can.
+diary|write + in + my diary|On écrit « in my diary ». Diary = journal intime.
+mess|be + a mess|Be a mess = être en désordre. My room is a mess.
+spare time|verb + in + my spare time|In my spare time = pendant mon temps libre. I read in my spare time.
+miss the bus|miss + the + vehicle|Miss = rater : miss the bus, miss the train. I missed the bus this morning.
+bother|sorry to + bother + you|Sorry to bother you = désolé de vous déranger.
+chat|chat + for + duration|Chat = bavarder. We chatted for an hour.
+get along|get along + with + person|Get along with someone = bien s'entendre. I get along with my roommate.
+borrow|can I + borrow + noun|Borrow = emprunter (je prends). Can I borrow your pen?
+lend|lend + person + noun|Lend = prêter (je donne). Could you lend me ten euros?
+keep in touch|let's + keep in touch|Let's + verbe sans to. Keep in touch = rester en contact.
+download|download + noun|Download = télécharger. I downloaded the app.
+password|forget + my password|Password = mot de passe. I forgot my password.
+screen|my + phone + screen|Screen = écran. My phone screen is cracked.
+battery|my + battery + be + adjective|Battery = batterie. My battery is almost dead.
+charger|can I borrow + your charger|Charger = chargeur. Can I borrow your charger?
+update|there is + a new update|Update = mise à jour, aussi verbe. There's a new update available.
+crash|my + device + crash|Crash = planter. My laptop crashed again.
+connection|the + Wi-Fi + connection|Connection = connexion. The Wi-Fi connection is slow.
+browse|browse + the web|Browse = naviguer. I browse the web every evening.
+upload|upload + noun + here|Upload = téléverser. Upload your photos here.
+delete|delete + noun|Delete = supprimer. I deleted the wrong file.
+device|turn off + all devices|Device = appareil électronique.
+security|online + security|Security est indénombrable. Online security is important.
+algorithm|the algorithm + suggest + noun|Algorithm = algorithme. The algorithm suggests videos.
+subscribe|subscribe + to + noun|Subscribe se construit avec « to » : subscribe to a channel.
+search|search + for + noun|Search se construit avec « for » : search for the word.
+link|click + the link|Link = lien. Click the link below.
+attachment|open + the attachment|Attachment = pièce jointe.
+notification|turn off + notifications|Notification = notification. I turned off notifications.
+wireless|wireless + noun|Wireless = sans fil : wireless headphones.
+government|the government + verb|Government = gouvernement, avec « the ». The government announced new rules.
+citizen|become + a citizen|Citizen = citoyen. She became a citizen last year.
+vote|vote + time|Vote = voter. Did you vote yesterday?
+election|the election + be + in + month|Election = élection. The election is in May.
+unemployment|unemployment + be + rising|Unemployment = chômage, indénombrable. Unemployment is rising.
+poverty|live + in + poverty|Live in poverty = vivre dans la pauvreté.
+law|it's against + the law|Against the law = contraire à la loi.
+tax|pay + taxes|Pay taxes = payer des impôts. We pay taxes every year.
+equality|fight for + equality|Fight for something = se battre pour. They fight for gender equality.
+community|our + community + be + adjective|Community = communauté. Our community is very supportive.
+volunteer|volunteer + at + place|Volunteer = faire du bénévolat. She volunteers at the shelter.
+charity|give + money + to + charity|Charity = association caritative. He gave money to charity.
+inequality|income + inequality|Inequality = inégalité. Income inequality is growing.
+immigration|immigration + be + a hot topic|Immigration = immigration. A hot topic = sujet brûlant.
+policy|the new + policy|Policy = politique, règlement. The new policy starts in January.
+protest|protest + against + noun|Protest against = manifester contre. People protested against the plan.
+debate|the debate + last + duration|Debate = débat. The debate lasted two hours.
+opportunity|a great + opportunity|Opportunity = occasion. It's a great opportunity.
+society|society + be + changing|Society = société, sans article. Society is changing fast.
+volunteering|volunteering + teach + me + noun|Volunteering = le bénévolat. Sujet du verbe : Volunteering taught me patience.
+weather|the weather + be + adjective|Weather est indénombrable. The weather is lovely today.
+forecast|the forecast + say + noun|Forecast = prévisions. The forecast says rain tomorrow.
+storm|a storm + hit + place|Storm = tempête. A storm hit the coast.
+flood|the flood + damage + noun|Flood = inondation. The flood damaged many homes.
+drought|the drought + destroy + noun|Drought = sécheresse. The drought destroyed the crops.
+valley|in + a green valley|Valley = vallée. The village is in a green valley.
+cliff|near + the cliff|Cliff = falaise. Be careful near the cliff.
+wildlife|protect + wildlife|Wildlife = faune sauvage, indénombrable.
+climate|the climate + be + adjective|Climate = climat. The climate here is mild.
+pollution|air + pollution|Pollution est indénombrable. Air pollution is a big problem.
+recycle|recycle + noun|Recycle = recycler. We recycle glass and paper.
+endangered|an endangered + species|Endangered species = espèce menacée.
+harvest|the harvest + be + adjective|Harvest = récolte. The harvest was good this year.
+shore|walk + along + the shore|Shore = rivage, avec « along ». We walked along the shore.
+breeze|a cool + breeze|Breeze = petite brise. A cool breeze came from the sea.
+drizzle|it's just + a drizzle|Drizzle = bruine.
+biodiversity|rich + biodiversity|Biodiversity = biodiversité. The forest has rich biodiversity.
+landscape|the landscape + be + breathtaking|Landscape = paysage. The landscape is breathtaking.
+wild|wild + plural noun|Wild = sauvage. Wild horses ran across the field.
+sustainable|sustainable + noun|Sustainable = durable : sustainable energy.
+cash|pay + in cash|Pay in cash = payer en espèces.
+receipt|keep + the receipt|Receipt = ticket de caisse. Le « p » ne se prononce pas.
+discount|get + a discount|Discount = réduction. Students get a ten percent discount.
+afford|can't + afford + noun|Afford = avoir les moyens. Se construit avec can / can't : I can't afford a new car.
+savings|spend + all + your savings|Savings (économies) est toujours pluriel. She spent all her savings on the trip.
+debt|be + in debt|Be in debt = être endetté. He is in debt after the move.
+invest|invest + in + noun|Invest se construit avec « in » : She invested in a small company.
+# verbs
+be|subject + be + adjective/noun|Be (être) change selon le sujet : I am, you are, he/she/it is, we/they are. She was tired yesterday.
+have|subject + have/has + noun|Have (avoir) devient has avec he, she, it. Au passé : had. We had a great time.
+do|subject + do/does + noun|Do sert à faire une action et aide à la négation : I don't know. I did my homework.
+go|go + to + place|Go se construit avec « to » + lieu : go to the beach. Sans to avec home : go home.
+come|come + from/to + place|Come (venir) s'utilise avec from ou to : He came home late. Sans to avec home.
+see|see + object|See = percevoir sans effort. Pour regarder volontairement, on dit look at ou watch. I saw a bird.
+eat|eat + food|Eat se construit directement avec l'aliment : We ate pizza. Pas de préposition.
+drink|drink + liquid|Drink + liquide : She drank a glass of water. Participe passé : drunk.
+take|take + object|Take a plusieurs sens : prendre (the bus), durer (it takes an hour). He took the bus.
+give|give + person + thing|Give peut s'écrire give someone something : She gave me a present.
+make|make + object|Make = fabriquer, créer : make dinner, make a decision. Pour une activité : do.
+get|get + object / adjective|Get = recevoir ou devenir : get a letter, get tired. Participe passé : got (UK), gotten (US).
+know|know + person/fact|Know = connaître ou savoir. Pas de forme -ing en général : I know the answer.
+think|think + (that) + clause|Think + that + proposition. On peut omettre « that » : I thought it was easy.
+say|say + (to person) + words|Say + les mots : He said hello. Say to someone, tell someone.
+tell|tell + person + information|Tell + personne : She told me a secret (pas de « to » avant la personne). Exceptions : tell the truth, tell a story, tell a lie.
+write|write + noun / to person|Write + chose, ou write to + personne : He wrote me a letter.
+read|read + text|Read s'écrit pareil au présent et au passé, mais se prononce différemment : « reed » au présent, « red » au passé.
+buy|buy + object (+ for person)|Buy = acheter. buy something for someone. We bought a new sofa.
+sit|sit + (down) + place|Sit down = s'asseoir. They sat by the window.
+stand|stand + (up) + place|Stand up = se lever. She stood in the queue.
+run|run + to + place|Run se construit avec to + lieu : He ran to the station. Run a business = diriger.
+sleep|sleep + duration|Sleep est intransitif : The baby slept all night. Pas d'objet direct.
+speak|speak + to + person|Speak to someone, speak a language. She spoke to the manager.
+begin|begin + noun / to + verb|Begin ou start. The film began at eight. Begin to + verbe.
+bring|bring + object + (to place)|Bring = apporter vers ici. He brought his umbrella.
+find|find + object|Find = trouver. I found my keys under the bed. Find out = découvrir.
+feel|feel + adjective|Feel + adjectif : I felt happy. Feel like + nom ou -ing.
+keep|keep + object / -ing|Keep + objet = garder. Keep + -ing = continuer. She kept the receipt.
+leave|leave + place|Leave + lieu = quitter : We left early. Leave for = partir pour.
+lose|lose + object|Lose = perdre. He lost his wallet. Ne pas confondre avec loose (lâche).
+meet|meet + person|Meet se construit sans préposition : I met her at a party.
+pay|pay + (for) + noun|Pay for something, pay someone. He paid by card.
+send|send + person + thing|Send someone something ou send something to someone. She sent me a message.
+spend|spend + time/money + (on / -ing)|Spend s'utilise pour le temps et l'argent : We spent a week in Spain.
+teach|teach + person + subject|Teach someone something. She taught English for ten years.
+wear|wear + clothing|Wear = porter un vêtement. He wore a blue suit. Pour carry, on porte un objet.
+win|win + noun|Win se construit avec l'objet gagné : win a match, win a prize. Our team won the match.
+fall|fall + off/down + noun|Fall off = tomber de. He fell off his bike.
+fly|fly + to + place|Fly = voler, aller en avion : We flew to Rome.
+drive|drive + vehicle / person|Drive a car. Drive someone to a place : She drove us to the airport.
+ride|ride + bike/horse|Ride se dit pour le vélo, le cheval : He rode his bike to school.
+swim|swim + place|Swim in the lake, swim across the river. We swam in the lake.
+sing|sing + song|Sing a song. She sang a beautiful song.
+cut|cut + object|Cut est identique à tous les temps : cut, cut, cut. I cut my finger.
+put|put + object + place|Put + objet + lieu : She put the keys on the table. Identique à tous les temps.
+let|let + person + verb (no to)|Let + objet + verbe nu : Her parents let her go out.
+set|set + object|Set the table, set an alarm. Identique à tous les temps.
+break|break + object|Break = casser. The child broke a window. Participe passé : broken.
+build|build + object|Build = construire. They built a bridge.
+catch|catch + object|Catch = attraper. He caught the ball. Catch a bus = prendre le bus.
+choose|choose + object|Choose = choisir. She chose the red dress.
+draw|draw + object|Draw = dessiner. He drew a house.
+forget|forget + object / to + verb|Forget + objet, ou forget to + verbe. I forgot her number.
+grow|grow + noun / adjective|Grow = grandir. Grow up = devenir adulte. The kids grew quickly.
+hear|hear + object|Hear = entendre sans effort. Pour écouter volontairement : listen to. I heard a strange noise.
+hide|hide + object|Hide = cacher. She hid the gift.
+hold|hold + object|Hold = tenir. He held her hand.
+lend|lend + person + object|Lend = prêter (je donne). Borrow = emprunter. I lent him my book.
+mean|mean + object / clause|What do you mean? Mean = vouloir dire. What did she mean?
+ring|ring + object|Ring the bell. Le téléphone aussi : The phone rang twice.
+rise|rise + place|Rise est intransitif : The sun rose at six. Différent de raise (lever quelque chose).
+sell|sell + object (+ to person)|Sell = vendre. They sold their old car.
+shake|shake + object|Shake = secouer. He shook my hand.
+show|show + person + object|Show someone something. She showed me the photos.
+steal|steal + object|Steal = voler. Someone stole my bike. Rob s'emploie pour un lieu ou une personne.
+throw|throw + object (+ adverb)|Throw = lancer. He threw the ball far.
+understand|understand + object|Understand = comprendre. I understood the lesson.
+wake|wake + (up)|Wake up = se réveiller. She woke early today. Wake someone up = réveiller.
+cost|cost + amount|Cost = coûter. The ticket cost ten euros. Identique à tous les temps.
+learn|learn + object / to + verb|Learn + objet, ou learn to + verbe. I learned a lot.
+overcome|overcome + difficulty|Overcome = surmonter. She overcame her fear. Participe passé : overcome.
+undertake|undertake + task|Undertake = entreprendre. They undertook a big project.
+withdraw|withdraw + money|Withdraw = retirer (de l'argent). I withdrew some cash.
+forgive|forgive + person|Forgive someone. She forgave him at once.
+bite|bite + object|Bite = mordre. The dog bit his sleeve.
+lead|lead + group / to + place|Lead the team, lead to a place. She led the team to victory.
+bend|bend + object / down|Bend = plier. He bent down to tie his shoe.
+burst|burst|Burst est identique à tous les temps. The balloon burst. Burst into tears = fondre en larmes.
+walk|walk + along/to + place|Walk + préposition de lieu : They walked along the river.
+jump|jump + on/over + noun|Jump on, jump over. The cat jumped on the sofa.
+open|open + object|Open = ouvrir. She opened the window.
+close|close + object|Close = fermer. Please close the door.
+play|play + sport / game|Play + sport ou jeu, sans « the ». Pour un instrument : play the piano.
+work|work + in/at + place|Work in a bank, work at home. He worked all weekend.
+watch|watch + object|Watch = regarder quelque chose qui bouge. We watched a film.
+listen|listen + to + noun|Devant un objet, listen se construit avec « to » : She listened to the radio.
+cook|cook + food|Cook = cuisiner. He cooked pasta for us.
+clean|clean + object|Clean = nettoyer. I cleaned the kitchen.
+wash|wash + object|Wash = laver. She washed the dishes.
+call|call + person|Call someone (sans préposition). He called his mother.
+ask|ask + person + question / ask for|Ask for something = demander quelque chose. I asked for the bill.
+answer|answer + object|Answer + objet, sans « to » : She answered the phone.
+help|help + person (+ with noun)|Help someone with something. He helped me with my bags.
+dance|dance + (with person)|Dance est intransitif. They danced all night.
+want|want + noun / to + verb|Want + nom, ou want to + verbe. I wanted a coffee.
+like|like + noun / -ing|Like + nom ou -ing. She liked the film.
+live|live + in + place|Live in + ville ou pays. We lived in London.
+climb|climb + object|Climb = grimper. They climbed the mountain.
+push|push + object|Push = pousser. He pushed the door open.
+pull|pull + object|Pull = tirer. She pulled the handle.
+carry|carry + object|Carry = porter dans les bras. He carried the boxes upstairs.
+visit|visit + place/person|Visit + lieu ou personne. We visited our grandparents.
+arrive|arrive + at/in + place|Arrive at (lieu précis), arrive in (ville, pays). The train arrived on time.
+travel|travel + place|Travel est surtout intransitif. She travelled across Asia.
+decide|decide + to + verb|Decide + to + verbe : We decided to stay home.
+wait|wait + for + noun|Wait se construit avec « for ». I waited for an hour.
+stop|stop + object / -ing|Stop + -ing = arrêter de. Stop to + verbe = s'arrêter pour. The bus stopped.
+try|try + object / to + verb|Try = essayer, goûter. She tried the soup.
+use|use + object|Use = utiliser. He used a map.
+love|love + noun / -ing|Love est plus fort que like. They loved the beach.
+need|need + noun / to + verb|Need + nom, ou need to + verbe. I needed a rest.
+start|start + noun / -ing|Start = commencer, démarrer. The engine started at once.
+finish|finish + noun / -ing|Finish + -ing, pas finish to. I finished my work at six.
+improve|improve + noun|Improve = améliorer, aussi intransitif. His English improved quickly.
+create|create + object|Create = créer. She created a beautiful garden.
+repair|repair + object|Repair = réparer. He repaired the bike.
+practise|practise + noun / -ing|Practise (UK) = s'entraîner. En américain : practice. I practised the piano.
+borrow|borrow + object (+ from person)|Borrow from someone. She borrowed my umbrella.
+explain|explain + noun (+ to person)|Explain something to someone, jamais « explain me ». The teacher explained the rule.
+prepare|prepare + object|Prepare = préparer. We prepared a surprise party.
+invite|invite + person (+ to + noun)|Invite someone to something. They invited us to dinner.
+share|share + object|Share = partager. We shared a pizza.
+follow|follow + object|Follow = suivre. The dog followed me home.
+remember|remember + object / -ing|Remember = se rappeler. I remembered his birthday.
+protect|protect + object + from + noun|Protect something from something. The coat protected him.
+compare|compare + object + with/to + object|Compare A with B. We compared the two phones.
+achieve|achieve + goal|Achieve = réaliser, atteindre. She achieved her dream.
+manage|manage + to + verb|Manage to = réussir à. He managed to fix it.
+suggest|suggest + noun / -ing|Suggest + nom ou -ing, pas « suggest to ». I suggested a walk.
+join|join + group|Join se construit sans préposition. She joined a book club.
+enjoy|enjoy + noun / -ing|Enjoy + nom ou -ing. We enjoyed the concert. Jamais enjoy to.
+struggle|struggle + with + noun|Struggle with something = peiner. He struggled with the heavy bag.
+postpone|postpone + noun / -ing|Postpone = reporter. They postponed the meeting.
+encourage|encourage + person (+ to + verb)|Encourage someone to do something. Her teacher encouraged her.
+ignore|ignore + object|Ignore = ne pas tenir compte. He ignored the warning.
+arrange|arrange + object|Arrange = organiser. I arranged a meeting.
+apologise|apologise + for + noun / -ing|Apologise for. She apologised for being late.
+consider|consider + -ing|Consider + -ing = envisager. They considered moving abroad.
+admit|admit + noun / -ing|Admit = admettre. He admitted his mistake.
+refuse|refuse + noun / to + verb|Refuse + nom ou to + verbe. She refused the offer.
+attempt|attempt + to + verb|Attempt to = tenter de. They attempted to cross the river.
+tackle|tackle + problem|Tackle = s'attaquer à un problème. We tackled the issue head-on.
+exaggerate|exaggerate + noun|Exaggerate = exagérer. He exaggerated the story.
+alleviate|alleviate + pain/problem|Alleviate = atténuer. The medicine alleviated the pain.
+reinforce|reinforce + object|Reinforce = renforcer. They reinforced the old bridge.
+# expressions
+a piece of cake|subject + be + a piece of cake|Expression figée : on ne change pas les mots. Elle s'emploie après « be » pour dire que c'est facile. The exam was a piece of cake.
+break a leg|Break a leg!|Interjection figée, dite avant un spectacle. Ne se dit pas au sens propre. Break a leg tonight!
+under the weather|be/feel + under the weather|S'emploie après be ou feel pour dire qu'on est un peu malade. I'm feeling under the weather today.
+once in a blue moon|subject + verb + once in a blue moon|S'ajoute en fin de phrase pour dire « très rarement ». We go to the cinema once in a blue moon.
+the ball is in your court|the ball + be + in + possessive + court|On change le possessif : your, his, her court. I made my offer; now the ball is in your court.
+spill the beans|spill the beans (about + noun)|Spill = renverser. Le verbe se conjugue : She spilled the beans about the party.
+hit the nail on the head|hit the nail on the head|Verbe conjugué : you hit, she hit. Le mot « nail » reste au singulier. You hit the nail on the head.
+cost an arm and a leg|subject + cost + an arm and a leg|Cost est irrégulier (cost, cost, cost). Expression familière. That car cost an arm and a leg.
+let the cat out of the bag|let the cat out of the bag (about + noun)|Let est identique à tous les temps. On révèle un secret par erreur. He let the cat out of the bag about the surprise.
+kill two birds with one stone|kill two birds with one stone|Souvent après « Let's » ou « to ». Let's kill two birds with one stone and shop on the way.
+bite the bullet|bite the bullet|Verbe conjugué : bit the bullet. Souvent avec « had to ». I had to bite the bullet and call him.
+the elephant in the room|noun + be + the elephant in the room|Après be, pour parler du sujet évité : Money is the elephant in the room.
+burn the midnight oil|burn the midnight oil|Verbe conjugué : burned (ou burnt). She burned the midnight oil before the exam.
+on the same page|be + on the same page|On l'emploie avec be ou get : Let's make sure we're on the same page.
+cut corners|cut corners (on + noun)|Cut est identique à tous les temps. Never cut corners on safety.
+go the extra mile|go the extra mile (for + person)|Go se conjugue : she goes the extra mile. Souvent avec for + personne. She always goes the extra mile for customers.
+look for|look for + noun|Look for = chercher. La particule for reste après le verbe. I'm looking for my keys.
+look after|look after + person|Look after = s'occuper de. L'objet vient après : Can you look after my dog?
+turn on|turn on + noun / turn + noun + on|Séparable : turn on the light ou turn the light on. Avec un pronom : turn it on.
+turn off|turn off + noun / turn + noun + off|Séparable : turn off your phone ou turn your phone off. Avec un pronom : turn it off.
+give up|give up (+ noun / -ing)|Give up = abandonner. Avec -ing : give up smoking. Never give up on your dreams.
+find out|find out (+ noun / that clause)|Find out = découvrir. I found out the truth yesterday. Avec un pronom : find it out est rare.
+take off|take off / take + noun + off|Pour un avion : intransitif. Pour un vêtement : take your coat off. The plane takes off at nine.
+put off|put off + noun / -ing|Put off = reporter. Avec -ing : put off doing homework. Don't put off your homework.
+get up|get up|Verbe à particule intransitif. I get up at seven. Pas d'objet.
+run out of|run out of + noun|Run out of = manquer de. Il faut toujours « of ». We ran out of milk.
+pick up|pick up + noun / pick + noun + up|Séparable : pick up the kids ou pick the kids up. Can you pick up the kids at five?
+set up|set up + noun / set + noun + up|Séparable. Set up a business, set up a meeting. We set up a new business.
+come across|come across + noun|Come across = tomber sur. Inséparable : l'objet vient après. I came across an old photo.
+carry on|carry on (with + noun / -ing)|Carry on = continuer. Carry on with your work. Aussi carry on working.
+figure out|figure out + noun / figure + noun + out|Séparable. I can't figure out this puzzle. Avec pronom : figure it out.
+get over|get over + noun|Get over = se remettre de. Inséparable. It took her months to get over the flu.
+bring up|bring up + noun / bring + noun + up|Séparable. Bring up a subject = mentionner. Bring up a child = élever.
+call off|call off + noun / call + noun + off|Séparable. They called off the match. Avec pronom : call it off.
+work out|work out|Intransitif : I work out three times a week (sport). Transitif : work out a solution (trouver).
+look forward to|look forward to + noun / -ing|To est ici une préposition : on met -ing derrière. I'm looking forward to seeing you.
+put up with|put up with + noun / -ing|Put up with = supporter. Trois mots inséparables. I can't put up with this noise.
+make a mistake|make + a mistake|On dit « make a mistake », jamais « do a mistake ». I made a mistake in the test.
+do homework|do + one's homework|On dit « do homework », jamais « make homework ». Homework est indénombrable.
+take a photo|take + a photo|On dit « take a photo », jamais « make a photo ». Can you take a photo of us?
+make an effort|make + an effort + (to + verb)|Make an effort to + verbe. Please make an effort to be on time.
+pay attention|pay attention + to + noun|Pay attention to something. Toujours « to » devant l'objet. Pay attention to the teacher.
+take a break|take + a break|Take a break = faire une pause. Let's take a break.
+catch a cold|catch + a cold|Catch a cold = attraper un rhume. I caught a cold last week.
+keep a secret|keep + a secret|Keep = garder. Can you keep a secret?
+have a look|have + a look (at + noun)|Have a look at something. Moins formel que look at. Have a look at this photo.
+reach an agreement|reach + an agreement|Reach = atteindre. They reached an agreement last night.
+raise a question|raise + a question|Raise = soulever. Ne pas confondre avec rise. His speech raised an important question.
+run a business|run + a business|Run = diriger. She runs a small business.
+take responsibility|take + responsibility + (for + noun)|Take responsibility for something. He took responsibility for the error.
+make progress|make + progress|Progress est indénombrable : pas de « a progress ». You're making great progress.
+heavy rain|adjective + noun|On dit « heavy rain » (pas strong rain). Heavy rain is expected tonight.
+strong coffee|adjective + noun|On dit « strong coffee » (pas heavy coffee). I need a strong coffee.
+How are you?|How + be + subject?|Salutation courante. La réponse attendue : Fine, thanks. And you? Hi Tom, how are you?
+Nice to meet you|Nice to meet you|Phrase figée, sans sujet ni verbe conjugué. Nice to meet you, Anna.
+I'm sorry|I'm sorry (+ I'm late)|I'm sorry + proposition. Pour s'excuser : I'm sorry I'm late.
+Could you help me?|Could + you + verb?|Could you + verbe pour faire une demande polie. Excuse me, could you help me?
+What do you mean?|What + do + you + mean?|Pour demander une précision. What do you mean by that?
+I'm looking forward to it|I'm looking forward to + noun/pronoun|Forward to + objet. Ici, « it » remplace l'événement. I'm looking forward to it.
+It depends|It depends (+ on + noun)|It depends on the weather. Seul, c'est une réponse complète.
+I can't make it|I can't make it (+ to + noun)|Make it = pouvoir être présent. I can't make it tonight.
+Let me know|Let + me + know (+ when/if clause)|Let + objet + verbe nu. Let me know when you arrive.
+No worries|No worries|Réponse décontractée à des excuses. Sorry I'm late! No worries.
+I'll get back to you|I'll + get back to + person|Get back to someone = revenir vers quelqu'un. I'll get back to you tomorrow.
+to be honest|to be honest, + clause|Se place en début de phrase, avec une virgule. To be honest, I didn't like it.
+as far as I know|as far as I know, + clause|Introduit une information incertaine. As far as I know, he's still in Paris.
+by the way|by the way, + clause|Pour ajouter une remarque hors sujet. By the way, are you free on Sunday?
+it's up to you|it's up to + person|Up to you = à toi de décider. Pizza or pasta? It's up to you.
+I'm not sure about that|I'm not sure about + noun|Pour exprimer un doute. I'm not sure about that idea.

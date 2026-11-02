@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f766e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Speak Up">
+  <title>Speak Up — apprendre l'anglais</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app" aria-live="polite">Chargement…</div>
+  <script type="module" src="src/ui/app.js"></script>
+  <script>
+    // Si un fichier n'a pas pu être chargé, on ne laisse pas l'écran figé sur « Chargement… ».
+    setTimeout(function () {
+      var app = document.getElementById('app');
+      if (app && app.textContent.trim() === 'Chargement…') {
+        app.innerHTML = '<div class="card"><h2>Le chargement a échoué</h2><p>Un fichier de l\'application n\'a pas pu être chargé. Vérifie ta connexion puis recharge la page.</p><button class="btn" onclick="location.reload()">Recharger</button></div>';
+      }
+    }, 8000);
+  </script>
+</body>
+</html>

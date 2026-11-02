@@ -1,0 +1,146 @@
+be|I am a teacher.|Je suis professeur.
+have|Do you have a pen?|As-tu un stylo ?
+do|She does yoga every day.|Elle fait du yoga tous les jours.
+go|I go to work by train.|Je vais au travail en train.
+come|Can you come to my party?|Peux-tu venir à ma fête ?
+see|Can you see the mountains?|Vois-tu les montagnes ?
+eat|I eat an apple every day.|Je mange une pomme chaque jour.
+drink|He drinks tea in the morning.|Il boit du thé le matin.
+take|Take an umbrella, it's raining.|Prends un parapluie, il pleut.
+give|Please give me your phone number.|Donne-moi ton numéro de téléphone, s'il te plaît.
+make|She makes great cakes.|Elle fait de super gâteaux.
+get|I get up at seven.|Je me lève à sept heures.
+know|Do you know her?|La connais-tu ?
+think|I think you are right.|Je pense que tu as raison.
+say|What did you say?|Qu'as-tu dit ?
+tell|Tell me the truth.|Dis-moi la vérité.
+write|I write in my diary every night.|J'écris dans mon journal chaque soir.
+read|She reads the news every morning.|Elle lit les nouvelles chaque matin.
+buy|I will buy some bread.|Je vais acheter du pain.
+sit|Please sit down.|Asseyez-vous, s'il vous plaît.
+stand|Please stand up.|Levez-vous, s'il vous plaît.
+run|He runs five kilometres every day.|Il court cinq kilomètres par jour.
+sleep|I sleep eight hours a night.|Je dors huit heures par nuit.
+speak|Do you speak English?|Parlez-vous anglais ?
+begin|The lesson begins at nine.|Le cours commence à neuf heures.
+bring|Bring your passport tomorrow.|Apporte ton passeport demain.
+find|I can't find my glasses.|Je ne trouve pas mes lunettes.
+feel|I feel much better today.|Je me sens beaucoup mieux aujourd'hui.
+keep|Keep the change.|Gardez la monnaie.
+leave|The train leaves at noon.|Le train part à midi.
+lose|Don't lose your ticket.|Ne perds pas ton billet.
+meet|We meet every Friday.|Nous nous retrouvons chaque vendredi.
+pay|Can I pay by card?|Puis-je payer par carte ?
+send|I will send you the file.|Je t'enverrai le fichier.
+spend|They spend too much money.|Ils dépensent trop d'argent.
+teach|He teaches maths at school.|Il enseigne les maths à l'école.
+wear|She wears glasses.|Elle porte des lunettes.
+win|I hope we win tomorrow.|J'espère que nous gagnerons demain.
+fall|Leaves fall in autumn.|Les feuilles tombent en automne.
+fly|Birds fly south in winter.|Les oiseaux volent vers le sud en hiver.
+drive|He drives to work every day.|Il va au travail en voiture tous les jours.
+ride|I like riding my bike.|J'aime faire du vélo.
+swim|She swims every morning.|Elle nage chaque matin.
+sing|They sing in the choir.|Ils chantent dans la chorale.
+cut|Cut the bread, please.|Coupe le pain, s'il te plaît.
+put|Put your bag on the chair.|Pose ton sac sur la chaise.
+let|Let me help you.|Laisse-moi t'aider.
+set|Set the alarm for six.|Mets le réveil à six heures.
+break|Don't break the glass.|Ne casse pas le verre.
+build|They are building a new school.|Ils construisent une nouvelle école.
+catch|Catch the bus at the corner.|Prends le bus au coin de la rue.
+choose|You can choose any colour.|Tu peux choisir n'importe quelle couleur.
+draw|She draws very well.|Elle dessine très bien.
+forget|Don't forget your keys.|N'oublie pas tes clés.
+grow|Tomatoes grow well here.|Les tomates poussent bien ici.
+hear|Can you hear me?|Tu m'entends ?
+hide|The cat is hiding under the bed.|Le chat se cache sous le lit.
+hold|Hold the rail on the stairs.|Tiens la rampe dans l'escalier.
+lend|Can you lend me your car?|Peux-tu me prêter ta voiture ?
+mean|What does this word mean?|Que veut dire ce mot ?
+ring|The bells ring every hour.|Les cloches sonnent toutes les heures.
+rise|The sun rises in the east.|Le soleil se lève à l'est.
+sell|They sell fresh fish here.|Ils vendent du poisson frais ici.
+shake|Shake the bottle before use.|Agitez la bouteille avant utilisation.
+show|Show me your ticket, please.|Montrez-moi votre billet, s'il vous plaît.
+steal|Thieves steal bikes in this area.|Des voleurs volent des vélos dans ce quartier.
+throw|Don't throw rubbish on the ground.|Ne jette pas de déchets par terre.
+understand|I don't understand this word.|Je ne comprends pas ce mot.
+wake|Wake me up at six.|Réveille-moi à six heures.
+cost|How much does this cost?|Combien ça coûte ?
+learn|I'm learning to cook.|J'apprends à cuisiner.
+overcome|You can overcome this problem.|Tu peux surmonter ce problème.
+undertake|The company will undertake the repairs.|L'entreprise entreprendra les réparations.
+withdraw|You can withdraw money at the machine.|Vous pouvez retirer de l'argent au distributeur.
+forgive|Please forgive me.|Pardonne-moi, s'il te plaît.
+bite|My dog never bites.|Mon chien ne mord jamais.
+lead|This road leads to the beach.|Cette route mène à la plage.
+bend|Bend your knees.|Plie les genoux.
+burst|Be careful, the balloon will burst.|Attention, le ballon va éclater.
+walk|I walk to school every day.|Je vais à l'école à pied chaque jour.
+jump|The children are jumping on the bed.|Les enfants sautent sur le lit.
+open|The shop opens at nine.|Le magasin ouvre à neuf heures.
+close|The bank closes at five.|La banque ferme à dix-sept heures.
+play|He plays tennis on Sundays.|Il joue au tennis le dimanche.
+work|She works in a hospital.|Elle travaille dans un hôpital.
+watch|I'm watching a series.|Je regarde une série.
+listen|Listen to this song.|Écoute cette chanson.
+cook|My dad cooks on Sundays.|Mon père cuisine le dimanche.
+clean|I clean my room every week.|Je nettoie ma chambre chaque semaine.
+wash|Wash your hands before eating.|Lave-toi les mains avant de manger.
+call|I'll call you tonight.|Je t'appellerai ce soir.
+ask|Ask the teacher for help.|Demande de l'aide au professeur.
+answer|Please answer the question.|Réponds à la question, s'il te plaît.
+help|Can you help me?|Peux-tu m'aider ?
+dance|They love dancing.|Ils adorent danser.
+want|I want to learn English.|Je veux apprendre l'anglais.
+like|I like your jacket.|J'aime bien ta veste.
+live|I live in Paris.|J'habite à Paris.
+climb|We are climbing the hill.|Nous gravissons la colline.
+push|Push the button once.|Appuie une fois sur le bouton.
+pull|Pull the door, don't push it.|Tire la porte, ne la pousse pas.
+carry|Can you carry this bag?|Peux-tu porter ce sac ?
+visit|I want to visit Japan.|Je veux visiter le Japon.
+arrive|We arrive at noon.|Nous arrivons à midi.
+travel|I love travelling by train.|J'adore voyager en train.
+decide|I can't decide what to wear.|Je n'arrive pas à décider quoi porter.
+wait|Wait here, please.|Attends ici, s'il te plaît.
+stop|Stop talking, please.|Arrête de parler, s'il te plaît.
+try|Try this cake.|Goûte ce gâteau.
+use|You can use my phone.|Tu peux utiliser mon téléphone.
+love|I love this song.|J'adore cette chanson.
+need|I need a new phone.|J'ai besoin d'un nouveau téléphone.
+start|The film starts at eight.|Le film commence à vingt heures.
+finish|Finish your homework first.|Finis d'abord tes devoirs.
+improve|I want to improve my English.|Je veux améliorer mon anglais.
+create|Artists create beautiful things.|Les artistes créent de belles choses.
+repair|Can you repair this watch?|Peux-tu réparer cette montre ?
+practise|You must practise every day.|Tu dois t'entraîner tous les jours.
+borrow|Can I borrow your book?|Puis-je emprunter ton livre ?
+explain|Can you explain this to me?|Peux-tu m'expliquer ça ?
+prepare|I'm preparing dinner.|Je prépare le dîner.
+invite|I will invite all my friends.|J'inviterai tous mes amis.
+share|Let's share the cost.|Partageons les frais.
+follow|Follow me, please.|Suivez-moi, s'il vous plaît.
+remember|Do you remember my name?|Te souviens-tu de mon nom ?
+protect|Trees protect the soil.|Les arbres protègent le sol.
+compare|Compare the prices before you buy.|Compare les prix avant d'acheter.
+achieve|You can achieve your goals.|Tu peux atteindre tes objectifs.
+manage|Can you manage on your own?|Tu t'en sors tout seul ?
+suggest|What do you suggest?|Que suggères-tu ?
+join|Join us for lunch.|Joins-toi à nous pour le déjeuner.
+enjoy|Enjoy your meal!|Bon appétit !
+struggle|Many students struggle with grammar.|Beaucoup d'étudiants peinent avec la grammaire.
+postpone|We have to postpone the trip.|Nous devons reporter le voyage.
+encourage|Good teachers encourage their students.|Les bons professeurs encouragent leurs élèves.
+ignore|Don't ignore the problem.|N'ignore pas le problème.
+arrange|I'll arrange a taxi for you.|Je vous réserverai un taxi.
+apologise|I apologise for the delay.|Je m'excuse pour le retard.
+consider|Please consider my offer.|Réfléchissez à mon offre, s'il vous plaît.
+admit|I admit I was wrong.|J'admets que j'avais tort.
+refuse|They refuse to help.|Ils refusent d'aider.
+attempt|Don't attempt to repair it yourself.|N'essaie pas de le réparer toi-même.
+tackle|We must tackle climate change.|Nous devons nous attaquer au changement climatique.
+exaggerate|Don't exaggerate, it wasn't that bad.|N'exagère pas, ce n'était pas si grave.
+alleviate|This cream will alleviate the itching.|Cette crème atténuera les démangeaisons.
+reinforce|We need to reinforce the door.|Nous devons renforcer la porte.

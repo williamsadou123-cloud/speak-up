@@ -1,0 +1,1727 @@
+[
+ {
+  "id": "x-a-piece-of-cake",
+  "level": "B1",
+  "topic": "idioms",
+  "en": "a piece of cake",
+  "fr": "simple comme bonjour",
+  "definition_fr": "Quelque chose de très facile.",
+  "definition_en": "Something very easy to do.",
+  "examples": [
+   {
+    "en": "The exam was a piece of cake.",
+    "fr": "L'examen était simple comme bonjour."
+   },
+   {
+    "en": "Don't worry, it's a piece of cake.",
+    "fr": "Ne t'inquiète pas, c'est du gâteau."
+   }
+  ],
+  "construction": {
+   "pattern": "subject + be + a piece of cake",
+   "tip_fr": "Expression figée : on ne change pas les mots. Elle s'emploie après « be » pour dire que c'est facile. The exam was a piece of cake."
+  },
+  "literal_fr": "un morceau de gâteau",
+  "usage_fr": "Pour dire qu'une tâche est très facile, à l'oral comme à l'écrit."
+ },
+ {
+  "id": "x-break-a-leg",
+  "level": "B1",
+  "topic": "idioms",
+  "en": "break a leg",
+  "fr": "bonne chance",
+  "definition_fr": "Une façon de souhaiter bonne chance, surtout avant un spectacle.",
+  "definition_en": "A way of saying good luck, especially before a performance.",
+  "examples": [
+   {
+    "en": "Break a leg tonight!",
+    "fr": "Bonne chance pour ce soir !"
+   },
+   {
+    "en": "She whispered, \"Break a leg!\"",
+    "fr": "Elle a chuchoté : « Bonne chance ! »"
+   }
+  ],
+  "construction": {
+   "pattern": "Break a leg!",
+   "tip_fr": "Interjection figée, dite avant un spectacle. Ne se dit pas au sens propre. Break a leg tonight!"
+  },
+  "literal_fr": "casse-toi une jambe",
+  "usage_fr": "Pour souhaiter bonne chance à quelqu'un avant une performance."
+ },
+ {
+  "id": "x-under-the-weather",
+  "level": "B1",
+  "topic": "idioms",
+  "en": "under the weather",
+  "fr": "patraque",
+  "definition_fr": "Un peu malade.",
+  "definition_en": "Slightly ill.",
+  "examples": [
+   {
+    "en": "I'm feeling under the weather today.",
+    "fr": "Je me sens patraque aujourd'hui."
+   },
+   {
+    "en": "He stayed home because he was under the weather.",
+    "fr": "Il est resté à la maison car il était patraque."
+   }
+  ],
+  "construction": {
+   "pattern": "be/feel + under the weather",
+   "tip_fr": "S'emploie après be ou feel pour dire qu'on est un peu malade. I'm feeling under the weather today."
+  },
+  "literal_fr": "sous le temps",
+  "usage_fr": "Pour dire qu'on se sent un peu malade, sans donner de détails."
+ },
+ {
+  "id": "x-once-in-a-blue-moon",
+  "level": "B2",
+  "topic": "idioms",
+  "en": "once in a blue moon",
+  "fr": "rarement, tous les trente-six du mois",
+  "definition_fr": "Très rarement.",
+  "definition_en": "Very rarely.",
+  "examples": [
+   {
+    "en": "We go to the cinema once in a blue moon.",
+    "fr": "Nous allons au cinéma tous les trente-six du mois."
+   },
+   {
+    "en": "She calls me once in a blue moon.",
+    "fr": "Elle m'appelle une fois tous les trente-six du mois."
+   }
+  ],
+  "construction": {
+   "pattern": "subject + verb + once in a blue moon",
+   "tip_fr": "S'ajoute en fin de phrase pour dire « très rarement ». We go to the cinema once in a blue moon."
+  },
+  "literal_fr": "une fois dans une lune bleue",
+  "usage_fr": "Pour parler de quelque chose qui n'arrive presque jamais."
+ },
+ {
+  "id": "x-the-ball-is-in-your-court",
+  "level": "B2",
+  "topic": "idioms",
+  "en": "the ball is in your court",
+  "fr": "c'est à toi de jouer",
+  "definition_fr": "C'est à vous de décider ou d'agir.",
+  "definition_en": "It is your turn to make a decision or act.",
+  "examples": [
+   {
+    "en": "I made my offer; now the ball is in your court.",
+    "fr": "J'ai fait mon offre ; maintenant c'est à toi de jouer."
+   },
+   {
+    "en": "The ball is in their court.",
+    "fr": "C'est à eux de jouer."
+   }
+  ],
+  "construction": {
+   "pattern": "the ball + be + in + possessive + court",
+   "tip_fr": "On change le possessif : your, his, her court. I made my offer; now the ball is in your court."
+  },
+  "literal_fr": "la balle est dans ton camp",
+  "usage_fr": "Quand c'est à l'autre personne de prendre une décision."
+ },
+ {
+  "id": "x-spill-the-beans",
+  "level": "B2",
+  "topic": "idioms",
+  "en": "spill the beans",
+  "fr": "vendre la mèche",
+  "definition_fr": "Révéler un secret.",
+  "definition_en": "To reveal a secret.",
+  "examples": [
+   {
+    "en": "Who spilled the beans about the party?",
+    "fr": "Qui a vendu la mèche pour la fête ?"
+   },
+   {
+    "en": "Don't spill the beans!",
+    "fr": "Ne vends pas la mèche !"
+   }
+  ],
+  "construction": {
+   "pattern": "spill the beans (about + noun)",
+   "tip_fr": "Spill = renverser. Le verbe se conjugue : She spilled the beans about the party."
+  },
+  "literal_fr": "renverser les haricots",
+  "usage_fr": "Quand on révèle une information qui devait rester secrète."
+ },
+ {
+  "id": "x-hit-the-nail-on-the-head",
+  "level": "B2",
+  "topic": "idioms",
+  "en": "hit the nail on the head",
+  "fr": "mettre dans le mille",
+  "definition_fr": "Dire exactement ce qui est juste.",
+  "definition_en": "To describe exactly what is true.",
+  "examples": [
+   {
+    "en": "You hit the nail on the head.",
+    "fr": "Tu as mis dans le mille."
+   },
+   {
+    "en": "His comment hit the nail on the head.",
+    "fr": "Sa remarque a visé juste."
+   }
+  ],
+  "construction": {
+   "pattern": "hit the nail on the head",
+   "tip_fr": "Verbe conjugué : you hit, she hit. Le mot « nail » reste au singulier. You hit the nail on the head."
+  },
+  "literal_fr": "frapper le clou sur la tête",
+  "usage_fr": "Pour dire que quelqu'un a parfaitement raison."
+ },
+ {
+  "id": "x-cost-an-arm-and-a-leg",
+  "level": "B2",
+  "topic": "idioms",
+  "en": "cost an arm and a leg",
+  "fr": "coûter les yeux de la tête",
+  "definition_fr": "Être extrêmement cher.",
+  "definition_en": "To be very expensive.",
+  "examples": [
+   {
+    "en": "That car cost an arm and a leg.",
+    "fr": "Cette voiture a coûté les yeux de la tête."
+   },
+   {
+    "en": "Concert tickets cost an arm and a leg.",
+    "fr": "Les billets de concert coûtent les yeux de la tête."
+   }
+  ],
+  "construction": {
+   "pattern": "subject + cost + an arm and a leg",
+   "tip_fr": "Cost est irrégulier (cost, cost, cost). Expression familière. That car cost an arm and a leg."
+  },
+  "literal_fr": "coûter un bras et une jambe",
+  "usage_fr": "Pour dire que quelque chose est très cher, dans un ton familier."
+ },
+ {
+  "id": "x-let-the-cat-out-of-the-bag",
+  "level": "B2",
+  "topic": "idioms",
+  "en": "let the cat out of the bag",
+  "fr": "vendre la mèche (par erreur)",
+  "definition_fr": "Révéler un secret sans le vouloir.",
+  "definition_en": "To accidentally reveal a secret.",
+  "examples": [
+   {
+    "en": "He let the cat out of the bag about the surprise.",
+    "fr": "Il a vendu la mèche sur la surprise."
+   },
+   {
+    "en": "Oops, I let the cat out of the bag!",
+    "fr": "Oups, j'ai vendu la mèche !"
+   }
+  ],
+  "construction": {
+   "pattern": "let the cat out of the bag (about + noun)",
+   "tip_fr": "Let est identique à tous les temps. On révèle un secret par erreur. He let the cat out of the bag about the surprise."
+  },
+  "literal_fr": "laisser sortir le chat du sac",
+  "usage_fr": "Pour révéler un secret par inadvertance."
+ },
+ {
+  "id": "x-kill-two-birds-with-one-stone",
+  "level": "B2",
+  "topic": "idioms",
+  "en": "kill two birds with one stone",
+  "fr": "faire d'une pierre deux coups",
+  "definition_fr": "Résoudre deux problèmes d'un seul coup.",
+  "definition_en": "To solve two problems with one action.",
+  "examples": [
+   {
+    "en": "Let's kill two birds with one stone and shop on the way.",
+    "fr": "Faisons d'une pierre deux coups et faisons les courses en chemin."
+   },
+   {
+    "en": "Walking to work kills two birds with one stone.",
+    "fr": "Marcher jusqu'au travail, c'est faire d'une pierre deux coups."
+   }
+  ],
+  "construction": {
+   "pattern": "kill two birds with one stone",
+   "tip_fr": "Souvent après « Let's » ou « to ». Let's kill two birds with one stone and shop on the way."
+  },
+  "literal_fr": "tuer deux oiseaux avec une pierre",
+  "usage_fr": "Pour parler d'une action qui règle deux problèmes à la fois."
+ },
+ {
+  "id": "x-bite-the-bullet",
+  "level": "B2",
+  "topic": "idioms",
+  "en": "bite the bullet",
+  "fr": "serrer les dents",
+  "definition_fr": "Accepter de faire quelque chose de désagréable.",
+  "definition_en": "To force yourself to do something unpleasant.",
+  "examples": [
+   {
+    "en": "I had to bite the bullet and call him.",
+    "fr": "J'ai dû serrer les dents et l'appeler."
+   },
+   {
+    "en": "Just bite the bullet and apologise.",
+    "fr": "Serre les dents et excuse-toi."
+   }
+  ],
+  "construction": {
+   "pattern": "bite the bullet",
+   "tip_fr": "Verbe conjugué : bit the bullet. Souvent avec « had to ». I had to bite the bullet and call him."
+  },
+  "literal_fr": "mordre la balle",
+  "usage_fr": "Quand il faut accepter quelque chose de pénible sans se plaindre."
+ },
+ {
+  "id": "x-the-elephant-in-the-room",
+  "level": "C1",
+  "topic": "idioms",
+  "en": "the elephant in the room",
+  "fr": "le sujet qu'on évite",
+  "definition_fr": "Un problème évident dont personne ne parle.",
+  "definition_en": "An obvious problem no one wants to talk about.",
+  "examples": [
+   {
+    "en": "Money is the elephant in the room.",
+    "fr": "L'argent est le sujet que tout le monde évite."
+   },
+   {
+    "en": "Let's address the elephant in the room.",
+    "fr": "Abordons le sujet qui fâche."
+   }
+  ],
+  "construction": {
+   "pattern": "noun + be + the elephant in the room",
+   "tip_fr": "Après be, pour parler du sujet évité : Money is the elephant in the room."
+  },
+  "literal_fr": "l'éléphant dans la pièce",
+  "usage_fr": "Pour parler d'un problème que tout le monde voit mais évite."
+ },
+ {
+  "id": "x-burn-the-midnight-oil",
+  "level": "C1",
+  "topic": "idioms",
+  "en": "burn the midnight oil",
+  "fr": "travailler tard dans la nuit",
+  "definition_fr": "Travailler très tard.",
+  "definition_en": "To work late into the night.",
+  "examples": [
+   {
+    "en": "She burned the midnight oil before the exam.",
+    "fr": "Elle a veillé tard avant l'examen."
+   },
+   {
+    "en": "We're burning the midnight oil to finish.",
+    "fr": "Nous veillons tard pour terminer."
+   }
+  ],
+  "construction": {
+   "pattern": "burn the midnight oil",
+   "tip_fr": "Verbe conjugué : burned (ou burnt). She burned the midnight oil before the exam."
+  },
+  "literal_fr": "brûler l'huile de minuit",
+  "usage_fr": "Pour dire qu'on a travaillé très tard le soir."
+ },
+ {
+  "id": "x-on-the-same-page",
+  "level": "B2",
+  "topic": "idioms",
+  "en": "on the same page",
+  "fr": "sur la même longueur d'onde",
+  "definition_fr": "D'accord sur un sujet.",
+  "definition_en": "In agreement about something.",
+  "examples": [
+   {
+    "en": "Let's make sure we're on the same page.",
+    "fr": "Assurons-nous d'être sur la même longueur d'onde."
+   },
+   {
+    "en": "Are we all on the same page?",
+    "fr": "Sommes-nous tous d'accord ?"
+   }
+  ],
+  "construction": {
+   "pattern": "be + on the same page",
+   "tip_fr": "On l'emploie avec be ou get : Let's make sure we're on the same page."
+  },
+  "literal_fr": "sur la même page",
+  "usage_fr": "Au travail, pour vérifier que tout le monde comprend pareil."
+ },
+ {
+  "id": "x-cut-corners",
+  "level": "B2",
+  "topic": "idioms",
+  "en": "cut corners",
+  "fr": "bâcler",
+  "definition_fr": "Faire quelque chose vite et mal pour économiser.",
+  "definition_en": "To do something badly to save time or money.",
+  "examples": [
+   {
+    "en": "Never cut corners on safety.",
+    "fr": "Ne bâclez jamais la sécurité."
+   },
+   {
+    "en": "They cut corners to finish early.",
+    "fr": "Ils ont bâclé pour finir plus tôt."
+   }
+  ],
+  "construction": {
+   "pattern": "cut corners (on + noun)",
+   "tip_fr": "Cut est identique à tous les temps. Never cut corners on safety."
+  },
+  "literal_fr": "couper les coins",
+  "usage_fr": "Pour critiquer un travail fait trop vite, au détriment de la qualité."
+ },
+ {
+  "id": "x-go-the-extra-mile",
+  "level": "B2",
+  "topic": "idioms",
+  "en": "go the extra mile",
+  "fr": "faire un effort supplémentaire",
+  "definition_fr": "Faire plus que ce qui est demandé.",
+  "definition_en": "To make more effort than expected.",
+  "examples": [
+   {
+    "en": "She always goes the extra mile for customers.",
+    "fr": "Elle fait toujours un effort de plus pour les clients."
+   },
+   {
+    "en": "He went the extra mile to help us.",
+    "fr": "Il a fait un effort de plus pour nous aider."
+   }
+  ],
+  "construction": {
+   "pattern": "go the extra mile (for + person)",
+   "tip_fr": "Go se conjugue : she goes the extra mile. Souvent avec for + personne. She always goes the extra mile for customers."
+  },
+  "literal_fr": "faire le mille supplémentaire",
+  "usage_fr": "Pour féliciter quelqu'un qui fait plus que prévu."
+ },
+ {
+  "id": "x-look-for",
+  "level": "A2",
+  "topic": "phrasal verbs",
+  "en": "look for",
+  "fr": "chercher",
+  "definition_fr": "Essayer de trouver.",
+  "definition_en": "To try to find something.",
+  "examples": [
+   {
+    "en": "I'm looking for my keys.",
+    "fr": "Je cherche mes clés."
+   },
+   {
+    "en": "She is looking for a job.",
+    "fr": "Elle cherche un emploi."
+   }
+  ],
+  "construction": {
+   "pattern": "look for + noun",
+   "tip_fr": "Look for = chercher. La particule for reste après le verbe. I'm looking for my keys."
+  },
+  "literal_fr": "regarder pour",
+  "usage_fr": "Dans la vie de tous les jours, pour parler de ce qu'on cherche."
+ },
+ {
+  "id": "x-look-after",
+  "level": "A2",
+  "topic": "phrasal verbs",
+  "en": "look after",
+  "fr": "s'occuper de",
+  "definition_fr": "Prendre soin de quelqu'un.",
+  "definition_en": "To take care of someone or something.",
+  "examples": [
+   {
+    "en": "Can you look after my dog?",
+    "fr": "Peux-tu t'occuper de mon chien ?"
+   },
+   {
+    "en": "He looks after his grandmother.",
+    "fr": "Il s'occupe de sa grand-mère."
+   }
+  ],
+  "construction": {
+   "pattern": "look after + person",
+   "tip_fr": "Look after = s'occuper de. L'objet vient après : Can you look after my dog?"
+  },
+  "literal_fr": "regarder après",
+  "usage_fr": "Pour parler d'enfants, d'animaux ou de proches dont on s'occupe."
+ },
+ {
+  "id": "x-turn-on",
+  "level": "A2",
+  "topic": "phrasal verbs",
+  "en": "turn on",
+  "fr": "allumer",
+  "definition_fr": "Mettre en marche.",
+  "definition_en": "To start a machine or light.",
+  "examples": [
+   {
+    "en": "Turn on the light, please.",
+    "fr": "Allume la lumière, s'il te plaît."
+   },
+   {
+    "en": "She turned on the TV.",
+    "fr": "Elle a allumé la télé."
+   }
+  ],
+  "construction": {
+   "pattern": "turn on + noun / turn + noun + on",
+   "tip_fr": "Séparable : turn on the light ou turn the light on. Avec un pronom : turn it on."
+  },
+  "literal_fr": "tourner sur",
+  "usage_fr": "Pour allumer une lumière, une télé, un appareil."
+ },
+ {
+  "id": "x-turn-off",
+  "level": "A2",
+  "topic": "phrasal verbs",
+  "en": "turn off",
+  "fr": "éteindre",
+  "definition_fr": "Arrêter une machine ou une lumière.",
+  "definition_en": "To stop a machine or light.",
+  "examples": [
+   {
+    "en": "Turn off your phone.",
+    "fr": "Éteins ton téléphone."
+   },
+   {
+    "en": "Don't forget to turn off the oven.",
+    "fr": "N'oublie pas d'éteindre le four."
+   }
+  ],
+  "construction": {
+   "pattern": "turn off + noun / turn + noun + off",
+   "tip_fr": "Séparable : turn off your phone ou turn your phone off. Avec un pronom : turn it off."
+  },
+  "literal_fr": "tourner hors",
+  "usage_fr": "Pour éteindre un appareil, une lumière, un téléphone."
+ },
+ {
+  "id": "x-give-up",
+  "level": "B1",
+  "topic": "phrasal verbs",
+  "en": "give up",
+  "fr": "abandonner",
+  "definition_fr": "Arrêter d'essayer.",
+  "definition_en": "To stop trying.",
+  "examples": [
+   {
+    "en": "Never give up on your dreams.",
+    "fr": "N'abandonne jamais tes rêves."
+   },
+   {
+    "en": "He gave up smoking last year.",
+    "fr": "Il a arrêté de fumer l'an dernier."
+   }
+  ],
+  "construction": {
+   "pattern": "give up (+ noun / -ing)",
+   "tip_fr": "Give up = abandonner. Avec -ing : give up smoking. Never give up on your dreams."
+  },
+  "literal_fr": "donner vers le haut",
+  "usage_fr": "Quand on arrête d'essayer ou qu'on abandonne une habitude."
+ },
+ {
+  "id": "x-find-out",
+  "level": "B1",
+  "topic": "phrasal verbs",
+  "en": "find out",
+  "fr": "découvrir, apprendre",
+  "definition_fr": "Obtenir une information.",
+  "definition_en": "To discover a fact.",
+  "examples": [
+   {
+    "en": "I found out the truth yesterday.",
+    "fr": "J'ai découvert la vérité hier."
+   },
+   {
+    "en": "Let's find out what happened.",
+    "fr": "Découvrons ce qui s'est passé."
+   }
+  ],
+  "construction": {
+   "pattern": "find out (+ noun / that clause)",
+   "tip_fr": "Find out = découvrir. I found out the truth yesterday. Avec un pronom : find it out est rare."
+  },
+  "literal_fr": "trouver dehors",
+  "usage_fr": "Pour dire qu'on apprend une information qu'on ne connaissait pas."
+ },
+ {
+  "id": "x-take-off",
+  "level": "B1",
+  "topic": "phrasal verbs",
+  "en": "take off",
+  "fr": "décoller, enlever",
+  "definition_fr": "Quitter le sol (avion) ou retirer.",
+  "definition_en": "To leave the ground, or to remove clothes.",
+  "examples": [
+   {
+    "en": "The plane takes off at nine.",
+    "fr": "L'avion décolle à neuf heures."
+   },
+   {
+    "en": "Take off your shoes, please.",
+    "fr": "Enlève tes chaussures, s'il te plaît."
+   }
+  ],
+  "construction": {
+   "pattern": "take off / take + noun + off",
+   "tip_fr": "Pour un avion : intransitif. Pour un vêtement : take your coat off. The plane takes off at nine."
+  },
+  "literal_fr": "prendre hors",
+  "usage_fr": "Pour un avion qui décolle ou pour retirer un vêtement."
+ },
+ {
+  "id": "x-put-off",
+  "level": "B1",
+  "topic": "phrasal verbs",
+  "en": "put off",
+  "fr": "reporter",
+  "definition_fr": "Remettre à plus tard.",
+  "definition_en": "To delay something.",
+  "examples": [
+   {
+    "en": "Don't put off your homework.",
+    "fr": "Ne remets pas tes devoirs à plus tard."
+   },
+   {
+    "en": "They put off the trip until May.",
+    "fr": "Ils ont reporté le voyage à mai."
+   }
+  ],
+  "construction": {
+   "pattern": "put off + noun / -ing",
+   "tip_fr": "Put off = reporter. Avec -ing : put off doing homework. Don't put off your homework."
+  },
+  "literal_fr": "mettre hors",
+  "usage_fr": "Quand on remet à plus tard une tâche ou un rendez-vous."
+ },
+ {
+  "id": "x-get-up",
+  "level": "B1",
+  "topic": "phrasal verbs",
+  "en": "get up",
+  "fr": "se lever",
+  "definition_fr": "Quitter le lit.",
+  "definition_en": "To get out of bed.",
+  "examples": [
+   {
+    "en": "I get up at seven.",
+    "fr": "Je me lève à sept heures."
+   },
+   {
+    "en": "It's hard to get up on Mondays.",
+    "fr": "C'est dur de se lever le lundi."
+   }
+  ],
+  "construction": {
+   "pattern": "get up",
+   "tip_fr": "Verbe à particule intransitif. I get up at seven. Pas d'objet."
+  },
+  "literal_fr": "obtenir en haut",
+  "usage_fr": "Pour parler du moment où l'on quitte le lit."
+ },
+ {
+  "id": "x-run-out-of",
+  "level": "B1",
+  "topic": "phrasal verbs",
+  "en": "run out of",
+  "fr": "manquer de",
+  "definition_fr": "Ne plus en avoir.",
+  "definition_en": "To have no more of something.",
+  "examples": [
+   {
+    "en": "We ran out of milk.",
+    "fr": "Nous n'avons plus de lait."
+   },
+   {
+    "en": "I'm running out of time.",
+    "fr": "Je manque de temps."
+   }
+  ],
+  "construction": {
+   "pattern": "run out of + noun",
+   "tip_fr": "Run out of = manquer de. Il faut toujours « of ». We ran out of milk."
+  },
+  "literal_fr": "courir hors de",
+  "usage_fr": "Quand il n'en reste plus du tout : lait, temps, argent."
+ },
+ {
+  "id": "x-pick-up",
+  "level": "B1",
+  "topic": "phrasal verbs",
+  "en": "pick up",
+  "fr": "ramasser, aller chercher",
+  "definition_fr": "Prendre quelque chose ou quelqu'un.",
+  "definition_en": "To lift something or collect a person.",
+  "examples": [
+   {
+    "en": "Can you pick up the kids at five?",
+    "fr": "Peux-tu aller chercher les enfants à cinq heures ?"
+   },
+   {
+    "en": "She picked up the phone.",
+    "fr": "Elle a décroché le téléphone."
+   }
+  ],
+  "construction": {
+   "pattern": "pick up + noun / pick + noun + up",
+   "tip_fr": "Séparable : pick up the kids ou pick the kids up. Can you pick up the kids at five?"
+  },
+  "literal_fr": "prendre vers le haut",
+  "usage_fr": "Pour ramasser un objet ou aller chercher quelqu'un."
+ },
+ {
+  "id": "x-set-up",
+  "level": "B1",
+  "topic": "phrasal verbs",
+  "en": "set up",
+  "fr": "mettre en place",
+  "definition_fr": "Organiser ou installer.",
+  "definition_en": "To arrange or install something.",
+  "examples": [
+   {
+    "en": "We set up a new business.",
+    "fr": "Nous avons monté une nouvelle entreprise."
+   },
+   {
+    "en": "He set up the Wi-Fi router.",
+    "fr": "Il a installé le routeur Wi-Fi."
+   }
+  ],
+  "construction": {
+   "pattern": "set up + noun / set + noun + up",
+   "tip_fr": "Séparable. Set up a business, set up a meeting. We set up a new business."
+  },
+  "literal_fr": "placer vers le haut",
+  "usage_fr": "Pour installer du matériel ou créer une entreprise."
+ },
+ {
+  "id": "x-come-across",
+  "level": "B1",
+  "topic": "phrasal verbs",
+  "en": "come across",
+  "fr": "tomber sur",
+  "definition_fr": "Trouver par hasard.",
+  "definition_en": "To find by chance.",
+  "examples": [
+   {
+    "en": "I came across an old photo.",
+    "fr": "Je suis tombé sur une vieille photo."
+   },
+   {
+    "en": "She came across this book in a shop.",
+    "fr": "Elle est tombée sur ce livre dans une boutique."
+   }
+  ],
+  "construction": {
+   "pattern": "come across + noun",
+   "tip_fr": "Come across = tomber sur. Inséparable : l'objet vient après. I came across an old photo."
+  },
+  "literal_fr": "venir à travers",
+  "usage_fr": "Quand on trouve ou rencontre quelque chose par hasard."
+ },
+ {
+  "id": "x-carry-on",
+  "level": "B2",
+  "topic": "phrasal verbs",
+  "en": "carry on",
+  "fr": "continuer",
+  "definition_fr": "Poursuivre une action.",
+  "definition_en": "To continue doing something.",
+  "examples": [
+   {
+    "en": "Carry on with your work.",
+    "fr": "Continue ton travail."
+   },
+   {
+    "en": "We carried on walking.",
+    "fr": "Nous avons continué à marcher."
+   }
+  ],
+  "construction": {
+   "pattern": "carry on (with + noun / -ing)",
+   "tip_fr": "Carry on = continuer. Carry on with your work. Aussi carry on working."
+  },
+  "literal_fr": "porter sur",
+  "usage_fr": "Pour dire à quelqu'un de continuer ce qu'il fait."
+ },
+ {
+  "id": "x-figure-out",
+  "level": "B2",
+  "topic": "phrasal verbs",
+  "en": "figure out",
+  "fr": "comprendre, trouver la solution",
+  "definition_fr": "Réussir à comprendre.",
+  "definition_en": "To understand or solve something.",
+  "examples": [
+   {
+    "en": "I can't figure out this puzzle.",
+    "fr": "Je n'arrive pas à résoudre ce casse-tête."
+   },
+   {
+    "en": "We figured out the problem.",
+    "fr": "Nous avons trouvé le problème."
+   }
+  ],
+  "construction": {
+   "pattern": "figure out + noun / figure + noun + out",
+   "tip_fr": "Séparable. I can't figure out this puzzle. Avec pronom : figure it out."
+  },
+  "literal_fr": "figurer dehors",
+  "usage_fr": "Quand on réussit à comprendre un problème ou une énigme."
+ },
+ {
+  "id": "x-get-over",
+  "level": "B2",
+  "topic": "phrasal verbs",
+  "en": "get over",
+  "fr": "se remettre de",
+  "definition_fr": "Surmonter une difficulté ou une maladie.",
+  "definition_en": "To recover from something.",
+  "examples": [
+   {
+    "en": "It took her months to get over the flu.",
+    "fr": "Il lui a fallu des mois pour se remettre de la grippe."
+   },
+   {
+    "en": "I can't get over how fast he grew.",
+    "fr": "Je n'en reviens pas de voir comme il a grandi vite."
+   }
+  ],
+  "construction": {
+   "pattern": "get over + noun",
+   "tip_fr": "Get over = se remettre de. Inséparable. It took her months to get over the flu."
+  },
+  "literal_fr": "obtenir par-dessus",
+  "usage_fr": "Pour parler d'une maladie, d'une rupture ou d'un choc dont on se remet."
+ },
+ {
+  "id": "x-bring-up",
+  "level": "B2",
+  "topic": "phrasal verbs",
+  "en": "bring up",
+  "fr": "évoquer, élever",
+  "definition_fr": "Mentionner un sujet ou élever un enfant.",
+  "definition_en": "To mention a topic, or raise a child.",
+  "examples": [
+   {
+    "en": "Don't bring up politics at dinner.",
+    "fr": "N'évoque pas la politique au dîner."
+   },
+   {
+    "en": "She was brought up in Spain.",
+    "fr": "Elle a été élevée en Espagne."
+   }
+  ],
+  "construction": {
+   "pattern": "bring up + noun / bring + noun + up",
+   "tip_fr": "Séparable. Bring up a subject = mentionner. Bring up a child = élever."
+  },
+  "literal_fr": "apporter vers le haut",
+  "usage_fr": "Pour mentionner un sujet, ou pour élever un enfant."
+ },
+ {
+  "id": "x-call-off",
+  "level": "B2",
+  "topic": "phrasal verbs",
+  "en": "call off",
+  "fr": "annuler",
+  "definition_fr": "Décider de ne pas faire.",
+  "definition_en": "To cancel something.",
+  "examples": [
+   {
+    "en": "They called off the match.",
+    "fr": "Ils ont annulé le match."
+   },
+   {
+    "en": "The wedding was called off.",
+    "fr": "Le mariage a été annulé."
+   }
+  ],
+  "construction": {
+   "pattern": "call off + noun / call + noun + off",
+   "tip_fr": "Séparable. They called off the match. Avec pronom : call it off."
+  },
+  "literal_fr": "appeler hors",
+  "usage_fr": "Quand un événement est annulé."
+ },
+ {
+  "id": "x-work-out",
+  "level": "B2",
+  "topic": "phrasal verbs",
+  "en": "work out",
+  "fr": "s'entraîner, se résoudre",
+  "definition_fr": "Faire du sport ou trouver une solution.",
+  "definition_en": "To exercise, or to find a solution.",
+  "examples": [
+   {
+    "en": "I work out three times a week.",
+    "fr": "Je m'entraîne trois fois par semaine."
+   },
+   {
+    "en": "Things worked out fine.",
+    "fr": "Les choses se sont bien arrangées."
+   }
+  ],
+  "construction": {
+   "pattern": "work out",
+   "tip_fr": "Intransitif : I work out three times a week (sport). Transitif : work out a solution (trouver)."
+  },
+  "literal_fr": "travailler dehors",
+  "usage_fr": "Pour le sport, ou pour trouver la solution à un problème."
+ },
+ {
+  "id": "x-look-forward-to",
+  "level": "B2",
+  "topic": "phrasal verbs",
+  "en": "look forward to",
+  "fr": "avoir hâte de",
+  "definition_fr": "Attendre avec plaisir.",
+  "definition_en": "To wait for something with pleasure.",
+  "examples": [
+   {
+    "en": "I'm looking forward to the holidays.",
+    "fr": "J'ai hâte d'être en vacances."
+   },
+   {
+    "en": "We look forward to seeing you.",
+    "fr": "Nous avons hâte de vous voir."
+   }
+  ],
+  "construction": {
+   "pattern": "look forward to + noun / -ing",
+   "tip_fr": "To est ici une préposition : on met -ing derrière. I'm looking forward to seeing you."
+  },
+  "literal_fr": "regarder en avant vers",
+  "usage_fr": "Pour dire qu'on attend quelque chose avec plaisir, souvent dans un mail."
+ },
+ {
+  "id": "x-put-up-with",
+  "level": "C1",
+  "topic": "phrasal verbs",
+  "en": "put up with",
+  "fr": "supporter",
+  "definition_fr": "Tolérer quelque chose de désagréable.",
+  "definition_en": "To tolerate something annoying.",
+  "examples": [
+   {
+    "en": "I can't put up with this noise.",
+    "fr": "Je ne supporte pas ce bruit."
+   },
+   {
+    "en": "She puts up with a lot.",
+    "fr": "Elle supporte beaucoup de choses."
+   }
+  ],
+  "construction": {
+   "pattern": "put up with + noun / -ing",
+   "tip_fr": "Put up with = supporter. Trois mots inséparables. I can't put up with this noise."
+  },
+  "literal_fr": "mettre en haut avec",
+  "usage_fr": "Quand on supporte quelqu'un ou quelque chose de désagréable."
+ },
+ {
+  "id": "x-make-a-mistake",
+  "level": "A2",
+  "topic": "collocations",
+  "en": "make a mistake",
+  "fr": "faire une erreur",
+  "definition_fr": "Se tromper.",
+  "definition_en": "To do something wrong by accident.",
+  "examples": [
+   {
+    "en": "I made a mistake in the test.",
+    "fr": "J'ai fait une erreur au test."
+   },
+   {
+    "en": "Everyone makes mistakes.",
+    "fr": "Tout le monde fait des erreurs."
+   }
+  ],
+  "construction": {
+   "pattern": "make + a mistake",
+   "tip_fr": "On dit « make a mistake », jamais « do a mistake ». I made a mistake in the test."
+  },
+  "literal_fr": "faire une erreur",
+  "usage_fr": "Pour dire qu'on s'est trompé. Make, jamais do."
+ },
+ {
+  "id": "x-do-homework",
+  "level": "A2",
+  "topic": "collocations",
+  "en": "do homework",
+  "fr": "faire ses devoirs",
+  "definition_fr": "Faire le travail scolaire à la maison.",
+  "definition_en": "To do school work at home.",
+  "examples": [
+   {
+    "en": "I do my homework after dinner.",
+    "fr": "Je fais mes devoirs après le dîner."
+   },
+   {
+    "en": "Have you done your homework?",
+    "fr": "As-tu fait tes devoirs ?"
+   }
+  ],
+  "construction": {
+   "pattern": "do + one's homework",
+   "tip_fr": "On dit « do homework », jamais « make homework ». Homework est indénombrable."
+  },
+  "literal_fr": "faire des devoirs",
+  "usage_fr": "Pour parler du travail scolaire. Do, jamais make."
+ },
+ {
+  "id": "x-take-a-photo",
+  "level": "A2",
+  "topic": "collocations",
+  "en": "take a photo",
+  "fr": "prendre une photo",
+  "definition_fr": "Photographier.",
+  "definition_en": "To record an image with a camera.",
+  "examples": [
+   {
+    "en": "Can you take a photo of us?",
+    "fr": "Peux-tu nous prendre en photo ?"
+   },
+   {
+    "en": "She took a photo of the sunset.",
+    "fr": "Elle a pris une photo du coucher de soleil."
+   }
+  ],
+  "construction": {
+   "pattern": "take + a photo",
+   "tip_fr": "On dit « take a photo », jamais « make a photo ». Can you take a photo of us?"
+  },
+  "literal_fr": "prendre une photo",
+  "usage_fr": "Pour photographier. On dit take, pas make."
+ },
+ {
+  "id": "x-make-an-effort",
+  "level": "B1",
+  "topic": "collocations",
+  "en": "make an effort",
+  "fr": "faire un effort",
+  "definition_fr": "Essayer sérieusement.",
+  "definition_en": "To try hard.",
+  "examples": [
+   {
+    "en": "Please make an effort to be on time.",
+    "fr": "Fais un effort pour être à l'heure."
+   },
+   {
+    "en": "He made a real effort.",
+    "fr": "Il a fait un vrai effort."
+   }
+  ],
+  "construction": {
+   "pattern": "make + an effort + (to + verb)",
+   "tip_fr": "Make an effort to + verbe. Please make an effort to be on time."
+  },
+  "literal_fr": "faire un effort",
+  "usage_fr": "Pour demander ou dire qu'on essaie sérieusement."
+ },
+ {
+  "id": "x-pay-attention",
+  "level": "B1",
+  "topic": "collocations",
+  "en": "pay attention",
+  "fr": "faire attention",
+  "definition_fr": "Se concentrer sur quelque chose.",
+  "definition_en": "To focus on something.",
+  "examples": [
+   {
+    "en": "Pay attention to the teacher.",
+    "fr": "Fais attention au professeur."
+   },
+   {
+    "en": "She never pays attention in class.",
+    "fr": "Elle ne fait jamais attention en classe."
+   }
+  ],
+  "construction": {
+   "pattern": "pay attention + to + noun",
+   "tip_fr": "Pay attention to something. Toujours « to » devant l'objet. Pay attention to the teacher."
+  },
+  "literal_fr": "payer de l'attention",
+  "usage_fr": "Pour demander à quelqu'un de se concentrer."
+ },
+ {
+  "id": "x-take-a-break",
+  "level": "B1",
+  "topic": "collocations",
+  "en": "take a break",
+  "fr": "faire une pause",
+  "definition_fr": "S'arrêter pour se reposer.",
+  "definition_en": "To stop and rest.",
+  "examples": [
+   {
+    "en": "Let's take a break.",
+    "fr": "Faisons une pause."
+   },
+   {
+    "en": "I took a short break at noon.",
+    "fr": "J'ai fait une courte pause à midi."
+   }
+  ],
+  "construction": {
+   "pattern": "take + a break",
+   "tip_fr": "Take a break = faire une pause. Let's take a break."
+  },
+  "literal_fr": "prendre une pause",
+  "usage_fr": "Pour proposer de s'arrêter un moment."
+ },
+ {
+  "id": "x-catch-a-cold",
+  "level": "B1",
+  "topic": "collocations",
+  "en": "catch a cold",
+  "fr": "attraper un rhume",
+  "definition_fr": "Tomber malade du rhume.",
+  "definition_en": "To become ill with a cold.",
+  "examples": [
+   {
+    "en": "I caught a cold last week.",
+    "fr": "J'ai attrapé un rhume la semaine dernière."
+   },
+   {
+    "en": "Wear a coat or you'll catch a cold.",
+    "fr": "Mets un manteau ou tu vas attraper un rhume."
+   }
+  ],
+  "construction": {
+   "pattern": "catch + a cold",
+   "tip_fr": "Catch a cold = attraper un rhume. I caught a cold last week."
+  },
+  "literal_fr": "attraper un rhume",
+  "usage_fr": "Pour dire qu'on est tombé malade du rhume."
+ },
+ {
+  "id": "x-keep-a-secret",
+  "level": "B1",
+  "topic": "collocations",
+  "en": "keep a secret",
+  "fr": "garder un secret",
+  "definition_fr": "Ne pas révéler une information.",
+  "definition_en": "To not tell a secret.",
+  "examples": [
+   {
+    "en": "Can you keep a secret?",
+    "fr": "Peux-tu garder un secret ?"
+   },
+   {
+    "en": "He kept the secret for years.",
+    "fr": "Il a gardé le secret pendant des années."
+   }
+  ],
+  "construction": {
+   "pattern": "keep + a secret",
+   "tip_fr": "Keep = garder. Can you keep a secret?"
+  },
+  "literal_fr": "garder un secret",
+  "usage_fr": "Pour demander ou promettre de ne rien dire."
+ },
+ {
+  "id": "x-have-a-look",
+  "level": "B1",
+  "topic": "collocations",
+  "en": "have a look",
+  "fr": "jeter un coup d'œil",
+  "definition_fr": "Regarder rapidement.",
+  "definition_en": "To look at something briefly.",
+  "examples": [
+   {
+    "en": "Have a look at this photo.",
+    "fr": "Jette un œil à cette photo."
+   },
+   {
+    "en": "Can I have a look?",
+    "fr": "Puis-je jeter un œil ?"
+   }
+  ],
+  "construction": {
+   "pattern": "have + a look (at + noun)",
+   "tip_fr": "Have a look at something. Moins formel que look at. Have a look at this photo."
+  },
+  "literal_fr": "avoir un regard",
+  "usage_fr": "Pour proposer de jeter un œil à quelque chose."
+ },
+ {
+  "id": "x-reach-an-agreement",
+  "level": "B2",
+  "topic": "collocations",
+  "en": "reach an agreement",
+  "fr": "parvenir à un accord",
+  "definition_fr": "Arriver à une décision commune.",
+  "definition_en": "To agree after discussion.",
+  "examples": [
+   {
+    "en": "They reached an agreement last night.",
+    "fr": "Ils sont parvenus à un accord hier soir."
+   },
+   {
+    "en": "We hope to reach an agreement soon.",
+    "fr": "Nous espérons parvenir à un accord bientôt."
+   }
+  ],
+  "construction": {
+   "pattern": "reach + an agreement",
+   "tip_fr": "Reach = atteindre. They reached an agreement last night."
+  },
+  "literal_fr": "atteindre un accord",
+  "usage_fr": "Au travail ou en négociation, après une discussion."
+ },
+ {
+  "id": "x-raise-a-question",
+  "level": "B2",
+  "topic": "collocations",
+  "en": "raise a question",
+  "fr": "soulever une question",
+  "definition_fr": "Poser un problème à discuter.",
+  "definition_en": "To bring up a point for discussion.",
+  "examples": [
+   {
+    "en": "His speech raised an important question.",
+    "fr": "Son discours a soulevé une question importante."
+   },
+   {
+    "en": "That raises a few questions.",
+    "fr": "Cela soulève quelques questions."
+   }
+  ],
+  "construction": {
+   "pattern": "raise + a question",
+   "tip_fr": "Raise = soulever. Ne pas confondre avec rise. His speech raised an important question."
+  },
+  "literal_fr": "lever une question",
+  "usage_fr": "Quand une remarque ouvre un nouveau sujet de discussion."
+ },
+ {
+  "id": "x-run-a-business",
+  "level": "B2",
+  "topic": "collocations",
+  "en": "run a business",
+  "fr": "diriger une entreprise",
+  "definition_fr": "Gérer une société.",
+  "definition_en": "To manage a company.",
+  "examples": [
+   {
+    "en": "She runs a small business.",
+    "fr": "Elle dirige une petite entreprise."
+   },
+   {
+    "en": "He wants to run his own business.",
+    "fr": "Il veut diriger sa propre entreprise."
+   }
+  ],
+  "construction": {
+   "pattern": "run + a business",
+   "tip_fr": "Run = diriger. She runs a small business."
+  },
+  "literal_fr": "courir une entreprise",
+  "usage_fr": "Pour parler de quelqu'un qui gère sa société."
+ },
+ {
+  "id": "x-take-responsibility",
+  "level": "B2",
+  "topic": "collocations",
+  "en": "take responsibility",
+  "fr": "assumer la responsabilité",
+  "definition_fr": "Accepter d'être responsable.",
+  "definition_en": "To accept that something is your duty.",
+  "examples": [
+   {
+    "en": "He took responsibility for the error.",
+    "fr": "Il a assumé la responsabilité de l'erreur."
+   },
+   {
+    "en": "You must take responsibility.",
+    "fr": "Tu dois assumer tes responsabilités."
+   }
+  ],
+  "construction": {
+   "pattern": "take + responsibility + (for + noun)",
+   "tip_fr": "Take responsibility for something. He took responsibility for the error."
+  },
+  "literal_fr": "prendre la responsabilité",
+  "usage_fr": "Quand on accepte d'être responsable d'une erreur ou d'une tâche."
+ },
+ {
+  "id": "x-make-progress",
+  "level": "B2",
+  "topic": "collocations",
+  "en": "make progress",
+  "fr": "faire des progrès",
+  "definition_fr": "Avancer et s'améliorer.",
+  "definition_en": "To improve or move forward.",
+  "examples": [
+   {
+    "en": "You're making great progress.",
+    "fr": "Tu fais de grands progrès."
+   },
+   {
+    "en": "We made progress today.",
+    "fr": "Nous avons avancé aujourd'hui."
+   }
+  ],
+  "construction": {
+   "pattern": "make + progress",
+   "tip_fr": "Progress est indénombrable : pas de « a progress ». You're making great progress."
+  },
+  "literal_fr": "faire du progrès",
+  "usage_fr": "Pour dire qu'on s'améliore ou qu'on avance dans un projet."
+ },
+ {
+  "id": "x-heavy-rain",
+  "level": "B2",
+  "topic": "collocations",
+  "en": "heavy rain",
+  "fr": "forte pluie",
+  "definition_fr": "Beaucoup de pluie.",
+  "definition_en": "A lot of rain falling.",
+  "examples": [
+   {
+    "en": "Heavy rain is expected tonight.",
+    "fr": "De fortes pluies sont attendues cette nuit."
+   },
+   {
+    "en": "We drove through heavy rain.",
+    "fr": "Nous avons roulé sous une pluie battante."
+   }
+  ],
+  "construction": {
+   "pattern": "adjective + noun",
+   "tip_fr": "On dit « heavy rain » (pas strong rain). Heavy rain is expected tonight."
+  },
+  "literal_fr": "pluie lourde",
+  "usage_fr": "Dans les prévisions météo, pour une pluie abondante."
+ },
+ {
+  "id": "x-strong-coffee",
+  "level": "B2",
+  "topic": "collocations",
+  "en": "strong coffee",
+  "fr": "café fort",
+  "definition_fr": "Un café très concentré.",
+  "definition_en": "Coffee with a strong flavour.",
+  "examples": [
+   {
+    "en": "I need a strong coffee.",
+    "fr": "J'ai besoin d'un café bien fort."
+   },
+   {
+    "en": "He drinks strong coffee every morning.",
+    "fr": "Il boit un café fort chaque matin."
+   }
+  ],
+  "construction": {
+   "pattern": "adjective + noun",
+   "tip_fr": "On dit « strong coffee » (pas heavy coffee). I need a strong coffee."
+  },
+  "literal_fr": "café fort",
+  "usage_fr": "Pour commander ou décrire un café très concentré."
+ },
+ {
+  "id": "x-how-are-you",
+  "level": "A1",
+  "topic": "everyday",
+  "en": "How are you?",
+  "fr": "Comment vas-tu ?",
+  "definition_fr": "Une question de salutation.",
+  "definition_en": "A greeting asking about someone's wellbeing.",
+  "examples": [
+   {
+    "en": "Hi Tom, how are you?",
+    "fr": "Salut Tom, comment vas-tu ?"
+   },
+   {
+    "en": "Hello! How are you today?",
+    "fr": "Bonjour ! Comment allez-vous aujourd'hui ?"
+   }
+  ],
+  "construction": {
+   "pattern": "How + be + subject?",
+   "tip_fr": "Salutation courante. La réponse attendue : Fine, thanks. And you? Hi Tom, how are you?"
+  },
+  "literal_fr": "Comment es-tu ?",
+  "usage_fr": "Pour saluer quelqu'un. Souvent une simple formule de politesse."
+ },
+ {
+  "id": "x-nice-to-meet-you",
+  "level": "A1",
+  "topic": "everyday",
+  "en": "Nice to meet you",
+  "fr": "Enchanté",
+  "definition_fr": "Ce qu'on dit en rencontrant quelqu'un.",
+  "definition_en": "What you say when you meet someone for the first time.",
+  "examples": [
+   {
+    "en": "Nice to meet you, Anna.",
+    "fr": "Enchanté, Anna."
+   },
+   {
+    "en": "It was nice to meet you.",
+    "fr": "C'était un plaisir de te rencontrer."
+   }
+  ],
+  "construction": {
+   "pattern": "Nice to meet you",
+   "tip_fr": "Phrase figée, sans sujet ni verbe conjugué. Nice to meet you, Anna."
+  },
+  "literal_fr": "Agréable de te rencontrer",
+  "usage_fr": "À la première rencontre avec quelqu'un."
+ },
+ {
+  "id": "x-i-m-sorry",
+  "level": "A1",
+  "topic": "everyday",
+  "en": "I'm sorry",
+  "fr": "Je suis désolé",
+  "definition_fr": "Pour s'excuser.",
+  "definition_en": "Used to apologise.",
+  "examples": [
+   {
+    "en": "I'm sorry I'm late.",
+    "fr": "Je suis désolé d'être en retard."
+   },
+   {
+    "en": "I'm sorry, I didn't hear you.",
+    "fr": "Désolé, je ne t'ai pas entendu."
+   }
+  ],
+  "construction": {
+   "pattern": "I'm sorry (+ I'm late)",
+   "tip_fr": "I'm sorry + proposition. Pour s'excuser : I'm sorry I'm late."
+  },
+  "literal_fr": "Je suis désolé",
+  "usage_fr": "Pour s'excuser, ou exprimer de la compassion."
+ },
+ {
+  "id": "x-could-you-help-me",
+  "level": "A2",
+  "topic": "everyday",
+  "en": "Could you help me?",
+  "fr": "Pourriez-vous m'aider ?",
+  "definition_fr": "Une demande polie d'aide.",
+  "definition_en": "A polite request for help.",
+  "examples": [
+   {
+    "en": "Excuse me, could you help me?",
+    "fr": "Excusez-moi, pourriez-vous m'aider ?"
+   },
+   {
+    "en": "Could you help me with this form?",
+    "fr": "Pourriez-vous m'aider avec ce formulaire ?"
+   }
+  ],
+  "construction": {
+   "pattern": "Could + you + verb?",
+   "tip_fr": "Could you + verbe pour faire une demande polie. Excuse me, could you help me?"
+  },
+  "literal_fr": "Pourrais-tu m'aider ?",
+  "usage_fr": "Pour demander de l'aide avec politesse, à un inconnu ou un collègue."
+ },
+ {
+  "id": "x-what-do-you-mean",
+  "level": "A2",
+  "topic": "everyday",
+  "en": "What do you mean?",
+  "fr": "Que veux-tu dire ?",
+  "definition_fr": "Pour demander une précision.",
+  "definition_en": "Used to ask someone to explain.",
+  "examples": [
+   {
+    "en": "What do you mean by that?",
+    "fr": "Que veux-tu dire par là ?"
+   },
+   {
+    "en": "Sorry, what do you mean?",
+    "fr": "Pardon, que veux-tu dire ?"
+   }
+  ],
+  "construction": {
+   "pattern": "What + do + you + mean?",
+   "tip_fr": "Pour demander une précision. What do you mean by that?"
+  },
+  "literal_fr": "Que veux-tu dire ?",
+  "usage_fr": "Quand on n'a pas compris et qu'on veut une précision."
+ },
+ {
+  "id": "x-i-m-looking-forward-to-it",
+  "level": "A2",
+  "topic": "everyday",
+  "en": "I'm looking forward to it",
+  "fr": "J'ai hâte",
+  "definition_fr": "Je suis content que ça arrive bientôt.",
+  "definition_en": "I am happy about something that will happen.",
+  "examples": [
+   {
+    "en": "The party is on Friday; I'm looking forward to it.",
+    "fr": "La fête est vendredi ; j'ai hâte."
+   },
+   {
+    "en": "I'm really looking forward to it.",
+    "fr": "J'ai vraiment hâte."
+   }
+  ],
+  "construction": {
+   "pattern": "I'm looking forward to + noun/pronoun",
+   "tip_fr": "Forward to + objet. Ici, « it » remplace l'événement. I'm looking forward to it."
+  },
+  "literal_fr": "Je regarde en avant vers ça",
+  "usage_fr": "Pour montrer qu'on attend un événement avec impatience."
+ },
+ {
+  "id": "x-it-depends",
+  "level": "B1",
+  "topic": "everyday",
+  "en": "It depends",
+  "fr": "Ça dépend",
+  "definition_fr": "Ce n'est pas toujours pareil.",
+  "definition_en": "The answer changes with the situation.",
+  "examples": [
+   {
+    "en": "Do you like spicy food? It depends.",
+    "fr": "Tu aimes la nourriture épicée ? Ça dépend."
+   },
+   {
+    "en": "It depends on the weather.",
+    "fr": "Ça dépend de la météo."
+   }
+  ],
+  "construction": {
+   "pattern": "It depends (+ on + noun)",
+   "tip_fr": "It depends on the weather. Seul, c'est une réponse complète."
+  },
+  "literal_fr": "Ça dépend",
+  "usage_fr": "Quand la réponse n'est ni oui ni non et varie selon la situation."
+ },
+ {
+  "id": "x-i-can-t-make-it",
+  "level": "B1",
+  "topic": "everyday",
+  "en": "I can't make it",
+  "fr": "Je ne pourrai pas venir",
+  "definition_fr": "Je ne peux pas être présent.",
+  "definition_en": "I am unable to attend.",
+  "examples": [
+   {
+    "en": "Sorry, I can't make it tonight.",
+    "fr": "Désolé, je ne pourrai pas venir ce soir."
+   },
+   {
+    "en": "She can't make it to the meeting.",
+    "fr": "Elle ne pourra pas venir à la réunion."
+   }
+  ],
+  "construction": {
+   "pattern": "I can't make it (+ to + noun)",
+   "tip_fr": "Make it = pouvoir être présent. I can't make it tonight."
+  },
+  "literal_fr": "Je ne peux pas le faire",
+  "usage_fr": "Pour décliner une invitation ou un rendez-vous."
+ },
+ {
+  "id": "x-let-me-know",
+  "level": "B1",
+  "topic": "everyday",
+  "en": "Let me know",
+  "fr": "Fais-moi savoir",
+  "definition_fr": "Préviens-moi.",
+  "definition_en": "Tell me, please.",
+  "examples": [
+   {
+    "en": "Let me know when you arrive.",
+    "fr": "Préviens-moi quand tu arrives."
+   },
+   {
+    "en": "Let me know if you need help.",
+    "fr": "Dis-moi si tu as besoin d'aide."
+   }
+  ],
+  "construction": {
+   "pattern": "Let + me + know (+ when/if clause)",
+   "tip_fr": "Let + objet + verbe nu. Let me know when you arrive."
+  },
+  "literal_fr": "Laisse-moi savoir",
+  "usage_fr": "Pour demander à quelqu'un de te prévenir."
+ },
+ {
+  "id": "x-no-worries",
+  "level": "B1",
+  "topic": "everyday",
+  "en": "No worries",
+  "fr": "Pas de souci",
+  "definition_fr": "Ce n'est pas grave.",
+  "definition_en": "It's fine; don't worry.",
+  "examples": [
+   {
+    "en": "Sorry I'm late! No worries.",
+    "fr": "Désolé d'être en retard ! Pas de souci."
+   },
+   {
+    "en": "No worries, take your time.",
+    "fr": "Pas de souci, prends ton temps."
+   }
+  ],
+  "construction": {
+   "pattern": "No worries",
+   "tip_fr": "Réponse décontractée à des excuses. Sorry I'm late! No worries."
+  },
+  "literal_fr": "Pas de soucis",
+  "usage_fr": "En réponse à des excuses, pour dire que ce n'est pas grave."
+ },
+ {
+  "id": "x-i-ll-get-back-to-you",
+  "level": "B1",
+  "topic": "everyday",
+  "en": "I'll get back to you",
+  "fr": "Je vous recontacte",
+  "definition_fr": "Je répondrai plus tard.",
+  "definition_en": "I will reply to you later.",
+  "examples": [
+   {
+    "en": "I'll get back to you tomorrow.",
+    "fr": "Je vous recontacte demain."
+   },
+   {
+    "en": "Let me check and get back to you.",
+    "fr": "Je vérifie et je reviens vers vous."
+   }
+  ],
+  "construction": {
+   "pattern": "I'll + get back to + person",
+   "tip_fr": "Get back to someone = revenir vers quelqu'un. I'll get back to you tomorrow."
+  },
+  "literal_fr": "Je reviendrai vers toi",
+  "usage_fr": "Au travail, pour promettre une réponse plus tard."
+ },
+ {
+  "id": "x-to-be-honest",
+  "level": "B1",
+  "topic": "everyday",
+  "en": "to be honest",
+  "fr": "pour être honnête",
+  "definition_fr": "Pour dire la vérité franchement.",
+  "definition_en": "Used before saying what you really think.",
+  "examples": [
+   {
+    "en": "To be honest, I didn't like it.",
+    "fr": "Pour être honnête, je n'ai pas aimé."
+   },
+   {
+    "en": "To be honest, I'm tired.",
+    "fr": "Pour être honnête, je suis fatigué."
+   }
+  ],
+  "construction": {
+   "pattern": "to be honest, + clause",
+   "tip_fr": "Se place en début de phrase, avec une virgule. To be honest, I didn't like it."
+  },
+  "literal_fr": "pour être honnête",
+  "usage_fr": "Avant de dire son avis franchement."
+ },
+ {
+  "id": "x-as-far-as-i-know",
+  "level": "B2",
+  "topic": "everyday",
+  "en": "as far as I know",
+  "fr": "à ma connaissance",
+  "definition_fr": "D'après ce que je sais.",
+  "definition_en": "Based on what I know.",
+  "examples": [
+   {
+    "en": "As far as I know, he's still in Paris.",
+    "fr": "À ma connaissance, il est toujours à Paris."
+   },
+   {
+    "en": "As far as I know, it's free.",
+    "fr": "À ma connaissance, c'est gratuit."
+   }
+  ],
+  "construction": {
+   "pattern": "as far as I know, + clause",
+   "tip_fr": "Introduit une information incertaine. As far as I know, he's still in Paris."
+  },
+  "literal_fr": "aussi loin que je sache",
+  "usage_fr": "Quand on n'est pas totalement sûr de l'information."
+ },
+ {
+  "id": "x-by-the-way",
+  "level": "B2",
+  "topic": "everyday",
+  "en": "by the way",
+  "fr": "au fait",
+  "definition_fr": "Pour ajouter une remarque.",
+  "definition_en": "Used to introduce a new topic.",
+  "examples": [
+   {
+    "en": "By the way, are you free on Sunday?",
+    "fr": "Au fait, es-tu libre dimanche ?"
+   },
+   {
+    "en": "By the way, I met your sister.",
+    "fr": "Au fait, j'ai rencontré ta sœur."
+   }
+  ],
+  "construction": {
+   "pattern": "by the way, + clause",
+   "tip_fr": "Pour ajouter une remarque hors sujet. By the way, are you free on Sunday?"
+  },
+  "literal_fr": "par le chemin",
+  "usage_fr": "Pour ajouter une remarque sans lien direct avec le sujet."
+ },
+ {
+  "id": "x-it-s-up-to-you",
+  "level": "B2",
+  "topic": "everyday",
+  "en": "it's up to you",
+  "fr": "c'est à toi de voir",
+  "definition_fr": "C'est toi qui décides.",
+  "definition_en": "You are the one to decide.",
+  "examples": [
+   {
+    "en": "Pizza or pasta? It's up to you.",
+    "fr": "Pizza ou pâtes ? C'est à toi de voir."
+   },
+   {
+    "en": "It's up to you whether you go.",
+    "fr": "C'est à toi de décider si tu y vas."
+   }
+  ],
+  "construction": {
+   "pattern": "it's up to + person",
+   "tip_fr": "Up to you = à toi de décider. Pizza or pasta? It's up to you."
+  },
+  "literal_fr": "c'est vers le haut à toi",
+  "usage_fr": "Pour laisser la décision à quelqu'un d'autre."
+ },
+ {
+  "id": "x-i-m-not-sure-about-that",
+  "level": "B2",
+  "topic": "everyday",
+  "en": "I'm not sure about that",
+  "fr": "je n'en suis pas sûr",
+  "definition_fr": "Pour exprimer un doute.",
+  "definition_en": "Used to show doubt.",
+  "examples": [
+   {
+    "en": "I'm not sure about that idea.",
+    "fr": "Je ne suis pas sûr de cette idée."
+   },
+   {
+    "en": "Honestly, I'm not sure about that.",
+    "fr": "Honnêtement, je n'en suis pas sûr."
+   }
+  ],
+  "construction": {
+   "pattern": "I'm not sure about + noun",
+   "tip_fr": "Pour exprimer un doute. I'm not sure about that idea."
+  },
+  "literal_fr": "Je ne suis pas sûr à propos de ça",
+  "usage_fr": "Pour exprimer un doute poliment."
+ }
+]

@@ -1,0 +1,4740 @@
+[
+ {
+  "id": "v-luggage",
+  "level": "B1",
+  "topic": "travel",
+  "en": "luggage",
+  "fr": "bagages",
+  "definition_fr": "Les valises et sacs qu'on emporte en voyage.",
+  "definition_en": "Bags and suitcases you take on a trip.",
+  "examples": [
+   {
+    "en": "My luggage is very heavy.",
+    "fr": "Mes bagages sont très lourds."
+   },
+   {
+    "en": "Please keep your luggage with you.",
+    "fr": "Gardez vos bagages avec vous, s'il vous plaît."
+   }
+  ],
+  "construction": {
+   "pattern": "my + luggage + be + adjective",
+   "tip_fr": "Luggage est indénombrable : pas de « s ». On dit « some luggage » ou « a piece of luggage ». My luggage is very heavy."
+  }
+ },
+ {
+  "id": "v-departure",
+  "level": "B1",
+  "topic": "travel",
+  "en": "departure",
+  "fr": "départ",
+  "definition_fr": "Le moment où l'on part d'un lieu.",
+  "definition_en": "The act of leaving a place.",
+  "examples": [
+   {
+    "en": "The departure time is nine o'clock.",
+    "fr": "L'heure de départ est neuf heures."
+   },
+   {
+    "en": "Check the departure board.",
+    "fr": "Regarde le tableau des départs."
+   }
+  ],
+  "construction": {
+   "pattern": "the + departure + time",
+   "tip_fr": "Departure est un nom : « the departure time » = l'heure de départ. The departure time is nine o'clock."
+  }
+ },
+ {
+  "id": "v-delay",
+  "level": "B1",
+  "topic": "travel",
+  "en": "delay",
+  "fr": "retard",
+  "definition_fr": "Un temps d'attente supplémentaire.",
+  "definition_en": "A period of time when something is late.",
+  "examples": [
+   {
+    "en": "There is a two-hour delay.",
+    "fr": "Il y a deux heures de retard."
+   },
+   {
+    "en": "The delay made us miss the connection.",
+    "fr": "Le retard nous a fait rater la correspondance."
+   }
+  ],
+  "construction": {
+   "pattern": "there is + a + duration + delay",
+   "tip_fr": "« There is a delay » annonce un retard. On place la durée avant delay : a two-hour delay."
+  }
+ },
+ {
+  "id": "v-journey",
+  "level": "B1",
+  "topic": "travel",
+  "en": "journey",
+  "fr": "trajet, voyage",
+  "definition_fr": "Le fait d'aller d'un endroit à un autre.",
+  "definition_en": "An act of travelling from one place to another.",
+  "examples": [
+   {
+    "en": "It was a long journey.",
+    "fr": "C'était un long voyage."
+   },
+   {
+    "en": "Enjoy your journey!",
+    "fr": "Bon voyage !"
+   }
+  ],
+  "construction": {
+   "pattern": "it was + a + adjective + journey",
+   "tip_fr": "Journey est le trajet en lui-même. On le décrit avec un adjectif : a long journey."
+  }
+ },
+ {
+  "id": "v-accommodation",
+  "level": "B1",
+  "topic": "travel",
+  "en": "accommodation",
+  "fr": "logement",
+  "definition_fr": "L'endroit où l'on dort en voyage.",
+  "definition_en": "A place to stay or live.",
+  "examples": [
+   {
+    "en": "We booked our accommodation online.",
+    "fr": "Nous avons réservé notre logement en ligne."
+   },
+   {
+    "en": "The accommodation was very clean.",
+    "fr": "Le logement était très propre."
+   }
+  ],
+  "construction": {
+   "pattern": "book + accommodation",
+   "tip_fr": "Accommodation est indénombrable en anglais britannique : we booked our accommodation, en anglais britannique, pas de « s »."
+  }
+ },
+ {
+  "id": "v-itinerary",
+  "level": "B2",
+  "topic": "travel",
+  "en": "itinerary",
+  "fr": "itinéraire",
+  "definition_fr": "Le plan détaillé d'un voyage.",
+  "definition_en": "A detailed plan of a journey.",
+  "examples": [
+   {
+    "en": "Our itinerary includes three cities.",
+    "fr": "Notre itinéraire comprend trois villes."
+   },
+   {
+    "en": "Send me the itinerary, please.",
+    "fr": "Envoie-moi l'itinéraire, s'il te plaît."
+   }
+  ],
+  "construction": {
+   "pattern": "our + itinerary + include + noun",
+   "tip_fr": "Itinerary est l'itinéraire prévu. Le verbe include introduit ce qu'il contient : Our itinerary includes three cities."
+  }
+ },
+ {
+  "id": "v-passport",
+  "level": "B1",
+  "topic": "travel",
+  "en": "passport",
+  "fr": "passeport",
+  "definition_fr": "Document officiel pour voyager à l'étranger.",
+  "definition_en": "An official document you need to travel abroad.",
+  "examples": [
+   {
+    "en": "Don't forget your passport.",
+    "fr": "N'oublie pas ton passeport."
+   },
+   {
+    "en": "My passport expires next year.",
+    "fr": "Mon passeport expire l'an prochain."
+   }
+  ],
+  "construction": {
+   "pattern": "don't forget + your + passport",
+   "tip_fr": "À l'impératif négatif : Don't + verbe. Passport prend « your » : Don't forget your passport."
+  }
+ },
+ {
+  "id": "v-customs",
+  "level": "B1",
+  "topic": "travel",
+  "en": "customs",
+  "fr": "douane",
+  "definition_fr": "Le contrôle des marchandises à la frontière.",
+  "definition_en": "The place where officers check goods entering a country.",
+  "examples": [
+   {
+    "en": "We went through customs quickly.",
+    "fr": "Nous avons passé la douane rapidement."
+   },
+   {
+    "en": "She had nothing to declare at customs.",
+    "fr": "Elle n'avait rien à déclarer à la douane."
+   }
+  ],
+  "construction": {
+   "pattern": "go through + customs",
+   "tip_fr": "Customs (la douane) est toujours pluriel et prend « go through » : We went through customs quickly."
+  }
+ },
+ {
+  "id": "v-souvenir",
+  "level": "B1",
+  "topic": "travel",
+  "en": "souvenir",
+  "fr": "souvenir (objet)",
+  "definition_fr": "Un objet acheté pour se rappeler un voyage.",
+  "definition_en": "An object you keep to remember a place.",
+  "examples": [
+   {
+    "en": "I bought a souvenir for my mother.",
+    "fr": "J'ai acheté un souvenir pour ma mère."
+   },
+   {
+    "en": "This shop sells nice souvenirs.",
+    "fr": "Cette boutique vend de beaux souvenirs."
+   }
+  ],
+  "construction": {
+   "pattern": "buy + a souvenir + for + person",
+   "tip_fr": "Pour offrir : buy something for someone. I bought a souvenir for my mother."
+  }
+ },
+ {
+  "id": "v-destination",
+  "level": "B2",
+  "topic": "travel",
+  "en": "destination",
+  "fr": "destination",
+  "definition_fr": "L'endroit où l'on va.",
+  "definition_en": "The place where someone is going.",
+  "examples": [
+   {
+    "en": "Paris is a popular destination.",
+    "fr": "Paris est une destination populaire."
+   },
+   {
+    "en": "We reached our destination at noon.",
+    "fr": "Nous sommes arrivés à destination à midi."
+   }
+  ],
+  "construction": {
+   "pattern": "a popular + destination",
+   "tip_fr": "Destination se combine avec popular, final ou tourist : Paris is a popular destination."
+  }
+ },
+ {
+  "id": "v-ticket",
+  "level": "A2",
+  "topic": "travel",
+  "en": "ticket",
+  "fr": "billet",
+  "definition_fr": "Un papier qui permet de voyager ou d'entrer.",
+  "definition_en": "A piece of paper that lets you travel or enter.",
+  "examples": [
+   {
+    "en": "I need to buy a train ticket.",
+    "fr": "Je dois acheter un billet de train."
+   },
+   {
+    "en": "Do you have your ticket?",
+    "fr": "Tu as ton billet ?"
+   }
+  ],
+  "construction": {
+   "pattern": "buy + a + type of + ticket",
+   "tip_fr": "On précise le type devant ticket : a train ticket, a bus ticket. I need to buy a train ticket."
+  }
+ },
+ {
+  "id": "v-platform",
+  "level": "A2",
+  "topic": "travel",
+  "en": "platform",
+  "fr": "quai",
+  "definition_fr": "L'endroit où l'on attend le train.",
+  "definition_en": "The place in a station where you wait for a train.",
+  "examples": [
+   {
+    "en": "The train leaves from platform 4.",
+    "fr": "Le train part du quai 4."
+   },
+   {
+    "en": "Wait on the platform.",
+    "fr": "Attends sur le quai."
+   }
+  ],
+  "construction": {
+   "pattern": "from + platform + number",
+   "tip_fr": "On dit « from platform 4 » (le quai d'où part le train). The train leaves from platform 4."
+  }
+ },
+ {
+  "id": "v-fare",
+  "level": "B1",
+  "topic": "travel",
+  "en": "fare",
+  "fr": "tarif (transport)",
+  "definition_fr": "Le prix d'un trajet.",
+  "definition_en": "The money you pay for a journey.",
+  "examples": [
+   {
+    "en": "The bus fare is two euros.",
+    "fr": "Le tarif du bus est de deux euros."
+   },
+   {
+    "en": "Children pay a lower fare.",
+    "fr": "Les enfants paient un tarif réduit."
+   }
+  ],
+  "construction": {
+   "pattern": "the + transport + fare",
+   "tip_fr": "Fare est le prix du trajet : the bus fare, the train fare. The bus fare is two euros."
+  }
+ },
+ {
+  "id": "v-sightseeing",
+  "level": "B2",
+  "topic": "travel",
+  "en": "sightseeing",
+  "fr": "visite touristique",
+  "definition_fr": "Le fait de visiter des lieux intéressants.",
+  "definition_en": "Visiting interesting places as a tourist.",
+  "examples": [
+   {
+    "en": "We went sightseeing all day.",
+    "fr": "Nous avons fait du tourisme toute la journée."
+   },
+   {
+    "en": "Sightseeing in Rome is amazing.",
+    "fr": "Visiter Rome est incroyable."
+   }
+  ],
+  "construction": {
+   "pattern": "go + sightseeing",
+   "tip_fr": "« Go sightseeing » = faire du tourisme, sans article. We went sightseeing all day."
+  }
+ },
+ {
+  "id": "v-reservation",
+  "level": "B1",
+  "topic": "travel",
+  "en": "reservation",
+  "fr": "réservation",
+  "definition_fr": "Un arrangement pour garder une place.",
+  "definition_en": "An arrangement to keep a seat or room for you.",
+  "examples": [
+   {
+    "en": "I made a reservation for two.",
+    "fr": "J'ai fait une réservation pour deux."
+   },
+   {
+    "en": "Do you have a reservation?",
+    "fr": "Avez-vous une réservation ?"
+   }
+  ],
+  "construction": {
+   "pattern": "make + a reservation + for + number",
+   "tip_fr": "On fait une réservation : make a reservation for two. Avec « make », pas « do »."
+  }
+ },
+ {
+  "id": "v-crossing",
+  "level": "B1",
+  "topic": "travel",
+  "en": "crossing",
+  "fr": "traversée",
+  "definition_fr": "Un voyage d'un côté à l'autre d'une mer.",
+  "definition_en": "A journey across water.",
+  "examples": [
+   {
+    "en": "The crossing takes one hour.",
+    "fr": "La traversée dure une heure."
+   },
+   {
+    "en": "It was a rough crossing.",
+    "fr": "La traversée était agitée."
+   }
+  ],
+  "construction": {
+   "pattern": "the crossing + take + duration",
+   "tip_fr": "Crossing = traversée. Le verbe take indique la durée : The crossing takes one hour."
+  }
+ },
+ {
+  "id": "v-map",
+  "level": "A2",
+  "topic": "travel",
+  "en": "map",
+  "fr": "carte, plan",
+  "definition_fr": "Un dessin qui montre les lieux.",
+  "definition_en": "A drawing that shows where places are.",
+  "examples": [
+   {
+    "en": "Can you read this map?",
+    "fr": "Peux-tu lire cette carte ?"
+   },
+   {
+    "en": "I lost the map.",
+    "fr": "J'ai perdu la carte."
+   }
+  ],
+  "construction": {
+   "pattern": "read + a + map",
+   "tip_fr": "On lit une carte : read a map. Can you read this map?"
+  }
+ },
+ {
+  "id": "v-abroad",
+  "level": "B1",
+  "topic": "travel",
+  "en": "abroad",
+  "fr": "à l'étranger",
+  "definition_fr": "Dans un autre pays.",
+  "definition_en": "In or to a foreign country.",
+  "examples": [
+   {
+    "en": "She studied abroad for a year.",
+    "fr": "Elle a étudié à l'étranger pendant un an."
+   },
+   {
+    "en": "Have you ever travelled abroad?",
+    "fr": "As-tu déjà voyagé à l'étranger ?"
+   }
+  ],
+  "construction": {
+   "pattern": "verb + abroad",
+   "tip_fr": "Abroad veut dire « à l'étranger » sans préposition : study abroad, live abroad. Pas « in abroad »."
+  }
+ },
+ {
+  "id": "v-commute",
+  "level": "B2",
+  "topic": "travel",
+  "en": "commute",
+  "fr": "trajet quotidien",
+  "definition_fr": "Le trajet régulier entre la maison et le travail.",
+  "definition_en": "The regular journey between home and work.",
+  "examples": [
+   {
+    "en": "My commute takes forty minutes.",
+    "fr": "Mon trajet quotidien dure quarante minutes."
+   },
+   {
+    "en": "The commute is tiring.",
+    "fr": "Le trajet quotidien est fatigant."
+   }
+  ],
+  "construction": {
+   "pattern": "my + commute + take + duration",
+   "tip_fr": "Commute est le trajet domicile-travail, aussi verbe : My commute takes forty minutes."
+  }
+ },
+ {
+  "id": "v-layover",
+  "level": "C1",
+  "topic": "travel",
+  "en": "layover",
+  "fr": "escale",
+  "definition_fr": "Une courte pause entre deux vols.",
+  "definition_en": "A short stop between two flights.",
+  "examples": [
+   {
+    "en": "We had a six-hour layover in Dubai.",
+    "fr": "Nous avons eu une escale de six heures à Dubaï."
+   },
+   {
+    "en": "Use the layover to rest.",
+    "fr": "Profite de l'escale pour te reposer."
+   }
+  ],
+  "construction": {
+   "pattern": "a + duration + layover + in + place",
+   "tip_fr": "Layover = escale longue. La durée précède le mot : a six-hour layover in Dubai."
+  }
+ },
+ {
+  "id": "v-colleague",
+  "level": "B1",
+  "topic": "work",
+  "en": "colleague",
+  "fr": "collègue",
+  "definition_fr": "Une personne avec qui l'on travaille.",
+  "definition_en": "A person you work with.",
+  "examples": [
+   {
+    "en": "My colleague helped me with the report.",
+    "fr": "Mon collègue m'a aidé avec le rapport."
+   },
+   {
+    "en": "I have lunch with my colleagues.",
+    "fr": "Je déjeune avec mes collègues."
+   }
+  ],
+  "construction": {
+   "pattern": "my + colleague + verb",
+   "tip_fr": "Colleague désigne un collègue de travail. My colleague helped me with the report."
+  }
+ },
+ {
+  "id": "v-deadline",
+  "level": "B1",
+  "topic": "work",
+  "en": "deadline",
+  "fr": "date limite",
+  "definition_fr": "Le moment avant lequel il faut finir.",
+  "definition_en": "The time by which something must be finished.",
+  "examples": [
+   {
+    "en": "The deadline is Friday.",
+    "fr": "La date limite est vendredi."
+   },
+   {
+    "en": "We missed the deadline.",
+    "fr": "Nous avons raté la date limite."
+   }
+  ],
+  "construction": {
+   "pattern": "the deadline + be + day",
+   "tip_fr": "On dit « the deadline is Friday » sans préposition. Pour dépasser : miss the deadline."
+  }
+ },
+ {
+  "id": "v-salary",
+  "level": "B1",
+  "topic": "work",
+  "en": "salary",
+  "fr": "salaire",
+  "definition_fr": "L'argent reçu chaque mois pour son travail.",
+  "definition_en": "Money you receive regularly for your job.",
+  "examples": [
+   {
+    "en": "He asked for a higher salary.",
+    "fr": "Il a demandé un salaire plus élevé."
+   },
+   {
+    "en": "My salary is paid monthly.",
+    "fr": "Mon salaire est versé chaque mois."
+   }
+  ],
+  "construction": {
+   "pattern": "ask for + a higher + salary",
+   "tip_fr": "On demande une augmentation : ask for a higher salary. Salary est le salaire mensuel ou annuel."
+  }
+ },
+ {
+  "id": "v-meeting",
+  "level": "B1",
+  "topic": "work",
+  "en": "meeting",
+  "fr": "réunion",
+  "definition_fr": "Un moment où des gens se rassemblent pour discuter.",
+  "definition_en": "An event where people come together to talk.",
+  "examples": [
+   {
+    "en": "The meeting starts at ten.",
+    "fr": "La réunion commence à dix heures."
+   },
+   {
+    "en": "I'm in a meeting right now.",
+    "fr": "Je suis en réunion en ce moment."
+   }
+  ],
+  "construction": {
+   "pattern": "the meeting + start + at + time",
+   "tip_fr": "À + heure : at ten. On dit « the meeting starts », « attend a meeting »."
+  }
+ },
+ {
+  "id": "v-workload",
+  "level": "B2",
+  "topic": "work",
+  "en": "workload",
+  "fr": "charge de travail",
+  "definition_fr": "La quantité de travail à faire.",
+  "definition_en": "The amount of work someone has to do.",
+  "examples": [
+   {
+    "en": "My workload is too heavy.",
+    "fr": "Ma charge de travail est trop lourde."
+   },
+   {
+    "en": "They reduced her workload.",
+    "fr": "Ils ont réduit sa charge de travail."
+   }
+  ],
+  "construction": {
+   "pattern": "my + workload + be + adjective",
+   "tip_fr": "Workload est indénombrable : my workload is too heavy. Pas de « s »."
+  }
+ },
+ {
+  "id": "v-manager",
+  "level": "B1",
+  "topic": "work",
+  "en": "manager",
+  "fr": "responsable, directeur",
+  "definition_fr": "Une personne qui dirige une équipe.",
+  "definition_en": "A person who is in charge of a team.",
+  "examples": [
+   {
+    "en": "My manager is very kind.",
+    "fr": "Mon responsable est très gentil."
+   },
+   {
+    "en": "Talk to the manager.",
+    "fr": "Parle au responsable."
+   }
+  ],
+  "construction": {
+   "pattern": "my + manager + be + adjective",
+   "tip_fr": "Manager = responsable. On le décrit après « my » : My manager is very kind."
+  }
+ },
+ {
+  "id": "v-interview",
+  "level": "B1",
+  "topic": "work",
+  "en": "interview",
+  "fr": "entretien",
+  "definition_fr": "Une rencontre pour obtenir un emploi.",
+  "definition_en": "A formal meeting to decide if you get a job.",
+  "examples": [
+   {
+    "en": "I have a job interview tomorrow.",
+    "fr": "J'ai un entretien d'embauche demain."
+   },
+   {
+    "en": "The interview went well.",
+    "fr": "L'entretien s'est bien passé."
+   }
+  ],
+  "construction": {
+   "pattern": "have + a job interview",
+   "tip_fr": "On dit « have an interview » (pas « make »). I have a job interview tomorrow."
+  }
+ },
+ {
+  "id": "v-resume",
+  "level": "B2",
+  "topic": "work",
+  "en": "resume",
+  "fr": "CV (américain)",
+  "definition_fr": "Un document qui résume son parcours.",
+  "definition_en": "A document listing your education and work experience.",
+  "examples": [
+   {
+    "en": "Update your resume before you apply.",
+    "fr": "Mets ton CV à jour avant de postuler."
+   },
+   {
+    "en": "Her resume is impressive.",
+    "fr": "Son CV est impressionnant."
+   }
+  ],
+  "construction": {
+   "pattern": "update + your + resume",
+   "tip_fr": "Resume (américain) = CV. En anglais britannique : CV. Update your resume."
+  }
+ },
+ {
+  "id": "v-promotion",
+  "level": "B2",
+  "topic": "work",
+  "en": "promotion",
+  "fr": "promotion",
+  "definition_fr": "Un passage à un poste plus élevé.",
+  "definition_en": "A move to a higher position at work.",
+  "examples": [
+   {
+    "en": "She got a promotion last month.",
+    "fr": "Elle a eu une promotion le mois dernier."
+   },
+   {
+    "en": "He deserves a promotion.",
+    "fr": "Il mérite une promotion."
+   }
+  ],
+  "construction": {
+   "pattern": "get + a promotion",
+   "tip_fr": "On obtient une promotion : get a promotion. She got a promotion last month."
+  }
+ },
+ {
+  "id": "v-experience",
+  "level": "B1",
+  "topic": "work",
+  "en": "experience",
+  "fr": "expérience",
+  "definition_fr": "Les connaissances acquises en pratiquant.",
+  "definition_en": "Knowledge you gain from doing something.",
+  "examples": [
+   {
+    "en": "I have five years of experience.",
+    "fr": "J'ai cinq ans d'expérience."
+   },
+   {
+    "en": "Experience is the best teacher.",
+    "fr": "L'expérience est le meilleur professeur."
+   }
+  ],
+  "construction": {
+   "pattern": "have + duration + of experience",
+   "tip_fr": "Experience (expérience pro) est indénombrable : five years of experience."
+  }
+ },
+ {
+  "id": "v-achievement",
+  "level": "B2",
+  "topic": "work",
+  "en": "achievement",
+  "fr": "réussite",
+  "definition_fr": "Quelque chose de difficile qu'on a réussi.",
+  "definition_en": "Something difficult that you succeeded in doing.",
+  "examples": [
+   {
+    "en": "Finishing the marathon was a big achievement.",
+    "fr": "Terminer le marathon était une grande réussite."
+   },
+   {
+    "en": "She is proud of her achievements.",
+    "fr": "Elle est fière de ses réussites."
+   }
+  ],
+  "construction": {
+   "pattern": "a big + achievement",
+   "tip_fr": "Achievement = réussite. Souvent avec big ou great : a big achievement."
+  }
+ },
+ {
+  "id": "v-negotiate",
+  "level": "B2",
+  "topic": "work",
+  "en": "negotiate",
+  "fr": "négocier",
+  "definition_fr": "Discuter pour arriver à un accord.",
+  "definition_en": "To discuss something to reach an agreement.",
+  "examples": [
+   {
+    "en": "We negotiated a better price.",
+    "fr": "Nous avons négocié un meilleur prix."
+   },
+   {
+    "en": "He is good at negotiating.",
+    "fr": "Il est doué pour négocier."
+   }
+  ],
+  "construction": {
+   "pattern": "negotiate + a + noun",
+   "tip_fr": "Negotiate se construit directement avec l'objet : negotiate a better price."
+  }
+ },
+ {
+  "id": "v-schedule",
+  "level": "B1",
+  "topic": "work",
+  "en": "schedule",
+  "fr": "emploi du temps",
+  "definition_fr": "Un plan qui indique quand faire les choses.",
+  "definition_en": "A plan that shows when things will happen.",
+  "examples": [
+   {
+    "en": "My schedule is full this week.",
+    "fr": "Mon emploi du temps est chargé cette semaine."
+   },
+   {
+    "en": "Check the schedule.",
+    "fr": "Vérifie l'emploi du temps."
+   }
+  ],
+  "construction": {
+   "pattern": "my + schedule + be + adjective",
+   "tip_fr": "Schedule = emploi du temps. My schedule is full this week."
+  }
+ },
+ {
+  "id": "v-self-employed",
+  "level": "B2",
+  "topic": "work",
+  "en": "self-employed",
+  "fr": "indépendant",
+  "definition_fr": "Qui travaille pour soi-même.",
+  "definition_en": "Working for yourself instead of a company.",
+  "examples": [
+   {
+    "en": "He has been self-employed for ten years.",
+    "fr": "Il est indépendant depuis dix ans."
+   },
+   {
+    "en": "Being self-employed gives me freedom.",
+    "fr": "Être indépendant me donne de la liberté."
+   }
+  ],
+  "construction": {
+   "pattern": "be + self-employed",
+   "tip_fr": "Self-employed est un adjectif : he is self-employed. Pas d'article."
+  }
+ },
+ {
+  "id": "v-stakeholder",
+  "level": "C1",
+  "topic": "work",
+  "en": "stakeholder",
+  "fr": "partie prenante",
+  "definition_fr": "Une personne concernée par un projet.",
+  "definition_en": "A person with an interest in a project or business.",
+  "examples": [
+   {
+    "en": "We must inform all stakeholders.",
+    "fr": "Nous devons informer toutes les parties prenantes."
+   },
+   {
+    "en": "The stakeholders approved the plan.",
+    "fr": "Les parties prenantes ont approuvé le plan."
+   }
+  ],
+  "construction": {
+   "pattern": "inform + stakeholders",
+   "tip_fr": "Stakeholder = partie prenante. We must inform all stakeholders."
+  }
+ },
+ {
+  "id": "v-resign",
+  "level": "B2",
+  "topic": "work",
+  "en": "resign",
+  "fr": "démissionner",
+  "definition_fr": "Quitter officiellement son poste.",
+  "definition_en": "To officially leave your job.",
+  "examples": [
+   {
+    "en": "He resigned last week.",
+    "fr": "Il a démissionné la semaine dernière."
+   },
+   {
+    "en": "She decided to resign.",
+    "fr": "Elle a décidé de démissionner."
+   }
+  ],
+  "construction": {
+   "pattern": "resign + from + job",
+   "tip_fr": "Resign = démissionner. On peut dire « resign from a job » ou simplement « resign ». He resigned last week."
+  }
+ },
+ {
+  "id": "v-apply",
+  "level": "B1",
+  "topic": "work",
+  "en": "apply",
+  "fr": "postuler",
+  "definition_fr": "Faire une demande pour un poste.",
+  "definition_en": "To ask formally for a job or a place.",
+  "examples": [
+   {
+    "en": "I applied for three jobs.",
+    "fr": "J'ai postulé à trois emplois."
+   },
+   {
+    "en": "You can apply online.",
+    "fr": "Tu peux postuler en ligne."
+   }
+  ],
+  "construction": {
+   "pattern": "apply + for + a job",
+   "tip_fr": "Apply se construit avec « for » : apply for a job. Pas « apply a job »."
+  }
+ },
+ {
+  "id": "v-budget",
+  "level": "B2",
+  "topic": "work",
+  "en": "budget",
+  "fr": "budget",
+  "definition_fr": "La somme d'argent prévue pour quelque chose.",
+  "definition_en": "The money available for a particular purpose.",
+  "examples": [
+   {
+    "en": "We have a small budget.",
+    "fr": "Nous avons un petit budget."
+   },
+   {
+    "en": "The project went over budget.",
+    "fr": "Le projet a dépassé le budget."
+   }
+  ],
+  "construction": {
+   "pattern": "have + a small/large + budget",
+   "tip_fr": "Budget se combine avec small, tight, large. We have a small budget."
+  }
+ },
+ {
+  "id": "v-feedback",
+  "level": "B2",
+  "topic": "work",
+  "en": "feedback",
+  "fr": "retour, avis",
+  "definition_fr": "Des commentaires pour s'améliorer.",
+  "definition_en": "Comments about how well someone is doing.",
+  "examples": [
+   {
+    "en": "Thank you for your feedback.",
+    "fr": "Merci pour votre retour."
+   },
+   {
+    "en": "I need honest feedback.",
+    "fr": "J'ai besoin d'un retour honnête."
+   }
+  ],
+  "construction": {
+   "pattern": "thank you for + your feedback",
+   "tip_fr": "Feedback est indénombrable : pas de « s ». Thank you for your feedback."
+  }
+ },
+ {
+  "id": "v-headache",
+  "level": "A2",
+  "topic": "health",
+  "en": "headache",
+  "fr": "mal de tête",
+  "definition_fr": "Une douleur dans la tête.",
+  "definition_en": "A pain in your head.",
+  "examples": [
+   {
+    "en": "I have a terrible headache.",
+    "fr": "J'ai un terrible mal de tête."
+   },
+   {
+    "en": "Take a pill for your headache.",
+    "fr": "Prends un cachet pour ton mal de tête."
+   }
+  ],
+  "construction": {
+   "pattern": "have + a + adjective + headache",
+   "tip_fr": "Headache = mal de tête, avec « have a ». I have a terrible headache."
+  }
+ },
+ {
+  "id": "v-fever",
+  "level": "A2",
+  "topic": "health",
+  "en": "fever",
+  "fr": "fièvre",
+  "definition_fr": "Une température du corps trop élevée.",
+  "definition_en": "A high body temperature caused by illness.",
+  "examples": [
+   {
+    "en": "The child has a fever.",
+    "fr": "L'enfant a de la fièvre."
+   },
+   {
+    "en": "Stay in bed if you have a fever.",
+    "fr": "Reste au lit si tu as de la fièvre."
+   }
+  ],
+  "construction": {
+   "pattern": "have + a fever",
+   "tip_fr": "Avec fever on dit « have a fever ». The child has a fever."
+  }
+ },
+ {
+  "id": "v-prescription",
+  "level": "B1",
+  "topic": "health",
+  "en": "prescription",
+  "fr": "ordonnance",
+  "definition_fr": "Un papier du médecin pour des médicaments.",
+  "definition_en": "A paper from a doctor for medicine.",
+  "examples": [
+   {
+    "en": "I need a prescription for this.",
+    "fr": "J'ai besoin d'une ordonnance pour cela."
+   },
+   {
+    "en": "The pharmacist read the prescription.",
+    "fr": "Le pharmacien a lu l'ordonnance."
+   }
+  ],
+  "construction": {
+   "pattern": "need + a prescription + for + noun",
+   "tip_fr": "On a besoin d'une ordonnance pour un médicament : a prescription for this."
+  }
+ },
+ {
+  "id": "v-symptom",
+  "level": "B1",
+  "topic": "health",
+  "en": "symptom",
+  "fr": "symptôme",
+  "definition_fr": "Un signe qui montre une maladie.",
+  "definition_en": "A sign that you have an illness.",
+  "examples": [
+   {
+    "en": "A cough is a common symptom.",
+    "fr": "La toux est un symptôme courant."
+   },
+   {
+    "en": "What are your symptoms?",
+    "fr": "Quels sont vos symptômes ?"
+   }
+  ],
+  "construction": {
+   "pattern": "a + common + symptom",
+   "tip_fr": "Symptom = symptôme. A cough is a common symptom."
+  }
+ },
+ {
+  "id": "v-recover",
+  "level": "B1",
+  "topic": "health",
+  "en": "recover",
+  "fr": "guérir, se remettre",
+  "definition_fr": "Retrouver la santé.",
+  "definition_en": "To become healthy again after an illness.",
+  "examples": [
+   {
+    "en": "He is recovering from the flu.",
+    "fr": "Il se remet de la grippe."
+   },
+   {
+    "en": "I hope you recover soon.",
+    "fr": "J'espère que tu te remettras vite."
+   }
+  ],
+  "construction": {
+   "pattern": "recover + from + illness",
+   "tip_fr": "Recover from se traduit par « se remettre de ». He is recovering from the flu."
+  }
+ },
+ {
+  "id": "v-injury",
+  "level": "B2",
+  "topic": "health",
+  "en": "injury",
+  "fr": "blessure",
+  "definition_fr": "Un dommage physique au corps.",
+  "definition_en": "Physical harm to a part of the body.",
+  "examples": [
+   {
+    "en": "He has a knee injury.",
+    "fr": "Il a une blessure au genou."
+   },
+   {
+    "en": "The injury kept her out of the game.",
+    "fr": "La blessure l'a empêchée de jouer."
+   }
+  ],
+  "construction": {
+   "pattern": "have + a + body part + injury",
+   "tip_fr": "On place la partie du corps devant injury : a knee injury."
+  }
+ },
+ {
+  "id": "v-allergy",
+  "level": "B1",
+  "topic": "health",
+  "en": "allergy",
+  "fr": "allergie",
+  "definition_fr": "Une réaction du corps à une substance.",
+  "definition_en": "A body reaction to something like food or pollen.",
+  "examples": [
+   {
+    "en": "I have an allergy to peanuts.",
+    "fr": "J'ai une allergie aux cacahuètes."
+   },
+   {
+    "en": "Her allergy gets worse in spring.",
+    "fr": "Son allergie empire au printemps."
+   }
+  ],
+  "construction": {
+   "pattern": "have + an allergy + to + noun",
+   "tip_fr": "Allergy s'utilise avec « to » : an allergy to peanuts."
+  }
+ },
+ {
+  "id": "v-appointment",
+  "level": "B1",
+  "topic": "health",
+  "en": "appointment",
+  "fr": "rendez-vous",
+  "definition_fr": "Un moment convenu avec un médecin ou un professionnel.",
+  "definition_en": "An arranged time to see someone, like a doctor.",
+  "examples": [
+   {
+    "en": "I have a doctor's appointment at four.",
+    "fr": "J'ai un rendez-vous chez le médecin à quatre heures."
+   },
+   {
+    "en": "Can I make an appointment?",
+    "fr": "Puis-je prendre un rendez-vous ?"
+   }
+  ],
+  "construction": {
+   "pattern": "have + an appointment + at + time",
+   "tip_fr": "On prend rendez-vous : make an appointment. I have a doctor's appointment at four."
+  }
+ },
+ {
+  "id": "v-exhausted",
+  "level": "B2",
+  "topic": "health",
+  "en": "exhausted",
+  "fr": "épuisé",
+  "definition_fr": "Très, très fatigué.",
+  "definition_en": "Extremely tired.",
+  "examples": [
+   {
+    "en": "I'm exhausted after the trip.",
+    "fr": "Je suis épuisé après le voyage."
+   },
+   {
+    "en": "She looked exhausted.",
+    "fr": "Elle avait l'air épuisée."
+   }
+  ],
+  "construction": {
+   "pattern": "be + exhausted + after + noun",
+   "tip_fr": "Exhausted = épuisé. Après un effort : after the trip."
+  }
+ },
+ {
+  "id": "v-stress",
+  "level": "B2",
+  "topic": "health",
+  "en": "stress",
+  "fr": "stress",
+  "definition_fr": "Une pression mentale qui fatigue.",
+  "definition_en": "A feeling of worry caused by pressure.",
+  "examples": [
+   {
+    "en": "Stress can affect your sleep.",
+    "fr": "Le stress peut affecter ton sommeil."
+   },
+   {
+    "en": "I try to reduce my stress.",
+    "fr": "J'essaie de réduire mon stress."
+   }
+  ],
+  "construction": {
+   "pattern": "stress + can + verb",
+   "tip_fr": "Stress est indénombrable : stress can affect your sleep."
+  }
+ },
+ {
+  "id": "v-healthy",
+  "level": "B1",
+  "topic": "health",
+  "en": "healthy",
+  "fr": "en bonne santé, sain",
+  "definition_fr": "Bon pour le corps.",
+  "definition_en": "Good for your body; not ill.",
+  "examples": [
+   {
+    "en": "Fruit is a healthy snack.",
+    "fr": "Les fruits sont une collation saine."
+   },
+   {
+    "en": "He lives a healthy life.",
+    "fr": "Il mène une vie saine."
+   }
+  ],
+  "construction": {
+   "pattern": "healthy + noun",
+   "tip_fr": "Healthy = sain, en bonne santé : a healthy snack, a healthy diet. Fruit is a healthy snack."
+  }
+ },
+ {
+  "id": "v-exercise",
+  "level": "B1",
+  "topic": "health",
+  "en": "exercise",
+  "fr": "exercice physique",
+  "definition_fr": "Une activité pour garder la forme.",
+  "definition_en": "Physical activity that keeps you fit.",
+  "examples": [
+   {
+    "en": "I do exercise every morning.",
+    "fr": "Je fais de l'exercice chaque matin."
+   },
+   {
+    "en": "Exercise is good for you.",
+    "fr": "L'exercice est bon pour toi."
+   }
+  ],
+  "construction": {
+   "pattern": "do + exercise",
+   "tip_fr": "Avec exercise (activité physique), on dit « do exercise » ou « take exercise ». I do exercise every morning."
+  }
+ },
+ {
+  "id": "v-diet",
+  "level": "B2",
+  "topic": "health",
+  "en": "diet",
+  "fr": "régime alimentaire",
+  "definition_fr": "Ce que l'on mange habituellement.",
+  "definition_en": "The food you usually eat.",
+  "examples": [
+   {
+    "en": "A balanced diet is important.",
+    "fr": "Une alimentation équilibrée est importante."
+   },
+   {
+    "en": "She is on a diet.",
+    "fr": "Elle suit un régime."
+   }
+  ],
+  "construction": {
+   "pattern": "a balanced + diet",
+   "tip_fr": "Diet = régime alimentaire. A balanced diet is important."
+  }
+ },
+ {
+  "id": "v-dizzy",
+  "level": "B2",
+  "topic": "health",
+  "en": "dizzy",
+  "fr": "pris de vertige",
+  "definition_fr": "Qui sent que tout tourne.",
+  "definition_en": "Feeling like everything is spinning.",
+  "examples": [
+   {
+    "en": "I feel dizzy when I stand up.",
+    "fr": "J'ai la tête qui tourne quand je me lève."
+   },
+   {
+    "en": "The heat made him dizzy.",
+    "fr": "La chaleur lui a donné le vertige."
+   }
+  ],
+  "construction": {
+   "pattern": "feel + dizzy",
+   "tip_fr": "Feel + adjectif : I feel dizzy. On peut aussi dire I'm dizzy."
+  }
+ },
+ {
+  "id": "v-pain",
+  "level": "B1",
+  "topic": "health",
+  "en": "pain",
+  "fr": "douleur",
+  "definition_fr": "Une sensation désagréable dans le corps.",
+  "definition_en": "An unpleasant feeling in your body.",
+  "examples": [
+   {
+    "en": "I have a pain in my back.",
+    "fr": "J'ai mal au dos."
+   },
+   {
+    "en": "The pain is getting worse.",
+    "fr": "La douleur empire."
+   }
+  ],
+  "construction": {
+   "pattern": "have + a pain + in + body part",
+   "tip_fr": "Pain = douleur. On dit « a pain in my back » avec « in »."
+  }
+ },
+ {
+  "id": "v-treatment",
+  "level": "B2",
+  "topic": "health",
+  "en": "treatment",
+  "fr": "traitement",
+  "definition_fr": "Les soins donnés contre une maladie.",
+  "definition_en": "Medical care given to cure an illness.",
+  "examples": [
+   {
+    "en": "The treatment lasts six weeks.",
+    "fr": "Le traitement dure six semaines."
+   },
+   {
+    "en": "She is receiving treatment.",
+    "fr": "Elle reçoit un traitement."
+   }
+  ],
+  "construction": {
+   "pattern": "the treatment + last + duration",
+   "tip_fr": "Treatment = traitement. The treatment lasts six weeks."
+  }
+ },
+ {
+  "id": "v-sore",
+  "level": "B1",
+  "topic": "health",
+  "en": "sore",
+  "fr": "douloureux",
+  "definition_fr": "Qui fait mal.",
+  "definition_en": "Painful, especially when touched.",
+  "examples": [
+   {
+    "en": "I have a sore throat.",
+    "fr": "J'ai mal à la gorge."
+   },
+   {
+    "en": "My legs are sore from running.",
+    "fr": "J'ai mal aux jambes à cause de la course."
+   }
+  ],
+  "construction": {
+   "pattern": "have + a sore + body part",
+   "tip_fr": "Sore = douloureux. I have a sore throat."
+  }
+ },
+ {
+  "id": "v-bandage",
+  "level": "B1",
+  "topic": "health",
+  "en": "bandage",
+  "fr": "pansement, bandage",
+  "definition_fr": "Une bande pour protéger une blessure.",
+  "definition_en": "A strip of cloth to cover a wound.",
+  "examples": [
+   {
+    "en": "The nurse put on a bandage.",
+    "fr": "L'infirmière a mis un bandage."
+   },
+   {
+    "en": "Change the bandage every day.",
+    "fr": "Change le bandage tous les jours."
+   }
+  ],
+  "construction": {
+   "pattern": "put on + a bandage",
+   "tip_fr": "Put on = mettre. The nurse put on a bandage."
+  }
+ },
+ {
+  "id": "v-well-being",
+  "level": "C1",
+  "topic": "health",
+  "en": "well-being",
+  "fr": "bien-être",
+  "definition_fr": "L'état d'une personne en bonne santé et heureuse.",
+  "definition_en": "The state of being comfortable, healthy and happy.",
+  "examples": [
+   {
+    "en": "Sleep is vital for your well-being.",
+    "fr": "Le sommeil est vital pour ton bien-être."
+   },
+   {
+    "en": "The company cares about staff well-being.",
+    "fr": "L'entreprise se soucie du bien-être du personnel."
+   }
+  ],
+  "construction": {
+   "pattern": "noun + be + vital for + well-being",
+   "tip_fr": "Well-being = bien-être, indénombrable. Sleep is vital for your well-being."
+  }
+ },
+ {
+  "id": "v-checkup",
+  "level": "B2",
+  "topic": "health",
+  "en": "checkup",
+  "fr": "bilan de santé",
+  "definition_fr": "Un examen médical régulier.",
+  "definition_en": "A medical examination to check your health.",
+  "examples": [
+   {
+    "en": "I go for a checkup every year.",
+    "fr": "Je passe un bilan de santé chaque année."
+   },
+   {
+    "en": "The checkup was normal.",
+    "fr": "Le bilan de santé était normal."
+   }
+  ],
+  "construction": {
+   "pattern": "go for + a checkup",
+   "tip_fr": "Go for a checkup = aller faire un bilan de santé. I go for a checkup every year."
+  }
+ },
+ {
+  "id": "v-breakfast",
+  "level": "A2",
+  "topic": "food",
+  "en": "breakfast",
+  "fr": "petit-déjeuner",
+  "definition_fr": "Le premier repas de la journée.",
+  "definition_en": "The first meal of the day.",
+  "examples": [
+   {
+    "en": "I have breakfast at seven.",
+    "fr": "Je prends mon petit-déjeuner à sept heures."
+   },
+   {
+    "en": "Breakfast is ready!",
+    "fr": "Le petit-déjeuner est prêt !"
+   }
+  ],
+  "construction": {
+   "pattern": "have + breakfast + at + time",
+   "tip_fr": "Pas d'article avec breakfast : have breakfast. I have breakfast at seven."
+  }
+ },
+ {
+  "id": "v-recipe",
+  "level": "A2",
+  "topic": "food",
+  "en": "recipe",
+  "fr": "recette",
+  "definition_fr": "Les instructions pour préparer un plat.",
+  "definition_en": "Instructions for cooking a dish.",
+  "examples": [
+   {
+    "en": "This recipe is very easy.",
+    "fr": "Cette recette est très facile."
+   },
+   {
+    "en": "Can you give me the recipe?",
+    "fr": "Peux-tu me donner la recette ?"
+   }
+  ],
+  "construction": {
+   "pattern": "this + recipe + be + adjective",
+   "tip_fr": "Recipe = recette. This recipe is very easy."
+  }
+ },
+ {
+  "id": "v-ingredient",
+  "level": "B1",
+  "topic": "food",
+  "en": "ingredient",
+  "fr": "ingrédient",
+  "definition_fr": "Un aliment utilisé dans une recette.",
+  "definition_en": "One of the foods used to make a dish.",
+  "examples": [
+   {
+    "en": "Flour is the main ingredient.",
+    "fr": "La farine est l'ingrédient principal."
+   },
+   {
+    "en": "Add all the ingredients.",
+    "fr": "Ajoute tous les ingrédients."
+   }
+  ],
+  "construction": {
+   "pattern": "the main + ingredient",
+   "tip_fr": "Ingredient = ingrédient. Flour is the main ingredient."
+  }
+ },
+ {
+  "id": "v-delicious",
+  "level": "B1",
+  "topic": "food",
+  "en": "delicious",
+  "fr": "délicieux",
+  "definition_fr": "Qui a très bon goût.",
+  "definition_en": "Having a very good taste.",
+  "examples": [
+   {
+    "en": "The soup was delicious.",
+    "fr": "La soupe était délicieuse."
+   },
+   {
+    "en": "What a delicious cake!",
+    "fr": "Quel délicieux gâteau !"
+   }
+  ],
+  "construction": {
+   "pattern": "noun + be + delicious",
+   "tip_fr": "Delicious = délicieux (plus fort que good). The soup was delicious."
+  }
+ },
+ {
+  "id": "v-leftovers",
+  "level": "B1",
+  "topic": "food",
+  "en": "leftovers",
+  "fr": "restes",
+  "definition_fr": "La nourriture qui reste après un repas.",
+  "definition_en": "Food that remains after a meal.",
+  "examples": [
+   {
+    "en": "We ate the leftovers for lunch.",
+    "fr": "Nous avons mangé les restes au déjeuner."
+   },
+   {
+    "en": "Put the leftovers in the fridge.",
+    "fr": "Mets les restes au frigo."
+   }
+  ],
+  "construction": {
+   "pattern": "eat + the leftovers",
+   "tip_fr": "Leftovers (restes) est toujours pluriel. We ate the leftovers for lunch."
+  }
+ },
+ {
+  "id": "v-bland",
+  "level": "B2",
+  "topic": "food",
+  "en": "bland",
+  "fr": "fade",
+  "definition_fr": "Qui n'a pas beaucoup de goût.",
+  "definition_en": "Having little taste or flavour.",
+  "examples": [
+   {
+    "en": "The sauce is a bit bland.",
+    "fr": "La sauce est un peu fade."
+   },
+   {
+    "en": "I find hospital food bland.",
+    "fr": "Je trouve la nourriture d'hôpital fade."
+   }
+  ],
+  "construction": {
+   "pattern": "be + a bit + bland",
+   "tip_fr": "Bland = fade. On adoucit avec « a bit » : a bit bland."
+  }
+ },
+ {
+  "id": "v-spicy",
+  "level": "B2",
+  "topic": "food",
+  "en": "spicy",
+  "fr": "épicé",
+  "definition_fr": "Qui pique la bouche.",
+  "definition_en": "Having a strong, hot flavour.",
+  "examples": [
+   {
+    "en": "I love spicy food.",
+    "fr": "J'adore la nourriture épicée."
+   },
+   {
+    "en": "This curry is too spicy for me.",
+    "fr": "Ce curry est trop épicé pour moi."
+   }
+  ],
+  "construction": {
+   "pattern": "love + spicy + food",
+   "tip_fr": "Spicy = épicé, fort. I love spicy food. Attention : hot peut aussi vouloir dire chaud."
+  }
+ },
+ {
+  "id": "v-bill",
+  "level": "B1",
+  "topic": "food",
+  "en": "bill",
+  "fr": "addition",
+  "definition_fr": "Le papier qui indique le prix du repas.",
+  "definition_en": "A piece of paper showing how much you owe.",
+  "examples": [
+   {
+    "en": "Can we have the bill, please?",
+    "fr": "Pouvons-nous avoir l'addition, s'il vous plaît ?"
+   },
+   {
+    "en": "I'll pay the bill.",
+    "fr": "Je paierai l'addition."
+   }
+  ],
+  "construction": {
+   "pattern": "can we have + the bill",
+   "tip_fr": "Au restaurant (britannique) : the bill. En américain : the check."
+  }
+ },
+ {
+  "id": "v-waiter",
+  "level": "B1",
+  "topic": "food",
+  "en": "waiter",
+  "fr": "serveur",
+  "definition_fr": "Une personne qui sert les clients au restaurant.",
+  "definition_en": "A man who brings food to customers.",
+  "examples": [
+   {
+    "en": "The waiter was very polite.",
+    "fr": "Le serveur était très poli."
+   },
+   {
+    "en": "Ask the waiter for a menu.",
+    "fr": "Demande un menu au serveur."
+   }
+  ],
+  "construction": {
+   "pattern": "the waiter + be + adjective",
+   "tip_fr": "Waiter (serveur), waitress (serveuse). The waiter was very polite."
+  }
+ },
+ {
+  "id": "v-vegetarian",
+  "level": "B2",
+  "topic": "food",
+  "en": "vegetarian",
+  "fr": "végétarien",
+  "definition_fr": "Qui ne mange pas de viande.",
+  "definition_en": "A person who does not eat meat.",
+  "examples": [
+   {
+    "en": "My sister is vegetarian.",
+    "fr": "Ma sœur est végétarienne."
+   },
+   {
+    "en": "Do you have vegetarian options?",
+    "fr": "Avez-vous des options végétariennes ?"
+   }
+  ],
+  "construction": {
+   "pattern": "be + vegetarian",
+   "tip_fr": "Vegetarian peut être un adjectif (she is vegetarian) ou un nom (she is a vegetarian)."
+  }
+ },
+ {
+  "id": "v-fresh",
+  "level": "B1",
+  "topic": "food",
+  "en": "fresh",
+  "fr": "frais",
+  "definition_fr": "Récent, pas conservé.",
+  "definition_en": "Recently made or picked; not old.",
+  "examples": [
+   {
+    "en": "I buy fresh bread every day.",
+    "fr": "J'achète du pain frais chaque jour."
+   },
+   {
+    "en": "These vegetables are fresh.",
+    "fr": "Ces légumes sont frais."
+   }
+  ],
+  "construction": {
+   "pattern": "fresh + noun",
+   "tip_fr": "Fresh = frais : fresh bread, fresh fruit. I buy fresh bread every day."
+  }
+ },
+ {
+  "id": "v-crave",
+  "level": "B2",
+  "topic": "food",
+  "en": "crave",
+  "fr": "avoir très envie de",
+  "definition_fr": "Désirer fortement un aliment.",
+  "definition_en": "To want something very much, especially food.",
+  "examples": [
+   {
+    "en": "I'm craving chocolate.",
+    "fr": "J'ai très envie de chocolat."
+   },
+   {
+    "en": "She craves salty snacks.",
+    "fr": "Elle a envie de snacks salés."
+   }
+  ],
+  "construction": {
+   "pattern": "be craving + noun",
+   "tip_fr": "Crave = avoir très envie. On le met souvent en -ing : I'm craving chocolate."
+  }
+ },
+ {
+  "id": "v-portion",
+  "level": "B1",
+  "topic": "food",
+  "en": "portion",
+  "fr": "portion",
+  "definition_fr": "La quantité de nourriture servie.",
+  "definition_en": "An amount of food for one person.",
+  "examples": [
+   {
+    "en": "The portions are huge here.",
+    "fr": "Les portions sont énormes ici."
+   },
+   {
+    "en": "One portion is enough.",
+    "fr": "Une portion suffit."
+   }
+  ],
+  "construction": {
+   "pattern": "the portions + be + adjective",
+   "tip_fr": "Portion = part servie. The portions are huge here."
+  }
+ },
+ {
+  "id": "v-bake",
+  "level": "B2",
+  "topic": "food",
+  "en": "bake",
+  "fr": "faire cuire au four",
+  "definition_fr": "Cuire dans un four.",
+  "definition_en": "To cook food in an oven.",
+  "examples": [
+   {
+    "en": "I bake bread on Sundays.",
+    "fr": "Je fais du pain le dimanche."
+   },
+   {
+    "en": "She baked a cake for the party.",
+    "fr": "Elle a fait un gâteau pour la fête."
+   }
+  ],
+  "construction": {
+   "pattern": "bake + noun + on + day",
+   "tip_fr": "Bake = cuire au four. I bake bread on Sundays."
+  }
+ },
+ {
+  "id": "v-chop",
+  "level": "B1",
+  "topic": "food",
+  "en": "chop",
+  "fr": "couper en morceaux",
+  "definition_fr": "Découper avec un couteau.",
+  "definition_en": "To cut something into small pieces.",
+  "examples": [
+   {
+    "en": "Chop the onions finely.",
+    "fr": "Coupe les oignons finement."
+   },
+   {
+    "en": "He chopped the carrots.",
+    "fr": "Il a coupé les carottes."
+   }
+  ],
+  "construction": {
+   "pattern": "chop + noun + adverb",
+   "tip_fr": "Chop = couper en morceaux. Chop the onions finely."
+  }
+ },
+ {
+  "id": "v-simmer",
+  "level": "B2",
+  "topic": "food",
+  "en": "simmer",
+  "fr": "mijoter",
+  "definition_fr": "Cuire doucement, juste sous l'ébullition.",
+  "definition_en": "To cook gently just below boiling.",
+  "examples": [
+   {
+    "en": "Let the sauce simmer for ten minutes.",
+    "fr": "Laisse mijoter la sauce dix minutes."
+   },
+   {
+    "en": "The soup is simmering.",
+    "fr": "La soupe mijote."
+   }
+  ],
+  "construction": {
+   "pattern": "let + noun + simmer",
+   "tip_fr": "Let + objet + verbe sans to : let the sauce simmer."
+  }
+ },
+ {
+  "id": "v-menu",
+  "level": "A2",
+  "topic": "food",
+  "en": "menu",
+  "fr": "carte, menu",
+  "definition_fr": "La liste des plats d'un restaurant.",
+  "definition_en": "A list of dishes in a restaurant.",
+  "examples": [
+   {
+    "en": "Can I see the menu?",
+    "fr": "Puis-je voir la carte ?"
+   },
+   {
+    "en": "The menu changes every week.",
+    "fr": "Le menu change chaque semaine."
+   }
+  ],
+  "construction": {
+   "pattern": "can I see + the menu",
+   "tip_fr": "Pour demander poliment : Can I see the menu?"
+  }
+ },
+ {
+  "id": "v-snack",
+  "level": "B1",
+  "topic": "food",
+  "en": "snack",
+  "fr": "en-cas",
+  "definition_fr": "Un petit repas entre les repas.",
+  "definition_en": "A small amount of food between meals.",
+  "examples": [
+   {
+    "en": "I eat an apple as a snack.",
+    "fr": "Je mange une pomme en guise d'en-cas."
+   },
+   {
+    "en": "Do you want a snack?",
+    "fr": "Tu veux un en-cas ?"
+   }
+  ],
+  "construction": {
+   "pattern": "eat + noun + as a snack",
+   "tip_fr": "As a snack = en guise de collation."
+  }
+ },
+ {
+  "id": "v-appetite",
+  "level": "B2",
+  "topic": "food",
+  "en": "appetite",
+  "fr": "appétit",
+  "definition_fr": "Le désir de manger.",
+  "definition_en": "The desire to eat food.",
+  "examples": [
+   {
+    "en": "I've lost my appetite.",
+    "fr": "J'ai perdu l'appétit."
+   },
+   {
+    "en": "The walk gave me an appetite.",
+    "fr": "La marche m'a ouvert l'appétit."
+   }
+  ],
+  "construction": {
+   "pattern": "lose + your appetite",
+   "tip_fr": "Lose your appetite = perdre l'appétit. I've lost my appetite."
+  }
+ },
+ {
+  "id": "v-cuisine",
+  "level": "C1",
+  "topic": "food",
+  "en": "cuisine",
+  "fr": "cuisine (style)",
+  "definition_fr": "Un style de cuisine propre à un pays.",
+  "definition_en": "A style of cooking from a country or region.",
+  "examples": [
+   {
+    "en": "I love Italian cuisine.",
+    "fr": "J'adore la cuisine italienne."
+   },
+   {
+    "en": "The restaurant serves local cuisine.",
+    "fr": "Le restaurant sert une cuisine locale."
+   }
+  ],
+  "construction": {
+   "pattern": "love + nationality + cuisine",
+   "tip_fr": "Cuisine = cuisine d'un pays : Italian cuisine, French cuisine."
+  }
+ },
+ {
+  "id": "v-neighbour",
+  "level": "A2",
+  "topic": "home",
+  "en": "neighbour",
+  "fr": "voisin",
+  "definition_fr": "Une personne qui habite près de chez soi.",
+  "definition_en": "A person who lives next to you.",
+  "examples": [
+   {
+    "en": "My neighbour is very friendly.",
+    "fr": "Mon voisin est très sympathique."
+   },
+   {
+    "en": "The neighbours are noisy tonight.",
+    "fr": "Les voisins sont bruyants ce soir."
+   }
+  ],
+  "construction": {
+   "pattern": "my + neighbour + be + adjective",
+   "tip_fr": "Neighbour (britannique), neighbor (américain). My neighbour is very friendly."
+  }
+ },
+ {
+  "id": "v-furniture",
+  "level": "B1",
+  "topic": "home",
+  "en": "furniture",
+  "fr": "meubles",
+  "definition_fr": "Les tables, chaises et lits d'une maison.",
+  "definition_en": "Tables, chairs and beds in a home.",
+  "examples": [
+   {
+    "en": "We bought new furniture.",
+    "fr": "Nous avons acheté de nouveaux meubles."
+   },
+   {
+    "en": "The furniture is made of wood.",
+    "fr": "Les meubles sont en bois."
+   }
+  ],
+  "construction": {
+   "pattern": "buy + new + furniture",
+   "tip_fr": "Furniture est indénombrable : pas de « s ». We bought new furniture."
+  }
+ },
+ {
+  "id": "v-rent",
+  "level": "B1",
+  "topic": "home",
+  "en": "rent",
+  "fr": "loyer, louer",
+  "definition_fr": "Payer pour habiter un logement.",
+  "definition_en": "To pay money to use a home; money paid for it.",
+  "examples": [
+   {
+    "en": "The rent is too expensive.",
+    "fr": "Le loyer est trop cher."
+   },
+   {
+    "en": "We rent a small flat.",
+    "fr": "Nous louons un petit appartement."
+   }
+  ],
+  "construction": {
+   "pattern": "the rent + be + adjective",
+   "tip_fr": "Rent = loyer, aussi verbe (louer). The rent is too expensive."
+  }
+ },
+ {
+  "id": "v-landlord",
+  "level": "B1",
+  "topic": "home",
+  "en": "landlord",
+  "fr": "propriétaire (bailleur)",
+  "definition_fr": "La personne qui loue un logement.",
+  "definition_en": "A person who rents a home to you.",
+  "examples": [
+   {
+    "en": "The landlord fixed the heater.",
+    "fr": "Le propriétaire a réparé le chauffage."
+   },
+   {
+    "en": "I called my landlord.",
+    "fr": "J'ai appelé mon propriétaire."
+   }
+  ],
+  "construction": {
+   "pattern": "the landlord + verb",
+   "tip_fr": "Landlord = propriétaire qui loue. The landlord fixed the heater."
+  }
+ },
+ {
+  "id": "v-chore",
+  "level": "B1",
+  "topic": "home",
+  "en": "chore",
+  "fr": "corvée",
+  "definition_fr": "Une tâche ménagère de routine.",
+  "definition_en": "A small job you have to do regularly at home.",
+  "examples": [
+   {
+    "en": "Washing dishes is my least favourite chore.",
+    "fr": "Faire la vaisselle est la corvée que j'aime le moins."
+   },
+   {
+    "en": "We share the chores.",
+    "fr": "Nous partageons les corvées."
+   }
+  ],
+  "construction": {
+   "pattern": "noun-ing + be + my + chore",
+   "tip_fr": "Chore = corvée. Washing dishes is my least favourite chore."
+  }
+ },
+ {
+  "id": "v-tidy",
+  "level": "B2",
+  "topic": "home",
+  "en": "tidy",
+  "fr": "rangé, ranger",
+  "definition_fr": "Propre et en ordre.",
+  "definition_en": "Neat and organised.",
+  "examples": [
+   {
+    "en": "Please keep your room tidy.",
+    "fr": "Garde ta chambre rangée, s'il te plaît."
+   },
+   {
+    "en": "I tidied up the kitchen.",
+    "fr": "J'ai rangé la cuisine."
+   }
+  ],
+  "construction": {
+   "pattern": "keep + noun + tidy",
+   "tip_fr": "Keep + objet + adjectif : keep your room tidy."
+  }
+ },
+ {
+  "id": "v-cosy",
+  "level": "B2",
+  "topic": "home",
+  "en": "cosy",
+  "fr": "douillet",
+  "definition_fr": "Confortable et chaleureux.",
+  "definition_en": "Warm, comfortable and pleasant.",
+  "examples": [
+   {
+    "en": "The living room is very cosy.",
+    "fr": "Le salon est très douillet."
+   },
+   {
+    "en": "We spent a cosy evening by the fire.",
+    "fr": "Nous avons passé une soirée douillette près du feu."
+   }
+  ],
+  "construction": {
+   "pattern": "the + room + be + cosy",
+   "tip_fr": "Cosy = douillet. The living room is very cosy."
+  }
+ },
+ {
+  "id": "v-garden",
+  "level": "B1",
+  "topic": "home",
+  "en": "garden",
+  "fr": "jardin",
+  "definition_fr": "Un espace avec des plantes près de la maison.",
+  "definition_en": "An area with plants next to a house.",
+  "examples": [
+   {
+    "en": "They have a big garden.",
+    "fr": "Ils ont un grand jardin."
+   },
+   {
+    "en": "I water the garden every evening.",
+    "fr": "J'arrose le jardin chaque soir."
+   }
+  ],
+  "construction": {
+   "pattern": "have + a + adjective + garden",
+   "tip_fr": "Garden = jardin (américain : yard). They have a big garden."
+  }
+ },
+ {
+  "id": "v-appliance",
+  "level": "B2",
+  "topic": "home",
+  "en": "appliance",
+  "fr": "appareil ménager",
+  "definition_fr": "Une machine utilisée à la maison.",
+  "definition_en": "A machine used in the home, like a washing machine.",
+  "examples": [
+   {
+    "en": "We need a new kitchen appliance.",
+    "fr": "Il nous faut un nouvel appareil de cuisine."
+   },
+   {
+    "en": "This appliance uses little energy.",
+    "fr": "Cet appareil consomme peu d'énergie."
+   }
+  ],
+  "construction": {
+   "pattern": "a new + kitchen appliance",
+   "tip_fr": "Appliance = appareil ménager."
+  }
+ },
+ {
+  "id": "v-drawer",
+  "level": "B1",
+  "topic": "home",
+  "en": "drawer",
+  "fr": "tiroir",
+  "definition_fr": "Une boîte qui glisse dans un meuble.",
+  "definition_en": "A box in a piece of furniture that slides in and out.",
+  "examples": [
+   {
+    "en": "The keys are in the drawer.",
+    "fr": "Les clés sont dans le tiroir."
+   },
+   {
+    "en": "Open the top drawer.",
+    "fr": "Ouvre le tiroir du haut."
+   }
+  ],
+  "construction": {
+   "pattern": "in + the drawer",
+   "tip_fr": "Drawer = tiroir, avec « in ». The keys are in the drawer."
+  }
+ },
+ {
+  "id": "v-ceiling",
+  "level": "B2",
+  "topic": "home",
+  "en": "ceiling",
+  "fr": "plafond",
+  "definition_fr": "La surface au-dessus de la pièce.",
+  "definition_en": "The top surface inside a room.",
+  "examples": [
+   {
+    "en": "The ceiling is very high.",
+    "fr": "Le plafond est très haut."
+   },
+   {
+    "en": "There's a crack in the ceiling.",
+    "fr": "Il y a une fissure dans le plafond."
+   }
+  ],
+  "construction": {
+   "pattern": "the ceiling + be + adjective",
+   "tip_fr": "Ceiling = plafond. The ceiling is very high."
+  }
+ },
+ {
+  "id": "v-leak",
+  "level": "B2",
+  "topic": "home",
+  "en": "leak",
+  "fr": "fuite",
+  "definition_fr": "Un trou par où s'échappe un liquide.",
+  "definition_en": "A hole where liquid or gas escapes.",
+  "examples": [
+   {
+    "en": "There is a leak under the sink.",
+    "fr": "Il y a une fuite sous l'évier."
+   },
+   {
+    "en": "The roof leaks when it rains.",
+    "fr": "Le toit fuit quand il pleut."
+   }
+  ],
+  "construction": {
+   "pattern": "there is + a leak + under/in + place",
+   "tip_fr": "Leak = fuite. There is a leak under the sink."
+  }
+ },
+ {
+  "id": "v-move-house",
+  "level": "B1",
+  "topic": "home",
+  "en": "move house",
+  "fr": "déménager",
+  "definition_fr": "Aller habiter dans un autre logement.",
+  "definition_en": "To go to live in a different home.",
+  "examples": [
+   {
+    "en": "We are moving house in June.",
+    "fr": "Nous déménageons en juin."
+   },
+   {
+    "en": "They moved house last year.",
+    "fr": "Ils ont déménagé l'an dernier."
+   }
+  ],
+  "construction": {
+   "pattern": "be moving house + in + month",
+   "tip_fr": "Move house = déménager (britannique). We are moving house in June."
+  }
+ },
+ {
+  "id": "v-household",
+  "level": "B2",
+  "topic": "home",
+  "en": "household",
+  "fr": "foyer, ménage",
+  "definition_fr": "Les personnes qui vivent dans un même logement.",
+  "definition_en": "All the people living in one home.",
+  "examples": [
+   {
+    "en": "Every household received a letter.",
+    "fr": "Chaque foyer a reçu une lettre."
+   },
+   {
+    "en": "Household bills are rising.",
+    "fr": "Les factures du foyer augmentent."
+   }
+  ],
+  "construction": {
+   "pattern": "every + household",
+   "tip_fr": "Household = foyer, ménage. Every household received a letter."
+  }
+ },
+ {
+  "id": "v-laundry",
+  "level": "B1",
+  "topic": "home",
+  "en": "laundry",
+  "fr": "linge, lessive",
+  "definition_fr": "Les vêtements à laver.",
+  "definition_en": "Clothes that need to be washed.",
+  "examples": [
+   {
+    "en": "I do the laundry on Saturdays.",
+    "fr": "Je fais la lessive le samedi."
+   },
+   {
+    "en": "The laundry is still wet.",
+    "fr": "Le linge est encore mouillé."
+   }
+  ],
+  "construction": {
+   "pattern": "do + the laundry",
+   "tip_fr": "Laundry = linge, indénombrable. I do the laundry on Saturdays."
+  }
+ },
+ {
+  "id": "v-doorbell",
+  "level": "B2",
+  "topic": "home",
+  "en": "doorbell",
+  "fr": "sonnette",
+  "definition_fr": "Un bouton qui sonne à la porte.",
+  "definition_en": "A button you press to make a sound at a door.",
+  "examples": [
+   {
+    "en": "Someone rang the doorbell.",
+    "fr": "Quelqu'un a sonné à la porte."
+   },
+   {
+    "en": "The doorbell isn't working.",
+    "fr": "La sonnette ne marche pas."
+   }
+  ],
+  "construction": {
+   "pattern": "ring + the doorbell",
+   "tip_fr": "Doorbell = sonnette. Someone rang the doorbell."
+  }
+ },
+ {
+  "id": "v-shelf",
+  "level": "B1",
+  "topic": "home",
+  "en": "shelf",
+  "fr": "étagère",
+  "definition_fr": "Une planche pour poser des objets.",
+  "definition_en": "A flat board on a wall for putting things on.",
+  "examples": [
+   {
+    "en": "Put the books on the shelf.",
+    "fr": "Mets les livres sur l'étagère."
+   },
+   {
+    "en": "The top shelf is too high.",
+    "fr": "L'étagère du haut est trop haute."
+   }
+  ],
+  "construction": {
+   "pattern": "on + the shelf",
+   "tip_fr": "Shelf = étagère, pluriel shelves. Put the books on the shelf."
+  }
+ },
+ {
+  "id": "v-spacious",
+  "level": "B2",
+  "topic": "home",
+  "en": "spacious",
+  "fr": "spacieux",
+  "definition_fr": "Où il y a beaucoup de place.",
+  "definition_en": "Having a lot of room.",
+  "examples": [
+   {
+    "en": "The flat is bright and spacious.",
+    "fr": "L'appartement est lumineux et spacieux."
+   },
+   {
+    "en": "We need a more spacious kitchen.",
+    "fr": "Il nous faut une cuisine plus spacieuse."
+   }
+  ],
+  "construction": {
+   "pattern": "be + bright and spacious",
+   "tip_fr": "Spacious = spacieux. The flat is bright and spacious."
+  }
+ },
+ {
+  "id": "v-renovate",
+  "level": "C1",
+  "topic": "home",
+  "en": "renovate",
+  "fr": "rénover",
+  "definition_fr": "Remettre à neuf un bâtiment.",
+  "definition_en": "To repair and improve an old building.",
+  "examples": [
+   {
+    "en": "They are renovating the whole house.",
+    "fr": "Ils rénovent toute la maison."
+   },
+   {
+    "en": "We plan to renovate the kitchen.",
+    "fr": "Nous prévoyons de rénover la cuisine."
+   }
+  ],
+  "construction": {
+   "pattern": "be renovating + noun",
+   "tip_fr": "Renovate = rénover. They are renovating the whole house."
+  }
+ },
+ {
+  "id": "v-utensil",
+  "level": "B1",
+  "topic": "home",
+  "en": "utensil",
+  "fr": "ustensile",
+  "definition_fr": "Un outil de cuisine.",
+  "definition_en": "A tool used in cooking or eating.",
+  "examples": [
+   {
+    "en": "Knives and spoons are utensils.",
+    "fr": "Les couteaux et cuillères sont des ustensiles."
+   },
+   {
+    "en": "Wash the utensils after dinner.",
+    "fr": "Lave les ustensiles après le dîner."
+   }
+  ],
+  "construction": {
+   "pattern": "noun + be + utensils",
+   "tip_fr": "Utensil = ustensile. Knives and spoons are utensils."
+  }
+ },
+ {
+  "id": "v-worried",
+  "level": "A2",
+  "topic": "feelings",
+  "en": "worried",
+  "fr": "inquiet",
+  "definition_fr": "Qui pense à des problèmes possibles.",
+  "definition_en": "Anxious about something that might go wrong.",
+  "examples": [
+   {
+    "en": "I'm worried about the exam.",
+    "fr": "Je suis inquiet pour l'examen."
+   },
+   {
+    "en": "She looked worried.",
+    "fr": "Elle avait l'air inquiète."
+   }
+  ],
+  "construction": {
+   "pattern": "be + worried + about + noun",
+   "tip_fr": "Worried se construit avec « about » : I'm worried about the exam."
+  }
+ },
+ {
+  "id": "v-embarrassed",
+  "level": "B1",
+  "topic": "feelings",
+  "en": "embarrassed",
+  "fr": "gêné",
+  "definition_fr": "Qui a honte dans une situation.",
+  "definition_en": "Feeling shy or ashamed in front of others.",
+  "examples": [
+   {
+    "en": "I felt embarrassed when I forgot his name.",
+    "fr": "Je me suis senti gêné quand j'ai oublié son nom."
+   },
+   {
+    "en": "He was embarrassed by the mistake.",
+    "fr": "Il était gêné par l'erreur."
+   }
+  ],
+  "construction": {
+   "pattern": "feel + embarrassed + when + clause",
+   "tip_fr": "Embarrassed = gêné. I felt embarrassed when I forgot his name."
+  }
+ },
+ {
+  "id": "v-excited",
+  "level": "B1",
+  "topic": "feelings",
+  "en": "excited",
+  "fr": "enthousiaste, excité",
+  "definition_fr": "Très content à l'idée de quelque chose.",
+  "definition_en": "Very happy about something that will happen.",
+  "examples": [
+   {
+    "en": "We are excited about the trip.",
+    "fr": "Nous sommes enthousiastes pour le voyage."
+   },
+   {
+    "en": "The kids were excited.",
+    "fr": "Les enfants étaient excités."
+   }
+  ],
+  "construction": {
+   "pattern": "be + excited + about + noun",
+   "tip_fr": "Excited se construit avec « about » : We are excited about the trip. Attention : pas « excité » au sens français négatif."
+  }
+ },
+ {
+  "id": "v-disappointed",
+  "level": "B1",
+  "topic": "feelings",
+  "en": "disappointed",
+  "fr": "déçu",
+  "definition_fr": "Triste parce que ce n'était pas ce qu'on espérait.",
+  "definition_en": "Sad because something was not as good as hoped.",
+  "examples": [
+   {
+    "en": "I was disappointed with the result.",
+    "fr": "J'ai été déçu par le résultat."
+   },
+   {
+    "en": "She looked disappointed.",
+    "fr": "Elle avait l'air déçue."
+   }
+  ],
+  "construction": {
+   "pattern": "be + disappointed + with + noun",
+   "tip_fr": "Disappointed with something. I was disappointed with the result."
+  }
+ },
+ {
+  "id": "v-relieved",
+  "level": "B2",
+  "topic": "feelings",
+  "en": "relieved",
+  "fr": "soulagé",
+  "definition_fr": "Content qu'un problème soit fini.",
+  "definition_en": "Happy because something bad did not happen.",
+  "examples": [
+   {
+    "en": "I'm so relieved it's over.",
+    "fr": "Je suis tellement soulagé que ce soit fini."
+   },
+   {
+    "en": "He felt relieved after the call.",
+    "fr": "Il s'est senti soulagé après l'appel."
+   }
+  ],
+  "construction": {
+   "pattern": "be + so relieved + clause",
+   "tip_fr": "Relieved = soulagé. I'm so relieved it's over."
+  }
+ },
+ {
+  "id": "v-jealous",
+  "level": "B2",
+  "topic": "feelings",
+  "en": "jealous",
+  "fr": "jaloux",
+  "definition_fr": "Qui veut ce que l'autre possède.",
+  "definition_en": "Unhappy because someone has something you want.",
+  "examples": [
+   {
+    "en": "She was jealous of her friend's success.",
+    "fr": "Elle était jalouse du succès de son amie."
+   },
+   {
+    "en": "Don't be jealous!",
+    "fr": "Ne sois pas jaloux !"
+   }
+  ],
+  "construction": {
+   "pattern": "be + jealous + of + person",
+   "tip_fr": "Jealous se construit avec « of » : jealous of her friend's success."
+  }
+ },
+ {
+  "id": "v-grateful",
+  "level": "B2",
+  "topic": "feelings",
+  "en": "grateful",
+  "fr": "reconnaissant",
+  "definition_fr": "Qui remercie pour une aide reçue.",
+  "definition_en": "Feeling thankful for what someone did.",
+  "examples": [
+   {
+    "en": "I'm grateful for your help.",
+    "fr": "Je vous suis reconnaissant pour votre aide."
+   },
+   {
+    "en": "They were grateful for the gift.",
+    "fr": "Ils étaient reconnaissants pour le cadeau."
+   }
+  ],
+  "construction": {
+   "pattern": "be + grateful + for + noun",
+   "tip_fr": "Grateful for something. I'm grateful for your help."
+  }
+ },
+ {
+  "id": "v-lonely",
+  "level": "B1",
+  "topic": "feelings",
+  "en": "lonely",
+  "fr": "seul, isolé",
+  "definition_fr": "Triste d'être sans compagnie.",
+  "definition_en": "Sad because you have no one to talk to.",
+  "examples": [
+   {
+    "en": "He felt lonely in the new city.",
+    "fr": "Il se sentait seul dans la nouvelle ville."
+   },
+   {
+    "en": "Many old people are lonely.",
+    "fr": "Beaucoup de personnes âgées sont isolées."
+   }
+  ],
+  "construction": {
+   "pattern": "feel + lonely + in + place",
+   "tip_fr": "Lonely = seul (sentiment). He felt lonely in the new city."
+  }
+ },
+ {
+  "id": "v-annoyed",
+  "level": "B2",
+  "topic": "feelings",
+  "en": "annoyed",
+  "fr": "agacé",
+  "definition_fr": "Un peu en colère.",
+  "definition_en": "Slightly angry.",
+  "examples": [
+   {
+    "en": "I'm annoyed with him.",
+    "fr": "Je suis agacé par lui."
+   },
+   {
+    "en": "She sounded annoyed on the phone.",
+    "fr": "Elle avait l'air agacée au téléphone."
+   }
+  ],
+  "construction": {
+   "pattern": "be + annoyed + with + person",
+   "tip_fr": "Annoyed with someone, annoyed at something. I'm annoyed with him."
+  }
+ },
+ {
+  "id": "v-overwhelmed",
+  "level": "B2",
+  "topic": "feelings",
+  "en": "overwhelmed",
+  "fr": "débordé, submergé",
+  "definition_fr": "Qui a trop de choses à gérer.",
+  "definition_en": "Feeling that there is too much to deal with.",
+  "examples": [
+   {
+    "en": "I feel overwhelmed by work.",
+    "fr": "Je me sens submergé par le travail."
+   },
+   {
+    "en": "She was overwhelmed with emotion.",
+    "fr": "Elle était submergée par l'émotion."
+   }
+  ],
+  "construction": {
+   "pattern": "feel + overwhelmed + by + noun",
+   "tip_fr": "Overwhelmed by something = submergé. I feel overwhelmed by work."
+  }
+ },
+ {
+  "id": "v-proud",
+  "level": "B1",
+  "topic": "feelings",
+  "en": "proud",
+  "fr": "fier",
+  "definition_fr": "Content de soi ou des siens.",
+  "definition_en": "Pleased about something you or others did.",
+  "examples": [
+   {
+    "en": "I'm proud of you.",
+    "fr": "Je suis fier de toi."
+   },
+   {
+    "en": "He was proud of his son.",
+    "fr": "Il était fier de son fils."
+   }
+  ],
+  "construction": {
+   "pattern": "be + proud + of + person",
+   "tip_fr": "Proud of someone. I'm proud of you."
+  }
+ },
+ {
+  "id": "v-nervous",
+  "level": "B1",
+  "topic": "feelings",
+  "en": "nervous",
+  "fr": "nerveux",
+  "definition_fr": "Un peu peur avant quelque chose.",
+  "definition_en": "Slightly afraid or worried.",
+  "examples": [
+   {
+    "en": "I'm nervous before presentations.",
+    "fr": "Je suis nerveux avant les présentations."
+   },
+   {
+    "en": "Don't be nervous.",
+    "fr": "Ne sois pas nerveux."
+   }
+  ],
+  "construction": {
+   "pattern": "be + nervous + before + noun",
+   "tip_fr": "Nervous = nerveux, stressé. On précise avec before ou about : nervous before presentations."
+  }
+ },
+ {
+  "id": "v-thrilled",
+  "level": "B2",
+  "topic": "feelings",
+  "en": "thrilled",
+  "fr": "ravi",
+  "definition_fr": "Extrêmement content.",
+  "definition_en": "Extremely pleased.",
+  "examples": [
+   {
+    "en": "We were thrilled to win.",
+    "fr": "Nous étions ravis de gagner."
+   },
+   {
+    "en": "She's thrilled about the news.",
+    "fr": "Elle est ravie de la nouvelle."
+   }
+  ],
+  "construction": {
+   "pattern": "be + thrilled + to + verb",
+   "tip_fr": "Thrilled = ravi. Suivi de « to + verbe » : We were thrilled to win."
+  }
+ },
+ {
+  "id": "v-miserable",
+  "level": "B2",
+  "topic": "feelings",
+  "en": "miserable",
+  "fr": "malheureux",
+  "definition_fr": "Très triste.",
+  "definition_en": "Very unhappy.",
+  "examples": [
+   {
+    "en": "He felt miserable in the rain.",
+    "fr": "Il se sentait malheureux sous la pluie."
+   },
+   {
+    "en": "Why are you so miserable today?",
+    "fr": "Pourquoi es-tu si malheureux aujourd'hui ?"
+   }
+  ],
+  "construction": {
+   "pattern": "feel + miserable + in + place",
+   "tip_fr": "Miserable = très malheureux. He felt miserable in the rain."
+  }
+ },
+ {
+  "id": "v-confident",
+  "level": "B1",
+  "topic": "feelings",
+  "en": "confident",
+  "fr": "sûr de soi",
+  "definition_fr": "Qui a confiance en soi.",
+  "definition_en": "Sure of your own abilities.",
+  "examples": [
+   {
+    "en": "She feels confident about the test.",
+    "fr": "Elle se sent sûre d'elle pour le test."
+   },
+   {
+    "en": "Be confident!",
+    "fr": "Aie confiance en toi !"
+   }
+  ],
+  "construction": {
+   "pattern": "feel + confident + about + noun",
+   "tip_fr": "Confident about something. She feels confident about the test."
+  }
+ },
+ {
+  "id": "v-reluctant",
+  "level": "B2",
+  "topic": "feelings",
+  "en": "reluctant",
+  "fr": "réticent",
+  "definition_fr": "Qui n'a pas envie de faire quelque chose.",
+  "definition_en": "Not willing to do something.",
+  "examples": [
+   {
+    "en": "He was reluctant to leave.",
+    "fr": "Il était réticent à partir."
+   },
+   {
+    "en": "I'm reluctant to ask for help.",
+    "fr": "Je suis réticent à demander de l'aide."
+   }
+  ],
+  "construction": {
+   "pattern": "be + reluctant + to + verb",
+   "tip_fr": "Reluctant = réticent, toujours suivi de « to + verbe » : reluctant to leave."
+  }
+ },
+ {
+  "id": "v-bewildered",
+  "level": "C1",
+  "topic": "feelings",
+  "en": "bewildered",
+  "fr": "perplexe",
+  "definition_fr": "Très confus.",
+  "definition_en": "Very confused.",
+  "examples": [
+   {
+    "en": "She looked bewildered by the rules.",
+    "fr": "Elle semblait perplexe devant les règles."
+   },
+   {
+    "en": "I was bewildered by his answer.",
+    "fr": "J'étais perplexe face à sa réponse."
+   }
+  ],
+  "construction": {
+   "pattern": "look + bewildered + by + noun",
+   "tip_fr": "Bewildered = perplexe. Avec look : She looked bewildered by the rules."
+  }
+ },
+ {
+  "id": "v-upset",
+  "level": "B1",
+  "topic": "feelings",
+  "en": "upset",
+  "fr": "contrarié, bouleversé",
+  "definition_fr": "Triste ou fâché à cause de quelque chose.",
+  "definition_en": "Unhappy or worried because of something.",
+  "examples": [
+   {
+    "en": "He was upset about the news.",
+    "fr": "Il était contrarié par la nouvelle."
+   },
+   {
+    "en": "Don't get upset.",
+    "fr": "Ne te fâche pas."
+   }
+  ],
+  "construction": {
+   "pattern": "be + upset + about + noun",
+   "tip_fr": "Upset = contrarié. Upset about the news."
+  }
+ },
+ {
+  "id": "v-content",
+  "level": "B2",
+  "topic": "feelings",
+  "en": "content",
+  "fr": "satisfait",
+  "definition_fr": "Heureux et tranquille.",
+  "definition_en": "Happy and satisfied.",
+  "examples": [
+   {
+    "en": "She seems content with her life.",
+    "fr": "Elle semble satisfaite de sa vie."
+   },
+   {
+    "en": "I'm content to stay home.",
+    "fr": "Je me contente de rester à la maison."
+   }
+  ],
+  "construction": {
+   "pattern": "seem + content + with + noun",
+   "tip_fr": "Content (adjectif) = satisfait, accent sur la 2e syllabe. Content with her life."
+  }
+ },
+ {
+  "id": "v-curious",
+  "level": "B1",
+  "topic": "feelings",
+  "en": "curious",
+  "fr": "curieux",
+  "definition_fr": "Qui veut savoir ou apprendre.",
+  "definition_en": "Eager to know or learn something.",
+  "examples": [
+   {
+    "en": "Children are naturally curious.",
+    "fr": "Les enfants sont naturellement curieux."
+   },
+   {
+    "en": "I'm curious about your job.",
+    "fr": "Je suis curieux de savoir en quoi consiste ton travail."
+   }
+  ],
+  "construction": {
+   "pattern": "be + naturally + curious",
+   "tip_fr": "Curious = curieux. Children are naturally curious."
+  }
+ },
+ {
+  "id": "v-wake-up",
+  "level": "A2",
+  "topic": "daily life",
+  "en": "wake up",
+  "fr": "se réveiller",
+  "definition_fr": "Arrêter de dormir.",
+  "definition_en": "To stop sleeping.",
+  "examples": [
+   {
+    "en": "I wake up at six.",
+    "fr": "Je me réveille à six heures."
+   },
+   {
+    "en": "Wake up, it's late!",
+    "fr": "Réveille-toi, il est tard !"
+   }
+  ],
+  "construction": {
+   "pattern": "wake up + at + time",
+   "tip_fr": "Wake up est un verbe à particule : I wake up at six. Jamais « wake up me » : wake me up."
+  }
+ },
+ {
+  "id": "v-neighbourhood",
+  "level": "A2",
+  "topic": "daily life",
+  "en": "neighbourhood",
+  "fr": "quartier",
+  "definition_fr": "Une zone où des gens habitent.",
+  "definition_en": "The area around where you live.",
+  "examples": [
+   {
+    "en": "It's a quiet neighbourhood.",
+    "fr": "C'est un quartier calme."
+   },
+   {
+    "en": "I know my neighbourhood well.",
+    "fr": "Je connais bien mon quartier."
+   }
+  ],
+  "construction": {
+   "pattern": "a quiet + neighbourhood",
+   "tip_fr": "Neighbourhood = quartier (américain : neighborhood)."
+  }
+ },
+ {
+  "id": "v-errand",
+  "level": "B1",
+  "topic": "daily life",
+  "en": "errand",
+  "fr": "course (démarche)",
+  "definition_fr": "Une petite tâche à faire dehors.",
+  "definition_en": "A short trip to do a small task.",
+  "examples": [
+   {
+    "en": "I have a few errands to run.",
+    "fr": "J'ai quelques courses à faire."
+   },
+   {
+    "en": "He went out to run an errand.",
+    "fr": "Il est sorti faire une course."
+   }
+  ],
+  "construction": {
+   "pattern": "run + errands",
+   "tip_fr": "Run errands = faire des courses, des démarches. I have a few errands to run."
+  }
+ },
+ {
+  "id": "v-grocery",
+  "level": "B1",
+  "topic": "daily life",
+  "en": "grocery",
+  "fr": "épicerie, courses",
+  "definition_fr": "Les produits alimentaires achetés au magasin.",
+  "definition_en": "Food and household items you buy in a shop.",
+  "examples": [
+   {
+    "en": "I need to do the grocery shopping.",
+    "fr": "Je dois faire les courses."
+   },
+   {
+    "en": "The grocery store is closed.",
+    "fr": "L'épicerie est fermée."
+   }
+  ],
+  "construction": {
+   "pattern": "do + the grocery shopping",
+   "tip_fr": "On dit « do the grocery shopping » ou « go grocery shopping »."
+  }
+ },
+ {
+  "id": "v-queue",
+  "level": "B1",
+  "topic": "daily life",
+  "en": "queue",
+  "fr": "file d'attente",
+  "definition_fr": "Une ligne de personnes qui attendent.",
+  "definition_en": "A line of people waiting.",
+  "examples": [
+   {
+    "en": "There's a long queue at the bank.",
+    "fr": "Il y a une longue file d'attente à la banque."
+   },
+   {
+    "en": "Join the queue.",
+    "fr": "Mets-toi dans la file."
+   }
+  ],
+  "construction": {
+   "pattern": "a long + queue + at + place",
+   "tip_fr": "Queue (britannique) = file d'attente. En américain : line."
+  }
+ },
+ {
+  "id": "v-habit",
+  "level": "B1",
+  "topic": "daily life",
+  "en": "habit",
+  "fr": "habitude",
+  "definition_fr": "Une action qu'on fait souvent.",
+  "definition_en": "Something you do regularly.",
+  "examples": [
+   {
+    "en": "Biting nails is a bad habit.",
+    "fr": "Se ronger les ongles est une mauvaise habitude."
+   },
+   {
+    "en": "I'm trying to build good habits.",
+    "fr": "J'essaie de prendre de bonnes habitudes."
+   }
+  ],
+  "construction": {
+   "pattern": "a bad/good + habit",
+   "tip_fr": "Habit = habitude. Biting nails is a bad habit."
+  }
+ },
+ {
+  "id": "v-routine",
+  "level": "B1",
+  "topic": "daily life",
+  "en": "routine",
+  "fr": "routine",
+  "definition_fr": "Les actions de chaque jour.",
+  "definition_en": "The things you do regularly in the same order.",
+  "examples": [
+   {
+    "en": "My morning routine is simple.",
+    "fr": "Ma routine du matin est simple."
+   },
+   {
+    "en": "I'm bored of my routine.",
+    "fr": "Je m'ennuie de ma routine."
+   }
+  ],
+  "construction": {
+   "pattern": "my + morning + routine",
+   "tip_fr": "Routine = habitudes quotidiennes. My morning routine is simple."
+  }
+ },
+ {
+  "id": "v-procrastinate",
+  "level": "B2",
+  "topic": "daily life",
+  "en": "procrastinate",
+  "fr": "remettre à plus tard",
+  "definition_fr": "Repousser ce qu'on doit faire.",
+  "definition_en": "To delay doing something you should do.",
+  "examples": [
+   {
+    "en": "I procrastinate before exams.",
+    "fr": "Je remets les choses à plus tard avant les examens."
+   },
+   {
+    "en": "Stop procrastinating!",
+    "fr": "Arrête de procrastiner !"
+   }
+  ],
+  "construction": {
+   "pattern": "procrastinate + before + noun",
+   "tip_fr": "Procrastinate = remettre à plus tard. I procrastinate before exams."
+  }
+ },
+ {
+  "id": "v-alarm",
+  "level": "B1",
+  "topic": "daily life",
+  "en": "alarm",
+  "fr": "réveil, alarme",
+  "definition_fr": "Un son qui réveille ou prévient.",
+  "definition_en": "A sound that wakes you or warns you.",
+  "examples": [
+   {
+    "en": "My alarm rings at six.",
+    "fr": "Mon réveil sonne à six heures."
+   },
+   {
+    "en": "I forgot to set the alarm.",
+    "fr": "J'ai oublié de mettre le réveil."
+   }
+  ],
+  "construction": {
+   "pattern": "my + alarm + ring + at + time",
+   "tip_fr": "Alarm = réveil. My alarm rings at six."
+  }
+ },
+ {
+  "id": "v-rush-hour",
+  "level": "B1",
+  "topic": "daily life",
+  "en": "rush hour",
+  "fr": "heure de pointe",
+  "definition_fr": "Le moment où il y a beaucoup de circulation.",
+  "definition_en": "The busy time when many people travel.",
+  "examples": [
+   {
+    "en": "Avoid the rush hour if you can.",
+    "fr": "Évite l'heure de pointe si tu peux."
+   },
+   {
+    "en": "The metro is packed at rush hour.",
+    "fr": "Le métro est bondé à l'heure de pointe."
+   }
+  ],
+  "construction": {
+   "pattern": "avoid + the rush hour",
+   "tip_fr": "Rush hour = heures de pointe. Avoid the rush hour if you can."
+  }
+ },
+ {
+  "id": "v-diary",
+  "level": "B1",
+  "topic": "daily life",
+  "en": "diary",
+  "fr": "agenda",
+  "definition_fr": "Un carnet pour noter ses rendez-vous.",
+  "definition_en": "A book for writing down your meetings.",
+  "examples": [
+   {
+    "en": "I wrote it in my diary.",
+    "fr": "Je l'ai noté dans mon agenda."
+   },
+   {
+    "en": "Check your diary.",
+    "fr": "Regarde ton agenda."
+   }
+  ],
+  "construction": {
+   "pattern": "write + in + my diary",
+   "tip_fr": "On écrit « in my diary ». Diary = journal intime."
+  }
+ },
+ {
+  "id": "v-mess",
+  "level": "B1",
+  "topic": "daily life",
+  "en": "mess",
+  "fr": "désordre",
+  "definition_fr": "Un état sale ou non rangé.",
+  "definition_en": "A dirty or untidy state.",
+  "examples": [
+   {
+    "en": "My room is a mess.",
+    "fr": "Ma chambre est en désordre."
+   },
+   {
+    "en": "Sorry for the mess!",
+    "fr": "Désolé pour le désordre !"
+   }
+  ],
+  "construction": {
+   "pattern": "be + a mess",
+   "tip_fr": "Be a mess = être en désordre. My room is a mess."
+  }
+ },
+ {
+  "id": "v-spare-time",
+  "level": "B2",
+  "topic": "daily life",
+  "en": "spare time",
+  "fr": "temps libre",
+  "definition_fr": "Le temps où l'on ne travaille pas.",
+  "definition_en": "Time when you are not working.",
+  "examples": [
+   {
+    "en": "I read in my spare time.",
+    "fr": "Je lis pendant mon temps libre."
+   },
+   {
+    "en": "What do you do in your spare time?",
+    "fr": "Que fais-tu pendant ton temps libre ?"
+   }
+  ],
+  "construction": {
+   "pattern": "verb + in + my spare time",
+   "tip_fr": "In my spare time = pendant mon temps libre. I read in my spare time."
+  }
+ },
+ {
+  "id": "v-miss-the-bus",
+  "level": "B1",
+  "topic": "daily life",
+  "en": "miss the bus",
+  "fr": "rater le bus",
+  "definition_fr": "Arriver trop tard pour le bus.",
+  "definition_en": "To arrive too late to catch the bus.",
+  "examples": [
+   {
+    "en": "I missed the bus this morning.",
+    "fr": "J'ai raté le bus ce matin."
+   },
+   {
+    "en": "Hurry, or you'll miss the bus!",
+    "fr": "Dépêche-toi, sinon tu vas rater le bus !"
+   }
+  ],
+  "construction": {
+   "pattern": "miss + the + vehicle",
+   "tip_fr": "Miss = rater : miss the bus, miss the train. I missed the bus this morning."
+  }
+ },
+ {
+  "id": "v-bother",
+  "level": "B1",
+  "topic": "daily life",
+  "en": "bother",
+  "fr": "déranger",
+  "definition_fr": "Gêner quelqu'un.",
+  "definition_en": "To disturb or annoy someone.",
+  "examples": [
+   {
+    "en": "Sorry to bother you.",
+    "fr": "Désolé de vous déranger."
+   },
+   {
+    "en": "The noise bothers me.",
+    "fr": "Le bruit me dérange."
+   }
+  ],
+  "construction": {
+   "pattern": "sorry to + bother + you",
+   "tip_fr": "Sorry to bother you = désolé de vous déranger."
+  }
+ },
+ {
+  "id": "v-chat",
+  "level": "B2",
+  "topic": "daily life",
+  "en": "chat",
+  "fr": "bavarder",
+  "definition_fr": "Parler de façon amicale et décontractée.",
+  "definition_en": "To talk in a friendly, informal way.",
+  "examples": [
+   {
+    "en": "We chatted for an hour.",
+    "fr": "Nous avons bavardé pendant une heure."
+   },
+   {
+    "en": "I love chatting with neighbours.",
+    "fr": "J'adore bavarder avec les voisins."
+   }
+  ],
+  "construction": {
+   "pattern": "chat + for + duration",
+   "tip_fr": "Chat = bavarder. We chatted for an hour."
+  }
+ },
+ {
+  "id": "v-get-along",
+  "level": "B2",
+  "topic": "daily life",
+  "en": "get along",
+  "fr": "s'entendre",
+  "definition_fr": "Avoir de bonnes relations.",
+  "definition_en": "To have a good relationship with someone.",
+  "examples": [
+   {
+    "en": "I get along with my roommate.",
+    "fr": "Je m'entends bien avec mon colocataire."
+   },
+   {
+    "en": "They don't get along.",
+    "fr": "Ils ne s'entendent pas."
+   }
+  ],
+  "construction": {
+   "pattern": "get along + with + person",
+   "tip_fr": "Get along with someone = bien s'entendre. I get along with my roommate."
+  }
+ },
+ {
+  "id": "v-borrow",
+  "level": "B1",
+  "topic": "daily life",
+  "en": "borrow",
+  "fr": "emprunter",
+  "definition_fr": "Prendre quelque chose pour le rendre plus tard.",
+  "definition_en": "To take something and give it back later.",
+  "examples": [
+   {
+    "en": "Can I borrow your pen?",
+    "fr": "Puis-je t'emprunter ton stylo ?"
+   },
+   {
+    "en": "He borrowed some money.",
+    "fr": "Il a emprunté de l'argent."
+   }
+  ],
+  "construction": {
+   "pattern": "can I + borrow + noun",
+   "tip_fr": "Borrow = emprunter (je prends). Can I borrow your pen?"
+  }
+ },
+ {
+  "id": "v-lend",
+  "level": "B1",
+  "topic": "daily life",
+  "en": "lend",
+  "fr": "prêter",
+  "definition_fr": "Donner quelque chose pour un temps.",
+  "definition_en": "To give something to someone for a short time.",
+  "examples": [
+   {
+    "en": "Could you lend me ten euros?",
+    "fr": "Pourrais-tu me prêter dix euros ?"
+   },
+   {
+    "en": "She lent me her car.",
+    "fr": "Elle m'a prêté sa voiture."
+   }
+  ],
+  "construction": {
+   "pattern": "lend + person + noun",
+   "tip_fr": "Lend = prêter (je donne). Could you lend me ten euros?"
+  }
+ },
+ {
+  "id": "v-keep-in-touch",
+  "level": "B2",
+  "topic": "daily life",
+  "en": "keep in touch",
+  "fr": "rester en contact",
+  "definition_fr": "Continuer à se parler.",
+  "definition_en": "To continue to communicate with someone.",
+  "examples": [
+   {
+    "en": "Let's keep in touch.",
+    "fr": "Restons en contact."
+   },
+   {
+    "en": "We kept in touch by email.",
+    "fr": "Nous sommes restés en contact par e-mail."
+   }
+  ],
+  "construction": {
+   "pattern": "let's + keep in touch",
+   "tip_fr": "Let's + verbe sans to. Keep in touch = rester en contact."
+  }
+ },
+ {
+  "id": "v-download",
+  "level": "B1",
+  "topic": "technology",
+  "en": "download",
+  "fr": "télécharger",
+  "definition_fr": "Copier un fichier depuis Internet.",
+  "definition_en": "To copy a file from the internet to your device.",
+  "examples": [
+   {
+    "en": "I downloaded the app.",
+    "fr": "J'ai téléchargé l'application."
+   },
+   {
+    "en": "Download the document here.",
+    "fr": "Télécharge le document ici."
+   }
+  ],
+  "construction": {
+   "pattern": "download + noun",
+   "tip_fr": "Download = télécharger. I downloaded the app."
+  }
+ },
+ {
+  "id": "v-password",
+  "level": "B1",
+  "topic": "technology",
+  "en": "password",
+  "fr": "mot de passe",
+  "definition_fr": "Un code secret pour accéder à un compte.",
+  "definition_en": "A secret word that lets you access an account.",
+  "examples": [
+   {
+    "en": "I forgot my password.",
+    "fr": "J'ai oublié mon mot de passe."
+   },
+   {
+    "en": "Choose a strong password.",
+    "fr": "Choisis un mot de passe solide."
+   }
+  ],
+  "construction": {
+   "pattern": "forget + my password",
+   "tip_fr": "Password = mot de passe. I forgot my password."
+  }
+ },
+ {
+  "id": "v-screen",
+  "level": "B1",
+  "topic": "technology",
+  "en": "screen",
+  "fr": "écran",
+  "definition_fr": "La surface qui affiche des images.",
+  "definition_en": "The flat surface where images are shown.",
+  "examples": [
+   {
+    "en": "My phone screen is cracked.",
+    "fr": "L'écran de mon téléphone est fissuré."
+   },
+   {
+    "en": "Don't stare at the screen all day.",
+    "fr": "Ne fixe pas l'écran toute la journée."
+   }
+  ],
+  "construction": {
+   "pattern": "my + phone + screen",
+   "tip_fr": "Screen = écran. My phone screen is cracked."
+  }
+ },
+ {
+  "id": "v-battery",
+  "level": "B1",
+  "topic": "technology",
+  "en": "battery",
+  "fr": "batterie",
+  "definition_fr": "Ce qui donne de l'énergie à un appareil.",
+  "definition_en": "A device that stores electricity.",
+  "examples": [
+   {
+    "en": "My battery is almost dead.",
+    "fr": "Ma batterie est presque vide."
+   },
+   {
+    "en": "Charge the battery overnight.",
+    "fr": "Recharge la batterie pendant la nuit."
+   }
+  ],
+  "construction": {
+   "pattern": "my + battery + be + adjective",
+   "tip_fr": "Battery = batterie. My battery is almost dead."
+  }
+ },
+ {
+  "id": "v-charger",
+  "level": "B1",
+  "topic": "technology",
+  "en": "charger",
+  "fr": "chargeur",
+  "definition_fr": "Un appareil pour recharger une batterie.",
+  "definition_en": "A device used to refill a battery.",
+  "examples": [
+   {
+    "en": "Can I borrow your charger?",
+    "fr": "Puis-je t'emprunter ton chargeur ?"
+   },
+   {
+    "en": "I left my charger at home.",
+    "fr": "J'ai laissé mon chargeur à la maison."
+   }
+  ],
+  "construction": {
+   "pattern": "can I borrow + your charger",
+   "tip_fr": "Charger = chargeur. Can I borrow your charger?"
+  }
+ },
+ {
+  "id": "v-update",
+  "level": "B2",
+  "topic": "technology",
+  "en": "update",
+  "fr": "mise à jour",
+  "definition_fr": "Une nouvelle version d'un logiciel.",
+  "definition_en": "A new version of software.",
+  "examples": [
+   {
+    "en": "There's a new update available.",
+    "fr": "Une nouvelle mise à jour est disponible."
+   },
+   {
+    "en": "I need to update my phone.",
+    "fr": "Je dois mettre à jour mon téléphone."
+   }
+  ],
+  "construction": {
+   "pattern": "there is + a new update",
+   "tip_fr": "Update = mise à jour, aussi verbe. There's a new update available."
+  }
+ },
+ {
+  "id": "v-crash",
+  "level": "B2",
+  "topic": "technology",
+  "en": "crash",
+  "fr": "planter",
+  "definition_fr": "S'arrêter soudainement (ordinateur).",
+  "definition_en": "To suddenly stop working, like a computer.",
+  "examples": [
+   {
+    "en": "My laptop crashed again.",
+    "fr": "Mon ordinateur portable a encore planté."
+   },
+   {
+    "en": "The app keeps crashing.",
+    "fr": "L'application n'arrête pas de planter."
+   }
+  ],
+  "construction": {
+   "pattern": "my + device + crash",
+   "tip_fr": "Crash = planter. My laptop crashed again."
+  }
+ },
+ {
+  "id": "v-connection",
+  "level": "B1",
+  "topic": "technology",
+  "en": "connection",
+  "fr": "connexion",
+  "definition_fr": "Le lien avec un réseau.",
+  "definition_en": "A link to a network or the internet.",
+  "examples": [
+   {
+    "en": "The Wi-Fi connection is slow.",
+    "fr": "La connexion Wi-Fi est lente."
+   },
+   {
+    "en": "I lost my connection.",
+    "fr": "J'ai perdu ma connexion."
+   }
+  ],
+  "construction": {
+   "pattern": "the + Wi-Fi + connection",
+   "tip_fr": "Connection = connexion. The Wi-Fi connection is slow."
+  }
+ },
+ {
+  "id": "v-browse",
+  "level": "B2",
+  "topic": "technology",
+  "en": "browse",
+  "fr": "naviguer",
+  "definition_fr": "Regarder des pages Internet.",
+  "definition_en": "To look at information on the internet.",
+  "examples": [
+   {
+    "en": "I browse the web every evening.",
+    "fr": "Je navigue sur Internet chaque soir."
+   },
+   {
+    "en": "She was browsing online shops.",
+    "fr": "Elle parcourait des boutiques en ligne."
+   }
+  ],
+  "construction": {
+   "pattern": "browse + the web",
+   "tip_fr": "Browse = naviguer. I browse the web every evening."
+  }
+ },
+ {
+  "id": "v-upload",
+  "level": "B2",
+  "topic": "technology",
+  "en": "upload",
+  "fr": "téléverser",
+  "definition_fr": "Envoyer un fichier vers Internet.",
+  "definition_en": "To send a file from your device to the internet.",
+  "examples": [
+   {
+    "en": "Upload your photos here.",
+    "fr": "Téléverse tes photos ici."
+   },
+   {
+    "en": "The upload took ten minutes.",
+    "fr": "Le téléversement a pris dix minutes."
+   }
+  ],
+  "construction": {
+   "pattern": "upload + noun + here",
+   "tip_fr": "Upload = téléverser. Upload your photos here."
+  }
+ },
+ {
+  "id": "v-delete",
+  "level": "B1",
+  "topic": "technology",
+  "en": "delete",
+  "fr": "supprimer",
+  "definition_fr": "Effacer.",
+  "definition_en": "To remove or erase something.",
+  "examples": [
+   {
+    "en": "I deleted the wrong file.",
+    "fr": "J'ai supprimé le mauvais fichier."
+   },
+   {
+    "en": "Delete old messages.",
+    "fr": "Supprime les anciens messages."
+   }
+  ],
+  "construction": {
+   "pattern": "delete + noun",
+   "tip_fr": "Delete = supprimer. I deleted the wrong file."
+  }
+ },
+ {
+  "id": "v-device",
+  "level": "B2",
+  "topic": "technology",
+  "en": "device",
+  "fr": "appareil",
+  "definition_fr": "Un objet électronique.",
+  "definition_en": "A piece of electronic equipment.",
+  "examples": [
+   {
+    "en": "Turn off all devices.",
+    "fr": "Éteignez tous les appareils."
+   },
+   {
+    "en": "This device is very light.",
+    "fr": "Cet appareil est très léger."
+   }
+  ],
+  "construction": {
+   "pattern": "turn off + all devices",
+   "tip_fr": "Device = appareil électronique."
+  }
+ },
+ {
+  "id": "v-security",
+  "level": "B2",
+  "topic": "technology",
+  "en": "security",
+  "fr": "sécurité",
+  "definition_fr": "La protection contre les dangers.",
+  "definition_en": "Protection against danger or theft.",
+  "examples": [
+   {
+    "en": "Online security is important.",
+    "fr": "La sécurité en ligne est importante."
+   },
+   {
+    "en": "Add extra security to your account.",
+    "fr": "Ajoute de la sécurité à ton compte."
+   }
+  ],
+  "construction": {
+   "pattern": "online + security",
+   "tip_fr": "Security est indénombrable. Online security is important."
+  }
+ },
+ {
+  "id": "v-algorithm",
+  "level": "C1",
+  "topic": "technology",
+  "en": "algorithm",
+  "fr": "algorithme",
+  "definition_fr": "Un ensemble d'étapes pour résoudre un problème.",
+  "definition_en": "A set of steps a computer follows to solve a problem.",
+  "examples": [
+   {
+    "en": "The algorithm suggests videos.",
+    "fr": "L'algorithme suggère des vidéos."
+   },
+   {
+    "en": "He designed a new algorithm.",
+    "fr": "Il a conçu un nouvel algorithme."
+   }
+  ],
+  "construction": {
+   "pattern": "the algorithm + suggest + noun",
+   "tip_fr": "Algorithm = algorithme. The algorithm suggests videos."
+  }
+ },
+ {
+  "id": "v-subscribe",
+  "level": "B2",
+  "topic": "technology",
+  "en": "subscribe",
+  "fr": "s'abonner",
+  "definition_fr": "S'inscrire pour recevoir un service.",
+  "definition_en": "To pay to receive a service regularly.",
+  "examples": [
+   {
+    "en": "I subscribed to a news channel.",
+    "fr": "Je me suis abonné à une chaîne d'actualités."
+   },
+   {
+    "en": "Subscribe to our newsletter.",
+    "fr": "Abonnez-vous à notre lettre d'information."
+   }
+  ],
+  "construction": {
+   "pattern": "subscribe + to + noun",
+   "tip_fr": "Subscribe se construit avec « to » : subscribe to a channel."
+  }
+ },
+ {
+  "id": "v-search",
+  "level": "B1",
+  "topic": "technology",
+  "en": "search",
+  "fr": "chercher, recherche",
+  "definition_fr": "Essayer de trouver une information.",
+  "definition_en": "To look for information.",
+  "examples": [
+   {
+    "en": "Search for the word online.",
+    "fr": "Cherche le mot en ligne."
+   },
+   {
+    "en": "My search gave no results.",
+    "fr": "Ma recherche n'a donné aucun résultat."
+   }
+  ],
+  "construction": {
+   "pattern": "search + for + noun",
+   "tip_fr": "Search se construit avec « for » : search for the word."
+  }
+ },
+ {
+  "id": "v-link",
+  "level": "B1",
+  "topic": "technology",
+  "en": "link",
+  "fr": "lien",
+  "definition_fr": "Un texte cliquable vers une autre page.",
+  "definition_en": "A clickable connection to another page.",
+  "examples": [
+   {
+    "en": "Click the link below.",
+    "fr": "Clique sur le lien ci-dessous."
+   },
+   {
+    "en": "I'll send you the link.",
+    "fr": "Je t'envoie le lien."
+   }
+  ],
+  "construction": {
+   "pattern": "click + the link",
+   "tip_fr": "Link = lien. Click the link below."
+  }
+ },
+ {
+  "id": "v-attachment",
+  "level": "B2",
+  "topic": "technology",
+  "en": "attachment",
+  "fr": "pièce jointe",
+  "definition_fr": "Un fichier joint à un e-mail.",
+  "definition_en": "A file sent with an email.",
+  "examples": [
+   {
+    "en": "Open the attachment.",
+    "fr": "Ouvre la pièce jointe."
+   },
+   {
+    "en": "I forgot the attachment.",
+    "fr": "J'ai oublié la pièce jointe."
+   }
+  ],
+  "construction": {
+   "pattern": "open + the attachment",
+   "tip_fr": "Attachment = pièce jointe."
+  }
+ },
+ {
+  "id": "v-notification",
+  "level": "B2",
+  "topic": "technology",
+  "en": "notification",
+  "fr": "notification",
+  "definition_fr": "Un message qui apparaît sur l'appareil.",
+  "definition_en": "A message that appears on your device.",
+  "examples": [
+   {
+    "en": "I turned off notifications.",
+    "fr": "J'ai désactivé les notifications."
+   },
+   {
+    "en": "A notification popped up.",
+    "fr": "Une notification est apparue."
+   }
+  ],
+  "construction": {
+   "pattern": "turn off + notifications",
+   "tip_fr": "Notification = notification. I turned off notifications."
+  }
+ },
+ {
+  "id": "v-wireless",
+  "level": "B2",
+  "topic": "technology",
+  "en": "wireless",
+  "fr": "sans fil",
+  "definition_fr": "Qui fonctionne sans câble.",
+  "definition_en": "Working without wires.",
+  "examples": [
+   {
+    "en": "I use wireless headphones.",
+    "fr": "J'utilise des écouteurs sans fil."
+   },
+   {
+    "en": "The speaker is wireless.",
+    "fr": "L'enceinte est sans fil."
+   }
+  ],
+  "construction": {
+   "pattern": "wireless + noun",
+   "tip_fr": "Wireless = sans fil : wireless headphones."
+  }
+ },
+ {
+  "id": "v-government",
+  "level": "B1",
+  "topic": "society",
+  "en": "government",
+  "fr": "gouvernement",
+  "definition_fr": "Le groupe qui dirige un pays.",
+  "definition_en": "The group of people that rules a country.",
+  "examples": [
+   {
+    "en": "The government announced new rules.",
+    "fr": "Le gouvernement a annoncé de nouvelles règles."
+   },
+   {
+    "en": "The government raised taxes.",
+    "fr": "Le gouvernement a augmenté les impôts."
+   }
+  ],
+  "construction": {
+   "pattern": "the government + verb",
+   "tip_fr": "Government = gouvernement, avec « the ». The government announced new rules."
+  }
+ },
+ {
+  "id": "v-citizen",
+  "level": "B1",
+  "topic": "society",
+  "en": "citizen",
+  "fr": "citoyen",
+  "definition_fr": "Une personne qui a la nationalité d'un pays.",
+  "definition_en": "A person who legally belongs to a country.",
+  "examples": [
+   {
+    "en": "She became a citizen last year.",
+    "fr": "Elle est devenue citoyenne l'an dernier."
+   },
+   {
+    "en": "Every citizen can vote.",
+    "fr": "Chaque citoyen peut voter."
+   }
+  ],
+  "construction": {
+   "pattern": "become + a citizen",
+   "tip_fr": "Citizen = citoyen. She became a citizen last year."
+  }
+ },
+ {
+  "id": "v-vote",
+  "level": "B1",
+  "topic": "society",
+  "en": "vote",
+  "fr": "voter",
+  "definition_fr": "Choisir en donnant sa voix.",
+  "definition_en": "To choose someone or something in an election.",
+  "examples": [
+   {
+    "en": "Did you vote yesterday?",
+    "fr": "As-tu voté hier ?"
+   },
+   {
+    "en": "I vote for change.",
+    "fr": "Je vote pour le changement."
+   }
+  ],
+  "construction": {
+   "pattern": "vote + time",
+   "tip_fr": "Vote = voter. Did you vote yesterday?"
+  }
+ },
+ {
+  "id": "v-election",
+  "level": "B2",
+  "topic": "society",
+  "en": "election",
+  "fr": "élection",
+  "definition_fr": "Le moment où l'on choisit les dirigeants.",
+  "definition_en": "A time when people vote to choose leaders.",
+  "examples": [
+   {
+    "en": "The election is in May.",
+    "fr": "L'élection a lieu en mai."
+   },
+   {
+    "en": "She won the election.",
+    "fr": "Elle a gagné l'élection."
+   }
+  ],
+  "construction": {
+   "pattern": "the election + be + in + month",
+   "tip_fr": "Election = élection. The election is in May."
+  }
+ },
+ {
+  "id": "v-unemployment",
+  "level": "B2",
+  "topic": "society",
+  "en": "unemployment",
+  "fr": "chômage",
+  "definition_fr": "La situation de ceux qui n'ont pas de travail.",
+  "definition_en": "The situation of having no job.",
+  "examples": [
+   {
+    "en": "Unemployment is rising.",
+    "fr": "Le chômage augmente."
+   },
+   {
+    "en": "Unemployment is high among young people.",
+    "fr": "Le chômage est élevé chez les jeunes."
+   }
+  ],
+  "construction": {
+   "pattern": "unemployment + be + rising",
+   "tip_fr": "Unemployment = chômage, indénombrable. Unemployment is rising."
+  }
+ },
+ {
+  "id": "v-poverty",
+  "level": "B2",
+  "topic": "society",
+  "en": "poverty",
+  "fr": "pauvreté",
+  "definition_fr": "Le fait d'avoir très peu d'argent.",
+  "definition_en": "The state of being very poor.",
+  "examples": [
+   {
+    "en": "Many families live in poverty.",
+    "fr": "Beaucoup de familles vivent dans la pauvreté."
+   },
+   {
+    "en": "The charity fights poverty.",
+    "fr": "L'association lutte contre la pauvreté."
+   }
+  ],
+  "construction": {
+   "pattern": "live + in + poverty",
+   "tip_fr": "Live in poverty = vivre dans la pauvreté."
+  }
+ },
+ {
+  "id": "v-law",
+  "level": "B2",
+  "topic": "society",
+  "en": "law",
+  "fr": "loi",
+  "definition_fr": "Une règle officielle d'un pays.",
+  "definition_en": "An official rule in a country.",
+  "examples": [
+   {
+    "en": "It's against the law.",
+    "fr": "C'est contraire à la loi."
+   },
+   {
+    "en": "A new law was passed.",
+    "fr": "Une nouvelle loi a été adoptée."
+   }
+  ],
+  "construction": {
+   "pattern": "it's against + the law",
+   "tip_fr": "Against the law = contraire à la loi."
+  }
+ },
+ {
+  "id": "v-tax",
+  "level": "B1",
+  "topic": "society",
+  "en": "tax",
+  "fr": "impôt, taxe",
+  "definition_fr": "L'argent payé à l'État.",
+  "definition_en": "Money you pay to the government.",
+  "examples": [
+   {
+    "en": "We pay taxes every year.",
+    "fr": "Nous payons des impôts chaque année."
+   },
+   {
+    "en": "The tax is too high.",
+    "fr": "L'impôt est trop élevé."
+   }
+  ],
+  "construction": {
+   "pattern": "pay + taxes",
+   "tip_fr": "Pay taxes = payer des impôts. We pay taxes every year."
+  }
+ },
+ {
+  "id": "v-equality",
+  "level": "B2",
+  "topic": "society",
+  "en": "equality",
+  "fr": "égalité",
+  "definition_fr": "Le fait d'avoir les mêmes droits.",
+  "definition_en": "The state of having the same rights for everyone.",
+  "examples": [
+   {
+    "en": "They fight for gender equality.",
+    "fr": "Ils luttent pour l'égalité des sexes."
+   },
+   {
+    "en": "Equality matters to me.",
+    "fr": "L'égalité compte pour moi."
+   }
+  ],
+  "construction": {
+   "pattern": "fight for + equality",
+   "tip_fr": "Fight for something = se battre pour. They fight for gender equality."
+  }
+ },
+ {
+  "id": "v-community",
+  "level": "B2",
+  "topic": "society",
+  "en": "community",
+  "fr": "communauté",
+  "definition_fr": "Un groupe de personnes qui vivent ensemble.",
+  "definition_en": "A group of people living in the same area.",
+  "examples": [
+   {
+    "en": "Our community is very supportive.",
+    "fr": "Notre communauté est très solidaire."
+   },
+   {
+    "en": "He serves his local community.",
+    "fr": "Il sert sa communauté locale."
+   }
+  ],
+  "construction": {
+   "pattern": "our + community + be + adjective",
+   "tip_fr": "Community = communauté. Our community is very supportive."
+  }
+ },
+ {
+  "id": "v-volunteer",
+  "level": "B2",
+  "topic": "society",
+  "en": "volunteer",
+  "fr": "bénévole",
+  "definition_fr": "Une personne qui aide sans être payée.",
+  "definition_en": "A person who works without being paid.",
+  "examples": [
+   {
+    "en": "She volunteers at the shelter.",
+    "fr": "Elle fait du bénévolat au refuge."
+   },
+   {
+    "en": "We need more volunteers.",
+    "fr": "Nous avons besoin de plus de bénévoles."
+   }
+  ],
+  "construction": {
+   "pattern": "volunteer + at + place",
+   "tip_fr": "Volunteer = faire du bénévolat. She volunteers at the shelter."
+  }
+ },
+ {
+  "id": "v-charity",
+  "level": "B2",
+  "topic": "society",
+  "en": "charity",
+  "fr": "association caritative",
+  "definition_fr": "Une organisation qui aide les gens.",
+  "definition_en": "An organisation that helps people in need.",
+  "examples": [
+   {
+    "en": "He gave money to charity.",
+    "fr": "Il a donné de l'argent à une association."
+   },
+   {
+    "en": "The charity raised a lot of money.",
+    "fr": "L'association a collecté beaucoup d'argent."
+   }
+  ],
+  "construction": {
+   "pattern": "give + money + to + charity",
+   "tip_fr": "Charity = association caritative. He gave money to charity."
+  }
+ },
+ {
+  "id": "v-inequality",
+  "level": "C1",
+  "topic": "society",
+  "en": "inequality",
+  "fr": "inégalité",
+  "definition_fr": "Le manque d'égalité entre les gens.",
+  "definition_en": "A situation where some people have more than others.",
+  "examples": [
+   {
+    "en": "Income inequality is growing.",
+    "fr": "L'inégalité des revenus s'accroît."
+   },
+   {
+    "en": "They study social inequality.",
+    "fr": "Ils étudient l'inégalité sociale."
+   }
+  ],
+  "construction": {
+   "pattern": "income + inequality",
+   "tip_fr": "Inequality = inégalité. Income inequality is growing."
+  }
+ },
+ {
+  "id": "v-immigration",
+  "level": "C1",
+  "topic": "society",
+  "en": "immigration",
+  "fr": "immigration",
+  "definition_fr": "L'arrivée de personnes dans un pays étranger.",
+  "definition_en": "The act of coming to live in a foreign country.",
+  "examples": [
+   {
+    "en": "Immigration is a hot topic.",
+    "fr": "L'immigration est un sujet brûlant."
+   },
+   {
+    "en": "The country changed its immigration rules.",
+    "fr": "Le pays a changé ses règles d'immigration."
+   }
+  ],
+  "construction": {
+   "pattern": "immigration + be + a hot topic",
+   "tip_fr": "Immigration = immigration. A hot topic = sujet brûlant."
+  }
+ },
+ {
+  "id": "v-policy",
+  "level": "B2",
+  "topic": "society",
+  "en": "policy",
+  "fr": "politique (mesures)",
+  "definition_fr": "Un plan d'action d'un gouvernement ou d'une entreprise.",
+  "definition_en": "A plan of action decided by an organisation.",
+  "examples": [
+   {
+    "en": "The new policy starts in January.",
+    "fr": "La nouvelle politique commence en janvier."
+   },
+   {
+    "en": "They changed the company policy.",
+    "fr": "Ils ont changé la politique de l'entreprise."
+   }
+  ],
+  "construction": {
+   "pattern": "the new + policy",
+   "tip_fr": "Policy = politique, règlement. The new policy starts in January."
+  }
+ },
+ {
+  "id": "v-protest",
+  "level": "B2",
+  "topic": "society",
+  "en": "protest",
+  "fr": "manifester, manifestation",
+  "definition_fr": "Montrer publiquement qu'on n'est pas d'accord.",
+  "definition_en": "To show publicly that you disagree.",
+  "examples": [
+   {
+    "en": "People protested against the plan.",
+    "fr": "Les gens ont manifesté contre le projet."
+   },
+   {
+    "en": "There was a big protest downtown.",
+    "fr": "Il y a eu une grande manifestation en centre-ville."
+   }
+  ],
+  "construction": {
+   "pattern": "protest + against + noun",
+   "tip_fr": "Protest against = manifester contre. People protested against the plan."
+  }
+ },
+ {
+  "id": "v-debate",
+  "level": "B2",
+  "topic": "society",
+  "en": "debate",
+  "fr": "débat",
+  "definition_fr": "Une discussion entre des opinions opposées.",
+  "definition_en": "A discussion where people give different opinions.",
+  "examples": [
+   {
+    "en": "The debate lasted two hours.",
+    "fr": "Le débat a duré deux heures."
+   },
+   {
+    "en": "We had a heated debate.",
+    "fr": "Nous avons eu un débat animé."
+   }
+  ],
+  "construction": {
+   "pattern": "the debate + last + duration",
+   "tip_fr": "Debate = débat. The debate lasted two hours."
+  }
+ },
+ {
+  "id": "v-opportunity",
+  "level": "B2",
+  "topic": "society",
+  "en": "opportunity",
+  "fr": "opportunité",
+  "definition_fr": "Une occasion favorable.",
+  "definition_en": "A chance to do something good.",
+  "examples": [
+   {
+    "en": "It's a great opportunity.",
+    "fr": "C'est une excellente opportunité."
+   },
+   {
+    "en": "Don't miss this opportunity.",
+    "fr": "Ne rate pas cette opportunité."
+   }
+  ],
+  "construction": {
+   "pattern": "a great + opportunity",
+   "tip_fr": "Opportunity = occasion. It's a great opportunity."
+  }
+ },
+ {
+  "id": "v-society",
+  "level": "B2",
+  "topic": "society",
+  "en": "society",
+  "fr": "société",
+  "definition_fr": "L'ensemble des gens d'un pays.",
+  "definition_en": "People living together in a country or community.",
+  "examples": [
+   {
+    "en": "Society is changing fast.",
+    "fr": "La société change vite."
+   },
+   {
+    "en": "He wants to help society.",
+    "fr": "Il veut aider la société."
+   }
+  ],
+  "construction": {
+   "pattern": "society + be + changing",
+   "tip_fr": "Society = société, sans article. Society is changing fast."
+  }
+ },
+ {
+  "id": "v-volunteering",
+  "level": "B1",
+  "topic": "society",
+  "en": "volunteering",
+  "fr": "bénévolat",
+  "definition_fr": "Le fait d'aider sans être payé.",
+  "definition_en": "Working without pay to help others.",
+  "examples": [
+   {
+    "en": "Volunteering taught me patience.",
+    "fr": "Le bénévolat m'a appris la patience."
+   },
+   {
+    "en": "She enjoys volunteering at weekends.",
+    "fr": "Elle aime faire du bénévolat le week-end."
+   }
+  ],
+  "construction": {
+   "pattern": "volunteering + teach + me + noun",
+   "tip_fr": "Volunteering = le bénévolat. Sujet du verbe : Volunteering taught me patience."
+  }
+ },
+ {
+  "id": "v-weather",
+  "level": "A2",
+  "topic": "nature",
+  "en": "weather",
+  "fr": "météo, temps",
+  "definition_fr": "L'état du ciel et de la température.",
+  "definition_en": "The conditions outside, like rain or sun.",
+  "examples": [
+   {
+    "en": "The weather is lovely today.",
+    "fr": "Il fait beau aujourd'hui."
+   },
+   {
+    "en": "What's the weather like?",
+    "fr": "Quel temps fait-il ?"
+   }
+  ],
+  "construction": {
+   "pattern": "the weather + be + adjective",
+   "tip_fr": "Weather est indénombrable. The weather is lovely today."
+  }
+ },
+ {
+  "id": "v-forecast",
+  "level": "B1",
+  "topic": "nature",
+  "en": "forecast",
+  "fr": "prévisions météo",
+  "definition_fr": "Une annonce de ce qui va arriver.",
+  "definition_en": "A statement about what will happen, often weather.",
+  "examples": [
+   {
+    "en": "The forecast says rain tomorrow.",
+    "fr": "La météo annonce de la pluie demain."
+   },
+   {
+    "en": "Check the forecast before you go.",
+    "fr": "Regarde la météo avant de partir."
+   }
+  ],
+  "construction": {
+   "pattern": "the forecast + say + noun",
+   "tip_fr": "Forecast = prévisions. The forecast says rain tomorrow."
+  }
+ },
+ {
+  "id": "v-storm",
+  "level": "B1",
+  "topic": "nature",
+  "en": "storm",
+  "fr": "tempête, orage",
+  "definition_fr": "Un mauvais temps avec vent et pluie.",
+  "definition_en": "Very bad weather with strong wind and rain.",
+  "examples": [
+   {
+    "en": "A storm hit the coast.",
+    "fr": "Une tempête a frappé la côte."
+   },
+   {
+    "en": "We heard thunder in the storm.",
+    "fr": "Nous avons entendu le tonnerre pendant l'orage."
+   }
+  ],
+  "construction": {
+   "pattern": "a storm + hit + place",
+   "tip_fr": "Storm = tempête. A storm hit the coast."
+  }
+ },
+ {
+  "id": "v-flood",
+  "level": "B1",
+  "topic": "nature",
+  "en": "flood",
+  "fr": "inondation",
+  "definition_fr": "De l'eau qui couvre un endroit sec.",
+  "definition_en": "A large amount of water covering dry land.",
+  "examples": [
+   {
+    "en": "The flood damaged many homes.",
+    "fr": "L'inondation a abîmé beaucoup de maisons."
+   },
+   {
+    "en": "Heavy rain caused a flood.",
+    "fr": "De fortes pluies ont causé une inondation."
+   }
+  ],
+  "construction": {
+   "pattern": "the flood + damage + noun",
+   "tip_fr": "Flood = inondation. The flood damaged many homes."
+  }
+ },
+ {
+  "id": "v-drought",
+  "level": "B2",
+  "topic": "nature",
+  "en": "drought",
+  "fr": "sécheresse",
+  "definition_fr": "Une longue période sans pluie.",
+  "definition_en": "A long period with no rain.",
+  "examples": [
+   {
+    "en": "The drought destroyed the crops.",
+    "fr": "La sécheresse a détruit les récoltes."
+   },
+   {
+    "en": "Farmers fear another drought.",
+    "fr": "Les agriculteurs craignent une autre sécheresse."
+   }
+  ],
+  "construction": {
+   "pattern": "the drought + destroy + noun",
+   "tip_fr": "Drought = sécheresse. The drought destroyed the crops."
+  }
+ },
+ {
+  "id": "v-valley",
+  "level": "B1",
+  "topic": "nature",
+  "en": "valley",
+  "fr": "vallée",
+  "definition_fr": "Un terrain bas entre des montagnes.",
+  "definition_en": "A low area of land between hills.",
+  "examples": [
+   {
+    "en": "The village is in a green valley.",
+    "fr": "Le village est dans une vallée verte."
+   },
+   {
+    "en": "We walked down the valley.",
+    "fr": "Nous avons marché dans la vallée."
+   }
+  ],
+  "construction": {
+   "pattern": "in + a green valley",
+   "tip_fr": "Valley = vallée. The village is in a green valley."
+  }
+ },
+ {
+  "id": "v-cliff",
+  "level": "B1",
+  "topic": "nature",
+  "en": "cliff",
+  "fr": "falaise",
+  "definition_fr": "Un mur de roche au bord de la mer.",
+  "definition_en": "A high steep rock face, often by the sea.",
+  "examples": [
+   {
+    "en": "Be careful near the cliff.",
+    "fr": "Fais attention près de la falaise."
+   },
+   {
+    "en": "The cliffs are white.",
+    "fr": "Les falaises sont blanches."
+   }
+  ],
+  "construction": {
+   "pattern": "near + the cliff",
+   "tip_fr": "Cliff = falaise. Be careful near the cliff."
+  }
+ },
+ {
+  "id": "v-wildlife",
+  "level": "B1",
+  "topic": "nature",
+  "en": "wildlife",
+  "fr": "faune",
+  "definition_fr": "Les animaux sauvages.",
+  "definition_en": "Animals and plants that live in nature.",
+  "examples": [
+   {
+    "en": "The park protects wildlife.",
+    "fr": "Le parc protège la faune."
+   },
+   {
+    "en": "We saw wildlife on safari.",
+    "fr": "Nous avons vu des animaux sauvages en safari."
+   }
+  ],
+  "construction": {
+   "pattern": "protect + wildlife",
+   "tip_fr": "Wildlife = faune sauvage, indénombrable."
+  }
+ },
+ {
+  "id": "v-climate",
+  "level": "B2",
+  "topic": "nature",
+  "en": "climate",
+  "fr": "climat",
+  "definition_fr": "Le temps habituel d'une région.",
+  "definition_en": "The usual weather in a place.",
+  "examples": [
+   {
+    "en": "The climate here is mild.",
+    "fr": "Le climat ici est doux."
+   },
+   {
+    "en": "Climate change worries scientists.",
+    "fr": "Le changement climatique inquiète les scientifiques."
+   }
+  ],
+  "construction": {
+   "pattern": "the climate + be + adjective",
+   "tip_fr": "Climate = climat. The climate here is mild."
+  }
+ },
+ {
+  "id": "v-pollution",
+  "level": "B2",
+  "topic": "nature",
+  "en": "pollution",
+  "fr": "pollution",
+  "definition_fr": "Des substances qui salissent l'environnement.",
+  "definition_en": "Harmful substances in air, water or land.",
+  "examples": [
+   {
+    "en": "Air pollution is a big problem.",
+    "fr": "La pollution de l'air est un gros problème."
+   },
+   {
+    "en": "The river has serious pollution.",
+    "fr": "La rivière est gravement polluée."
+   }
+  ],
+  "construction": {
+   "pattern": "air + pollution",
+   "tip_fr": "Pollution est indénombrable. Air pollution is a big problem."
+  }
+ },
+ {
+  "id": "v-recycle",
+  "level": "B2",
+  "topic": "nature",
+  "en": "recycle",
+  "fr": "recycler",
+  "definition_fr": "Transformer des déchets en matières utiles.",
+  "definition_en": "To process waste so it can be used again.",
+  "examples": [
+   {
+    "en": "We recycle glass and paper.",
+    "fr": "Nous recyclons le verre et le papier."
+   },
+   {
+    "en": "Please recycle this bottle.",
+    "fr": "Merci de recycler cette bouteille."
+   }
+  ],
+  "construction": {
+   "pattern": "recycle + noun",
+   "tip_fr": "Recycle = recycler. We recycle glass and paper."
+  }
+ },
+ {
+  "id": "v-endangered",
+  "level": "B2",
+  "topic": "nature",
+  "en": "endangered",
+  "fr": "en voie de disparition",
+  "definition_fr": "En danger de disparaître.",
+  "definition_en": "At risk of disappearing forever.",
+  "examples": [
+   {
+    "en": "Pandas are an endangered species.",
+    "fr": "Les pandas sont une espèce en voie de disparition."
+   },
+   {
+    "en": "Protect endangered animals.",
+    "fr": "Protège les animaux en voie de disparition."
+   }
+  ],
+  "construction": {
+   "pattern": "an endangered + species",
+   "tip_fr": "Endangered species = espèce menacée."
+  }
+ },
+ {
+  "id": "v-harvest",
+  "level": "B1",
+  "topic": "nature",
+  "en": "harvest",
+  "fr": "récolte",
+  "definition_fr": "La cueillette des produits agricoles.",
+  "definition_en": "The gathering of crops.",
+  "examples": [
+   {
+    "en": "The harvest was good this year.",
+    "fr": "La récolte était bonne cette année."
+   },
+   {
+    "en": "They harvest apples in autumn.",
+    "fr": "Ils récoltent des pommes en automne."
+   }
+  ],
+  "construction": {
+   "pattern": "the harvest + be + adjective",
+   "tip_fr": "Harvest = récolte. The harvest was good this year."
+  }
+ },
+ {
+  "id": "v-shore",
+  "level": "B1",
+  "topic": "nature",
+  "en": "shore",
+  "fr": "rivage",
+  "definition_fr": "Le bord de la mer ou d'un lac.",
+  "definition_en": "The land along the edge of the sea or a lake.",
+  "examples": [
+   {
+    "en": "We walked along the shore.",
+    "fr": "Nous avons marché le long du rivage."
+   },
+   {
+    "en": "The boat reached the shore.",
+    "fr": "Le bateau a atteint le rivage."
+   }
+  ],
+  "construction": {
+   "pattern": "walk + along + the shore",
+   "tip_fr": "Shore = rivage, avec « along ». We walked along the shore."
+  }
+ },
+ {
+  "id": "v-breeze",
+  "level": "B2",
+  "topic": "nature",
+  "en": "breeze",
+  "fr": "brise",
+  "definition_fr": "Un vent léger et agréable.",
+  "definition_en": "A light, pleasant wind.",
+  "examples": [
+   {
+    "en": "A cool breeze came from the sea.",
+    "fr": "Une brise fraîche venait de la mer."
+   },
+   {
+    "en": "I enjoy the evening breeze.",
+    "fr": "J'apprécie la brise du soir."
+   }
+  ],
+  "construction": {
+   "pattern": "a cool + breeze",
+   "tip_fr": "Breeze = petite brise. A cool breeze came from the sea."
+  }
+ },
+ {
+  "id": "v-drizzle",
+  "level": "B2",
+  "topic": "nature",
+  "en": "drizzle",
+  "fr": "bruine",
+  "definition_fr": "Une pluie très fine.",
+  "definition_en": "Light, fine rain.",
+  "examples": [
+   {
+    "en": "It's just a drizzle.",
+    "fr": "Ce n'est qu'une bruine."
+   },
+   {
+    "en": "We walked in the drizzle.",
+    "fr": "Nous avons marché sous la bruine."
+   }
+  ],
+  "construction": {
+   "pattern": "it's just + a drizzle",
+   "tip_fr": "Drizzle = bruine."
+  }
+ },
+ {
+  "id": "v-biodiversity",
+  "level": "C1",
+  "topic": "nature",
+  "en": "biodiversity",
+  "fr": "biodiversité",
+  "definition_fr": "La variété des espèces vivantes.",
+  "definition_en": "The variety of living things in a place.",
+  "examples": [
+   {
+    "en": "The forest has rich biodiversity.",
+    "fr": "La forêt a une riche biodiversité."
+   },
+   {
+    "en": "We must protect biodiversity.",
+    "fr": "Nous devons protéger la biodiversité."
+   }
+  ],
+  "construction": {
+   "pattern": "rich + biodiversity",
+   "tip_fr": "Biodiversity = biodiversité. The forest has rich biodiversity."
+  }
+ },
+ {
+  "id": "v-landscape",
+  "level": "B2",
+  "topic": "nature",
+  "en": "landscape",
+  "fr": "paysage",
+  "definition_fr": "Ce qu'on voit d'un lieu naturel.",
+  "definition_en": "The natural features of an area.",
+  "examples": [
+   {
+    "en": "The landscape is breathtaking.",
+    "fr": "Le paysage est à couper le souffle."
+   },
+   {
+    "en": "I love the Scottish landscape.",
+    "fr": "J'aime le paysage écossais."
+   }
+  ],
+  "construction": {
+   "pattern": "the landscape + be + breathtaking",
+   "tip_fr": "Landscape = paysage. The landscape is breathtaking."
+  }
+ },
+ {
+  "id": "v-wild",
+  "level": "B1",
+  "topic": "nature",
+  "en": "wild",
+  "fr": "sauvage",
+  "definition_fr": "Qui vit sans l'aide des humains.",
+  "definition_en": "Living in nature, not looked after by people.",
+  "examples": [
+   {
+    "en": "Wild horses ran across the field.",
+    "fr": "Des chevaux sauvages ont traversé le champ."
+   },
+   {
+    "en": "The area is wild and empty.",
+    "fr": "La région est sauvage et vide."
+   }
+  ],
+  "construction": {
+   "pattern": "wild + plural noun",
+   "tip_fr": "Wild = sauvage. Wild horses ran across the field."
+  }
+ },
+ {
+  "id": "v-sustainable",
+  "level": "B2",
+  "topic": "nature",
+  "en": "sustainable",
+  "fr": "durable",
+  "definition_fr": "Qui ne détruit pas les ressources.",
+  "definition_en": "Using resources without harming the future.",
+  "examples": [
+   {
+    "en": "We need sustainable energy.",
+    "fr": "Nous avons besoin d'énergie durable."
+   },
+   {
+    "en": "They run a sustainable farm.",
+    "fr": "Ils dirigent une ferme durable."
+   }
+  ],
+  "construction": {
+   "pattern": "sustainable + noun",
+   "tip_fr": "Sustainable = durable : sustainable energy."
+  }
+ },
+ {
+  "id": "v-cash",
+  "level": "A2",
+  "topic": "money",
+  "en": "cash",
+  "fr": "espèces",
+  "definition_fr": "L'argent en pièces et billets.",
+  "definition_en": "Money in coins and notes.",
+  "examples": [
+   {
+    "en": "Do you pay in cash?",
+    "fr": "Tu paies en espèces ?"
+   },
+   {
+    "en": "I only have a little cash.",
+    "fr": "Je n'ai que très peu d'espèces."
+   }
+  ],
+  "construction": {
+   "pattern": "pay + in cash",
+   "tip_fr": "Pay in cash = payer en espèces."
+  }
+ },
+ {
+  "id": "v-receipt",
+  "level": "B1",
+  "topic": "money",
+  "en": "receipt",
+  "fr": "reçu, ticket de caisse",
+  "definition_fr": "Un papier qui prouve un paiement.",
+  "definition_en": "A paper showing that you paid.",
+  "examples": [
+   {
+    "en": "Keep the receipt in case you return it.",
+    "fr": "Garde le ticket au cas où tu le rendrais."
+   },
+   {
+    "en": "Can I have a receipt, please?",
+    "fr": "Puis-je avoir un reçu, s'il vous plaît ?"
+   }
+  ],
+  "construction": {
+   "pattern": "keep + the receipt",
+   "tip_fr": "Receipt = ticket de caisse. Le « p » ne se prononce pas."
+  }
+ },
+ {
+  "id": "v-discount",
+  "level": "B1",
+  "topic": "money",
+  "en": "discount",
+  "fr": "réduction",
+  "definition_fr": "Une baisse de prix.",
+  "definition_en": "A reduction in price.",
+  "examples": [
+   {
+    "en": "Students get a ten percent discount.",
+    "fr": "Les étudiants ont dix pour cent de réduction."
+   },
+   {
+    "en": "Is there a discount for groups?",
+    "fr": "Y a-t-il une réduction pour les groupes ?"
+   }
+  ],
+  "construction": {
+   "pattern": "get + a discount",
+   "tip_fr": "Discount = réduction. Students get a ten percent discount."
+  }
+ },
+ {
+  "id": "v-afford",
+  "level": "B2",
+  "topic": "money",
+  "en": "afford",
+  "fr": "avoir les moyens de",
+  "definition_fr": "Avoir assez d'argent pour acheter.",
+  "definition_en": "To have enough money to buy something.",
+  "examples": [
+   {
+    "en": "I can't afford a new car.",
+    "fr": "Je n'ai pas les moyens d'acheter une nouvelle voiture."
+   },
+   {
+    "en": "Can we afford this holiday?",
+    "fr": "Pouvons-nous nous offrir ces vacances ?"
+   }
+  ],
+  "construction": {
+   "pattern": "can't + afford + noun",
+   "tip_fr": "Afford = avoir les moyens. Se construit avec can / can't : I can't afford a new car."
+  }
+ },
+ {
+  "id": "v-savings",
+  "level": "B2",
+  "topic": "money",
+  "en": "savings",
+  "fr": "économies",
+  "definition_fr": "L'argent mis de côté.",
+  "definition_en": "Money you keep for the future.",
+  "examples": [
+   {
+    "en": "She spent all her savings on the trip.",
+    "fr": "Elle a dépensé toutes ses économies pour le voyage."
+   },
+   {
+    "en": "I'm adding to my savings every month.",
+    "fr": "J'ajoute à mes économies chaque mois."
+   }
+  ],
+  "construction": {
+   "pattern": "spend + all + your savings",
+   "tip_fr": "Savings (économies) est toujours pluriel. She spent all her savings on the trip."
+  }
+ },
+ {
+  "id": "v-debt",
+  "level": "B2",
+  "topic": "money",
+  "en": "debt",
+  "fr": "dette",
+  "definition_fr": "De l'argent qu'on doit.",
+  "definition_en": "Money that you owe.",
+  "examples": [
+   {
+    "en": "He is in debt after the move.",
+    "fr": "Il est endetté après le déménagement."
+   },
+   {
+    "en": "They paid off their debt.",
+    "fr": "Ils ont remboursé leur dette."
+   }
+  ],
+  "construction": {
+   "pattern": "be + in debt",
+   "tip_fr": "Be in debt = être endetté. He is in debt after the move."
+  }
+ },
+ {
+  "id": "v-invest",
+  "level": "B2",
+  "topic": "money",
+  "en": "invest",
+  "fr": "investir",
+  "definition_fr": "Mettre de l'argent pour en gagner.",
+  "definition_en": "To put money into something to make a profit.",
+  "examples": [
+   {
+    "en": "She invested in a small company.",
+    "fr": "Elle a investi dans une petite entreprise."
+   },
+   {
+    "en": "It's smart to invest early.",
+    "fr": "Il est judicieux d'investir tôt."
+   }
+  ],
+  "construction": {
+   "pattern": "invest + in + noun",
+   "tip_fr": "Invest se construit avec « in » : She invested in a small company."
+  }
+ }
+]

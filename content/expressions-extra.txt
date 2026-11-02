@@ -1,0 +1,69 @@
+a piece of cake|un morceau de gâteau|Pour dire qu'une tâche est très facile, à l'oral comme à l'écrit.
+break a leg|casse-toi une jambe|Pour souhaiter bonne chance à quelqu'un avant une performance.
+under the weather|sous le temps|Pour dire qu'on se sent un peu malade, sans donner de détails.
+once in a blue moon|une fois dans une lune bleue|Pour parler de quelque chose qui n'arrive presque jamais.
+the ball is in your court|la balle est dans ton camp|Quand c'est à l'autre personne de prendre une décision.
+spill the beans|renverser les haricots|Quand on révèle une information qui devait rester secrète.
+hit the nail on the head|frapper le clou sur la tête|Pour dire que quelqu'un a parfaitement raison.
+cost an arm and a leg|coûter un bras et une jambe|Pour dire que quelque chose est très cher, dans un ton familier.
+let the cat out of the bag|laisser sortir le chat du sac|Pour révéler un secret par inadvertance.
+kill two birds with one stone|tuer deux oiseaux avec une pierre|Pour parler d'une action qui règle deux problèmes à la fois.
+bite the bullet|mordre la balle|Quand il faut accepter quelque chose de pénible sans se plaindre.
+the elephant in the room|l'éléphant dans la pièce|Pour parler d'un problème que tout le monde voit mais évite.
+burn the midnight oil|brûler l'huile de minuit|Pour dire qu'on a travaillé très tard le soir.
+on the same page|sur la même page|Au travail, pour vérifier que tout le monde comprend pareil.
+cut corners|couper les coins|Pour critiquer un travail fait trop vite, au détriment de la qualité.
+go the extra mile|faire le mille supplémentaire|Pour féliciter quelqu'un qui fait plus que prévu.
+look for|regarder pour|Dans la vie de tous les jours, pour parler de ce qu'on cherche.
+look after|regarder après|Pour parler d'enfants, d'animaux ou de proches dont on s'occupe.
+turn on|tourner sur|Pour allumer une lumière, une télé, un appareil.
+turn off|tourner hors|Pour éteindre un appareil, une lumière, un téléphone.
+give up|donner vers le haut|Quand on arrête d'essayer ou qu'on abandonne une habitude.
+find out|trouver dehors|Pour dire qu'on apprend une information qu'on ne connaissait pas.
+take off|prendre hors|Pour un avion qui décolle ou pour retirer un vêtement.
+put off|mettre hors|Quand on remet à plus tard une tâche ou un rendez-vous.
+get up|obtenir en haut|Pour parler du moment où l'on quitte le lit.
+run out of|courir hors de|Quand il n'en reste plus du tout : lait, temps, argent.
+pick up|prendre vers le haut|Pour ramasser un objet ou aller chercher quelqu'un.
+set up|placer vers le haut|Pour installer du matériel ou créer une entreprise.
+come across|venir à travers|Quand on trouve ou rencontre quelque chose par hasard.
+carry on|porter sur|Pour dire à quelqu'un de continuer ce qu'il fait.
+figure out|figurer dehors|Quand on réussit à comprendre un problème ou une énigme.
+get over|obtenir par-dessus|Pour parler d'une maladie, d'une rupture ou d'un choc dont on se remet.
+bring up|apporter vers le haut|Pour mentionner un sujet, ou pour élever un enfant.
+call off|appeler hors|Quand un événement est annulé.
+work out|travailler dehors|Pour le sport, ou pour trouver la solution à un problème.
+look forward to|regarder en avant vers|Pour dire qu'on attend quelque chose avec plaisir, souvent dans un mail.
+put up with|mettre en haut avec|Quand on supporte quelqu'un ou quelque chose de désagréable.
+make a mistake|faire une erreur|Pour dire qu'on s'est trompé. Make, jamais do.
+do homework|faire des devoirs|Pour parler du travail scolaire. Do, jamais make.
+take a photo|prendre une photo|Pour photographier. On dit take, pas make.
+make an effort|faire un effort|Pour demander ou dire qu'on essaie sérieusement.
+pay attention|payer de l'attention|Pour demander à quelqu'un de se concentrer.
+take a break|prendre une pause|Pour proposer de s'arrêter un moment.
+catch a cold|attraper un rhume|Pour dire qu'on est tombé malade du rhume.
+keep a secret|garder un secret|Pour demander ou promettre de ne rien dire.
+have a look|avoir un regard|Pour proposer de jeter un œil à quelque chose.
+reach an agreement|atteindre un accord|Au travail ou en négociation, après une discussion.
+raise a question|lever une question|Quand une remarque ouvre un nouveau sujet de discussion.
+run a business|courir une entreprise|Pour parler de quelqu'un qui gère sa société.
+take responsibility|prendre la responsabilité|Quand on accepte d'être responsable d'une erreur ou d'une tâche.
+make progress|faire du progrès|Pour dire qu'on s'améliore ou qu'on avance dans un projet.
+heavy rain|pluie lourde|Dans les prévisions météo, pour une pluie abondante.
+strong coffee|café fort|Pour commander ou décrire un café très concentré.
+How are you?|Comment es-tu ?|Pour saluer quelqu'un. Souvent une simple formule de politesse.
+Nice to meet you|Agréable de te rencontrer|À la première rencontre avec quelqu'un.
+I'm sorry|Je suis désolé|Pour s'excuser, ou exprimer de la compassion.
+Could you help me?|Pourrais-tu m'aider ?|Pour demander de l'aide avec politesse, à un inconnu ou un collègue.
+What do you mean?|Que veux-tu dire ?|Quand on n'a pas compris et qu'on veut une précision.
+I'm looking forward to it|Je regarde en avant vers ça|Pour montrer qu'on attend un événement avec impatience.
+It depends|Ça dépend|Quand la réponse n'est ni oui ni non et varie selon la situation.
+I can't make it|Je ne peux pas le faire|Pour décliner une invitation ou un rendez-vous.
+Let me know|Laisse-moi savoir|Pour demander à quelqu'un de te prévenir.
+No worries|Pas de soucis|En réponse à des excuses, pour dire que ce n'est pas grave.
+I'll get back to you|Je reviendrai vers toi|Au travail, pour promettre une réponse plus tard.
+to be honest|pour être honnête|Avant de dire son avis franchement.
+as far as I know|aussi loin que je sache|Quand on n'est pas totalement sûr de l'information.
+by the way|par le chemin|Pour ajouter une remarque sans lien direct avec le sujet.
+it's up to you|c'est vers le haut à toi|Pour laisser la décision à quelqu'un d'autre.
+I'm not sure about that|Je ne suis pas sûr à propos de ça|Pour exprimer un doute poliment.

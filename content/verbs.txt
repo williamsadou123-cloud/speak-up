@@ -1,0 +1,148 @@
+# irregular
+A1|irregular|be|was/were|been|being|être|Exister ou avoir une qualité.|To exist or to have a quality.|She was tired yesterday.|Elle était fatiguée hier.
+A1|irregular|have|had|had|having|avoir|Posséder ou détenir.|To own or hold something.|We had a great time.|Nous avons passé un super moment.
+A1|irregular|do|did|done|doing|faire|Accomplir une action.|To perform an action.|I did my homework.|J'ai fait mes devoirs.
+A1|irregular|go|went|gone|going|aller|Se déplacer vers un lieu.|To move to a place.|They went to the beach.|Ils sont allés à la plage.
+A1|irregular|come|came|come|coming|venir|Se déplacer vers la personne qui parle.|To move towards the speaker.|He came home late.|Il est rentré tard.
+A1|irregular|see|saw|seen|seeing|voir|Percevoir avec les yeux.|To notice with your eyes.|I saw a bird in the tree.|J'ai vu un oiseau dans l'arbre.
+A1|irregular|eat|ate|eaten|eating|manger|Mettre de la nourriture dans la bouche.|To put food in your mouth and swallow.|We ate pizza last night.|Nous avons mangé de la pizza hier soir.
+A1|irregular|drink|drank|drunk|drinking|boire|Avaler un liquide.|To swallow liquid.|She drank a glass of water.|Elle a bu un verre d'eau.
+A1|irregular|take|took|taken|taking|prendre|Saisir ou emporter.|To get hold of something or carry it.|He took the bus to work.|Il a pris le bus pour aller au travail.
+A1|irregular|give|gave|given|giving|donner|Remettre quelque chose à quelqu'un.|To hand something to someone.|She gave me a present.|Elle m'a donné un cadeau.
+A1|irregular|make|made|made|making|fabriquer, faire|Créer ou produire.|To create or produce something.|They made dinner together.|Ils ont préparé le dîner ensemble.
+A1|irregular|get|got|got/gotten|getting|obtenir, devenir|Recevoir ou arriver à.|To receive, obtain or become.|I got a letter today.|J'ai reçu une lettre aujourd'hui.
+A1|irregular|know|knew|known|knowing|savoir, connaître|Avoir une information en tête.|To have information in your mind.|I knew the answer.|Je connaissais la réponse.
+A1|irregular|think|thought|thought|thinking|penser|Avoir une idée ou une opinion.|To have an idea or opinion.|I thought it was easy.|Je pensais que c'était facile.
+A1|irregular|say|said|said|saying|dire|Exprimer avec des mots.|To speak words.|He said hello to everyone.|Il a dit bonjour à tout le monde.
+A1|irregular|tell|told|told|telling|raconter, dire à|Donner une information à quelqu'un.|To give information to someone.|She told me a secret.|Elle m'a confié un secret.
+A1|irregular|write|wrote|written|writing|écrire|Former des mots sur du papier.|To put words on paper or a screen.|He wrote me a long letter.|Il m'a écrit une longue lettre.
+A1|irregular|read|read|read|reading|lire|Comprendre des mots écrits.|To look at and understand written words.|I read that book last year.|J'ai lu ce livre l'an dernier.
+A1|irregular|buy|bought|bought|buying|acheter|Obtenir en payant.|To get something by paying.|We bought a new sofa.|Nous avons acheté un nouveau canapé.
+A1|irregular|sit|sat|sat|sitting|s'asseoir|Poser son corps sur une chaise.|To rest your body on a seat.|They sat by the window.|Ils se sont assis près de la fenêtre.
+A1|irregular|stand|stood|stood|standing|se tenir debout|Être sur ses pieds.|To be on your feet.|She stood in the queue.|Elle faisait la queue debout.
+A1|irregular|run|ran|run|running|courir|Se déplacer vite à pied.|To move quickly on foot.|He ran to the station.|Il a couru jusqu'à la gare.
+A1|irregular|sleep|slept|slept|sleeping|dormir|Se reposer les yeux fermés.|To rest with your eyes closed.|The baby slept all night.|Le bébé a dormi toute la nuit.
+A1|irregular|speak|spoke|spoken|speaking|parler|Dire des mots à voix haute.|To say words aloud.|She spoke to the manager.|Elle a parlé au directeur.
+A2|irregular|begin|began|begun|beginning|commencer|Démarrer quelque chose.|To start something.|The film began at eight.|Le film a commencé à huit heures.
+A2|irregular|bring|brought|brought|bringing|apporter|Porter quelque chose avec soi.|To carry something to a place.|He brought his umbrella.|Il a apporté son parapluie.
+A2|irregular|find|found|found|finding|trouver|Découvrir par hasard ou en cherchant.|To discover something.|I found my keys under the bed.|J'ai trouvé mes clés sous le lit.
+A2|irregular|feel|felt|felt|feeling|ressentir|Éprouver une sensation.|To experience an emotion or sensation.|I felt happy all day.|Je me suis senti heureux toute la journée.
+A2|irregular|keep|kept|kept|keeping|garder|Conserver ou continuer à avoir.|To continue to have something.|She kept the receipt.|Elle a gardé le ticket de caisse.
+A2|irregular|leave|left|left|leaving|partir, quitter|Quitter un endroit.|To go away from a place.|We left early.|Nous sommes partis tôt.
+A2|irregular|lose|lost|lost|losing|perdre|Ne plus avoir quelque chose.|To no longer have something.|He lost his wallet.|Il a perdu son portefeuille.
+A2|irregular|meet|met|met|meeting|rencontrer|Voir quelqu'un pour la première fois ou se retrouver.|To come together with someone.|I met her at a party.|Je l'ai rencontrée à une fête.
+A2|irregular|pay|paid|paid|paying|payer|Donner de l'argent pour un achat.|To give money for something.|He paid by card.|Il a payé par carte.
+A2|irregular|send|sent|sent|sending|envoyer|Faire parvenir à quelqu'un.|To make something go to someone.|She sent me a message.|Elle m'a envoyé un message.
+A2|irregular|spend|spent|spent|spending|dépenser, passer (temps)|Utiliser de l'argent ou du temps.|To use money or time.|We spent a week in Spain.|Nous avons passé une semaine en Espagne.
+A2|irregular|teach|taught|taught|teaching|enseigner|Donner des cours à quelqu'un.|To help someone learn.|She taught English for ten years.|Elle a enseigné l'anglais pendant dix ans.
+A2|irregular|wear|wore|worn|wearing|porter (vêtement)|Avoir des vêtements sur soi.|To have clothes on your body.|He wore a blue suit.|Il portait un costume bleu.
+A2|irregular|win|won|won|winning|gagner|Être le premier dans une compétition.|To be first in a competition.|Our team won the match.|Notre équipe a gagné le match.
+A2|irregular|fall|fell|fallen|falling|tomber|Descendre vers le sol sans le vouloir.|To drop down to the ground.|He fell off his bike.|Il est tombé de son vélo.
+A2|irregular|fly|flew|flown|flying|voler (en avion)|Se déplacer dans les airs.|To travel through the air.|We flew to Rome.|Nous avons pris l'avion pour Rome.
+A2|irregular|drive|drove|driven|driving|conduire|Diriger un véhicule.|To control a vehicle.|She drove us to the airport.|Elle nous a conduits à l'aéroport.
+A2|irregular|ride|rode|ridden|riding|monter (à cheval, vélo)|Se déplacer sur un vélo ou un cheval.|To travel on a bike or horse.|He rode his bike to school.|Il est allé à l'école à vélo.
+A2|irregular|swim|swam|swum|swimming|nager|Se déplacer dans l'eau.|To move through water.|We swam in the lake.|Nous avons nagé dans le lac.
+A2|irregular|sing|sang|sung|singing|chanter|Produire de la musique avec la voix.|To make music with your voice.|She sang a beautiful song.|Elle a chanté une belle chanson.
+A2|irregular|cut|cut|cut|cutting|couper|Séparer avec un couteau.|To divide something with a knife.|I cut my finger.|Je me suis coupé le doigt.
+A2|irregular|put|put|put|putting|mettre|Placer quelque chose quelque part.|To place something somewhere.|She put the keys on the table.|Elle a mis les clés sur la table.
+A2|irregular|let|let|let|letting|laisser, permettre|Permettre à quelqu'un de faire.|To allow someone to do something.|Her parents let her go out.|Ses parents l'ont laissée sortir.
+A2|irregular|set|set|set|setting|placer, régler|Mettre dans une position ou un état.|To put something in a position or state.|He set the table for dinner.|Il a mis la table pour le dîner.
+B1|irregular|break|broke|broken|breaking|casser|Séparer en morceaux.|To separate into pieces.|The child broke a window.|L'enfant a cassé une fenêtre.
+B1|irregular|build|built|built|building|construire|Fabriquer une maison ou une structure.|To make a house or structure.|They built a bridge.|Ils ont construit un pont.
+B1|irregular|catch|caught|caught|catching|attraper|Saisir quelque chose en mouvement.|To take hold of something moving.|He caught the ball.|Il a attrapé la balle.
+B1|irregular|choose|chose|chosen|choosing|choisir|Sélectionner parmi plusieurs possibilités.|To pick from several options.|She chose the red dress.|Elle a choisi la robe rouge.
+B1|irregular|draw|drew|drawn|drawing|dessiner|Faire une image avec un crayon.|To make a picture with a pencil.|He drew a house.|Il a dessiné une maison.
+B1|irregular|forget|forgot|forgotten|forgetting|oublier|Ne plus se souvenir.|To fail to remember.|I forgot her number.|J'ai oublié son numéro.
+B1|irregular|grow|grew|grown|growing|grandir, cultiver|Devenir plus grand.|To become bigger.|The kids grew quickly.|Les enfants ont grandi vite.
+B1|irregular|hear|heard|heard|hearing|entendre|Percevoir avec les oreilles.|To notice sounds with your ears.|I heard a strange noise.|J'ai entendu un bruit étrange.
+B1|irregular|hide|hid|hidden|hiding|cacher|Mettre hors de vue.|To put out of sight.|She hid the gift.|Elle a caché le cadeau.
+B1|irregular|hold|held|held|holding|tenir|Avoir dans les mains.|To have something in your hands.|He held her hand.|Il lui a tenu la main.
+B1|irregular|lend|lent|lent|lending|prêter|Donner pour un temps.|To give for a short time.|I lent him my book.|Je lui ai prêté mon livre.
+B1|irregular|mean|meant|meant|meaning|signifier, vouloir dire|Avoir un sens.|To have a certain sense.|What did she mean?|Que voulait-elle dire ?
+B1|irregular|ring|rang|rung|ringing|sonner|Faire un son de cloche.|To make the sound of a bell.|The phone rang twice.|Le téléphone a sonné deux fois.
+B1|irregular|rise|rose|risen|rising|monter, se lever|Aller vers le haut.|To go up.|The sun rose at six.|Le soleil s'est levé à six heures.
+B1|irregular|sell|sold|sold|selling|vendre|Donner contre de l'argent.|To give something for money.|They sold their old car.|Ils ont vendu leur vieille voiture.
+B1|irregular|shake|shook|shaken|shaking|secouer, trembler|Bouger rapidement d'un côté à l'autre.|To move quickly from side to side.|He shook my hand.|Il m'a serré la main.
+B1|irregular|show|showed|shown|showing|montrer|Faire voir.|To let someone see something.|She showed me the photos.|Elle m'a montré les photos.
+B1|irregular|steal|stole|stolen|stealing|voler (dérober)|Prendre sans permission.|To take something without permission.|Someone stole my bike.|Quelqu'un a volé mon vélo.
+B1|irregular|throw|threw|thrown|throwing|lancer|Envoyer dans les airs.|To send through the air.|He threw the ball far.|Il a lancé la balle loin.
+B1|irregular|understand|understood|understood|understanding|comprendre|Saisir le sens.|To know the meaning of something.|I understood the lesson.|J'ai compris la leçon.
+B1|irregular|wake|woke|woken|waking|se réveiller|Arrêter de dormir.|To stop sleeping.|She woke early today.|Elle s'est réveillée tôt aujourd'hui.
+B1|irregular|cost|cost|cost|costing|coûter|Avoir un prix.|To have a price.|The ticket cost ten euros.|Le billet a coûté dix euros.
+B1|irregular|learn|learnt/learned|learnt/learned|learning|apprendre|Acquérir des connaissances.|To gain knowledge or skill.|I learned a lot last year.|J'ai beaucoup appris l'an dernier.
+B2|irregular|overcome|overcame|overcome|overcoming|surmonter|Réussir à vaincre une difficulté.|To succeed in dealing with a problem.|She overcame her fear of flying.|Elle a surmonté sa peur de l'avion.
+B2|irregular|undertake|undertook|undertaken|undertaking|entreprendre|S'engager dans une tâche.|To start and take responsibility for a task.|They undertook a big project.|Ils ont entrepris un grand projet.
+B2|irregular|withdraw|withdrew|withdrawn|withdrawing|retirer|Prendre de l'argent de son compte.|To take money out of an account.|I withdrew some cash.|J'ai retiré un peu d'argent.
+B2|irregular|forgive|forgave|forgiven|forgiving|pardonner|Ne plus en vouloir à quelqu'un.|To stop being angry with someone.|She forgave him at once.|Elle lui a pardonné tout de suite.
+B2|irregular|bite|bit|bitten|biting|mordre|Couper avec les dents.|To cut something with your teeth.|The dog bit his sleeve.|Le chien lui a mordu la manche.
+B2|irregular|lead|led|led|leading|mener, diriger|Guider un groupe ou aller devant.|To guide or be in front.|She led the team to victory.|Elle a mené l'équipe à la victoire.
+B2|irregular|bend|bent|bent|bending|plier|Courber quelque chose.|To curve or fold.|He bent down to tie his shoe.|Il s'est penché pour lacer sa chaussure.
+B2|irregular|burst|burst|burst|bursting|éclater|Exploser soudainement.|To break open suddenly.|The balloon burst.|Le ballon a éclaté.
+# action
+A1|regular|walk|walked|walked|walking|marcher|Avancer à pied.|To move on foot.|They walked along the river.|Ils ont marché le long de la rivière.
+A1|regular|jump|jumped|jumped|jumping|sauter|S'élever dans les airs.|To push yourself off the ground.|The cat jumped on the sofa.|Le chat a sauté sur le canapé.
+A1|regular|open|opened|opened|opening|ouvrir|Rendre accessible.|To make something not closed.|She opened the window.|Elle a ouvert la fenêtre.
+A1|regular|close|closed|closed|closing|fermer|Rendre inaccessible.|To shut something.|Please close the door.|Ferme la porte, s'il te plaît.
+A1|regular|play|played|played|playing|jouer|S'amuser ou faire du sport.|To take part in a game or fun activity.|The children played outside.|Les enfants ont joué dehors.
+A1|regular|work|worked|worked|working|travailler|Faire une activité professionnelle.|To do a job or an activity.|He worked all weekend.|Il a travaillé tout le week-end.
+A1|regular|watch|watched|watched|watching|regarder|Observer avec attention.|To look at something carefully.|We watched a film last night.|Nous avons regardé un film hier soir.
+A1|regular|listen|listened|listened|listening|écouter|Faire attention aux sons.|To pay attention to sounds.|She listened to the radio.|Elle a écouté la radio.
+A1|regular|cook|cooked|cooked|cooking|cuisiner|Préparer à manger.|To prepare food with heat.|He cooked pasta for us.|Il a cuisiné des pâtes pour nous.
+A1|regular|clean|cleaned|cleaned|cleaning|nettoyer|Rendre propre.|To make something free from dirt.|I cleaned the kitchen.|J'ai nettoyé la cuisine.
+A1|regular|wash|washed|washed|washing|laver|Nettoyer avec de l'eau.|To clean with water.|She washed the dishes.|Elle a lavé la vaisselle.
+A1|regular|call|called|called|calling|appeler|Téléphoner à quelqu'un.|To phone someone.|He called his mother.|Il a appelé sa mère.
+A1|regular|ask|asked|asked|asking|demander|Poser une question.|To put a question to someone.|I asked for the bill.|J'ai demandé l'addition.
+A1|regular|answer|answered|answered|answering|répondre|Donner une réponse.|To reply to a question.|She answered the phone.|Elle a répondu au téléphone.
+A1|regular|help|helped|helped|helping|aider|Rendre service.|To make something easier for someone.|He helped me with my bags.|Il m'a aidé avec mes sacs.
+A1|regular|dance|danced|danced|dancing|danser|Bouger au rythme de la musique.|To move to music.|They danced all night.|Ils ont dansé toute la nuit.
+A1|regular|want|wanted|wanted|wanting|vouloir|Désirer.|To wish to have or do something.|I wanted a coffee.|Je voulais un café.
+A1|regular|like|liked|liked|liking|aimer bien|Trouver agréable.|To find something pleasant.|She liked the film.|Elle a aimé le film.
+A1|regular|live|lived|lived|living|habiter, vivre|Avoir sa maison quelque part.|To have your home in a place.|We lived in London.|Nous avons habité à Londres.
+A2|regular|climb|climbed|climbed|climbing|grimper|Monter en s'aidant des mains et des pieds.|To go up using hands and feet.|They climbed the mountain.|Ils ont escaladé la montagne.
+A2|regular|push|pushed|pushed|pushing|pousser|Appuyer pour faire bouger.|To press something to move it away.|He pushed the door open.|Il a poussé la porte pour l'ouvrir.
+A2|regular|pull|pulled|pulled|pulling|tirer|Amener vers soi.|To move something towards you.|She pulled the handle.|Elle a tiré la poignée.
+A2|regular|carry|carried|carried|carrying|porter (un objet)|Tenir et transporter.|To hold and move something.|He carried the boxes upstairs.|Il a porté les cartons à l'étage.
+A2|regular|visit|visited|visited|visiting|rendre visite, visiter|Aller voir une personne ou un lieu.|To go to see a person or place.|We visited our grandparents.|Nous avons rendu visite à nos grands-parents.
+A2|regular|arrive|arrived|arrived|arriving|arriver|Atteindre sa destination.|To reach a place.|The train arrived on time.|Le train est arrivé à l'heure.
+A2|regular|travel|travelled|travelled|travelling|voyager|Aller d'un lieu à un autre.|To go from one place to another.|She travelled across Asia.|Elle a voyagé à travers l'Asie.
+A2|regular|decide|decided|decided|deciding|décider|Faire un choix.|To make a choice.|We decided to stay home.|Nous avons décidé de rester à la maison.
+A2|regular|wait|waited|waited|waiting|attendre|Rester jusqu'à ce que quelque chose arrive.|To stay until something happens.|I waited for an hour.|J'ai attendu pendant une heure.
+A2|regular|stop|stopped|stopped|stopping|arrêter|Cesser de bouger ou de faire.|To end a movement or action.|The bus stopped suddenly.|Le bus s'est arrêté brusquement.
+A2|regular|try|tried|tried|trying|essayer|Faire un effort pour réussir.|To make an effort to do something.|She tried the soup.|Elle a goûté la soupe.
+A2|regular|use|used|used|using|utiliser|Se servir de quelque chose.|To employ something for a purpose.|He used a map.|Il s'est servi d'une carte.
+A2|regular|love|loved|loved|loving|adorer|Aimer profondément.|To like something very much.|They loved the beach.|Ils ont adoré la plage.
+A2|regular|need|needed|needed|needing|avoir besoin de|Devoir avoir quelque chose.|To require something.|I needed a rest.|J'avais besoin de repos.
+A2|regular|start|started|started|starting|démarrer, commencer|Mettre en marche.|To begin or switch on.|The engine started at once.|Le moteur a démarré tout de suite.
+A2|regular|finish|finished|finished|finishing|finir|Terminer.|To complete something.|I finished my work at six.|J'ai fini mon travail à six heures.
+B1|regular|improve|improved|improved|improving|améliorer|Rendre meilleur.|To make or become better.|His English improved quickly.|Son anglais s'est vite amélioré.
+B1|regular|create|created|created|creating|créer|Faire exister quelque chose de nouveau.|To make something new.|She created a beautiful garden.|Elle a créé un magnifique jardin.
+B1|regular|repair|repaired|repaired|repairing|réparer|Remettre en état.|To fix something broken.|He repaired the bike.|Il a réparé le vélo.
+B1|regular|practise|practised|practised|practising|s'entraîner|Répéter pour s'améliorer.|To repeat something to get better.|I practised the piano daily.|Je me suis entraîné au piano chaque jour.
+B1|regular|borrow|borrowed|borrowed|borrowing|emprunter|Prendre pour rendre plus tard.|To take and give back later.|She borrowed my umbrella.|Elle a emprunté mon parapluie.
+B1|regular|explain|explained|explained|explaining|expliquer|Rendre clair.|To make something clear.|The teacher explained the rule.|Le professeur a expliqué la règle.
+B1|regular|prepare|prepared|prepared|preparing|préparer|Mettre en état de servir.|To get ready.|We prepared a surprise party.|Nous avons préparé une fête surprise.
+B1|regular|invite|invited|invited|inviting|inviter|Demander de venir.|To ask someone to come.|They invited us to dinner.|Ils nous ont invités à dîner.
+B1|regular|share|shared|shared|sharing|partager|Donner une partie.|To let others have part of something.|We shared a pizza.|Nous avons partagé une pizza.
+B1|regular|follow|followed|followed|following|suivre|Aller derrière.|To go behind or after.|The dog followed me home.|Le chien m'a suivi jusqu'à la maison.
+B1|regular|remember|remembered|remembered|remembering|se rappeler|Garder en mémoire.|To keep something in your mind.|I remembered his birthday.|Je me suis rappelé son anniversaire.
+B1|regular|protect|protected|protected|protecting|protéger|Garder en sécurité.|To keep safe from harm.|The coat protected him from the rain.|Le manteau l'a protégé de la pluie.
+B1|regular|compare|compared|compared|comparing|comparer|Chercher les différences.|To look at how things are alike or different.|We compared the two phones.|Nous avons comparé les deux téléphones.
+B1|regular|achieve|achieved|achieved|achieving|réussir, atteindre|Arriver à un but.|To succeed in reaching a goal.|She achieved her dream.|Elle a réalisé son rêve.
+B1|regular|manage|managed|managed|managing|réussir à, gérer|Arriver à faire malgré la difficulté.|To succeed in doing something difficult.|He managed to fix it.|Il a réussi à le réparer.
+B1|regular|suggest|suggested|suggested|suggesting|suggérer|Proposer une idée.|To offer an idea.|I suggested a walk.|J'ai suggéré une promenade.
+B1|regular|join|joined|joined|joining|rejoindre|Se mettre avec d'autres.|To become part of a group.|She joined a book club.|Elle a rejoint un club de lecture.
+B1|regular|enjoy|enjoyed|enjoyed|enjoying|apprécier|Prendre plaisir.|To get pleasure from something.|We enjoyed the concert.|Nous avons apprécié le concert.
+B2|regular|struggle|struggled|struggled|struggling|peiner, lutter|Avoir beaucoup de mal.|To try hard against difficulty.|He struggled with the heavy bag.|Il a peiné avec le sac lourd.
+B2|regular|postpone|postponed|postponed|postponing|reporter|Remettre à plus tard.|To move to a later time.|They postponed the meeting.|Ils ont reporté la réunion.
+B2|regular|encourage|encouraged|encouraged|encouraging|encourager|Donner du courage.|To give someone confidence.|Her teacher encouraged her.|Sa professeure l'a encouragée.
+B2|regular|ignore|ignored|ignored|ignoring|ignorer|Ne pas faire attention.|To pay no attention to.|He ignored the warning.|Il a ignoré l'avertissement.
+B2|regular|arrange|arranged|arranged|arranging|organiser|Mettre en ordre ou planifier.|To plan or put in order.|I arranged a meeting.|J'ai organisé une réunion.
+B2|regular|apologise|apologised|apologised|apologising|s'excuser|Dire qu'on regrette.|To say you are sorry.|She apologised for being late.|Elle s'est excusée d'être en retard.
+B2|regular|consider|considered|considered|considering|envisager|Y réfléchir sérieusement.|To think about carefully.|They considered moving abroad.|Ils ont envisagé de partir à l'étranger.
+B2|regular|admit|admitted|admitted|admitting|admettre|Reconnaître la vérité.|To agree that something is true.|He admitted his mistake.|Il a admis son erreur.
+B2|regular|refuse|refused|refused|refusing|refuser|Dire non.|To say you will not do something.|She refused the offer.|Elle a refusé l'offre.
+B2|regular|attempt|attempted|attempted|attempting|tenter|Essayer de faire.|To try to do something.|They attempted to cross the river.|Ils ont tenté de traverser la rivière.
+B2|regular|tackle|tackled|tackled|tackling|s'attaquer à|Affronter un problème.|To deal with a difficult problem.|We tackled the issue head-on.|Nous nous sommes attaqués au problème de front.
+B2|regular|exaggerate|exaggerated|exaggerated|exaggerating|exagérer|Dire que c'est plus grand que la réalité.|To say something is bigger or worse than it is.|He exaggerated the story.|Il a exagéré l'histoire.
+C1|regular|alleviate|alleviated|alleviated|alleviating|atténuer|Rendre moins grave.|To make less severe.|The medicine alleviated the pain.|Le médicament a atténué la douleur.
+C1|regular|reinforce|reinforced|reinforced|reinforcing|renforcer|Rendre plus fort.|To make stronger.|They reinforced the old bridge.|Ils ont renforcé le vieux pont.
