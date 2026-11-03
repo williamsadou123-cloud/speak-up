@@ -1,5 +1,6 @@
 import { h, sleep, shuffled, topbar, segmented, progressBar, scrollBehavior, LEVELS } from './dom.js';
 import { buildStepsFor } from '../listen-steps.js';
+import { gapMs, itemGapMs, guessMs, nearestRate, PACES } from '../listen-pace.js';
 import { buildPool, SOURCES } from '../listen-pool.js';
 import { createKeeper } from './keepalive.js';
 import { icon } from './icons.js';
@@ -13,10 +14,10 @@ const MODE_HELP = {
 
 const KINDS = { irregular: 'Verbe irrégulier', regular: 'Verbe régulier', grammar: 'Grammaire' };
 
-let remembered = { mode: 'en-first', source: 'vocab', loop: true, shuffle: true, count: 20, awake: false };
+let remembered = { mode: 'en-first', source: 'vocab', loop: true, shuffle: true, count: 20, awake: false, pace: 'normal' };
 
 export function renderListen(root, ctx) {
-  const opts = { ...remembered, topic: 'all', level: 'all', rate: ctx.state.rate || 1 };
+  const opts = { ...remembered, topic: 'all', level: 'all', rate: nearestRate(ctx.state.rate || 1) };
   const preset = location.hash.split('/')[2];
   if (SOURCES.some(([k]) => k === preset)) opts.source = preset;
   let session = null;
@@ -31,7 +32,7 @@ export function renderListen(root, ctx) {
     return buildPool(ctx.content, opts.source, opts);
   }
 
-  function remember() { remembered = { mode: opts.mode, source: opts.source, loop: opts.loop, shuffle: opts.shuffle, count: opts.count, awake: opts.awake }; }
+  function remember() { remembered = { mode: opts.mode, source: opts.source, loop: opts.loop, shuffle: opts.shuffle, count: opts.count, awake: opts.awake, pace: opts.pace }; }
 
   function select(id, label, options, value, onchange) {
     const sel = h('select', { id, onchange: (e) => onchange(e.target.value) },
@@ -55,7 +56,8 @@ export function renderListen(root, ctx) {
         select('topic', 'Thème', [['all', 'Tous les thèmes'], ...topics.map((t) => [t, t])], opts.topic, (v) => { opts.topic = v; showSetup(); }),
         select('lvl', 'Niveau', [['all', 'Tous les niveaux'], ...LEVELS.map((l) => [l, l])], opts.level, (v) => { opts.level = v; showSetup(); }),
         select('count', 'Nombre d\'éléments', [['10', '10'], ['20', '20'], ['50', '50'], ['9999', 'Tous']], opts.count, (v) => { opts.count = Number(v); remember(); showSetup(); }),
-        select('rate', 'Vitesse de lecture', [['0.7', 'Lente (0,7×)'], ['1', 'Normale (1×)'], ['1.2', 'Rapide (1,2×)']], opts.rate, (v) => { opts.rate = Number(v); ctx.update((st) => ({ ...st, rate: opts.rate })); }),
+        select('rate', 'Vitesse de lecture', [['0.85', 'Posée (0,85×)'], ['1', 'Normale (1×)'], ['1.2', 'Rapide (1,2×)']], opts.rate, (v) => { opts.rate = Number(v); ctx.update((st) => ({ ...st, rate: opts.rate })); }),
+        select('pace', 'Temps pour répéter', PACES, opts.pace, (v) => { opts.pace = v; remember(); }),
         h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: opts.shuffle, onchange: (e) => { opts.shuffle = e.target.checked; remember(); } }), 'Ordre aléatoire'),
         h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: opts.loop, onchange: (e) => { opts.loop = e.target.checked; remember(); } }), 'Recommencer en boucle'),
         h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: opts.awake, onchange: (e) => { opts.awake = e.target.checked; remember(); } }), 'Garder l\'écran allumé'),
@@ -130,7 +132,7 @@ export function renderListen(root, ctx) {
     const s = session;
     const gen = ++s.gen;
     const item = s.items[s.i];
-    const steps = buildStepsFor(item, opts.mode);
+    const steps = buildStepsFor(item, opts.mode, { guessMs: guessMs(opts.pace) });
     keeper.meta(item.en || item.title_fr, item.fr || (item.type === 'grammar' ? 'Grammaire' : ''));
     keeper.state(true);
     ui.art.children[0].textContent = KINDS[item.type] || (item.id.startsWith('x-') ? 'Expression' : 'Mot');
@@ -162,7 +164,9 @@ export function renderListen(root, ctx) {
         continue;
       }
       prev = el;
+      const t0 = Date.now();
       const r = await ctx.audio.speak(step.key, step.text, step.lang, opts.rate);
+      const spoken = Date.now() - t0;
       if (gen !== s.gen) return;
       if (r === 'none') {
         ui.note.hidden = false;
@@ -170,12 +174,13 @@ export function renderListen(root, ctx) {
       } else if (r === 'speech' && step.lang === 'en-US') {
         ui.note.hidden = true;
       }
-      await sleep(450 / opts.rate);
+      await sleep(gapMs(step, spoken, opts.pace)); // temps de répéter dans sa tête ou à voix haute
+      if (gen !== s.gen) return;
     }
     if (gen !== s.gen) return;
     if (prev) { prev.classList.remove('active'); prev.classList.add('seen'); }
     if (item.type !== 'grammar') ui.fiche.open = true;
-    await sleep(1800 / opts.rate);
+    await sleep(itemGapMs(opts.pace));
     if (gen !== s.gen) return;
     if (s.i + 1 < s.items.length) { s.i++; playCurrent(); }
     else if (opts.loop) { s.i = 0; playCurrent(); }

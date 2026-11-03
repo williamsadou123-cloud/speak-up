@@ -6,6 +6,6 @@
   "scripts": {
     "test": "node --test \"tests/*.test.js\"",
     "serve": "python3 -m http.server 8080",
-    "audio": "node --env-file=.env.local tools/generate-audio.mjs --voice-en XrExE9yKIg1WjnnlVkGX --voice-fr EXAVITQu4vr4xnSDxMaL"
+    "audio": "node --env-file=.env.local tools/generate-audio.mjs --voice-en XrExE9yKIg1WjnnlVkGX --voice-fr HYGcnKpRvrY9FkYD8Eax"
   }
 }

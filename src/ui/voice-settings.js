@@ -1,4 +1,5 @@
 import { icon } from './icons.js';
+import { nearestRate } from '../listen-pace.js';
 import { h, topbar, segmented } from './dom.js';
 import { rankVoices } from '../voice.js';
 
@@ -46,7 +47,7 @@ export function renderVoiceSettings(root, ctx) {
         h('button', { class: 'btn', onclick: () => test('fr-FR', SAMPLE_FR) }, icon('play', 16), ' Essayer en français')),
       h('div', { class: 'card stack' },
         h('h3', null, 'Vitesse de lecture'),
-        segmented([[0.7, 'Lente', '0,7×'], [1, 'Normale', '1×'], [1.2, 'Rapide', '1,2×']], s.rate, (v) => { save({ rate: v }); draw(); })),
+        segmented([[0.85, 'Posée', '0,85×'], [1, 'Normale', '1×'], [1.2, 'Rapide', '1,2×']], nearestRate(s.rate), (v) => { save({ rate: v }); draw(); })),
       h('div', { class: 'banner' },
         'Les voix viennent de ton appareil. Pour des voix plus naturelles, les fichiers audio ElevenLabs sont utilisés automatiquement s\'ils sont générés (voir tools/generate-audio.mjs).'));
   }

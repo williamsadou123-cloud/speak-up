@@ -3,7 +3,7 @@
 //   ELEVENLABS_API_KEY=... node tools/generate-audio.mjs --voice-en <id> --voice-fr <id> [--limit N] [--only word,fr,ex] [--dry-run]
 // --force --lang fr --max-words 3 : régénère les fichiers français courts ; --only : ne génère que ces types (word, fr, def, defen, forms, ex, exfr, con, tip) ; --dry-run affiche le nombre de fichiers et de caractères.
 // La clé n'est lue que dans l'environnement : elle n'est jamais écrite dans un fichier de l'app.
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, statSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 import { spokenText } from '../src/listen-steps.js';
 
@@ -53,6 +53,10 @@ export function selectJobs(jobs, { lang, maxWords } = {}) {
   return jobs.filter((j) => (!lang || j.lang === lang) && (!maxWords || j.text.split(/\s+/).length <= maxWords));
 }
 
+// Reprise après changement de voix : un fichier est à refaire s'il manque ou date d'avant `cutoff` (ms).
+export const isStale = (mtimeMs, cutoff) => mtimeMs == null || mtimeMs < cutoff;
+export const shortestFirst = (jobs) => jobs.map((j, i) => [j, i]).sort((a, b) => a[0].text.length - b[0].text.length || a[1] - b[1]).map(([j]) => j);
+
 export const pendingJobs = (jobs, exists) => jobs.filter((j) => !exists(j.file));
 
 export function requireApiKey(env) {
@@ -80,7 +84,10 @@ async function main() {
   const only = (arg('only') || '').split(',').filter(Boolean);
   const force = process.argv.includes('--force'); // régénère même si le fichier existe (avec --lang / --max-words)
   const picked = selectJobs(onlyKinds(buildJobs(content), only), { lang: arg('lang'), maxWords: Number(arg('max-words')) || 0 });
-  const todo = (force ? picked : pendingJobs(picked, existsSync)).slice(0, limit);
+  const cutoff = Number(arg('stale-before')) || 0; // avec --force : ne refait pas ce qui a été refait après cette date
+  const mtime = (f) => (existsSync(f) ? statSync(f).mtimeMs : null);
+  const ordered = process.argv.includes('--short-first') ? shortestFirst(picked) : picked;
+  const todo = (force ? ordered.filter((j) => isStale(mtime(j.file), cutoff)) : pendingJobs(ordered, existsSync)).slice(0, limit);
   const chars = todo.reduce((n, j) => n + j.text.length, 0);
   console.log(`${todo.length} fichiers à générer (${chars} caractères).`);
   if (dryRun) return;

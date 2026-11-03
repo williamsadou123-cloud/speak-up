@@ -109,3 +109,16 @@ test('selectJobs filters by language and maximum number of words', () => {
   assert.deepEqual(selectJobs(jobs, { lang: 'fr', maxWords: 3 }).map((j) => j.key), ['a:fr']);
   assert.equal(selectJobs(jobs, {}).length, 3);
 });
+
+import { isStale, shortestFirst } from '../tools/generate-audio.mjs';
+
+test('isStale: missing file or older than the cutoff needs regenerating', () => {
+  assert.equal(isStale(null, 1000), true);
+  assert.equal(isStale(999, 1000), true);
+  assert.equal(isStale(1000, 1000), false);
+  assert.equal(isStale(5000, 1000), false);
+});
+test('shortestFirst orders jobs by text length, keeping ties stable', () => {
+  const jobs = [{ key: 'c', text: 'abcdef' }, { key: 'a', text: 'ab' }, { key: 'b', text: 'ab' }];
+  assert.deepEqual(shortestFirst(jobs).map((j) => j.key), ['a', 'b', 'c']);
+});

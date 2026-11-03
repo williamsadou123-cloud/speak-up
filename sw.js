@@ -36,6 +36,7 @@ const SHELL = [
   'src/ui/verbs.js',
   'src/listen-steps.js',
   'src/listen-pool.js',
+  'src/listen-pace.js',
   'src/shared-audio.js',
   'src/ui/keepalive.js',
   'src/ui/icons.js',
