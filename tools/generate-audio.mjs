@@ -22,13 +22,18 @@ export function buildJobs(content) {
         add(`${e.id}:ex${i}`, spokenText(ex.en), 'en');
         add(`${e.id}:ex${i}fr`, spokenText(ex.fr, 'fr'), 'fr');
       });
-      if (e.type === 'irregular') add(`${e.id}:forms`, spokenText([e.en, e.past, e.pastParticiple].join(', ')), 'en');
+      if (e.type === 'irregular' || e.type === 'regular') add(`${e.id}:forms`, spokenText([e.en, e.past, e.pastParticiple].join(', ')), 'en');
       if (e.construction && e.construction.pattern) add(`${e.id}:con`, spokenText(e.construction.pattern), 'en');
       if (e.construction && e.construction.tip_fr) add(`${e.id}:tip`, spokenText(e.construction.tip_fr, 'fr'), 'fr');
     }
   }
   for (const g of content.grammar || []) {
-    g.examples.forEach((ex, i) => add(`${g.id}:ex${i}`, spokenText(ex.en), 'en'));
+    add(`${g.id}:title`, spokenText(g.title_fr, 'fr'), 'fr');
+    (g.rule_fr || []).forEach((r, i) => add(`${g.id}:r${i}`, spokenText(r, 'fr'), 'fr'));
+    g.examples.slice(0, 3).forEach((ex, i) => {
+      add(`${g.id}:ex${i}`, spokenText(ex.en), 'en');
+      add(`${g.id}:ex${i}fr`, spokenText(ex.fr, 'fr'), 'fr');
+    });
   }
   return jobs;
 }

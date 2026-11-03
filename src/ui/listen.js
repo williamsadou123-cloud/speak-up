@@ -1,19 +1,21 @@
 import { h, sleep, shuffled, topbar, segmented, progressBar, scrollBehavior, LEVELS } from './dom.js';
-import { buildSteps } from '../listen-steps.js';
+import { buildStepsFor } from '../listen-steps.js';
+import { buildPool, SOURCES } from '../listen-pool.js';
+import { createKeeper } from './keepalive.js';
 import { wordSheet } from './sheet.js';
 
-const SOURCES = { vocab: 'Vocabulaire', verbs: 'Verbes', expressions: 'Expressions' };
 const MODES = [['en-first', 'Anglais d\'abord', 'mot → sens'], ['fr-first', 'Français d\'abord', 'sens → mot']];
 const MODE_HELP = {
   'en-first': 'Tu entends le mot anglais, puis sa traduction, les définitions, des exemples traduits et la construction.',
   'fr-first': 'Tu entends le mot français et la définition en anglais, tu devines le mot (4 secondes), puis la réponse et la suite.',
 };
 
-let remembered = { mode: 'en-first', source: 'vocab', loop: false, shuffle: true, count: 20 };
+let remembered = { mode: 'en-first', source: 'vocab', loop: true, shuffle: true, count: 20, awake: false };
 
 export function renderListen(root, ctx) {
   const opts = { ...remembered, topic: 'all', level: 'all', rate: ctx.state.rate || 1 };
   let session = null;
+  const keeper = createKeeper();
 
   root.append(topbar('Écouter'));
   const body = h('div', { class: 'm-listen' });
@@ -21,11 +23,10 @@ export function renderListen(root, ctx) {
   showSetup();
 
   function pool() {
-    return ctx.content[opts.source].filter((e) =>
-      (opts.topic === 'all' || e.topic === opts.topic) && (opts.level === 'all' || e.level === opts.level));
+    return buildPool(ctx.content, opts.source, opts);
   }
 
-  function remember() { remembered = { mode: opts.mode, source: opts.source, loop: opts.loop, shuffle: opts.shuffle, count: opts.count }; }
+  function remember() { remembered = { mode: opts.mode, source: opts.source, loop: opts.loop, shuffle: opts.shuffle, count: opts.count, awake: opts.awake }; }
 
   function select(id, label, options, value, onchange) {
     const sel = h('select', { id, onchange: (e) => onchange(e.target.value) },
@@ -36,7 +37,7 @@ export function renderListen(root, ctx) {
   function showSetup() {
     stopSession();
     body.replaceChildren();
-    const topics = [...new Set(ctx.content[opts.source].map((e) => e.topic))];
+    const topics = [...new Set(buildPool(ctx.content, opts.source).map((e) => e.topic))];
     if (opts.topic !== 'all' && !topics.includes(opts.topic)) opts.topic = 'all';
     const available = pool().length;
     body.append(
@@ -45,16 +46,18 @@ export function renderListen(root, ctx) {
         segmented(MODES, opts.mode, (v) => { opts.mode = v; remember(); showSetup(); }),
         h('p', { class: 'muted small', style: 'margin:0' }, MODE_HELP[opts.mode])),
       h('div', { class: 'card stack' },
-        select('src', 'Contenu', Object.entries(SOURCES), opts.source, (v) => { opts.source = v; opts.topic = 'all'; remember(); showSetup(); }),
+        select('src', 'Contenu', SOURCES, opts.source, (v) => { opts.source = v; opts.topic = 'all'; remember(); showSetup(); }),
         select('topic', 'Thème', [['all', 'Tous les thèmes'], ...topics.map((t) => [t, t])], opts.topic, (v) => { opts.topic = v; showSetup(); }),
         select('lvl', 'Niveau', [['all', 'Tous les niveaux'], ...LEVELS.map((l) => [l, l])], opts.level, (v) => { opts.level = v; showSetup(); }),
-        select('count', 'Nombre de mots', [['10', '10'], ['20', '20'], ['50', '50'], ['9999', 'Tous']], opts.count, (v) => { opts.count = Number(v); remember(); showSetup(); }),
+        select('count', 'Nombre d\'éléments', [['10', '10'], ['20', '20'], ['50', '50'], ['9999', 'Tous']], opts.count, (v) => { opts.count = Number(v); remember(); showSetup(); }),
         select('rate', 'Vitesse de lecture', [['0.7', 'Lente (0,7×)'], ['1', 'Normale (1×)'], ['1.2', 'Rapide (1,2×)']], opts.rate, (v) => { opts.rate = Number(v); ctx.update((st) => ({ ...st, rate: opts.rate })); }),
         h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: opts.shuffle, onchange: (e) => { opts.shuffle = e.target.checked; remember(); } }), 'Ordre aléatoire'),
-        h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: opts.loop, onchange: (e) => { opts.loop = e.target.checked; remember(); } }), 'Recommencer en boucle')),
+        h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: opts.loop, onchange: (e) => { opts.loop = e.target.checked; remember(); } }), 'Recommencer en boucle'),
+        h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: opts.awake, onchange: (e) => { opts.awake = e.target.checked; remember(); } }), 'Garder l\'écran allumé'),
+        h('p', { class: 'muted small', style: 'margin:0' }, '🎧 Mode métro : lance, branche tes écouteurs et verrouille ton téléphone. Pause, suivant et précédent restent sur l\'écran de verrouillage.')),
       available === 0
         ? h('p', { class: 'muted' }, 'Aucun mot ne correspond à ce choix. Change le thème ou le niveau.')
-        : h('button', { class: 'btn lg block', onclick: start }, `▶ Lancer (${Math.min(available, opts.count)} mots)`));
+        : h('button', { class: 'btn lg block', onclick: start }, `▶ Lancer (${Math.min(available, opts.count)} éléments)`));
   }
 
   function start() {
@@ -63,12 +66,20 @@ export function renderListen(root, ctx) {
     if (!items.length) return;
     ctx.rate = opts.rate;
     session = { items, i: 0, paused: false, gen: 0 };
+    keeper.start({
+      awake: opts.awake,
+      onPlay: () => { if (session && session.paused) togglePause(); },
+      onPause: () => { if (session && !session.paused) togglePause(); },
+      onNext: () => jump(1),
+      onPrev: () => jump(-1),
+    });
     showPlayer();
     playCurrent();
   }
 
   function stopSession() {
     if (session) { session.gen++; session = null; }
+    keeper.stop();
     ctx.audio.stop();
   }
 
@@ -108,12 +119,15 @@ export function renderListen(root, ctx) {
     const s = session;
     const gen = ++s.gen;
     const item = s.items[s.i];
-    const steps = buildSteps(item, opts.mode);
+    const steps = buildStepsFor(item, opts.mode);
+    keeper.meta(item.en || item.title_fr, item.fr || (item.type === 'grammar' ? 'Grammaire' : ''));
+    keeper.state(true);
     ui.counter.textContent = `${s.i + 1} / ${s.items.length}`;
     ui.bar.replaceChildren(progressBar(((s.i) / s.items.length) * 100, 'Séance'));
     ui.lines.replaceChildren();
     ui.fiche.open = false;
-    ui.fiche.replaceChildren(h('summary', null, '📄 Fiche complète'), wordSheet(ctx, item));
+    ui.fiche.hidden = item.type === 'grammar';
+    ui.fiche.replaceChildren(h('summary', null, '📄 Fiche complète'), item.type === 'grammar' ? null : wordSheet(ctx, item));
     ui.pauseBtn.textContent = '⏸';
     ui.pauseBtn.setAttribute('aria-label', 'Pause');
     let prev = null;
@@ -146,7 +160,7 @@ export function renderListen(root, ctx) {
     }
     if (gen !== s.gen) return;
     if (prev) { prev.classList.remove('active'); prev.classList.add('seen'); }
-    ui.fiche.open = true;
+    if (item.type !== 'grammar') ui.fiche.open = true;
     await sleep(1800 / opts.rate);
     if (gen !== s.gen) return;
     if (s.i + 1 < s.items.length) { s.i++; playCurrent(); }
@@ -157,10 +171,11 @@ export function renderListen(root, ctx) {
   function finish() {
     const n = session.items.length;
     session = null;
+    keeper.stop();
     body.replaceChildren(h('div', { class: 'card empty stack' },
       h('div', { class: 'emoji', 'aria-hidden': 'true' }, '🎉'),
       h('h2', null, 'Séance terminée'),
-      h('p', { class: 'muted' }, `${n} mots écoutés. Pour les retenir, passe aux cartes de révision.`),
+      h('p', { class: 'muted' }, `${n} éléments écoutés. Pour les retenir, passe aux cartes de révision.`),
       h('div', { class: 'row', style: 'justify-content:center' },
         h('a', { class: 'btn m-cards', href: '#/cards' }, 'Réviser'),
         h('button', { class: 'btn secondary', onclick: showSetup }, 'Nouvelle séance'))));
@@ -179,11 +194,13 @@ export function renderListen(root, ctx) {
     if (!session) return;
     if (session.paused) {
       session.paused = false;
+      keeper.state(true);
       playCurrent();
     } else {
       session.paused = true;
       session.gen++;
       ctx.audio.stop();
+      keeper.state(false);
       ui.pauseBtn.textContent = '▶';
       ui.pauseBtn.setAttribute('aria-label', 'Reprendre');
     }

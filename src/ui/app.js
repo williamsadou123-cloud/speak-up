@@ -1,6 +1,7 @@
 import { loadContent } from '../content.js';
 import { createStore } from '../store.js';
 import { createAudio } from '../audio.js';
+import { createSharedPlayer } from '../shared-audio.js';
 import { h, banner } from './dom.js';
 import { renderHome } from './home.js';
 import { renderListen } from './listen.js';
@@ -52,7 +53,7 @@ async function boot() {
       getPrefs: () => ctx.state.voice,
       manifest,
       speech: 'speechSynthesis' in window ? window.speechSynthesis : null,
-      makeAudio: (src) => new Audio(src),
+      makeAudio: createSharedPlayer(new Audio()),
     });
 
     ctx.audio = audio;

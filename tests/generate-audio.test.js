@@ -77,3 +77,14 @@ test('onlyKinds keeps only the requested kinds', () => {
   assert.deepEqual(kept.sort(), ['v-a:ex0fr', 'v-a:ex1fr', 'v-a:word', 'vb-go:ex0fr', 'vb-go:word'].sort());
   assert.equal(onlyKinds(jobs, []).length, jobs.length);
 });
+
+test('regular verbs get a forms job and grammar gets title, rule and example fr jobs', () => {
+  const reg = { id: 'vb-walk', type: 'regular', en: 'walk', past: 'walked', pastParticiple: 'walked', fr: 'marcher',
+    definition_fr: 'd', definition_en: 'd', examples: [{ en: 'I walk.', fr: 'Je marche.' }] };
+  const g = { id: 'g-x', title_fr: 'Le présent', rule_fr: ['Une règle.', 'Deux.'], examples: [{ en: 'I work.', fr: 'Je travaille.' }] };
+  const jobs = Object.fromEntries(buildJobs({ ...content, verbs: [reg], grammar: [g] }).map((j) => [j.key, j]));
+  assert.equal(jobs['vb-walk:forms'].text, 'walk, walked, walked');
+  assert.equal(jobs['g-x:title'].lang, 'fr');
+  assert.equal(jobs['g-x:r1'].text, 'Deux.');
+  assert.equal(jobs['g-x:ex0fr'].lang, 'fr');
+});

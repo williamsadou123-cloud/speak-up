@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildSteps, spokenText } from '../src/listen-steps.js';
+import { buildSteps, buildGrammarSteps, buildStepsFor, spokenText } from '../src/listen-steps.js';
 
 const entry = (over = {}) => ({
   id: 'v-need', en: 'need', fr: 'avoir besoin de', definition_en: 'To require something.', definition_fr: 'Avoir l\'utilité de quelque chose.',
@@ -64,4 +64,27 @@ test('keys follow <id>:<step> and are unique', () => {
 test('spokenText turns "=" into a spoken word and keeps french slash as "ou"', () => {
   assert.equal(spokenText('Bland = fade', 'fr'), 'Bland : fade'.replace(' : ', ' veut dire '));
   assert.equal(spokenText('et/ou', 'fr'), 'et ou ou'.replace('et ou ou', 'et ou ou'));
+});
+
+test('regular verb also gets a forms step: base, past, participle', () => {
+  const v = entry({ type: 'regular', en: 'walk', past: 'walked', pastParticiple: 'walked' });
+  const steps = buildSteps(v, 'en-first');
+  assert.deepEqual(ids(steps).slice(0, 3), ['word', 'forms', 'fr']);
+  assert.equal(steps[1].text, 'walk, walked, walked');
+});
+
+const gram = () => ({
+  id: 'g-x', title_fr: 'Le présent simple', rule_fr: ['Règle un.', 'Règle deux.'],
+  examples: [{ en: 'I work.', fr: 'Je travaille.' }, { en: 'She works.', fr: 'Elle travaille.' }], type: 'grammar',
+});
+test('grammar steps: title, each rule, then examples EN then FR', () => {
+  const steps = buildGrammarSteps(gram());
+  assert.deepEqual(ids(steps), ['title', 'r0', 'r1', 'ex0', 'ex0fr', 'ex1', 'ex1fr']);
+  assert.equal(steps[0].key, 'g-x:title');
+  assert.equal(steps[3].lang, 'en-US');
+  assert.equal(steps[4].lang, 'fr-FR');
+});
+test('buildStepsFor picks grammar steps for grammar items and word steps otherwise', () => {
+  assert.equal(buildStepsFor(gram(), 'en-first')[0].id, 'title');
+  assert.equal(buildStepsFor(entry(), 'en-first')[0].id, 'word');
 });
