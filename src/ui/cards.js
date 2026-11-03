@@ -1,3 +1,4 @@
+import { icon } from './icons.js';
 import { h, allEntries, levelBand, shuffled, speakBtn, today, progressBar } from './dom.js';
 import { newCard, review, dueCards } from '../srs.js';
 import { addXp, touchStreak } from '../store.js';
@@ -74,7 +75,7 @@ export function renderCards(root, ctx) {
   function finished() {
     const empty = total === 0;
     body.replaceChildren(h('div', { class: 'card empty stack' },
-      h('div', { class: 'emoji', 'aria-hidden': 'true' }, empty ? '✅' : '🎉'),
+      h('div', { class: 'big-ico', 'aria-hidden': 'true' }, icon(empty ? 'check' : 'sparkles', 44)),
       h('h2', null, empty ? 'Rien à réviser pour le moment' : 'Révision terminée'),
       h('p', { class: 'muted' }, empty
         ? 'Reviens plus tard, ou découvre de nouveaux mots avec le mode écoute.'

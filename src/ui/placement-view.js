@@ -1,3 +1,4 @@
+import { icon } from './icons.js';
 import { h, allEntries, shuffled, LEVELS } from './dom.js';
 import { makeExercise } from '../exercises.js';
 import { placementLevel } from '../placement.js';
@@ -64,7 +65,7 @@ export function renderPlacement(root, ctx) {
   function result() {
     const level = placementLevel(correct, questions.length);
     body.replaceChildren(h('div', { class: 'card empty stack' },
-      h('div', { class: 'emoji', 'aria-hidden': 'true' }, '🎯'),
+      h('div', { class: 'big-ico', 'aria-hidden': 'true' }, icon('target', 44)),
       h('h2', null, `Ton niveau de départ : ${level}`),
       h('p', { class: 'muted' }, `${correct} bonnes réponses sur ${questions.length}.`),
       h('button', { class: 'btn', onclick: () => setLevel(level) }, 'C\'est parti !')));

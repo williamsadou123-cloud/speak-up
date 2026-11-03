@@ -1,3 +1,4 @@
+import { icon } from './icons.js';
 import { h, allEntries, levelBand, speakBtn, today, progressBar, scrollBehavior } from './dom.js';
 import { buildSession, isCorrect } from '../exercises.js';
 import { addXp, touchStreak } from '../store.js';
@@ -20,7 +21,7 @@ export function renderExercises(root, ctx) {
 
   function intro() {
     body.replaceChildren(h('div', { class: 'card stack' },
-      h('div', { class: 'emoji', 'aria-hidden': 'true' }, '✏️'),
+      h('div', { class: 'big-ico', 'aria-hidden': 'true' }, icon('pencil', 44)),
       h('h2', { style: 'margin:0' }, '10 questions, une à la fois'),
       h('p', { class: 'muted', style: 'margin:0' }, 'Tu choisis la bonne réponse, puis une courte explication t\'aide à retenir.'),
       h('label', { class: 'switch' },
@@ -34,7 +35,7 @@ export function renderExercises(root, ctx) {
     i = 0;
     score = 0;
     if (!session.length) {
-      body.replaceChildren(h('div', { class: 'card empty' }, h('div', { class: 'emoji' }, '📭'), h('p', null, 'Pas encore d\'exercices disponibles.')));
+      body.replaceChildren(h('div', { class: 'card empty' }, h('div', { class: 'big-ico' }, icon('inbox', 44)), h('p', null, 'Pas encore d\'exercices disponibles.')));
       return;
     }
     show();
@@ -105,7 +106,7 @@ export function renderExercises(root, ctx) {
 
   function end() {
     body.replaceChildren(h('div', { class: 'card empty stack' },
-      h('div', { class: 'emoji', 'aria-hidden': 'true' }, score >= 8 ? '🏆' : '👏'),
+      h('div', { class: 'big-ico', 'aria-hidden': 'true' }, icon(score >= 8 ? 'trophy' : 'sparkles', 44)),
       h('h2', null, `${score} / ${session.length}`),
       h('p', { class: 'muted' }, `+${score * 10} points. ${score >= 8 ? 'Excellent travail !' : 'Chaque séance te fait progresser.'}`),
       h('div', { class: 'row', style: 'justify-content:center' },

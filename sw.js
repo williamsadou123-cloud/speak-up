@@ -38,6 +38,7 @@ const SHELL = [
   'src/listen-pool.js',
   'src/shared-audio.js',
   'src/ui/keepalive.js',
+  'src/ui/icons.js',
   'src/voice.js',
   'src/learn.js',
   'src/ui/nav.js',

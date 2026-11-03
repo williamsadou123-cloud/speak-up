@@ -1,3 +1,4 @@
+import { icon } from './icons.js';
 import { h, speakBtn, topbar, shuffled, today, progressBar } from './dom.js';
 import { addXp, touchStreak } from '../store.js';
 import { groupIrregular } from '../learn.js';
@@ -134,7 +135,7 @@ export function renderVerbs(root, ctx) {
 
     function summary() {
       area.replaceChildren(h('div', { class: 'card empty stack' },
-        h('div', { class: 'emoji', 'aria-hidden': 'true' }, score >= 8 ? '🏆' : '👏'),
+        h('div', { class: 'big-ico', 'aria-hidden': 'true' }, icon(score >= 8 ? 'trophy' : 'sparkles', 44)),
         h('h2', null, `${score} / ${pool.length}`),
         h('p', { class: 'muted' }, `+${score * 5} points.`),
         h('div', { class: 'row', style: 'justify-content:center' },

@@ -1,3 +1,4 @@
+import { icon } from './icons.js';
 import { h, allEntries, today, yesterday, LEVELS } from './dom.js';
 import { defaultState } from '../store.js';
 import { computeBadges } from '../badges.js';
@@ -29,7 +30,7 @@ export function renderMe(root, ctx) {
       stat(s.lastDay === today() || s.lastDay === yesterday() ? s.streak : 0, 'jours d\'affilée'), stat(s.xp, 'points'), stat(todayXp, 'aujourd\'hui')),
     h('div', { class: 'stats' }, stat(cards.length, 'cartes commencées'), stat(learned, 'mots appris'), stat(s.level, 'niveau')),
     h('a', { class: 'hub-row screen-listen', href: '#/voice' },
-      h('span', { class: 'ico', 'aria-hidden': 'true' }, '🔊'),
+      h('span', { class: 'ico', 'aria-hidden': 'true' }, icon('volume', 28)),
       h('div', null, h('b', null, 'Voix et vitesse'), h('span', { class: 'sub' }, 'Accent, voix, vitesse de lecture')),
       h('span', { class: 'chev', 'aria-hidden': 'true' }, '›')),
     h('div', { class: 'card' },

@@ -419,3 +419,15 @@ select, input[type=text], input[type=search] { border-color: var(--line); }
 .pick .sub, .pick b { padding-right: 70px; }
 a.pill { text-decoration: none; }
 .start-btn { position: sticky; bottom: calc(96px + env(safe-area-inset-bottom)); z-index: 6; }
+
+/* Pictos vectoriels */
+.svg-ico { display: block; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.svg-ico .solid { fill: currentColor; stroke-width: 1; }
+.tab .ico, .cat i, .pl-row .thumb, .hub-row .ico, .tile .ico, .pick .play, .pl-row .go, .icon-btn { display: inline-grid; place-items: center; }
+.cat i { color: var(--mod); }
+.hub-row .ico, .tile .ico, .pl-row .thumb { color: #fff; }
+.btn { gap: 8px; } .btn .svg-ico, .chip .svg-ico, .stat b .svg-ico, summary .svg-ico { display: inline-block; vertical-align: -3px; }
+.stat b { display: flex; align-items: center; justify-content: center; gap: 4px; } .stat b .svg-ico { color: #f97316; }
+.big-ico { width: 88px; height: 88px; margin: 0 auto; border-radius: 50%; display: grid; place-items: center; color: #fff; background: var(--art); box-shadow: 0 14px 34px rgba(110, 60, 230, .4); }
+.tab.on .svg-ico { stroke-width: 2.1; }
+.icon-btn.xl .svg-ico { stroke-width: 1; }

@@ -1,3 +1,4 @@
+import { icon } from './icons.js';
 import { h, topbar, segmented } from './dom.js';
 import { rankVoices } from '../voice.js';
 
@@ -38,11 +39,11 @@ export function renderVoiceSettings(root, ctx) {
         h('h3', null, 'Accent de l\'anglais'),
         segmented([['US', 'Américain', 'en-US'], ['GB', 'Britannique', 'en-GB']], s.voice.accent, (v) => { saveVoice({ accent: v, enName: null }); draw(); }),
         voiceSelect('envoice', 'Voix anglaise', 'en-US', s.voice.enName, (v) => saveVoice({ enName: v })),
-        h('button', { class: 'btn', onclick: () => test('en-US', SAMPLE_EN) }, '▶ Essayer en anglais')),
+        h('button', { class: 'btn', onclick: () => test('en-US', SAMPLE_EN) }, icon('play', 16), ' Essayer en anglais')),
       h('div', { class: 'card stack' },
         h('h3', null, 'Voix française'),
         voiceSelect('frvoice', 'Voix française', 'fr-FR', s.voice.frName, (v) => saveVoice({ frName: v })),
-        h('button', { class: 'btn', onclick: () => test('fr-FR', SAMPLE_FR) }, '▶ Essayer en français')),
+        h('button', { class: 'btn', onclick: () => test('fr-FR', SAMPLE_FR) }, icon('play', 16), ' Essayer en français')),
       h('div', { class: 'card stack' },
         h('h3', null, 'Vitesse de lecture'),
         segmented([[0.7, 'Lente', '0,7×'], [1, 'Normale', '1×'], [1.2, 'Rapide', '1,2×']], s.rate, (v) => { save({ rate: v }); draw(); })),

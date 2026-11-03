@@ -2,6 +2,7 @@ import { h, sleep, shuffled, topbar, segmented, progressBar, scrollBehavior, LEV
 import { buildStepsFor } from '../listen-steps.js';
 import { buildPool, SOURCES } from '../listen-pool.js';
 import { createKeeper } from './keepalive.js';
+import { icon } from './icons.js';
 import { wordSheet } from './sheet.js';
 
 const MODES = [['en-first', 'Anglais d\'abord', 'mot → sens'], ['fr-first', 'Français d\'abord', 'sens → mot']];
@@ -58,10 +59,10 @@ export function renderListen(root, ctx) {
         h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: opts.shuffle, onchange: (e) => { opts.shuffle = e.target.checked; remember(); } }), 'Ordre aléatoire'),
         h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: opts.loop, onchange: (e) => { opts.loop = e.target.checked; remember(); } }), 'Recommencer en boucle'),
         h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: opts.awake, onchange: (e) => { opts.awake = e.target.checked; remember(); } }), 'Garder l\'écran allumé'),
-        h('p', { class: 'muted small', style: 'margin:0' }, '🎧 Mode métro : lance, branche tes écouteurs et verrouille ton téléphone. Pause, suivant et précédent restent sur l\'écran de verrouillage.')),
+        h('p', { class: 'muted small', style: 'margin:0' }, 'Mode métro : lance, branche tes écouteurs et verrouille ton téléphone. Pause, suivant et précédent restent sur l\'écran de verrouillage.')),
       available === 0
         ? h('p', { class: 'muted' }, 'Aucun mot ne correspond à ce choix. Change le thème ou le niveau.')
-        : h('button', { class: 'btn lg block start-btn', onclick: start }, `▶ Lancer (${Math.min(available, opts.count)} éléments)`));
+        : h('button', { class: 'btn lg block start-btn', onclick: start }, icon('play', 18), ` Lancer (${Math.min(available, opts.count)} éléments)`));
   }
 
   function start() {
@@ -96,19 +97,19 @@ export function renderListen(root, ctx) {
     const art = h('div', { class: 'np' },
       h('div', { class: 'np-kind' }), h('div', { class: 'np-word' }), h('div', { class: 'np-sub' }));
     const loopBtn = h('button', { class: 'icon-btn', 'aria-label': 'Boucle', 'aria-pressed': String(opts.loop),
-      onclick: () => { opts.loop = !opts.loop; remember(); loopBtn.setAttribute('aria-pressed', String(opts.loop)); } }, '🔁');
+      onclick: () => { opts.loop = !opts.loop; remember(); loopBtn.setAttribute('aria-pressed', String(opts.loop)); } }, icon('repeat', 22));
     const card = h('div', { class: 'card' }, lines);
-    const fiche = h('details', { class: 'fiche card' }, h('summary', null, '📄 Fiche complète'));
+    const fiche = h('details', { class: 'fiche card' }, h('summary', null, icon('file', 18), ' Fiche complète'));
     const note = h('p', { class: 'banner', hidden: true }, 'Aucune voix n\'est disponible pour cette langue sur cet appareil : le texte défile sans son.');
-    const pauseBtn = h('button', { class: 'icon-btn xl', 'aria-label': 'Pause', onclick: togglePause }, '⏸');
+    const pauseBtn = h('button', { class: 'icon-btn xl', 'aria-label': 'Pause', onclick: togglePause }, icon('pause', 34));
     body.append(
       h('div', { class: 'row between' }, counter, h('button', { class: 'btn ghost', onclick: showSetup }, 'Terminer')),
       bar, note, art, card,
       h('div', { class: 'controls' },
         loopBtn,
-        h('button', { class: 'icon-btn big', 'aria-label': 'Précédent', onclick: () => jump(-1) }, '⏮'),
+        h('button', { class: 'icon-btn big', 'aria-label': 'Précédent', onclick: () => jump(-1) }, icon('prev', 26)),
         pauseBtn,
-        h('button', { class: 'icon-btn big', 'aria-label': 'Suivant', onclick: () => jump(1) }, '⏭'),
+        h('button', { class: 'icon-btn big', 'aria-label': 'Suivant', onclick: () => jump(1) }, icon('next', 26)),
         h('span', { style: 'width:44px', 'aria-hidden': 'true' })),
       fiche);
     ui = { counter, bar, lines, fiche, note, pauseBtn, art };
@@ -140,8 +141,8 @@ export function renderListen(root, ctx) {
     ui.lines.replaceChildren();
     ui.fiche.open = false;
     ui.fiche.hidden = item.type === 'grammar';
-    ui.fiche.replaceChildren(h('summary', null, '📄 Fiche complète'), item.type === 'grammar' ? null : wordSheet(ctx, item));
-    ui.pauseBtn.textContent = '⏸';
+    ui.fiche.replaceChildren(h('summary', null, icon('file', 18), ' Fiche complète'), item.type === 'grammar' ? null : wordSheet(ctx, item));
+    ui.pauseBtn.replaceChildren(icon('pause', 34));
     ui.pauseBtn.setAttribute('aria-label', 'Pause');
     let prev = null;
     for (const step of steps) {
@@ -186,7 +187,7 @@ export function renderListen(root, ctx) {
     session = null;
     keeper.stop();
     body.replaceChildren(h('div', { class: 'card empty stack' },
-      h('div', { class: 'emoji', 'aria-hidden': 'true' }, '🎉'),
+      h('div', { class: 'big-ico', 'aria-hidden': 'true' }, icon('sparkles', 44)),
       h('h2', null, 'Séance terminée'),
       h('p', { class: 'muted' }, `${n} éléments écoutés. Pour les retenir, passe aux cartes de révision.`),
       h('div', { class: 'row', style: 'justify-content:center' },
@@ -214,7 +215,7 @@ export function renderListen(root, ctx) {
       session.gen++;
       ctx.audio.stop();
       keeper.state(false);
-      ui.pauseBtn.textContent = '▶';
+      ui.pauseBtn.replaceChildren(icon('play', 34));
       ui.pauseBtn.setAttribute('aria-label', 'Reprendre');
     }
   }

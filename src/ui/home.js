@@ -1,3 +1,4 @@
+import { icon } from './icons.js';
 import { h, allEntries, today, yesterday } from './dom.js';
 import { dueCards } from '../srs.js';
 
@@ -13,12 +14,12 @@ export function renderHome(root, ctx) {
     ? ['#/cards', `Réviser ${due} carte${due > 1 ? 's' : ''}`, 'Le bon moment pour ne rien oublier', 'Révision du jour']
     : ['#/listen', 'Écoute guidée', 'Mot, sens, exemples, construction. Sans rien toucher.', 'Sélection du jour'];
   const cat = (mod, href, ico, label) =>
-    h('a', { class: `cat ${mod}`, href }, h('i', { 'aria-hidden': 'true' }, ico), label);
+    h('a', { class: `cat ${mod}`, href }, h('i', { 'aria-hidden': 'true' }, icon(ico, 28)), label);
   const row = (src, ico, title, sub) =>
     h('a', { class: 'pl-row screen-listen', href: `#/listen/${src}`, 'aria-label': `Écouter : ${title}` },
-      h('span', { class: 'thumb', 'aria-hidden': 'true' }, ico),
+      h('span', { class: 'thumb', 'aria-hidden': 'true' }, icon(ico, 28)),
       h('div', null, h('b', null, title), h('span', { class: 'sub' }, sub)),
-      h('span', { class: 'go', 'aria-hidden': 'true' }, '▶'));
+      h('span', { class: 'go', 'aria-hidden': 'true' }, icon('play', 16)));
   const irr = c.verbs.filter((v) => v.type === 'irregular').length;
 
   root.append(
@@ -27,22 +28,22 @@ export function renderHome(root, ctx) {
       h('a', { class: 'pill', href: '#/me', 'aria-label': `Mon profil, ${s.xp} points` }, `${s.avatar || '🦊'} ${s.xp}`)),
     h('a', { class: 'pick screen-listen', href: pick[0] },
       h('span', { class: 'kicker' }, pick[3]), h('b', null, pick[1]), h('span', { class: 'sub' }, pick[2]),
-      h('span', { class: 'play', 'aria-hidden': 'true' }, '▶')),
+      h('span', { class: 'play', 'aria-hidden': 'true' }, icon('play', 24))),
     h('div', { class: 'stats' },
-      h('div', { class: 'stat' }, h('b', null, `🔥 ${streakAlive ? s.streak : 0}`), h('span', null, 'jours d\'affilée')),
+      h('div', { class: 'stat' }, h('b', null, icon('flame', 20), ` ${streakAlive ? s.streak : 0}`), h('span', null, 'jours d\'affilée')),
       h('div', { class: 'stat' }, h('b', null, `${Math.min(todayXp, s.dailyGoal)}/${s.dailyGoal}`), h('span', null, 'points du jour')),
       h('a', { class: 'stat', href: '#/placement', 'aria-label': 'Changer de niveau' }, h('b', null, s.level), h('span', null, 'mon niveau'))),
     h('div', { class: 'section-title' }, 'Catégories'),
     h('div', { class: 'cats' },
-      cat('screen-listen', '#/listen', '🎧', 'Écouter'),
-      cat('screen-vocab', '#/vocab', '🗂️', 'Vocabulaire'),
-      cat('screen-verbs', '#/verbs', '🏃', 'Verbes'),
-      cat('screen-expressions', '#/expressions', '💬', 'Expressions'),
-      cat('screen-grammar', '#/grammar', '📘', 'Grammaire'),
-      cat('screen-exercises', '#/exercises', '✏️', 'Pratiquer')),
-    h('div', { class: 'section-title' }, 'Mode métro 🎧', h('span', { class: 'sub muted small' }, 'lance, verrouille, écoute')),
-    row('irregular', '🏃', 'Verbes irréguliers', `${irr} verbes en boucle`),
-    row('grammar', '📘', 'Grammaire', `${c.grammar.length} leçons à écouter`),
-    row('expressions', '💬', 'Expressions', `${c.expressions.length} expressions`),
-    row('mix', '🎲', 'Mélange de tout', 'Mots, verbes, expressions, grammaire'));
+      cat('screen-listen', '#/listen', 'headphones', 'Écouter'),
+      cat('screen-vocab', '#/vocab', 'layers', 'Vocabulaire'),
+      cat('screen-verbs', '#/verbs', 'zap', 'Verbes'),
+      cat('screen-expressions', '#/expressions', 'message', 'Expressions'),
+      cat('screen-grammar', '#/grammar', 'file', 'Grammaire'),
+      cat('screen-exercises', '#/exercises', 'pencil', 'Pratiquer')),
+    h('div', { class: 'section-title' }, 'Mode métro', h('span', { class: 'sub muted small' }, 'lance, verrouille, écoute')),
+    row('irregular', 'zap', 'Verbes irréguliers', `${irr} verbes en boucle`),
+    row('grammar', 'file', 'Grammaire', `${c.grammar.length} leçons à écouter`),
+    row('expressions', 'message', 'Expressions', `${c.expressions.length} expressions`),
+    row('mix', 'shuffle', 'Mélange de tout', 'Mots, verbes, expressions, grammaire'));
 }

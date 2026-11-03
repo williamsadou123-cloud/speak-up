@@ -1,3 +1,4 @@
+import { icon } from './icons.js';
 import { h, speakBtn, topbar, today, progressBar } from './dom.js';
 import { addXp, touchStreak } from '../store.js';
 import { buildMatchQuiz } from '../learn.js';
@@ -18,7 +19,7 @@ export function renderExpressions(root, ctx) {
   function show() {
     nav.replaceChildren(
       ...topics.map((t) => h('button', { class: `chip${t === tab ? ' on' : ''}`, 'aria-pressed': t === tab, onclick: () => { tab = t; openId = null; show(); } }, NAMES[t] || t)),
-      h('button', { class: `chip${tab === 'quiz' ? ' on' : ''}`, 'aria-pressed': tab === 'quiz', onclick: () => { tab = 'quiz'; show(); } }, '🎯 Quiz'));
+      h('button', { class: `chip${tab === 'quiz' ? ' on' : ''}`, 'aria-pressed': tab === 'quiz', onclick: () => { tab = 'quiz'; show(); } }, icon('target', 18), ' Quiz'));
     body.replaceChildren();
     if (tab === 'quiz') quiz();
     else body.append(...list.filter((e) => e.topic === tab).map(item));
@@ -78,7 +79,7 @@ export function renderExpressions(root, ctx) {
 
     function summary() {
       area.replaceChildren(h('div', { class: 'card empty stack' },
-        h('div', { class: 'emoji', 'aria-hidden': 'true' }, score >= 8 ? '🏆' : '👏'),
+        h('div', { class: 'big-ico', 'aria-hidden': 'true' }, icon(score >= 8 ? 'trophy' : 'sparkles', 44)),
         h('h2', null, `${score} / ${questions.length}`),
         h('p', { class: 'muted' }, `+${score * 5} points.`),
         h('button', { class: 'btn', onclick: show }, 'Recommencer')));

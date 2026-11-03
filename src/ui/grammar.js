@@ -1,3 +1,4 @@
+import { icon } from './icons.js';
 import { h, speakBtn, topbar, today, progressBar } from './dom.js';
 import { addXp, touchStreak } from '../store.js';
 
@@ -23,7 +24,7 @@ export function renderGrammar(root, ctx) {
   function list() {
     body.replaceChildren(...lessons.map((g) =>
       h('button', { class: 'hub-row', onclick: () => open(g) },
-        h('span', { class: 'ico', 'aria-hidden': 'true' }, '📘'),
+        h('span', { class: 'ico', 'aria-hidden': 'true' }, icon('file', 28)),
         h('div', null, h('b', null, g.title_fr), h('span', { class: 'sub' }, `Niveau ${g.level} · ${g.exercises.length} exercices`)),
         h('span', { class: 'chev', 'aria-hidden': 'true' }, '›'))));
   }
@@ -72,7 +73,7 @@ export function renderGrammar(root, ctx) {
     function result() {
       const total = g.exercises.length;
       body.replaceChildren(h('div', { class: 'card empty stack' },
-        h('div', { class: 'emoji', 'aria-hidden': 'true' }, right === total ? '🏆' : '👏'),
+        h('div', { class: 'big-ico', 'aria-hidden': 'true' }, icon(right === total ? 'trophy' : 'sparkles', 44)),
         h('h2', null, `${right} / ${total}`),
         h('p', { class: 'muted' }, `+${right * 10} points. ${right === total ? 'Parfait !' : 'Relis la règle et réessaie quand tu veux.'}`),
         h('div', { class: 'row', style: 'justify-content:center' },

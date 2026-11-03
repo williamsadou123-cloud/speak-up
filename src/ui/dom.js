@@ -1,3 +1,4 @@
+import { icon } from './icons.js';
 import { LEVELS } from '../placement.js';
 
 export { LEVELS };
@@ -59,7 +60,7 @@ export function levelBand(level) {
 // `back` : lien de retour (null = pas de bouton, pour les écrans d'onglet).
 export function topbar(title, back = '#/learn') {
   return h('header', { class: 'topbar' },
-    back ? h('a', { class: 'back', href: back, 'aria-label': 'Retour' }, '←') : null,
+    back ? h('a', { class: 'back', href: back, 'aria-label': 'Retour' }, icon('back', 22)) : null,
     h('h1', null, title));
 }
 
@@ -92,7 +93,7 @@ export function speakBtn(ctx, key, text, lang = 'en-US', label = 'Écouter', sho
       const r = await ctx.audio.speak(key, text, lang, ctx.rate || 1);
       if (r === 'none') b.title = 'Aucune voix disponible sur cet appareil';
     },
-  }, '🔊');
+  }, icon('volume', 22));
 }
 
 export function paragraphs(text) {
