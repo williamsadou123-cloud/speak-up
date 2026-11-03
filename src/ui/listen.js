@@ -10,10 +10,14 @@ const MODE_HELP = {
   'fr-first': 'Tu entends le mot français et la définition en anglais, tu devines le mot (4 secondes), puis la réponse et la suite.',
 };
 
+const KINDS = { irregular: 'Verbe irrégulier', regular: 'Verbe régulier', grammar: 'Grammaire' };
+
 let remembered = { mode: 'en-first', source: 'vocab', loop: true, shuffle: true, count: 20, awake: false };
 
 export function renderListen(root, ctx) {
   const opts = { ...remembered, topic: 'all', level: 'all', rate: ctx.state.rate || 1 };
+  const preset = location.hash.split('/')[2];
+  if (SOURCES.some(([k]) => k === preset)) opts.source = preset;
   let session = null;
   const keeper = createKeeper();
 
@@ -57,7 +61,7 @@ export function renderListen(root, ctx) {
         h('p', { class: 'muted small', style: 'margin:0' }, '🎧 Mode métro : lance, branche tes écouteurs et verrouille ton téléphone. Pause, suivant et précédent restent sur l\'écran de verrouillage.')),
       available === 0
         ? h('p', { class: 'muted' }, 'Aucun mot ne correspond à ce choix. Change le thème ou le niveau.')
-        : h('button', { class: 'btn lg block', onclick: start }, `▶ Lancer (${Math.min(available, opts.count)} éléments)`));
+        : h('button', { class: 'btn lg block start-btn', onclick: start }, `▶ Lancer (${Math.min(available, opts.count)} éléments)`));
   }
 
   function start() {
@@ -89,19 +93,25 @@ export function renderListen(root, ctx) {
     const counter = h('span', { class: 'muted small', 'aria-live': 'off' });
     const bar = h('div');
     const lines = h('div', { class: 'listen-lines' });
+    const art = h('div', { class: 'np' },
+      h('div', { class: 'np-kind' }), h('div', { class: 'np-word' }), h('div', { class: 'np-sub' }));
+    const loopBtn = h('button', { class: 'icon-btn', 'aria-label': 'Boucle', 'aria-pressed': String(opts.loop),
+      onclick: () => { opts.loop = !opts.loop; remember(); loopBtn.setAttribute('aria-pressed', String(opts.loop)); } }, '🔁');
     const card = h('div', { class: 'card' }, lines);
     const fiche = h('details', { class: 'fiche card' }, h('summary', null, '📄 Fiche complète'));
     const note = h('p', { class: 'banner', hidden: true }, 'Aucune voix n\'est disponible pour cette langue sur cet appareil : le texte défile sans son.');
     const pauseBtn = h('button', { class: 'icon-btn xl', 'aria-label': 'Pause', onclick: togglePause }, '⏸');
     body.append(
       h('div', { class: 'row between' }, counter, h('button', { class: 'btn ghost', onclick: showSetup }, 'Terminer')),
-      bar, note, card,
+      bar, note, art, card,
       h('div', { class: 'controls' },
+        loopBtn,
         h('button', { class: 'icon-btn big', 'aria-label': 'Précédent', onclick: () => jump(-1) }, '⏮'),
         pauseBtn,
-        h('button', { class: 'icon-btn big', 'aria-label': 'Suivant', onclick: () => jump(1) }, '⏭')),
+        h('button', { class: 'icon-btn big', 'aria-label': 'Suivant', onclick: () => jump(1) }, '⏭'),
+        h('span', { style: 'width:44px', 'aria-hidden': 'true' })),
       fiche);
-    ui = { counter, bar, lines, fiche, note, pauseBtn };
+    ui = { counter, bar, lines, fiche, note, pauseBtn, art };
   }
 
   function lineFor(step) {
@@ -122,6 +132,9 @@ export function renderListen(root, ctx) {
     const steps = buildStepsFor(item, opts.mode);
     keeper.meta(item.en || item.title_fr, item.fr || (item.type === 'grammar' ? 'Grammaire' : ''));
     keeper.state(true);
+    ui.art.children[0].textContent = KINDS[item.type] || (item.id.startsWith('x-') ? 'Expression' : 'Mot');
+    ui.art.children[1].textContent = item.en || item.title_fr;
+    ui.art.children[2].textContent = item.fr || '';
     ui.counter.textContent = `${s.i + 1} / ${s.items.length}`;
     ui.bar.replaceChildren(progressBar(((s.i) / s.items.length) * 100, 'Séance'));
     ui.lines.replaceChildren();
