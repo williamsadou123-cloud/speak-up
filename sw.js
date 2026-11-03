@@ -1,7 +1,7 @@
 // Réseau d'abord (contenu toujours à jour), cache en secours pour l'usage hors ligne.
 const CACHE = 'speak-up-v6';
 // Les mp3 ont leur propre cache : il survit aux mises à jour de l'application.
-const AUDIO_CACHE = 'speak-up-audio-v1';
+const AUDIO_CACHE = 'speak-up-audio-v2';
 const IS_MP3 = /\/audio\/[^/]+\.mp3$/;
 const SHELL = [
   './',

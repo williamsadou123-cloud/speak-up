@@ -88,3 +88,24 @@ test('regular verbs get a forms job and grammar gets title, rule and example fr 
   assert.equal(jobs['g-x:r1'].text, 'Deux.');
   assert.equal(jobs['g-x:ex0fr'].lang, 'fr');
 });
+
+import { requestBody, selectJobs } from '../tools/generate-audio.mjs';
+
+test('French requests force the language (short words are not guessed as English)', () => {
+  const b = requestBody({ text: 'logement', lang: 'fr' });
+  assert.equal(b.language_code, 'fr');
+  assert.equal(b.model_id, 'eleven_turbo_v2_5');
+  assert.equal(b.text, 'logement');
+});
+test('English requests keep the multilingual model', () => {
+  assert.equal(requestBody({ text: 'home', lang: 'en' }).model_id, 'eleven_multilingual_v2');
+});
+test('selectJobs filters by language and maximum number of words', () => {
+  const jobs = [
+    { key: 'a:fr', text: 'logement', lang: 'fr' },
+    { key: 'a:def', text: 'Un endroit où vivre ou rester.', lang: 'fr' },
+    { key: 'a:word', text: 'home', lang: 'en' },
+  ];
+  assert.deepEqual(selectJobs(jobs, { lang: 'fr', maxWords: 3 }).map((j) => j.key), ['a:fr']);
+  assert.equal(selectJobs(jobs, {}).length, 3);
+});

@@ -1,7 +1,7 @@
 // Génère les mp3 ElevenLabs pour tout le contenu et remplit audio/manifest.json.
 // Usage :
 //   ELEVENLABS_API_KEY=... node tools/generate-audio.mjs --voice-en <id> --voice-fr <id> [--limit N] [--only word,fr,ex] [--dry-run]
-// --only : ne génère que ces types (word, fr, def, defen, forms, ex, exfr, con, tip) ; --dry-run affiche le nombre de fichiers et de caractères.
+// --force --lang fr --max-words 3 : régénère les fichiers français courts ; --only : ne génère que ces types (word, fr, def, defen, forms, ex, exfr, con, tip) ; --dry-run affiche le nombre de fichiers et de caractères.
 // La clé n'est lue que dans l'environnement : elle n'est jamais écrite dans un fichier de l'app.
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
@@ -42,6 +42,17 @@ export function buildJobs(content) {
 export const kindOf = (key) => key.split(':')[1].replace(/^ex\d+(fr)?$/, (m) => (m.endsWith('fr') ? 'exfr' : 'ex'));
 export const onlyKinds = (jobs, kinds) => (kinds && kinds.length ? jobs.filter((j) => kinds.includes(kindOf(j.key))) : jobs);
 
+// Le français est forcé : sinon un mot isolé comme « logement » est deviné anglais et lu avec l'accent anglais.
+export function requestBody(job) {
+  return job.lang === 'fr'
+    ? { text: job.text, model_id: 'eleven_turbo_v2_5', language_code: 'fr' }
+    : { text: job.text, model_id: 'eleven_multilingual_v2' };
+}
+
+export function selectJobs(jobs, { lang, maxWords } = {}) {
+  return jobs.filter((j) => (!lang || j.lang === lang) && (!maxWords || j.text.split(/\s+/).length <= maxWords));
+}
+
 export const pendingJobs = (jobs, exists) => jobs.filter((j) => !exists(j.file));
 
 export function requireApiKey(env) {
@@ -67,7 +78,9 @@ async function main() {
   const content = { vocab: read('vocab'), verbs: read('verbs'), expressions: read('expressions'), grammar: read('grammar') };
   const limit = Number(arg('limit')) || Infinity;
   const only = (arg('only') || '').split(',').filter(Boolean);
-  const todo = pendingJobs(onlyKinds(buildJobs(content), only), existsSync).slice(0, limit);
+  const force = process.argv.includes('--force'); // régénère même si le fichier existe (avec --lang / --max-words)
+  const picked = selectJobs(onlyKinds(buildJobs(content), only), { lang: arg('lang'), maxWords: Number(arg('max-words')) || 0 });
+  const todo = (force ? picked : pendingJobs(picked, existsSync)).slice(0, limit);
   const chars = todo.reduce((n, j) => n + j.text.length, 0);
   console.log(`${todo.length} fichiers à générer (${chars} caractères).`);
   if (dryRun) return;
@@ -79,7 +92,7 @@ async function main() {
     const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voices[job.lang]}`, {
       method: 'POST',
       headers: { 'xi-api-key': key, 'Content-Type': 'application/json', Accept: 'audio/mpeg' },
-      body: JSON.stringify({ text: job.text, model_id: 'eleven_multilingual_v2' }),
+      body: JSON.stringify(requestBody(job)),
     });
     if (!res.ok) {
       console.error(`Échec ${res.status} pour ${job.key}`);
