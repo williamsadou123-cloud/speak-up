@@ -1,6 +1,6 @@
 import { h, sleep, shuffled, topbar, segmented, progressBar, scrollBehavior, LEVELS } from './dom.js';
 import { buildStepsFor } from '../listen-steps.js';
-import { gapMs, itemGapMs, guessMs, nearestRate, PACES } from '../listen-pace.js';
+import { gapMs, itemGapMs, guessMs, nearestRate, PACES, RATES } from '../listen-pace.js';
 import { buildPool, SOURCES } from '../listen-pool.js';
 import { createKeeper } from './keepalive.js';
 import { icon } from './icons.js';
@@ -56,8 +56,8 @@ export function renderListen(root, ctx) {
         select('topic', 'Thème', [['all', 'Tous les thèmes'], ...topics.map((t) => [t, t])], opts.topic, (v) => { opts.topic = v; showSetup(); }),
         select('lvl', 'Niveau', [['all', 'Tous les niveaux'], ...LEVELS.map((l) => [l, l])], opts.level, (v) => { opts.level = v; showSetup(); }),
         select('count', 'Nombre d\'éléments', [['10', '10'], ['20', '20'], ['50', '50'], ['9999', 'Tous']], opts.count, (v) => { opts.count = Number(v); remember(); showSetup(); }),
-        select('rate', 'Vitesse de lecture', [['0.85', 'Posée (0,85×)'], ['1', 'Normale (1×)'], ['1.2', 'Rapide (1,2×)']], opts.rate, (v) => { opts.rate = Number(v); ctx.update((st) => ({ ...st, rate: opts.rate })); }),
-        select('pace', 'Temps pour répéter', PACES, opts.pace, (v) => { opts.pace = v; remember(); }),
+        select('rate', 'Vitesse de lecture', RATES.map((r) => [String(r), `${String(r).replace('.', ',')}×${r === 1 ? ' (normale)' : ''}`]), opts.rate, (v) => { opts.rate = Number(v); ctx.update((st) => ({ ...st, rate: opts.rate })); }),
+        select('pace', 'Pause avant l\'étape suivante', PACES, opts.pace, (v) => { opts.pace = v; remember(); }),
         h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: opts.shuffle, onchange: (e) => { opts.shuffle = e.target.checked; remember(); } }), 'Ordre aléatoire'),
         h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: opts.loop, onchange: (e) => { opts.loop = e.target.checked; remember(); } }), 'Recommencer en boucle'),
         h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: opts.awake, onchange: (e) => { opts.awake = e.target.checked; remember(); } }), 'Garder l\'écran allumé'),

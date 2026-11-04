@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { gapMs, itemGapMs, guessMs, PACES, nearestRate } from '../src/listen-pace.js';
+import { gapMs, itemGapMs, guessMs, PACES, RATES, nearestRate } from '../src/listen-pace.js';
 
 const en = { lang: 'en-US' }; const fr = { lang: 'fr-FR' };
 
@@ -22,12 +22,30 @@ test('gap between items and guess pause grow with the pace', () => {
   assert.ok(itemGapMs('long') > itemGapMs('normal') && itemGapMs('normal') > itemGapMs('short'));
   assert.ok(guessMs('long') > guessMs('normal') && guessMs('normal') > guessMs('short'));
 });
-test('unknown pace falls back to normal; PACES lists three choices', () => {
+test('unknown pace falls back to normal', () => {
   assert.equal(gapMs(en, 2000, 'x'), gapMs(en, 2000, 'normal'));
-  assert.equal(PACES.length, 3);
 });
-test('nearestRate snaps an old 0.7 setting to the slowest available speed', () => {
-  assert.equal(nearestRate(0.7), 0.85);
-  assert.equal(nearestRate(1), 1);
-  assert.equal(nearestRate(1.2), 1.2);
+test('PACES offers 3 automatic choices and fixed pauses from 1 to 10 seconds', () => {
+  const ids = PACES.map(([k]) => k);
+  assert.deepEqual(ids.slice(0, 3), ['short', 'normal', 'long']);
+  assert.ok(ids.includes('fixed:1') && ids.includes('fixed:4') && ids.includes('fixed:10'));
+  assert.equal(PACES.length, 13);
+});
+test('a fixed pause is exactly N seconds after every step, English or French, whatever the clip length', () => {
+  assert.equal(gapMs(en, 500, 'fixed:3'), 3000);
+  assert.equal(gapMs(en, 9000, 'fixed:3'), 3000);
+  assert.equal(gapMs(fr, 1200, 'fixed:2'), 2000);
+});
+test('fixed pause also sets the gap between items and the guess time (at least 3 s)', () => {
+  assert.equal(itemGapMs('fixed:5'), 5000);
+  assert.equal(itemGapMs('fixed:1'), 1500);
+  assert.equal(guessMs('fixed:6'), 6000);
+  assert.equal(guessMs('fixed:1'), 3000);
+});
+test('RATES go from 0.7 to 1.5 and nearestRate snaps to them', () => {
+  assert.equal(RATES[0], 0.7);
+  assert.equal(RATES[RATES.length - 1], 1.5);
+  assert.equal(nearestRate(0.7), 0.7);
+  assert.equal(nearestRate(1.45), 1.4);
+  assert.equal(nearestRate(2), 1.5);
 });
