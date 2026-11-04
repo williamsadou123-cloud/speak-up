@@ -1,0 +1,237 @@
+[
+ {
+  "key": "v-sore:word",
+  "expected": "sore",
+  "heard": "So the"
+ },
+ {
+  "key": "v-bake:word",
+  "expected": "bake",
+  "heard": "Bach"
+ },
+ {
+  "key": "v-neighbour:word",
+  "expected": "neighbour",
+  "heard": "Neighbor"
+ },
+ {
+  "key": "v-chore:word",
+  "expected": "chore",
+  "heard": " surely"
+ },
+ {
+  "key": "v-cosy:word",
+  "expected": "cosy",
+  "heard": "Cozy"
+ },
+ {
+  "key": "v-neighbourhood:word",
+  "expected": "neighbourhood",
+  "heard": "Neighborhood"
+ },
+ {
+  "key": "v-queue:word",
+  "expected": "queue",
+  "heard": "Q"
+ },
+ {
+  "key": "v-mess:word",
+  "expected": "mess",
+  "heard": "Mass"
+ },
+ {
+  "key": "v-miss-the-bus:word",
+  "expected": "miss the bus",
+  "heard": "Missed the bus"
+ },
+ {
+  "key": "v-shore:word",
+  "expected": "shore",
+  "heard": "Sure"
+ },
+ {
+  "key": "vb-be:word",
+  "expected": "be",
+  "heard": "B"
+ },
+ {
+  "key": "vb-be:forms",
+  "expected": "be, was or were, been",
+  "heard": "B, was or were, been"
+ },
+ {
+  "key": "vb-come:word",
+  "expected": "come",
+  "heard": "Kumi"
+ },
+ {
+  "key": "vb-see:word",
+  "expected": "see",
+  "heard": "C"
+ },
+ {
+  "key": "vb-know:word",
+  "expected": "know",
+  "heard": "No"
+ },
+ {
+  "key": "vb-know:forms",
+  "expected": "know, knew, known",
+  "heard": "No new known"
+ },
+ {
+  "key": "vb-say:forms",
+  "expected": "say, said, said",
+  "heard": "Say, said Ced"
+ },
+ {
+  "key": "vb-write:word",
+  "expected": "write",
+  "heard": "Right?"
+ },
+ {
+  "key": "vb-read:word",
+  "expected": "read",
+  "heard": "Red"
+ },
+ {
+  "key": "vb-read:forms",
+  "expected": "read, read, read",
+  "heard": "Red, red, red"
+ },
+ {
+  "key": "vb-buy:word",
+  "expected": "buy",
+  "heard": "Bye"
+ },
+ {
+  "key": "vb-meet:word",
+  "expected": "meet",
+  "heard": "Meat"
+ },
+ {
+  "key": "vb-send:forms",
+  "expected": "send, sent, sent",
+  "heard": "Send, send, send"
+ },
+ {
+  "key": "vb-wear:word",
+  "expected": "wear",
+  "heard": "Where?"
+ },
+ {
+  "key": "vb-wear:forms",
+  "expected": "wear, wore, worn",
+  "heard": "Where war worn"
+ },
+ {
+  "key": "vb-win:forms",
+  "expected": "win, won, won",
+  "heard": "Win one one"
+ },
+ {
+  "key": "vb-put:forms",
+  "expected": "put, put, put",
+  "heard": "Putt putt putt"
+ },
+ {
+  "key": "vb-hear:word",
+  "expected": "hear",
+  "heard": "Here"
+ },
+ {
+  "key": "vb-lend:word",
+  "expected": "lend",
+  "heard": "Land"
+ },
+ {
+  "key": "vb-lend:forms",
+  "expected": "lend, lent, lent",
+  "heard": "Land lent lent"
+ },
+ {
+  "key": "vb-steal:word",
+  "expected": "steal",
+  "heard": "Steel"
+ },
+ {
+  "key": "vb-throw:forms",
+  "expected": "throw, threw, thrown",
+  "heard": "Throw, through, thrown"
+ },
+ {
+  "key": "vb-wake:word",
+  "expected": "wake",
+  "heard": "Wakey"
+ },
+ {
+  "key": "vb-bite:word",
+  "expected": "bite",
+  "heard": "Byte"
+ },
+ {
+  "key": "vb-burst:word",
+  "expected": "burst",
+  "heard": "He burst"
+ },
+ {
+  "key": "vb-dance:forms",
+  "expected": "dance, danced, danced",
+  "heard": "Danced, danced, danced"
+ },
+ {
+  "key": "vb-carry:word",
+  "expected": "carry",
+  "heard": "Carrie"
+ },
+ {
+  "key": "vb-arrive:word",
+  "expected": "arrive",
+  "heard": "Arrivé"
+ },
+ {
+  "key": "vb-travel:forms",
+  "expected": "travel, travelled, travelled",
+  "heard": "Travel, traveled, traveled"
+ },
+ {
+  "key": "vb-use:word",
+  "expected": "use",
+  "heard": "News?"
+ },
+ {
+  "key": "vb-practise:word",
+  "expected": "practise",
+  "heard": "Practice"
+ },
+ {
+  "key": "vb-practise:forms",
+  "expected": "practise, practised, practised",
+  "heard": "Practice, practice, practice"
+ },
+ {
+  "key": "vb-postpone:forms",
+  "expected": "postpone, postponed, postponed",
+  "heard": "Postponed, postponed, postponed"
+ },
+ {
+  "key": "vb-apologise:word",
+  "expected": "apologise",
+  "heard": "Apologize"
+ },
+ {
+  "key": "vb-apologise:forms",
+  "expected": "apologise, apologised, apologised",
+  "heard": "Apologize, apologized, apologized"
+ },
+ {
+  "key": "vb-refuse:forms",
+  "expected": "refuse, refused, refused",
+  "heard": "Refused, refused, refused"
+ },
+ {
+  "key": "x-work-out:word",
+  "expected": "work out",
+  "heard": "Workout"
+ }
+]
