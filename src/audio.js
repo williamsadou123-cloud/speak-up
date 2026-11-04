@@ -19,12 +19,13 @@ export function createAudio({ manifest, speech, makeAudio, getPrefs }) {
     current = el;
     el.playbackRate = rate;
     await el.play();
-    await new Promise((resolve) => {
-      const timer = setTimeout(resolve, 30000); // flux bloqué : on ne fige pas la séance
-      const done = () => { clearTimeout(timer); release = null; resolve(); };
-      release = done;
-      el.addEventListener('ended', done);
-      el.addEventListener('error', done);
+    // 'ended' = lu jusqu'au bout ; 'error' = le fichier a échoué en cours de route (on passera à la voix de secours).
+    return new Promise((resolve) => {
+      const timer = setTimeout(() => resolve('ended'), 30000); // flux bloqué : on ne fige pas la séance
+      const finish = (how) => () => { clearTimeout(timer); release = null; resolve(how); };
+      release = finish('ended');
+      el.addEventListener('ended', release);
+      el.addEventListener('error', finish('error'));
     });
   }
 
@@ -57,8 +58,8 @@ export function createAudio({ manifest, speech, makeAudio, getPrefs }) {
       const mine = epoch;
       if (manifest && manifest[key]) {
         try {
-          await playFile(manifest[key], rate);
-          return 'file';
+          if ((await playFile(manifest[key], rate)) === 'ended') return 'file';
+          if (mine !== epoch) return 'none';
         } catch {
           if (mine !== epoch) return 'none'; // arrêté pendant le chargement : ne pas lire l'ancien texte
         }

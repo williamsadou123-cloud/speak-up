@@ -122,3 +122,11 @@ test('speak stops the clip that is already playing', async () => {
   a.stop();
   await Promise.all([first, second]);
 });
+
+test('falls back to speech when the file starts then fails (error event), instead of staying silent', async () => {
+  const sp = speech();
+  const errAfterPlay = () => ({ play: async () => {}, pause() {}, addEventListener(e, f) { if (e === 'error') setTimeout(f, 0); }, removeEventListener() {} });
+  const a = createAudio({ manifest: { k: 'x.mp3' }, speech: sp, makeAudio: errAfterPlay });
+  assert.equal(await a.speak('k', 'hi', 'en-US', 1), 'speech');
+  assert.equal(sp.spoken.length, 1);
+});

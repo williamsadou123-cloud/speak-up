@@ -2,6 +2,10 @@ import { silentWavUri } from '../shared-audio.js';
 
 // Garde la lecture active écran verrouillé : boucle silencieuse, commandes de l'écran de verrouillage,
 // et (en option) écran allumé. À démarrer depuis un clic pour que le navigateur l'autorise.
+// Sur iPhone, un second lecteur audio qui joue en même temps peut couper la voix : on s'en passe.
+const isIOS = () => typeof navigator !== 'undefined'
+  && (/iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1));
+
 export function createKeeper() {
   let silent = null;
   let lock = null;
@@ -19,12 +23,12 @@ export function createKeeper() {
 
   return {
     start({ awake = false, onPlay, onPause, onNext, onPrev } = {}) {
-      if (!silent) {
+      if (!silent && !isIOS()) {
         silent = new Audio(silentWavUri());
         silent.loop = true;
         silent.volume = 0.01;
       }
-      silent.play().catch(() => {});
+      if (silent) silent.play().catch(() => {});
       if (ms) {
         const set = (a, f) => { try { ms.setActionHandler(a, f); } catch { /* action non gérée */ } };
         set('play', onPlay); set('pause', onPause); set('nexttrack', onNext); set('previoustrack', onPrev);
