@@ -27,3 +27,11 @@ export function pickVoice(voices, lang, accent, preferredName) {
   }
   return ranked[0] || null;
 }
+
+// Ce que l'appareil expose réellement : sert à comprendre pourquoi une voix téléchargée n'apparaît pas.
+export function summarizeVoices(voices) {
+  const all = (voices || []).map((v) => ({ name: v.name, lang: norm(v.lang), local: !!v.localService }))
+    .sort((a, b) => a.name.localeCompare(b.name));
+  const count = (base) => all.filter((v) => v.lang.startsWith(base)).length;
+  return { total: all.length, en: count('en'), fr: count('fr'), all };
+}

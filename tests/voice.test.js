@@ -54,3 +54,17 @@ test('well-known natural voices rank above unknown ones', () => {
 test('a novelty voice is still returned when it is the only one', () => {
   assert.equal(pickVoice([v('Albert', 'en-US')], 'en-US', 'US').name, 'Albert');
 });
+
+import { summarizeVoices } from '../src/voice.js';
+test('summarizeVoices counts English and French voices and lists every voice with its language', () => {
+  const voices = [
+    { name: 'Samantha', lang: 'en-US' }, { name: 'Daniel', lang: 'en_GB' },
+    { name: 'Amélie', lang: 'fr-CA' }, { name: 'Thomas', lang: 'fr-FR' }, { name: 'Anna', lang: 'de-DE' },
+  ];
+  const s = summarizeVoices(voices);
+  assert.equal(s.total, 5);
+  assert.equal(s.en, 2);
+  assert.equal(s.fr, 2);
+  assert.deepEqual(s.all.map((v) => v.name), ['Amélie', 'Anna', 'Daniel', 'Samantha', 'Thomas']);
+  assert.deepEqual(summarizeVoices(null), { total: 0, en: 0, fr: 0, all: [] });
+});
