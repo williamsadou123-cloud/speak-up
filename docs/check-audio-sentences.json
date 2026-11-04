@@ -1,0 +1,472 @@
+[
+ {
+  "key": "v-journey:defen",
+  "expected": "An act of travelling from one place to another.",
+  "heard": "An act of traveling from one place to another"
+ },
+ {
+  "key": "v-itinerary:con",
+  "expected": "our plus itinerary plus include plus noun",
+  "heard": "R plus itinerary plus include plus noun"
+ },
+ {
+  "key": "v-reservation:defen",
+  "expected": "An arrangement to keep a seat or room for you.",
+  "heard": "An arrangement to keep a cedar room for you"
+ },
+ {
+  "key": "v-abroad:ex1",
+  "expected": "Have you ever travelled abroad?",
+  "heard": "Have you ever traveled abroad?"
+ },
+ {
+  "key": "v-commute:ex0",
+  "expected": "My commute takes forty minutes.",
+  "heard": "My commute takes 40 minutes."
+ },
+ {
+  "key": "v-deadline:con",
+  "expected": "the deadline plus be plus day",
+  "heard": "The deadline plus B plus day"
+ },
+ {
+  "key": "v-self-employed:con",
+  "expected": "be plus self-employed",
+  "heard": "B plus self-employed"
+ },
+ {
+  "key": "v-stakeholder:ex1",
+  "expected": "The stakeholders approved the plan.",
+  "heard": "The stakeholders approve the plan"
+ },
+ {
+  "key": "v-exhausted:con",
+  "expected": "be plus exhausted plus after plus noun",
+  "heard": "B, plus exhausted, plus after, plus noun"
+ },
+ {
+  "key": "v-exercise:con",
+  "expected": "do plus exercise",
+  "heard": "Dopplers exercise"
+ },
+ {
+  "key": "v-pain:con",
+  "expected": "have plus a pain plus in plus body part",
+  "heard": "Have plus a pain, plus and plus body part"
+ },
+ {
+  "key": "v-bland:defen",
+  "expected": "Having little taste or flavour.",
+  "heard": "Having little taste or flavor"
+ },
+ {
+  "key": "v-bland:con",
+  "expected": "be plus a bit plus bland",
+  "heard": "B plus a bit plus bland"
+ },
+ {
+  "key": "v-spicy:defen",
+  "expected": "Having a strong, hot flavour.",
+  "heard": "Having a strong hot flavor"
+ },
+ {
+  "key": "v-waiter:con",
+  "expected": "the waiter plus be plus adjective",
+  "heard": "The waiter plus by plus adjective"
+ },
+ {
+  "key": "v-vegetarian:con",
+  "expected": "be plus vegetarian",
+  "heard": "B plus vegetarian"
+ },
+ {
+  "key": "v-chop:con",
+  "expected": "chop plus noun plus adverb",
+  "heard": "Cha plus noun plus adverb"
+ },
+ {
+  "key": "v-neighbour:ex0",
+  "expected": "My neighbour is very friendly.",
+  "heard": "My neighbor is very friendly"
+ },
+ {
+  "key": "v-neighbour:ex1",
+  "expected": "The neighbours are noisy tonight.",
+  "heard": "The neighbors are noisy tonight."
+ },
+ {
+  "key": "v-neighbour:con",
+  "expected": "my plus neighbour plus be plus adjective",
+  "heard": "My plus neighbor plus be plus adjective"
+ },
+ {
+  "key": "v-rent:con",
+  "expected": "the rent plus be plus adjective",
+  "heard": "The rent plus B plus adjective"
+ },
+ {
+  "key": "v-chore:ex0",
+  "expected": "Washing dishes is my least favourite chore.",
+  "heard": "Washing dishes is my least favorite chore"
+ },
+ {
+  "key": "v-tidy:defen",
+  "expected": "Neat and organised.",
+  "heard": "Neat and organized"
+ },
+ {
+  "key": "v-cosy:ex0",
+  "expected": "The living room is very cosy.",
+  "heard": "The living room is very cozy"
+ },
+ {
+  "key": "v-cosy:ex1",
+  "expected": "We spent a cosy evening by the fire.",
+  "heard": "We spent a cozy evening by the fire."
+ },
+ {
+  "key": "v-cosy:con",
+  "expected": "the plus room plus be plus cosy",
+  "heard": "The plus room plus B plus cozy"
+ },
+ {
+  "key": "v-spacious:con",
+  "expected": "be plus bright and spacious",
+  "heard": "B plus bright and spacious"
+ },
+ {
+  "key": "v-utensil:con",
+  "expected": "noun plus be plus utensils",
+  "heard": "Noun plus verb plus utensils"
+ },
+ {
+  "key": "v-reluctant:con",
+  "expected": "be plus reluctant plus to plus verb",
+  "heard": "B plus reluctant plus to plus verb"
+ },
+ {
+  "key": "v-curious:con",
+  "expected": "be plus naturally plus curious",
+  "heard": "B plus naturally plus curious"
+ },
+ {
+  "key": "v-neighbourhood:ex0",
+  "expected": "It's a quiet neighbourhood.",
+  "heard": "It's a quiet neighborhood"
+ },
+ {
+  "key": "v-neighbourhood:ex1",
+  "expected": "I know my neighbourhood well.",
+  "heard": "I know my neighborhood well."
+ },
+ {
+  "key": "v-neighbourhood:con",
+  "expected": "a quiet plus neighbourhood",
+  "heard": "A quiet plus neighborhood"
+ },
+ {
+  "key": "v-queue:con",
+  "expected": "a long plus queue plus at plus place",
+  "heard": "Along plus cue plus at plus place"
+ },
+ {
+  "key": "v-diary:con",
+  "expected": "write plus in plus my diary",
+  "heard": "Right, plus and plus my diary"
+ },
+ {
+  "key": "v-mess:con",
+  "expected": "be plus a mess",
+  "heard": "B plus a mess"
+ },
+ {
+  "key": "v-chat:ex1",
+  "expected": "I love chatting with neighbours.",
+  "heard": "I love chatting with neighbors"
+ },
+ {
+  "key": "v-lend:con",
+  "expected": "lend plus person plus noun",
+  "heard": "Land plus person plus noun"
+ },
+ {
+  "key": "v-battery:con",
+  "expected": "my plus battery plus be plus adjective",
+  "heard": "My plus battery plus B plus adjective"
+ },
+ {
+  "key": "v-subscribe:ex0",
+  "expected": "I subscribed to a news channel.",
+  "heard": "I subscribe to a news channel"
+ },
+ {
+  "key": "v-election:con",
+  "expected": "the election plus be plus in plus month",
+  "heard": "The election plus B plus in plus month?"
+ },
+ {
+  "key": "v-unemployment:con",
+  "expected": "unemployment plus be plus rising",
+  "heard": "Unemployment plus B plus rising"
+ },
+ {
+  "key": "v-community:con",
+  "expected": "our plus community plus be plus adjective",
+  "heard": "R plus community plus B plus adjective"
+ },
+ {
+  "key": "v-charity:defen",
+  "expected": "An organisation that helps people in need.",
+  "heard": "An organization that helps people in need"
+ },
+ {
+  "key": "v-policy:defen",
+  "expected": "A plan of action decided by an organisation.",
+  "heard": "A plan of action decided by an organization"
+ },
+ {
+  "key": "v-harvest:con",
+  "expected": "the harvest plus be plus adjective",
+  "heard": "The Harvest Plus B plus adjective"
+ },
+ {
+  "key": "v-cash:con",
+  "expected": "pay plus in cash",
+  "heard": "Pay Plus and cash"
+ },
+ {
+  "key": "v-discount:ex0",
+  "expected": "Students get a ten percent discount.",
+  "heard": "Students get a 10% discount"
+ },
+ {
+  "key": "v-debt:con",
+  "expected": "be plus in debt",
+  "heard": "B plus in debt"
+ },
+ {
+  "key": "v-invest:con",
+  "expected": "invest plus in plus noun",
+  "heard": "Invest plus and plus noun"
+ },
+ {
+  "key": "vb-see:con",
+  "expected": "see plus object",
+  "heard": "C plus object"
+ },
+ {
+  "key": "vb-know:con",
+  "expected": "know plus person or fact",
+  "heard": "No plus person or fact"
+ },
+ {
+  "key": "vb-buy:con",
+  "expected": "buy plus object ( plus for person)",
+  "heard": "By plus object plus for person"
+ },
+ {
+  "key": "vb-run:ex1",
+  "expected": "He runs five kilometres every day.",
+  "heard": "He runs five kilometers every day."
+ },
+ {
+  "key": "vb-keep:con",
+  "expected": "keep plus object or -ing",
+  "heard": "Keep plus object oring"
+ },
+ {
+  "key": "vb-spend:con",
+  "expected": "spend plus time or money plus (on or -ing)",
+  "heard": "Spend plus time or money plus honoring"
+ },
+ {
+  "key": "vb-let:con",
+  "expected": "let plus person plus verb (no to)",
+  "heard": "Let plus person plus verb. No two"
+ },
+ {
+  "key": "vb-choose:ex1",
+  "expected": "You can choose any colour.",
+  "heard": "You can choose any color"
+ },
+ {
+  "key": "vb-hear:con",
+  "expected": "hear plus object",
+  "heard": "Here plus object"
+ },
+ {
+  "key": "vb-lend:con",
+  "expected": "lend plus person plus object",
+  "heard": "Land plus person plus object"
+ },
+ {
+  "key": "vb-steal:con",
+  "expected": "steal plus object",
+  "heard": "Steel plus object"
+ },
+ {
+  "key": "vb-bite:con",
+  "expected": "bite plus object",
+  "heard": "Byte plus object"
+ },
+ {
+  "key": "vb-like:con",
+  "expected": "like plus noun or -ing",
+  "heard": "Like plus noun or ing"
+ },
+ {
+  "key": "vb-live:con",
+  "expected": "live plus in plus place",
+  "heard": "Live plus and plus place"
+ },
+ {
+  "key": "vb-travel:ex0",
+  "expected": "She travelled across Asia.",
+  "heard": "She traveled across Asia"
+ },
+ {
+  "key": "vb-travel:ex1",
+  "expected": "I love travelling by train.",
+  "heard": "I love traveling by train"
+ },
+ {
+  "key": "vb-stop:con",
+  "expected": "stop plus object or -ing",
+  "heard": "Stop plus object or ing"
+ },
+ {
+  "key": "vb-love:con",
+  "expected": "love plus noun or -ing",
+  "heard": "Love plus noun or ing"
+ },
+ {
+  "key": "vb-start:con",
+  "expected": "start plus noun or -ing",
+  "heard": "Start plus noun or ing"
+ },
+ {
+  "key": "vb-finish:con",
+  "expected": "finish plus noun or -ing",
+  "heard": "Finish plus noun or ing"
+ },
+ {
+  "key": "vb-practise:ex0",
+  "expected": "I practised the piano daily.",
+  "heard": "I practice the piano daily"
+ },
+ {
+  "key": "vb-practise:ex1",
+  "expected": "You must practise every day.",
+  "heard": "You must practice every day"
+ },
+ {
+  "key": "vb-practise:con",
+  "expected": "practise plus noun or -ing",
+  "heard": "Practice plus noun or ing"
+ },
+ {
+  "key": "vb-remember:con",
+  "expected": "remember plus object or -ing",
+  "heard": "Remember plus object or ing"
+ },
+ {
+  "key": "vb-suggest:con",
+  "expected": "suggest plus noun or -ing",
+  "heard": "Suggest plus noun or ing"
+ },
+ {
+  "key": "vb-enjoy:con",
+  "expected": "enjoy plus noun or -ing",
+  "heard": "Enjoy plus noun or ing"
+ },
+ {
+  "key": "vb-postpone:con",
+  "expected": "postpone plus noun or -ing",
+  "heard": "Postpone plus noun or ing"
+ },
+ {
+  "key": "vb-apologise:ex0",
+  "expected": "She apologised for being late.",
+  "heard": "She apologized for being late"
+ },
+ {
+  "key": "vb-apologise:ex1",
+  "expected": "I apologise for the delay.",
+  "heard": "I apologize for the delay"
+ },
+ {
+  "key": "vb-apologise:con",
+  "expected": "apologise plus for plus noun or -ing",
+  "heard": "Apologize plus for plus noun or ing"
+ },
+ {
+  "key": "vb-consider:con",
+  "expected": "consider plus -ing",
+  "heard": "Consider plussing"
+ },
+ {
+  "key": "vb-admit:con",
+  "expected": "admit plus noun or -ing",
+  "heard": "Admit plus noun or ing"
+ },
+ {
+  "key": "x-bite-the-bullet:ex1",
+  "expected": "Just bite the bullet and apologise.",
+  "heard": "Just bite the bullet and apologize"
+ },
+ {
+  "key": "x-on-the-same-page:con",
+  "expected": "be plus on the same page",
+  "heard": "B plus on the same page"
+ },
+ {
+  "key": "x-give-up:con",
+  "expected": "give up ( plus noun or -ing)",
+  "heard": "Give up plus noun or ing"
+ },
+ {
+  "key": "x-put-off:con",
+  "expected": "put off plus noun or -ing",
+  "heard": "Put off plus noun or ing"
+ },
+ {
+  "key": "x-pick-up:ex0",
+  "expected": "Can you pick up the kids at five?",
+  "heard": "Can you pick up the kids at 5:00?"
+ },
+ {
+  "key": "x-carry-on:con",
+  "expected": "carry on (with plus noun or -ing)",
+  "heard": "Carry on with plus noun or ing"
+ },
+ {
+  "key": "x-look-forward-to:con",
+  "expected": "look forward to plus noun or -ing",
+  "heard": "Look forward to plus noun or ing"
+ },
+ {
+  "key": "x-put-up-with:con",
+  "expected": "put up with plus noun or -ing",
+  "heard": "Put up with plus noun or ing"
+ },
+ {
+  "key": "x-do-homework:defen",
+  "expected": "To do school work at home.",
+  "heard": "To do schoolwork at home"
+ },
+ {
+  "key": "x-strong-coffee:defen",
+  "expected": "Coffee with a strong flavour.",
+  "heard": "Coffee with a strong flavor"
+ },
+ {
+  "key": "x-how-are-you:defen",
+  "expected": "A greeting asking about someone's wellbeing.",
+  "heard": "A greeting asking about someone's well-being"
+ },
+ {
+  "key": "x-i-m-sorry:defen",
+  "expected": "Used to apologise.",
+  "heard": "Used to apologize"
+ }
+]
